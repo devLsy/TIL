@@ -10,7 +10,7 @@
 5. View는 Model 객체를 받아 결과를 출력한다.
 <div>
 <img src = "https://user-images.githubusercontent.com/44331989/50151207-8e60bb00-0303-11e9-847e-f83a69a32834.JPG" width = "800">
-</div><h2>Spring MVC의 구성 흐름</h2><br><p>
+</div><h2><align = "center">Spring MVC의 구성 흐름</h2><br><p>
 ----------------------------------------------------------------------------------------------------------------------------------------  
 <div>
 <img src = "https://user-images.githubusercontent.com/44331989/50151525-7fc6d380-0304-11e9-892b-7d031ce9b28e.JPG">

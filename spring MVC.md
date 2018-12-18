@@ -1,4 +1,4 @@
-# Spring MVC의 구성 흐름
+# Spring MVC
 ## 20181218 20:06
 1. Client 요청이 들어오면 Dispatcher Servlet이 가장 먼저 요청을 받는다. 주로 *.do
 의 형태로 오는 요청을 처리한다.
@@ -8,7 +8,7 @@
 하여 리턴한다.
 4. ViewResolver는 어떤 형태로 출력할 것인지 형태를 결정하고, view name을 받아 해당되는 view객체를 리턴한다. 주로 JSP가 활용되며, XML, JSON등 활용가능하다.
 5. View는 Model 객체를 받아 결과를 출력한다.
-<div>dd
+<div>Spring MVC의 구성 흐름
 <img src = "https://user-images.githubusercontent.com/44331989/50151207-8e60bb00-0303-11e9-847e-f83a69a32834.JPG" width = "800">
 </div><br>
 <div>

@@ -9,6 +9,6 @@
 4. ViewResolver는 어떤 형태로 출력할 것인지 형태를 결정하고, view name을 받아 해당되는 view객체를 리턴한다. 주로 JSP가 활용되며, XML, JSON등 활용가능하다.
 5. View는 Model 객체를 받아 결과를 출력한다.
 <div>
-<img src = "https://user-images.githubusercontent.com/44331989/50151207-8e60bb00-0303-11e9-847e-f83a69a32834.JPG" width = "200">
+<img src = "https://user-images.githubusercontent.com/44331989/50151207-8e60bb00-0303-11e9-847e-f83a69a32834.JPG" width = "500px">
 </div>
 * 출처: 전자정부프레임워크 퍼스트북

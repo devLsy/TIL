@@ -110,7 +110,15 @@ password 도 동일하게 dev 로 입력하였다. Users 에서 dev 를 선택�
 <!-- SVN Server에서 프로젝트 CheckOut -->
 <div>  
 <img src = "https://user-images.githubusercontent.com/44331989/50264263-2d4cfa80-045d-11e9-8339-d4cb076083fa.JPG">
-</div><br/><p>  
+</div>Subversion 에 저장되어 있는 프로젝트를 활용하기 위해서 개발자가 처음으로 해야 되는 일
+은 Subversion 으로 연결하여 해당 소스코드를 자신의 Workspace 로 내려 받는 것(Check out)
+이다. Check out 후에는 프로젝트가 Subversion 에 연결을 유지하여 자신이 수정한 내용을 반
+영(commit)하거나 다른 개발자가 수정한 내용을 내려 받기(update) 할 수 있다. Check out 을
+받기 위해 먼저 SVN Repository Exploring 으로 퍼스펙티브를 변경한다. New>Repository Location을 선택하면, First commit 에서와 동일하게 Subversion 위치 및 계정 정보를 입력하는
+화면이 나오게 된다. 정보를 입력하면 Subversion Repository 가 등록되게 되면 프로젝트를 선
+택한 후에 마우스 오른쪽 버튼을 눌러서 Check Out 을 선택하게 되면 현재의 workspace 로
+해당 프로젝트를 가져온다.<br/><p>  
+  
   
   
 

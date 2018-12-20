@@ -12,7 +12,7 @@
 <div>
 <img src = "https://user-images.githubusercontent.com/44331989/50152044-e993ad00-0305-11e9-9659-34b4ed176519.JPG">
 </div><br/><p>
-<!-- springMVC 동작 -->  
+<!-- 웹에서 스프링 활용을 위한 web.xml -->  
 <div>
 <img src = "https://user-images.githubusercontent.com/44331989/50151525-7fc6d380-0304-11e9-892b-7d031ce9b28e.JPG">
 </div><br/><p>

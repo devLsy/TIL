@@ -29,6 +29,10 @@
 <img src = "https://user-images.githubusercontent.com/44331989/50260440-65e3d880-044b-11e9-8079-4246dba956bf.JPG">
 </div>처음 Maven을 실행할 때 Local Repository에 라이브러리가 없으면 pom.xml의 repository
 에 기술된 Remote Repository로부터 라이브러리를 다운로드 받게 된다.<br/><p>  
+<!-- pom.xml의 Remote Repository 설정 -->  
+<div>  
+<img src = "https://user-images.githubusercontent.com/44331989/50260492-89a71e80-044b-11e9-8f8f-ca695e74a38f.jpg">
+</div><br/><p>  
 
 
 

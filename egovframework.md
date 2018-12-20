@@ -37,6 +37,10 @@
 <div>  
 <img src = "https://user-images.githubusercontent.com/44331989/50260537-b9eebd00-044b-11e9-8582-9699b86c8f62.JPG">
 </div><br/><p>  
+<!-- maven 빌드 생명주기 단계 -->  
+<div>  
+<img src = "https://user-images.githubusercontent.com/44331989/50260570-e6a2d480-044b-11e9-847a-3f8abff2503a.JPG">
+</div><br/><p>  
 
 
 

@@ -49,15 +49,19 @@
 <div>  
 <img src = "https://user-images.githubusercontent.com/44331989/50260615-1c47bd80-044c-11e9-9d54-8c9d686ae96b.JPG">
 </div><br/><p>  
-  
-  
-  
-  
-pom.xml 은 프로젝트의 정보, 의존성, 빌드 세팅(플러그인) 정보를 포함하고 있다. Maven 프
+<!-- pom.xml의 구조-->  
+<div>  
+<img src = "https://user-images.githubusercontent.com/44331989/50260667-62048600-044c-11e9-80df-dd6e2466aea9.JPG">
+</div>pom.xml 은 프로젝트의 정보, 의존성, 빌드 세팅(플러그인) 정보를 포함하고 있다. Maven 프
 로젝트는 빌드 되어 로컬 또는 원격 Repository 에 배포될 수 있기 때문에 자체적으로 Group
 Id, Artifact Id, 버전 정보를 가진다. 앞에서 설명했던 라이브러리 관리를 위한 의존성 관리를
 할 수 있다. 컴파일, 패키징 뿐만 아니라 테스트 결과 리포트, java doc 생성과 같은 작업들을
-플러그인 설정을 통해서 수행 할 수 있다.  
+플러그인 설정을 통해서 수행 할 수 있다.<br/><p>  
+  
+  
+  
+  
+  
 
 
 

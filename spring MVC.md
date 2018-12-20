@@ -1,4 +1,4 @@
-# Spring MVC
+# Spring MVC(전자정부프레임워크 기준 )
 ## 20181218 20:06
 1. Client 요청이 들어오면 Dispatcher Servlet이 가장 먼저 요청을 받는다. 주로 *.do
 의 형태로 오는 요청을 처리한다.

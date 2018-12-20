@@ -16,7 +16,7 @@
 <div>
 <img src = "https://user-images.githubusercontent.com/44331989/50151525-7fc6d380-0304-11e9-892b-7d031ce9b28e.JPG">
 </div><br/><p>
-<!-- springMVC 동작 -->  
+<!-- context-servlet.xml: springMVC 설정 -->  
 <div>
 <img src = "https://user-images.githubusercontent.com/44331989/50151634-cae0e680-0304-11e9-991f-48c327cf34c3.JPG">
 </div><br/><p>

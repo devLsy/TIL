@@ -126,9 +126,19 @@ password 도 동일하게 dev 로 입력하였다. Users 에서 dev 를 선택�
 의 내용은 update 를 통해서 자신의 소스코드에 변경을 반영하게 된다.<br/><p>  
 <!-- SVN History -->
 <div>  
-<img src = "https://user-images.githubusercontent.com/44331989/50264392-c9770180-045d-11e9-8aa6-8f8a3f088838.JPG  ">
-</div><br/><p>  
-
+<img src = "https://user-images.githubusercontent.com/44331989/50264416-fc20fa00-045d-11e9-9aeb-101cf733587e.JPG">
+</div>Subversion 을 활용하다 보면 종종 충돌이 발생하게 되는 경우가 있다. 하나의 소스코드를 내
+려 받은 이후에 수정을 한 후 commit 을 하려고 할 때, 다른 개발자가 동일한 소스코드를
+변경하여 Repository 에 이미 반영한 경우에 충돌이 발생된다. 양쪽 소스코드 모두 변경이 된
+상태이기 때문에 Subversion 은 소스코드 충돌 표시를 한 후 개발자에게 개발자 소스코드를
+강제로 commit 할 것인지 변경된 내역을 다시 update 받을 것인지를 선택하도록 한다. 주로 공동작업이 이루어지는 공통모듈의 경우 충돌이 발생될 여지가 많다. 다른 개발자가 변경한
+내역을 무시하고 반영할 경우 문제 발생여지가 많기 때문에 충돌의 해결은 개발자간 커뮤니
+케이션을 통해 변경 내역을 확인 한 후에 Override and Commit 이나 Override and update 로 해
+결 한다.<br/><p>  
+<!-- SVN에서 충돌해결 -->
+<div>  
+<img src = "https://user-images.githubusercontent.com/44331989/50264416-fc20fa00-045d-11e9-9aeb-101cf733587e.JPG">
+</div><br/><p>
   
   
 

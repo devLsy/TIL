@@ -18,7 +18,7 @@
 </div><br/><p>
 <!-- context-servlet.xml: springMVC 설정 -->  
 <div>
-<img src = "https://user-images.githubusercontent.com/44331989/50151634-cae0e680-0304-11e9-991f-48c327cf34c3.JPG">
+<img src = "https://user-images.githubusercontent.com/44331989/50151634-cae0e680-0304-11e9-991f-48c327cf34c3.JPG">	
 </div><br/><p>
 <!-- pom.xml간의 라이브러리 의존성 -->  
 <div>  

@@ -166,7 +166,7 @@ webapp 에 압축을 풀고 커맨드창에서 Tomcat>bin 디렉터리에서 sta
 <div>  
 <img src = "https://user-images.githubusercontent.com/44331989/50264755-5d959880-045f-11e9-98bc-c337419b6834.JPG">
 </div><br/><p>  
-<div><font color="red">jenkins 접속 후 시작 및 배포 등등은 20181219_전자정부프레임워크_설치 및 설정 가이드.zip파일을 참조</font></div>
+jenkins 접속 후 시작 및 배포 등등은 20181219_전자정부프레임워크_설치 및 설정 가이드.zip파일을 참조
 
   
 

@@ -64,7 +64,7 @@ Id, Artifact Id, 버전 정보를 가진다. 앞에서 설명했던 라이브러
 <!-- maven plugin -->  
 <div>  
 <img src = "https://user-images.githubusercontent.com/44331989/50260804-f838ac00-044c-11e9-9aca-f548f105f778.JPG">
-</div><br/><p>  
+</div><br/>  
 <!-- maven-install example -->  
 <div>  
 <img src = "https://user-images.githubusercontent.com/44331989/50260941-90369580-044d-11e9-88e5-dd598144d3c8.JPG">

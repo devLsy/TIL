@@ -74,6 +74,10 @@ Id, Artifact Id, 버전 정보를 가진다. 앞에서 설명했던 라이브러
 
 # 서버 개발환경
 * 표준프레임워크 형상관리 도구인 Subversion을 활용하여 팀프로젝트를 통합하고, 배포도구인 Jenkins를 활용하여 계속적인 테스트와 통합을 수행 한다.
+<!-- SVN 개요 및 설치 -->  
+<div>  
+<img src = "https://user-images.githubusercontent.com/44331989/50263885-53719b00-045b-11e9-8057-e48f9e5c4e00.JPG">
+</div>  
   
   
   

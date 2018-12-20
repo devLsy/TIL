@@ -162,6 +162,10 @@ OS 에서 자동 실행되는 서비스로 등록이 되기 때문에 개발 및
 려울 수 있다.(하지만 인스톨 버전으로 설치해도 세팅하는데는 문제가 없음을 확인)Jenkins 사이트 (http://jenkins-ci.org)에서 다운로드 받은 배포파일을 Tomcat>
 webapp 에 압축을 풀고 커맨드창에서 Tomcat>bin 디렉터리에서 startup 으로 Tomcat 을 시작
 한다.<br/><p>  
+<!-- jenkins 설치 및 시작 -->
+<div>  
+<img src = "https://user-images.githubusercontent.com/44331989/50264755-5d959880-045f-11e9-98bc-c337419b6834.JPG">
+</div><br/><p>  
 
   
 

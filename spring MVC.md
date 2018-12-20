@@ -8,20 +8,23 @@
 하여 리턴한다.
 4. ViewResolver는 어떤 형태로 출력할 것인지 형태를 결정하고, view name을 받아 해당되는 view객체를 리턴한다. 주로 JSP가 활용되며, XML, JSON등 활용가능하다.
 5. View는 Model 객체를 받아 결과를 출력한다.
+<!-- springMVC 동작 -->
 <div>
 <img src = "https://user-images.githubusercontent.com/44331989/50152044-e993ad00-0305-11e9-9659-34b4ed176519.JPG">
 </div><br/><p>
+<!-- springMVC 동작 -->  
 <div>
 <img src = "https://user-images.githubusercontent.com/44331989/50151525-7fc6d380-0304-11e9-892b-7d031ce9b28e.JPG">
 </div><br/><p>
+<!-- springMVC 동작 -->  
 <div>
 <img src = "https://user-images.githubusercontent.com/44331989/50151634-cae0e680-0304-11e9-991f-48c327cf34c3.JPG">
 </div><br/><p>
+<!-- springMVC 동작 -->  
 <div>  
 <img src = "https://user-images.githubusercontent.com/44331989/50258883-04207000-0445-11e9-9bc4-e0578bea141c.JPG">
 </div><br/><p>
-<img src = "https://user-images.githubusercontent.com/44331989/50258945-5e213580-0445-11e9-809c-0a6dbb45dbfe.JPG">
-</div><br/><p>  
+
 
 
 

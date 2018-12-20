@@ -1,5 +1,7 @@
 # 전자정부프레임워크 
-## 20181218 20:06 작성 
+## 20181218 20:06 작성 시작
+
+*SpringMVC 
 1. Client 요청이 들어오면 Dispatcher Servlet이 가장 먼저 요청을 받는다. 주로 *.do
 의 형태로 오는 요청을 처리한다.
 2. HandlerMapping이 요청에 해당하는 Controller를 리턴한다. @RequestMapping의

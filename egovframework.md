@@ -57,7 +57,10 @@
 Id, Artifact Id, 버전 정보를 가진다. 앞에서 설명했던 라이브러리 관리를 위한 의존성 관리를
 할 수 있다. 컴파일, 패키징 뿐만 아니라 테스트 결과 리포트, java doc 생성과 같은 작업들을
 플러그인 설정을 통해서 수행 할 수 있다.<br/><p>  
-  
+<!-- pom.xml 예제 -->  
+<div>  
+<img src = "https://user-images.githubusercontent.com/44331989/50260754-c58eb380-044c-11e9-8f66-5b6f852f3a59.JPG">
+</div><br/><p>  
   
   
   

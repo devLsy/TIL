@@ -20,7 +20,7 @@
 <div>
 <img src = "https://user-images.githubusercontent.com/44331989/50151634-cae0e680-0304-11e9-991f-48c327cf34c3.JPG">
 </div><br/><p>
-<!-- springMVC 동작 -->  
+<!-- pom.xml간의 라이브러리 의존성 -->  
 <div>  
 <img src = "https://user-images.githubusercontent.com/44331989/50258883-04207000-0445-11e9-9bc4-e0578bea141c.JPG">
 </div><br/><p>

@@ -137,7 +137,7 @@ password 도 동일하게 dev 로 입력하였다. Users 에서 dev 를 선택�
 결 한다.<br/><p>  
 <!-- SVN에서 충돌해결 -->
 <div>  
-<img src = "https://user-images.githubusercontent.com/44331989/50264416-fc20fa00-045d-11e9-9aeb-101cf733587e.JPG">
+<img src = "https://user-images.githubusercontent.com/44331989/50264463-2ffc1f80-045e-11e9-989b-437fb0e80218.JPG">
 </div><br/><p>
   
   

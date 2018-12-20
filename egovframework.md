@@ -94,7 +94,11 @@ password 도 동일하게 dev 로 입력하였다. Users 에서 dev 를 선택�
 <!-- VisualSVN Repository 설정완료 -->  
 <div>  
 <img src = "https://user-images.githubusercontent.com/44331989/50263998-f75b4680-045b-11e9-94aa-e4ccfb41bb62.JPG">
-</div>  
+</div><br/><p>  
+<!-- Revisions -->  
+<div>  
+<img src = "https://user-images.githubusercontent.com/44331989/50264025-2a053f00-045c-11e9-9c83-676ece5264e9.JPG">
+</div><br/><p>  
   
   
 

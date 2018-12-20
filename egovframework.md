@@ -139,7 +139,7 @@ password 도 동일하게 dev 로 입력하였다. Users 에서 dev 를 선택�
 <div>  
 <img src = "https://user-images.githubusercontent.com/44331989/50264463-2ffc1f80-045e-11e9-989b-437fb0e80218.JPG">
 </div><br/><p>
-* CI
+## CI
 <!-- CI 개요 및 설치 -->
 <div>  
 <img src = "https://user-images.githubusercontent.com/44331989/50264529-7e112300-045e-11e9-9644-3883f350b41d.JPG">

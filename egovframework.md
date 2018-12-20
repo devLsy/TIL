@@ -77,7 +77,16 @@ Id, Artifact Id, 버전 정보를 가진다. 앞에서 설명했던 라이브러
 <!-- SVN 개요 및 설치 -->  
 <div>  
 <img src = "https://user-images.githubusercontent.com/44331989/50263885-53719b00-045b-11e9-8057-e48f9e5c4e00.JPG">
-</div>  
+</div>설치가 되었으면 VisualSVN Server Manager 를 실행하고, Repositories 를 선택하고 마우스 오른
+쪽 버튼을 누르고 Create New Repository 를 선택한다. Regular FSFS repository 를 선택하고,
+Repository 이름을 입력한다. 아무 이름이나 입력 가능하며, firstbook 으로 입력 하였다. empty
+Repository 를 선택하고 Access 권한 설정을 위해서 Customize permissions 를 선택한다. Add 를
+선택, Create User 를 선택하고 User name 과 password 를 입력한다. 편의상 User name 을 dev 로
+password 도 동일하게 dev 로 입력하였다. Users 에서 dev 를 선택하고 OK 를 누르고, 확인을
+누른다. 권한이 Read/Write 로 되어 있는지 다시 한번 확인한다. 설정된 Repository 정보를 확
+30
+인하면 설정이 끝난다. 설정이 완료된 후 상단에 표시되는 URL 정보는 나중에 Eclipse 에 연
+동할 때 필요한 정보이므로 잘 기억해야 한다.<br/><p>  
   
   
   

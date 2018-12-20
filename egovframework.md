@@ -99,6 +99,10 @@ password 도 동일하게 dev 로 입력하였다. Users 에서 dev 를 선택�
 <div>  
 <img src = "https://user-images.githubusercontent.com/44331989/50264025-2a053f00-045c-11e9-9c83-676ece5264e9.JPG">
 </div><br/><p>  
+<!-- eclipse와 SVN 연동하기 -->
+<div>  
+<img src = "https://user-images.githubusercontent.com/44331989/50264062-57ea8380-045c-11e9-83a0-109d49216b4a.JPG">
+</div><br/><p>  
   
   
 

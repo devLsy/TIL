@@ -121,7 +121,9 @@ password 도 동일하게 dev 로 입력하였다. Users 에서 dev 를 선택�
 <!-- SVN Commit or Update -->
 <div>  
 <img src = "https://user-images.githubusercontent.com/44331989/50264344-7c932b00-045d-11e9-9da6-0719452dbb6e.JPG">
-</div><br/><p>  
+</div>처음 프로젝트를 share 하거나 Check out 을 한 후에 개발자는 자신이 수정하거나 추가한 소
+스코드를 Repository 에 commit 하여 변경을 반영할 수 있다. 다른 개발자가 변경한 소스코드
+의 내용은 update 를 통해서 자신의 소스코드에 변경을 반영하게 된다.<br/><p>  
   
   
   

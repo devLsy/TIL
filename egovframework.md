@@ -117,7 +117,11 @@ password 도 동일하게 dev 로 입력하였다. Users 에서 dev 를 선택�
 받기 위해 먼저 SVN Repository Exploring 으로 퍼스펙티브를 변경한다. New>Repository Location을 선택하면, First commit 에서와 동일하게 Subversion 위치 및 계정 정보를 입력하는
 화면이 나오게 된다. 정보를 입력하면 Subversion Repository 가 등록되게 되면 프로젝트를 선
 택한 후에 마우스 오른쪽 버튼을 눌러서 Check Out 을 선택하게 되면 현재의 workspace 로
-해당 프로젝트를 가져온다.<br/><p>  
+해당 프로젝트를 가져온다.<br/><p>
+<!-- SVN Commit or Update -->
+<div>  
+<img src = "https://user-images.githubusercontent.com/44331989/50264344-7c932b00-045d-11e9-9da6-0719452dbb6e.JPG">
+</div><br/><p>  
   
   
   

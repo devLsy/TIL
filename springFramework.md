@@ -4,7 +4,7 @@
 * 보통 로컬 repository안의 내용을 지우고 다시 다운을 받거나 하는 방식으로 해결이 되는데 
 * 하다하다 안되면 maven에서 참조를 못하는 .jar파일을 
 * "프로젝트/src/main/webapp/WEB-INF/lib 디렉터리에 넣고 pom.xml에서 properties태그안에 * 아래와 같이 jar파일을 넣은 lib디렉터리를 설정 해줌 
-<!-- -->
+<!-- properties 예제 -->
     <properties>
         <spring.maven.artifact.version>4.2.4.RELEASE</spring.maven.artifact.version>
         <egovframework.rte.version>3.7.0</egovframework.rte.version>

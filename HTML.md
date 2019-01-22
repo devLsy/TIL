@@ -5,4 +5,5 @@
 * a태그에 주로 사용되는 title 속성은 해당 element에 대한 설명을 툴팁형식으로 보여줌(head안의 title과 혼동하면 안됨) ex) <a href="#" title="링크예제설명입니다.">링크예제</a>, a태그가 아닌 다른 element에도 사용은 가능하지만 많이 쓰이지 
 
 
+* 출처: Head First HTML and CSS()
 

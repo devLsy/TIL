@@ -27,14 +27,30 @@ hex 코드는 #으로 시작하고 #cc(빨간색)66(녹색)00(파란색)을 나�
 * 한개 이상의 요소에 스타일을 주고자 할 때는 class사용, 꾸미고자 하는 스타일이 유일하고 페이지 내에서 오직 한개라면 id를 사용하는 걸 권장 <br>
 <hr>
 <h1>20190123 TIL</h1>
-* css 속성 속기법: <br>
-ex) padding-top: 0px; <br>
+* css 속성 속기법(ex): <br>
+    padding-top: 0px; <br>
     padding-right: 20px; <br>
     padding-bottom: 30px; <br>
     padding-left: 10px;   <br>
 ==> padding: 0px(위); 20px(오른쪽); 30px(아래); 10px(왼쪽); <br>
 padding과 margin 둘다 같은 속기법 사용 가능 <br>
 만일 padding이나 margin이 모든 방향에서 같은 값을 가지면 padding: 20px(위, 오른쪽, 아래, 왼쪽 모두 같은 값) 이런식으로 작성할 수 있음 <br>
+
+padding이나 margin을 단축하는 또 다른 방법: <br>
+
+위아래가 동일하고 우측과 좌측이 동일한 경우 ==> padding: 0px(위, 아래) 20px(우,좌); <br>
+
+* border 속성은 margin이나 padding보다 더 유연한 속기법: <br>
+border-width: thin; <br>
+border-style: solid <br>
+border-color: red <br>
+==> border: solid thin red(순서 변경가능); <br>
+
+* 배경에 대한 속기법 <br>
+background-color: white;
+background-image: url(images/image.gif);
+background-repeat: repeat-x;
+==> background: white url(images/image.gif) repeate-x(순서 변경 가능); <br>
 
 
 

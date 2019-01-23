@@ -54,6 +54,13 @@ background-repeat: repeat-x; <br>
 ==> background: white url(images/image.gif) repeate-x(순서 변경 가능); <br>
 <strong>속기법을 사용하는 이유? CSS 파일의 크기를 줄여주는 이점이 있고, 입력내용을 줄여 빨리 작성 가능, 하지만 정확하지 않은 값으로 작성할 경우 디버그하기 좀 더 어려운 단점이 있으니 잘 사용할 것을 권장</strong>
 
+* 의사클래스(pseu-do-class) <br>
+<strong>CSS에서 의사클래스는 선택하고자 하는 HTML요소의 특별한 '상태(status)'를 명시할 때 사용</strong> <br>
+<string>문법: 선택자:의사클래스이름 {속성: 속성값;}</strong>
+ex)a선택자의 의사클래스 사용 예제<br>
+a:link {color: green} ==> 이 선택자는 방문하지 않은 상태일 때의 링크에 적용됨 <br>
+a:visited {color: red;}  ==> 이 선택자는 방문했을 때의 링크에 적용됨 <br>
+a:
 
 
   

@@ -47,9 +47,9 @@ border-color: red <br>
 ==> border: solid thin red(순서 변경가능); <br>
 
 * 배경에 대한 속기법 <br>
-background-color: white;
-background-image: url(images/image.gif);
-background-repeat: repeat-x;
+background-color: white; <br>
+background-image: url(images/image.gif); <br>
+background-repeat: repeat-x; <br>
 ==> background: white url(images/image.gif) repeate-x(순서 변경 가능); <br>
 
 

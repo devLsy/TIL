@@ -62,10 +62,10 @@ a:link {color: green} ==> 이 선택자는 방문하지 않은 상태일 때의 
 a:visited {color: red;}  ==> 이 선택자는 방문했을 때의 링크에 적용됨 <br>
 a:hover {color: blue;}  ==> 이 선택자는 마우스를 링크에 올려 놓을 때 적용됨 <br> 
 그밖에 많은 의사 클래스 종류가 있음 <br>
-* 레이아웃 <br>
+<strong>레이아웃</strong> <br>
 url: https://kareninssmile.tistory.com/27 <br>
 
-*z-index <br>
+* z-index <br>
 <img src="https://user-images.githubusercontent.com/44331989/51593414-76e5a500-1f35-11e9-9126-97c96ab595d1.JPG"> 
 <strong>출처: http://div.or.kr/css-studying/z-index%20%EC%86%8D%EC%84%B1</strong><br>
 

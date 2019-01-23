@@ -39,6 +39,7 @@ padding과 margin 둘다 같은 속기법 사용 가능 <br>
 padding이나 margin을 단축하는 또 다른 방법: <br>
 
 위아래가 동일하고 우측과 좌측이 동일한 경우 ==> padding: 0px(위, 아래) 20px(우,좌); <br>
+<strong>속기법 암기를 위해서는 속기법 순서가 시계방향으로 된다고 생각..위 -> 오른쪽 -> 아래 -> 왼쪽 </strong><br>
 
 * border 속성은 margin이나 padding보다 더 유연한 속기법: <br>
 border-width: thin; <br>

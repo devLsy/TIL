@@ -52,6 +52,7 @@ background-color: white; <br>
 background-image: url(images/image.gif); <br>
 background-repeat: repeat-x; <br>
 ==> background: white url(images/image.gif) repeate-x(순서 변경 가능); <br>
+<strong>속기법을 사용하는 이유? CSS 파일의 크기를 줄여주는 이점이 있고, 입력내용을 줄여 빨리 작성 가능, 하지만 정확하지 않은 값으로 작성할 경우 디버그하기 좀 더 어려운 단점이 있으니 잘 사용할 것을 권장</strong>
 
 
 

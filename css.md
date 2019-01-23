@@ -32,6 +32,11 @@ ex) padding-top: 0px; <br>
     padding-right: 20px; <br>
     padding-bottom: 30px; <br>
     padding-left: 10px;   <br>
+==> padding: 0px(위); 20px(오른쪽); 30px(아래); 10px(왼쪽); <br>
+padding과 margin 둘다 같은 속기법 사용 가능 <br>
+만일 padding이나 margin이 모든 방향에서 같은 값을 가지면 padding: 20px(위, 오른쪽, 아래, 왼쪽 모두 같은 값) 이런식으로 작성할 수 있음 <br>
+
+
 
   
   

@@ -59,5 +59,5 @@ background-repeat: repeat-x;
 <p><br>
 <p><br>
   
-  
+    
 <h2>출처: Head First HTML and CSS(개정판)</h2>

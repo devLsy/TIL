@@ -64,7 +64,11 @@ a:hover {color: blue;}  ==> 이 선택자는 마우스를 링크에 올려 놓�
 그밖에 많은 의사 클래스 종류가 있음 <br>
 
 <strong>레이아웃</strong> <br>
+* 떠 있는 레이아웃: float 사용, 단점은 div전체를 옮겨야 한다는 점과 두개의 컬럼을 만들수 없다는 점<br> 
+* 젤로 레이아웃: 페이지에 있는 모든 콘텐츠 주위를 고정된 크기의 div로 감싸고 고정된 레이아웃을 만든 후, margin을 auto로 설정해서 좌우에 동일한 너비의 margin이 있고 가운데 content영역이 있다는 점(많은 블로그가 이런 형태), 단점은 콘텐츠가 브라우저창 전체를 채우려고 확장되지 않는 다는 점이지만 이를 단점이라고 생각하지 않는 사람도 많다고 함 <br>
+
 url: https://kareninssmile.tistory.com/27 <br>
+
 
 * z-index <br>
 <img src="https://user-images.githubusercontent.com/44331989/51593414-76e5a500-1f35-11e9-9126-97c96ab595d1.JPG"> 

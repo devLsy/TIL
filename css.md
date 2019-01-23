@@ -60,7 +60,8 @@ background-repeat: repeat-x; <br>
 ex)a선택자의 의사클래스 사용 예제<br>
 a:link {color: green} ==> 이 선택자는 방문하지 않은 상태일 때의 링크에 적용됨 <br>
 a:visited {color: red;}  ==> 이 선택자는 방문했을 때의 링크에 적용됨 <br>
-a:
+a:hover {color: blue;}  ==> 이 선택자는 마우스를 링크에 올려 놓을 때 적용됨 <br> 
+
 
 
   

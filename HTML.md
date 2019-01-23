@@ -38,6 +38,6 @@ video:   페이지에 비디오 미디어를 추가할 때 사용 <br>
 <p><br>  
 <p><br>
 <p><br>
-* 출처: Head First HTML and CSS(개정판)
+  <strong>출처: Head First HTML and CSS(개정판)</strong>
 
 

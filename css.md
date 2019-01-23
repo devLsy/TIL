@@ -62,6 +62,7 @@ a:link {color: green} ==> 이 선택자는 방문하지 않은 상태일 때의 
 a:visited {color: red;}  ==> 이 선택자는 방문했을 때의 링크에 적용됨 <br>
 a:hover {color: blue;}  ==> 이 선택자는 마우스를 링크에 올려 놓을 때 적용됨 <br> 
 그밖에 많은 의사 클래스 종류가 있음 <br>
+
 <strong>레이아웃</strong> <br>
 url: https://kareninssmile.tistory.com/27 <br>
 

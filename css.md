@@ -70,7 +70,7 @@ a:hover {color: blue;}  ==> 이 선택자는 마우스를 링크에 올려 놓�
 url: https://kareninssmile.tistory.com/27 <br>
 
 
-* z-index <br>
+<strong>z-index</strong> <br>
 <img src="https://user-images.githubusercontent.com/44331989/51593414-76e5a500-1f35-11e9-9126-97c96ab595d1.JPG"> 
 <strong>출처: http://div.or.kr/css-studying/z-index%20%EC%86%8D%EC%84%B1</strong><br>
 

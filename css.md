@@ -75,7 +75,7 @@ display 속성값으로 table, table-row, table-cell등을 사용해서 요소�
 참조 url: https://www.codingfactory.net/10776 <br>
 ① 테이블 전체를 나타내는 div를 생성 후 이 div내에 행과 컬럼을 중첩시킴 <br>
 ② 테이블의 행별로 행 콘텐츠를 포함할 div를 생성 <br>
-③ 컬럼처럼 동작할 블록요소(div)를 위의 div안에 넣음
+③ 컬럼처럼 동작할 블록요소(div)를 위의 div안에 넣음 <br>
 ④ CSS에서 전체 테이블에 해당하는 div의 display를 table로 설정, 테이블의 행에 해당하는 div의 display를 display-row로 설정, 행의 컬럼에 해당하는 div의 display를 display-cell로 설정 <br>
 
 

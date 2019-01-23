@@ -27,7 +27,11 @@ hex 코드는 #으로 시작하고 #cc(빨간색)66(녹색)00(파란색)을 나�
 * 한개 이상의 요소에 스타일을 주고자 할 때는 class사용, 꾸미고자 하는 스타일이 유일하고 페이지 내에서 오직 한개라면 id를 사용하는 걸 권장 <br>
 <hr>
 <h1>20190123 TIL</h1>
-* 
+* css 속성 속기법: <br>
+ex) padding-top: 0px; <br>
+    padding-right: 20px; <br>
+    padding-bottom: 30px; <br>
+    padding-left: 10px;   <br>
 
   
   

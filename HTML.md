@@ -43,7 +43,7 @@ poster: 비디오가 시작되지 않을 경우 포스터 이미지를 보여줄
 id: 아이디 추가해서 스타일 가미 가능 <br>
 참조 url: https://developer.mozilla.org/ko/docs/Web/HTML/Element/Video <br>
   
-
+  
 
 
 

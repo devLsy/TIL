@@ -6,7 +6,7 @@
 <img src="https://user-images.githubusercontent.com/44331989/50150424-4b9de380-0301-11e9-9e79-41e6595fe8ba.png" width="200">  
 </div> <br>
 
-<h2>HTML: https://github.com/devLsy/TIL/blob/master/HTML.md </h2> <br>
+<h2>HTML: https://github.com/devLsy/TIL/blob/master/HTML.md </h2>
 <h2>CSS: https://github.com/devLsy/TIL/blob/master/css.md </h2> <br>
 <h2>springFramework: https://github.com/devLsy/TIL/blob/master/springFramework.md </h2> <br>
 <h2>ETC: https://github.com/devLsy/TIL/blob/master/devEtc.md </h2> <br>

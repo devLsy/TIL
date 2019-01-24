@@ -49,6 +49,17 @@ video controls autoplay width="512" height="288" src="video/test.mp4" <br>
 - source: 브라우저마다 비디오 지원 형식이 다르므로 src속성 하나만으로 모든 브라우저를 다 지원할 수 없음, 각각의 브라우저에서 동영상을 지원하기 위해 각각의 포맷을 설정하는 속성(쉽게 얘기해 미디어를 여러개 설정할 때 사용하는 요소정도로 이해) <br>
 참조 url: https://developer.mozilla.org/ko/docs/Web/HTML/Element/Video <br>
 
+<strong>HTML5에서 추가된 form 요소</strong> <br>
+숫자입력: input type="number" <br>
+범위입력: input type="range" min="0" max="5" step="5" <br>
+색상입력: input type="color" <br>
+날짜입력: input type="date" <br>
+이메일입력: input type="email" <br>
+전화번호 입력: input type="tel" <br>
+url 입력: input type="url" <br>
+<h3>위의 요소들을 데스크톱 브라우저에서는 차이점을 못 느낄지 모르지만, 모바일 브라우저에서는 /나 @처럼 필요한 문자를 쉽게 입력할 수 있는 맞춤형 키보드가 표시된다고 함</h3> <br>
+
+
 
   
   

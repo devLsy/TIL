@@ -39,7 +39,7 @@ video controls autoplay width="512" height="288" src="video/test.mp4" <br>
 <strong>속성</strong> <br>
 controls: 비디오와 오디오 재생을 조정하는 컨트롤을 제공(브라우저에 따라 다름)<br>
 autoplay: 속성명에서도 유추 가능하듯 이 속성 명시할 경우 페이지가 뜨자마자 동영상이 자동 재생됨 <br>
-poster: 비디오가 시작되지 않을 경우 포스터 이미지를 보여줄 수 있음, img요소의 alt <br>
+poster: 비디오가 시작되지 않을 경우 포스터 이미지를 보여줄 수 있음, img요소의 alt와 비슷한 <br>
 id: 아이디 추가해서 스타일 가미 가능 <br>
 참조 url: https://developer.mozilla.org/ko/docs/Web/HTML/Element/Video <br>
   

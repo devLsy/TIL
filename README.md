@@ -7,7 +7,7 @@
 </div> <br>
 
 <h3>HTML: https://github.com/devLsy/TIL/blob/master/HTML.md </h3> <br>
-<strong>CSS: https://github.com/devLsy/TIL/blob/master/css.md </strong> <br>
+<h4>CSS: https://github.com/devLsy/TIL/blob/master/css.md </h4> <br>
 <strong>springFramework: https://github.com/devLsy/TIL/blob/master/springFramework.md </strong> <br>
 <strong>ETC: https://github.com/devLsy/TIL/blob/master/devEtc.md </strong> <br>
 <strong>전자정부프레임워크: https://github.com/devLsy/TIL/blob/master/devEtc.md </strong> <br>

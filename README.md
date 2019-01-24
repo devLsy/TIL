@@ -6,12 +6,12 @@
 <img src="https://user-images.githubusercontent.com/44331989/50150424-4b9de380-0301-11e9-9e79-41e6595fe8ba.png" width="200">  
 </div> <br>
 
-<strong>HTML: https://github.com/devLsy/TIL/blob/master/HTML.md </strong>
-<strong>CSS: https://github.com/devLsy/TIL/blob/master/css.md </strong> 
-<strong>springFramework: https://github.com/devLsy/TIL/blob/master/springFramework.md </strong> 
-<strong>ETC: https://github.com/devLsy/TIL/blob/master/devEtc.md </strong> 
-<strong>전자정부프레임워크: https://github.com/devLsy/TIL/blob/master/devEtc.md </strong> 
-<strong>deploy: https://github.com/devLsy/TIL/blob/master/jenkins.md </strong> 
+<h3>HTML: https://github.com/devLsy/TIL/blob/master/HTML.md </h3> <br>
+<strong>CSS: https://github.com/devLsy/TIL/blob/master/css.md </strong> <br>
+<strong>springFramework: https://github.com/devLsy/TIL/blob/master/springFramework.md </strong> <br>
+<strong>ETC: https://github.com/devLsy/TIL/blob/master/devEtc.md </strong> <br>
+<strong>전자정부프레임워크: https://github.com/devLsy/TIL/blob/master/devEtc.md </strong> <br>
+<strong>deploy: https://github.com/devLsy/TIL/blob/master/jenkins.md </strong> <br>
 
 
 

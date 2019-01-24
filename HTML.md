@@ -32,7 +32,7 @@ time:    날짜나 시간, 혹은 이 둘 모두를 포함 <br>
 video:   페이지에 비디오 미디어를 추가할 때 사용 <br>
 <strong>section과 article이 햇갈릴 수 있는데 관련된 콘텐츠를 묶을 때는 section을, 뉴스기사나 블로그 포스트, 간략한 보고서 같은 독립적인 정보의 콘텐츠를 묶을 때는 article을 사용하는 걸 권장</strong> <br>
 <hr> <br>
-<h1>20190124 TIL</h1> <br>
+<h1>20190124 TIL</h1>
 <h2>video 요소</h2><br>
 페이지에 동영상 콘텐츠를 추가할 때 사용되며 사용방법은 <br>
 video controls autoplay width="512" height="288" src="video/test.mp4" <br>

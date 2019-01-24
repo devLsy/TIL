@@ -83,7 +83,7 @@ display 속성값으로 table, table-row, table-cell등을 사용해서 요소�
 ④ CSS에서 전체 테이블에 해당하는 div의 display를 table로 설정, 테이블의 행에 해당하는 div의 display를 display-row로 설정, 행의 컬럼에 해당하는 div의 display를 display-cell로 설정 <br>
 <h1>20190124 TIL</h1> <br>
 테이블에서의 의사클래스 ==> nth-child <br>
-css에서 선택자:nth-child(even) or 선택자:nth-child(odd) 이런식으로 하고 배경색을 바꾸거나 하는데 사용(ex) 짝 or 홀수 문단에만 색상 적용 <br>
+css에서 선택자:nth-child(even) or 선택자:nth-child(odd) 이런식으로 하고 배경색을 바꾸거나 하는데 사용 <br>
 tr:nth-child(odd) {background-color: green;} ==> 홀수문단만 녹색 배경 적용 <br>
 
 

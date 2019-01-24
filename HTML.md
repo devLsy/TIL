@@ -35,10 +35,10 @@ video:   페이지에 비디오 미디어를 추가할 때 사용 <br>
 <h1>20190124 TIL</h1>
 <h2>video 요소</h2><br>
 페이지에 동영상 콘텐츠를 추가할 때 사용되며 사용방법은 <br>
-*video controls autoplay width="512" height="288" src="video/test.mp4" <br>
+video controls autoplay width="512" height="288" src="video/test.mp4" <br>
 <strong>속성</strong> <br>
-controls: 비디오와 오디오 재생을 조정하는 컨트롤을 제공(브라우저에 따라 다름)<br>
-autoplay: 속성명에서도 유추 가능하듯 이 속성 명시할 경우 페이지가 뜨자마자 동영상이 자동 재생됨 <br>
+* controls: 비디오와 오디오 재생을 조정하는 컨트롤을 제공(브라우저에 따라 다름)<br>
+* autoplay: 속성명에서도 유추 가능하듯 이 속성 명시할 경우 페이지가 뜨자마자 동영상이 자동 재생됨 <br>
 poster: 비디오가 시작되지 않을 경우 포스터 이미지를 보여줄 수 있음, img요소의 alt와 비슷한 역할<br>
 id: 아이디 추가해서 스타일 가미 가능 <br>
 src: img요소의 src와 흡사한데, 비디오 파일 원본의 위치가 담긴 url을 설정 <br>

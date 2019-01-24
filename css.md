@@ -87,6 +87,12 @@ css에서 선택자:nth-child(even) or 선택자:nth-child(odd) 이런식으로 
 tr:nth-child(odd) {background-color: green;} ==> 홀수문단만 녹색 배경 적용 <br> 
 혹은 숫자 n을 이용하는 간단한 표현식으로도 가능 ==> tr:nth-child(2n) or (2n+1) {background-color: green;} <br>
 
+li요소 스타일 꾸미기 <br>
+li요소에 사용자 정의 마커 사용하는 방법 <br>
+css의 list-style-image 속성을 사용해서 이미지를 마커로 설정할 수 있음 <br>
+li {list-style-image: url(images/image.gif)} <br>
+
+
 
  
 

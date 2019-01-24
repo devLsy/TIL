@@ -84,7 +84,11 @@ display 속성값으로 table, table-row, table-cell등을 사용해서 요소�
 <h1>20190124 TIL</h1> <br>
 테이블에서의 의사클래스 ==> nth-child <br>
 css에서 선택자:nth-child(even) or 선택자:nth-child(odd) 이런식으로 하고 배경색을 바꾸거나 하는데 사용 <br>
-tr:nth-child(odd) {background-color: green;} ==> 홀수문단만 녹색 배경 적용 <br>
+tr:nth-child(odd) {background-color: green;} ==> 홀수문단만 녹색 배경 적용 <br> 
+혹은 숫자 n을 이용하는 간단한 표현식으로도 가능 ==> tr:nth-child(2n) or (2n+1) {background-color: green;} <br>
+
+
+ 
 
 
 

@@ -62,7 +62,8 @@ url 입력: input type="url" <br>
 <p>
 form요소의 name 속성 작동방식 <br>
 클라이언트에서 폼에 데이터 입력 후 전송 => 브라우저는 폼의 데이터와 유일한 이름을 사용하는 name속성을 묶어서 포장 후 서버로 전송 <br>
-
+<strong>ex) zip이라는 name의 input요소에 우편번호로 10000을 입력 하면, 브라우저는 폼이 전송될 때 zip=10000을 서버로 보냄</strong> <br>
+  
 
 
   

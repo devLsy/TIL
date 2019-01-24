@@ -48,7 +48,7 @@ video controls autoplay width="512" height="288" src="video/test.mp4" <br>
 비디오 역시 크기가 조정되는데, 영상 비율(4:3 혹은16:9)로 맞춰지므로 좌우 또는 상하에 공간이 생길 것이며, 비디오는 편지함이나 기념품 상자 모양으로 재생 영역 크기에 맞춰질 것임, 최상의 성능과 화질로 보여주길 원하면 비디오의 원본 영역에 맞추길 권장 <br>
 - source: 브라우저마다 비디오 지원 형식이 다르므로 src속성 하나만으로 모든 브라우저를 다 지원할 수 없음, 각각의 브라우저에서 동영상을 지원하기 위해 각각의 포맷을 설정하는 속성(쉽게 얘기해 미디어를 여러개 설정할 때 사용하는 요소정도로 이해) <br>
 참조 url: https://developer.mozilla.org/ko/docs/Web/HTML/Element/Video <br>
-<p>
+<p></p>
 <strong>HTML5에서 추가된 form 요소</strong> <br>
 숫자입력: input type="number" <br>
 범위입력: input type="range" min="0" max="5" step="5" <br>

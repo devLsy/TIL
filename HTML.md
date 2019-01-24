@@ -35,7 +35,7 @@ video:   페이지에 비디오 미디어를 추가할 때 사용 <br>
 <h1>20190124 TIL</h1> <br>
 <h2>video 요소</h2><br>
 페이지에 동영상 콘텐츠를 추가할 때 사용되며 사용방법은 <br>
-'<'video controls autoplay width="512" height="288" src="video/test.mp4">' <br>
+'<'video controls autoplay width="512" height="288" src="video/test.mp4"> <br>
 참조 url: https://developer.mozilla.org/ko/docs/Web/HTML/Element/Video <br>
   
 

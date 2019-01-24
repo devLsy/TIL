@@ -31,6 +31,10 @@ section: 보통 header나 footer와 함께 주제별로 콘텐츠를 모아 놓�
 time:    날짜나 시간, 혹은 이 둘 모두를 포함 <br>
 video:   페이지에 비디오 미디어를 추가할 때 사용 <br>
 <strong>section과 article이 햇갈릴 수 있는데 관련된 콘텐츠를 묶을 때는 section을, 뉴스기사나 블로그 포스트, 간략한 보고서 같은 독립적인 정보의 콘텐츠를 묶을 때는 article을 사용하는 걸 권장</strong> <br>
+<hr> <br>
+
+<h1>20190124 TIL</h1> <br>
+* video 요소 <br>
 
 
 

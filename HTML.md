@@ -41,6 +41,9 @@ controls: 비디오와 오디오 재생을 조정하는 컨트롤을 제공(브�
 autoplay: 속성명에서도 유추 가능하듯 이 속성 명시할 경우 페이지가 뜨자마자 동영상이 자동 재생됨 <br>
 poster: 비디오가 시작되지 않을 경우 포스터 이미지를 보여줄 수 있음, img요소의 alt와 비슷한 역할<br>
 id: 아이디 추가해서 스타일 가미 가능 <br>
+src: img요소의 src와 흡사한데, 비디오 파일 원본의 위치가 담긴 url을 설정 <br>
+preload: 보통 최적화를 목적으로 비디오를 어떤 식으로 가져올지 제어하는 세밀한 컨트롤에 사용됨 <br>
+loop: boolean 속성으로 재생이 끝난 후 비디오를 자동으로 재시작하는 기능을 수행 <br>
 참조 url: https://developer.mozilla.org/ko/docs/Web/HTML/Element/Video <br>
   
   

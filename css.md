@@ -84,6 +84,7 @@ display 속성값으로 table, table-row, table-cell등을 사용해서 요소�
 <h1>20190124 TIL</h1> <br>
 테이블에서의 의사클래스 ==> nth-child <br>
 css에서 선택자:nth-child(even) or 선택자:nth-child(odd) 이런식으로 하고 배경색을 바꾸거나 하는데 사용(ex) 짝 or 홀수 문단에만 색상 적용 <br>
+tr:nth-child(odd) {background-color: green;} ==> 홀수문단만 녹색 배경 적용 <br>
 
 
 

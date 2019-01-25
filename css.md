@@ -115,7 +115,7 @@ div#greentea > blockquote p(요소): blockquote의 구문에 선택하려는 요
 div#greentea > blockquote p:first-line {font-style: italic;} ==> id가 greentea인 div요소의 자손 중 blockquote요소의 p요소 중 첫번 째 줄만 선택 <br>
 
 <h3>변형(transform) & 트랜지션(transition)</h3> 
-ex) 마우스를 요소 위로 가져갈 경우 회전하게 하는 등의 효과 <br>
+ex) 마우스를 요소 위로 가져갈 경우 회전하게 하는 등의 효과
 <img src="https://user-images.githubusercontent.com/44331989/51727180-2cd3ff00-20ae-11e9-9f0d-7262a3260639.png">
 이 경우 요소위로 마우스를 가져갈 경우 바로 회전하기 때문에 투박스러움<br>
 위의 이미지를 좀 더 부드러운 에니메이션 효과를 주기위해서 아래와 같이 트랜지션 적용 <br>

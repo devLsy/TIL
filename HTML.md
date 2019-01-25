@@ -70,6 +70,7 @@ field요소는 input요소의 세트를 둘러싸고, legend는 input 그룹에 
 <img src="https://user-images.githubusercontent.com/44331989/51725246-8d5e3e80-20a4-11e9-88d5-da20eb499d21.JPG"> 
 결과: <img src="https://user-images.githubusercontent.com/44331989/51725340-f3e35c80-20a4-11e9-841e-474a06d36cd3.JPG"> <br>
 
+selectbox에서 다중 선택이 필요할 경우 select 태그안에 multiple을 추가하면 됨 <br>
 
   
   

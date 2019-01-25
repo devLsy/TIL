@@ -27,9 +27,9 @@ properties에서 lib가 있는 디렉터리를 ${project.lib.path}안에 설정 
 * 이클립스에서 프로젝트명을 변경 시 web.xml의 태그명이 변경되어서 에러 나는 경우
 로그는 아래와 같음 <br>
 <img src="https://user-images.githubusercontent.com/44331989/51740761-49852c80-20d8-11e9-8b3c-069129c81a74.JPG">
-원인은 아래와 같이 web.xml에 xmlns와  
+원인은 아래와 같이 web.xml에 xmlns가 중복되어 있었음
 <img src="https://user-images.githubusercontent.com/44331989/51740881-a41e8880-20d8-11e9-85c5-bcf2c24eb365.JPG"><br>
-
+그리고 web.xml상단의 web-app에서 이미 id값과 version을 설정 했기에 제일 마지막 줄의 id, version도 삭제를 해야 정상적으로 tomcat을 구동할 수 있음 <br>
 
 
 

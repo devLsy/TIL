@@ -72,7 +72,8 @@ field요소는 input요소의 세트를 둘러싸고, legend는 input 그룹에 
 
 selectbox에서 다중 선택이 필요할 경우 select 태그에 multiple을 추가하면 됨 <br>
 해당 필드를 필수입력으로 해야 할 경우 태그에 required을 추가하면 됨 <br>
-html은 플러그인 없이도 audio요소를 사용해 페이지에서 오디오를 재생하는 표준방법을 제공하고 있음, 사용방법은 video요소와 매우 흡사함 <br>
+<h3>html은 플러그인 없이도 audio요소를 사용해 페이지에서 오디오를 재생하는 표준방법을 제공하고 있음</h3>
+사용방법은 video요소와 매우 흡사함 <br>
 audio src="songs/최재훈-비의랩소디.mp3" id="boombox" controls(볼륨 조절, 구간 조절 컨트롤), 단 video요소와 마찬가지로 브라우저 종류에 따라 재생 컨트롤 모양은 가지각색임 <br>
 
   

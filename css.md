@@ -79,7 +79,7 @@ display 속성값으로 table, table-row, table-cell등을 사용해서 요소�
 ① 테이블 전체를 나타내는 div를 생성 후 이 div내에 행과 컬럼을 중첩시킴 <br>
 ② 테이블의 행별로 행 콘텐츠를 포함할 div를 생성 <br>
 ③ 컬럼처럼 동작할 블록요소(div)를 위의 div안에 넣음 <br>
-④ CSS에서 <strong>전체 테이블</strong>에 해당하는 div의 display를 <strong>table</strong>로 설정, 테이블의 <strong>행</strong>에 해당하는 div의 display를 <strong>display-row</strong>로 설정, 행의 <strong>컬럼</strong>에 해당하는 div의 display를 <strong>display-cell</strong>로 설정 <br>
+④ <strong>CSS</strong>에서 <strong>전체 테이블</strong>에 해당하는 div의 <strong>display</strong>를 <strong>table</strong>로 설정, 테이블의 <strong>행</strong>에 해당하는 div의 display를 <strong>display-row</strong>로 설정, 행의 <strong>컬럼</strong>에 해당하는 div의 display를 <strong>display-cell</strong>로 설정 <br>
 아래는 간단한 예시 마크업
 <img src="https://user-images.githubusercontent.com/44331989/51730688-d4a3f980-20bb-11e9-9dbd-1e47ae8083f5.png">
 아래는 위의 마크업에 대한 결과 페이지<br>

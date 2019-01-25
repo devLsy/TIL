@@ -75,6 +75,7 @@ selectbox에서 다중 선택이 필요할 경우 select 태그에 multiple을 �
 <h3>html은 플러그인 없이도 audio요소를 사용해 페이지에서 오디오를 재생하는 표준방법을 제공하고 있음</h3>
 사용방법은 video요소와 매우 흡사함 <br>
 audio src="songs/최재훈-비의랩소디.mp3" id="boombox" controls(볼륨 조절, 구간 조절 컨트롤), 단 video요소와 마찬가지로 브라우저 종류에 따라 재생 컨트롤 모양은 가지각색임 <br>
+비디오처럼 오디오에 대한 표준 인코딩은 존재하지 않으며 유명한 형식으로는 mp3, wav, Ogg Vorbis가 있고 현재시점에 위 세가지 형식 모두를 지원하는 유일한 브라우저는 크롬이라고 함 <br>audio요소와 이 요소의 javascript API는 많은 컨트롤을 제공한다고 함<br>
 
   
   

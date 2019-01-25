@@ -116,10 +116,12 @@ div#greentea > blockquote p:first-line {font-style: italic;} ==> id가 greentea�
 
 <h3>변형(transform) & 트랜지션(transition)</h3> 
 ex) 마우스를 요소 위로 가져갈 경우 회전하게 하는 등의 효과 <br>
-<img src="https://user-images.githubusercontent.com/44331989/51727180-2cd3ff00-20ae-11e9-9f0d-7262a3260639.png"> <br>
+<img src="https://user-images.githubusercontent.com/44331989/51727180-2cd3ff00-20ae-11e9-9f0d-7262a3260639.png">
+이 경우 요소위로 마우스를 가져갈 경우 바로 회전하기 때문에 투박스러움<br>
 위의 이미지를 좀 더 부드러운 에니메이션 효과를 주기위해서 아래와 같이 트랜지션 적용 <br>
-<img src="https://user-images.githubusercontent.com/44331989/51727311-c1d6f800-20ae-11e9-8397-611358a6dc1d.png"> 
+<img src="https://user-images.githubusercontent.com/44331989/51727311-c1d6f800-20ae-11e9-8397-611358a6dc1d.png">
 참조 url: https://developer.mozilla.org/ko/docs/Web/CSS/CSS_Transforms/Using_CSS_transforms#%ED%9A%8C%EC%A0%84 <br>
+
 
 
 

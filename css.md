@@ -92,6 +92,7 @@ li요소에 사용자 정의 마커 사용하는 방법 <br>
 css의 list-style-image 속성을 사용해서 이미지를 마커로 설정할 수 있음 <br>
 li {list-style-image: url(images/image.gif)} <br>
 <hr>
+------------------
 <h1>20190125 TIL</h1>
 일반적 레이아웃에서 폼은 표 형태이므로, 폼 프레젠테이션을 디자인하는 데 CSS table display 레이아웃을 사용하는게 좋음 <br>
 <p></p>
@@ -106,7 +107,7 @@ img[alt~="flowers"] {border: #cc thin solid;}  ==> html에서 alt속성에 flowe
 선행요소(h1) + 형제요소 형태로 작성: <br>
 h1+p {font-style: italic;} ==> , h1요소 다음에 나오는 모든 문단 선택 <br>
 <h3>선택자 결합 & 복잡한 선택자 사용법</h3> 
-① 아래와 같이 선택하고자 하는 요소에 대한 구문을 먼저 정의함
+① 아래와 같이 선택하고자 하는 요소에 대한 구문을 먼저 정의함 <br>
 div#greentea > blockquote: 아이디가 greentea인 div의 자손선택자 중 blockquote를 선택 <br>
 ② 그리고 선택하려는 요소를 놓음 <br>
 div#greentea > blockquote p(요소): blockquote의 구문에 선택하려는 요소인 p요소를 추가(이 p요소는 blockquote의 자손이어야 하며, greentea란 id를 가진 div의 자식이어야 함) <br>

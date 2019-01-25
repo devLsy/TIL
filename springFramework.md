@@ -22,7 +22,14 @@
 * 위의 설정에서 groupId, artifactId, version은 형식적으로 작성하되 중요한 건 scope, systemPath가 중요함
 properties에서 lib 디렉터리를 지정해준 경로의 .jar파일을 참조하도록 설정
 properties에서 lib가 있는 디렉터리를 ${project.lib.path}안에 설정 했고 그 안에 있는 .jar파일을 지정해 주면 된다.
-그 뒤 tomcat - clean workspace & clean & project clean 이후 tomcat 재 실행
+그 뒤 tomcat - clean workspace & clean & project clean 이후 tomcat 재 실행 <br>
+<hr>
+* 이클립스에서 프로젝트명을 변경 시 web.xml의 태그명이 변경되어서 에러 나는 경우
+로그는 아래와 같음 <br>
+<img src="https://user-images.githubusercontent.com/44331989/51740761-49852c80-20d8-11e9-8b3c-069129c81a74.JPG">
+원인은 web.xml에 
+
+
 
   
   

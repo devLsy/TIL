@@ -63,7 +63,11 @@ url 입력: input type="url" <br>
 form요소의 name 속성 작동방식 <br>
 클라이언트에서 폼에 데이터 입력 후 전송 => 브라우저는 폼의 데이터와 유일한 이름을 사용하는 name속성을 묶어서 포장 후 서버로 전송 <br>
 <strong>ex) zip이라는 name의 input요소에 우편번호로 10000을 입력 하면, 브라우저는 폼이 전송될 때 zip=10000을 서버로 보냄</strong> <br>
-  
+<hr>
+<h1>20190125 TIL</h1> <br>
+html의 form이 더 커지기 시작하면 요소를 시각적으로 묶는 것이 도움이 되는데 이때 사용하는 것이 fieldset과 legend요소임 <br>
+field요소는 input요소의 세트를 둘러싸고, legend는 input 그룹에 대한 라벨을 제공 <br>
+
 
 
   

@@ -102,6 +102,16 @@ p:first-line {font-style:italic;}  ==> 첫번 째 줄을 이탤릭체로 만듬 
 img[width] {border: black thin solid;} ==> html에서 width속성을 가진 이미지를 모두 선택함 <br>
 img[height="300"] {border: red thin solid;}  ==> html에서 height속성이 300인 모든 이미지 선택 <br>
 img[alt~="flowers"] {border: #cc thin solid;}  ==> html에서 alt속성에 flowers라는 단어가 포함된 모든 이미지 선택 <br>
+<strong>형제요소를 이용한 선택자 사용법: </strong> <br>
+선행요소(h1) + 형제요소 형태로 작성: <br>
+h1+p {font-style: italic;} ==> , h1요소 다음에 나오는 모든 문단 선택 <br>
+<h3>선택자 결합 & 복잡한 선택자 사용법</h3> <br>
+① 아래와 같이 선택하고자 하는 요소에 대한 구문을 먼저 정의함
+div#greentea > blockquote: 아이디가 greentea인 div의 자손선택자 중 blockquote를 선택 <br>
+② 그리고 선택하려는 요소를 놓음 <br>
+div#greentea > blockquote p(요소): blockquote의 구문에 선택하려는 요소인 p요소를 추가(이 p요소는 blockquote의 자손이어야 하며, greentea란 id를 가진 div의 자식이어야 함) <br>
+③ 그리고 의사클래스나 의사요소를 명시함 <br>
+div#greentea > blockquote p:first-line {font-style: italic;} ==> id가 greentea인 div요소의 자손 중 blockquote요소의 p요소 중 첫번 째 줄만 선택 <br>
 
 
 

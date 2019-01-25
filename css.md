@@ -91,6 +91,10 @@ li요소 스타일 꾸미기 <br>
 li요소에 사용자 정의 마커 사용하는 방법 <br>
 css의 list-style-image 속성을 사용해서 이미지를 마커로 설정할 수 있음 <br>
 li {list-style-image: url(images/image.gif)} <br>
+<hr>
+<h1>20190125 TIL</h1> <br>
+일반적 레이아웃에서 폼은 표 형태이므로, 폼 프레젠테이션을 디자인하는 데 CSS table display 레이아웃을 사용하는게 좋음 <br>
+
 
 
 

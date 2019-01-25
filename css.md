@@ -69,7 +69,6 @@ a:hover {color: blue;}  ==> 이 선택자는 마우스를 링크에 올려 놓�
 
 url: https://kareninssmile.tistory.com/27 <br>
 
-
 <strong>z-index</strong> <br>
 <img src="https://user-images.githubusercontent.com/44331989/51593414-76e5a500-1f35-11e9-9126-97c96ab595d1.JPG"> <br>
 <strong>출처: http://div.or.kr/css-studying/z-index%20%EC%86%8D%EC%84%B1</strong><br>
@@ -82,6 +81,8 @@ display 속성값으로 table, table-row, table-cell등을 사용해서 요소�
 ③ 컬럼처럼 동작할 블록요소(div)를 위의 div안에 넣음 <br>
 ④ CSS에서 전체 테이블에 해당하는 div의 display를 table로 설정, 테이블의 행에 해당하는 div의 display를 display-row로 설정, 행의 컬럼에 해당하는 div의 display를 display-cell로 설정 <br>
 <img src="https://user-images.githubusercontent.com/44331989/51730688-d4a3f980-20bb-11e9-9dbd-1e47ae8083f5.png">
+아래는 위의 마크업에 대한 결과 페이지<br>
+<img src="https://user-images.githubusercontent.com/44331989/51730798-264c8400-20bc-11e9-9882-f1704cc0d68c.JPG">
 <h1>20190124 TIL</h1> <br>
 테이블에서의 의사클래스 ==> nth-child <br>
 css에서 선택자:nth-child(even) or 선택자:nth-child(odd) 이런식으로 하고 배경색을 바꾸거나 하는데 사용 <br>

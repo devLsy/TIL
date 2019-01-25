@@ -94,6 +94,10 @@ li {list-style-image: url(images/image.gif)} <br>
 <hr>
 <h1>20190125 TIL</h1> <br>
 일반적 레이아웃에서 폼은 표 형태이므로, 폼 프레젠테이션을 디자인하는 데 CSS table display 레이아웃을 사용하는게 좋음 <br>
+<p></p>
+의사요소 선택자 사용법: <br>
+p:first-letter {font-size:3em;}  ==> 문단의 첫글자를 크게 만듬 <br>
+p:first-line {font-style:italic;}  ==> 첫번 째 줄을 이탤릭체로 만듬 <br>
 
 
 

@@ -114,6 +114,9 @@ div#greentea > blockquote p(요소): blockquote의 구문에 선택하려는 요
 ③ 그리고 의사클래스나 의사요소를 명시함 <br>
 div#greentea > blockquote p:first-line {font-style: italic;} ==> id가 greentea인 div요소의 자손 중 blockquote요소의 p요소 중 첫번 째 줄만 선택 <br>
 
+<h3>변형(transform) & 트랜지션(transition)</h3> <br>
+참조 url: https://developer.mozilla.org/ko/docs/Web/CSS/CSS_Transforms/Using_CSS_transforms#%ED%9A%8C%EC%A0%84 <br>
+
 
 
 

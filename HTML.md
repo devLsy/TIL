@@ -67,7 +67,7 @@ form요소의 name 속성 작동방식 <br>
 <h1>20190125 TIL</h1> <br>
 html의 form이 더 커지기 시작하면 요소를 시각적으로 묶는 것이 도움이 되는데 이때 사용하는 것이 fieldset과 legend요소임 <br>
 field요소는 input요소의 세트를 둘러싸고, legend는 input 그룹에 대한 라벨을 제공 <br>
-<img src="https://user-images.githubusercontent.com/44331989/51725246-8d5e3e80-20a4-11e9-88d5-da20eb499d21.JPG"> <br>
+<img src="https://user-images.githubusercontent.com/44331989/51725246-8d5e3e80-20a4-11e9-88d5-da20eb499d21.JPG"> 
 결과: <img src="https://user-images.githubusercontent.com/44331989/51725340-f3e35c80-20a4-11e9-841e-474a06d36cd3.JPG"> <br>
 
 

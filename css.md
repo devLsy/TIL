@@ -105,7 +105,7 @@ img[alt~="flowers"] {border: #cc thin solid;}  ==> html에서 alt속성에 flowe
 <strong>형제요소를 이용한 선택자 사용법: </strong> <br>
 선행요소(h1) + 형제요소 형태로 작성: <br>
 h1+p {font-style: italic;} ==> , h1요소 다음에 나오는 모든 문단 선택 <br>
-<h3>선택자 결합 & 복잡한 선택자 사용법</h3> <br>
+<h3>선택자 결합 & 복잡한 선택자 사용법</h3> 
 ① 아래와 같이 선택하고자 하는 요소에 대한 구문을 먼저 정의함
 div#greentea > blockquote: 아이디가 greentea인 div의 자손선택자 중 blockquote를 선택 <br>
 ② 그리고 선택하려는 요소를 놓음 <br>

@@ -79,7 +79,7 @@ audio src="songs/최재훈-비의랩소디.mp3" id="boombox" controls(볼륨 조
 <h1>20190129 TIL</h1>	
 <h2>Ul li 가로로 정렬하는 방법<h2> 
 참조 url: http://www.acidzazz.com/2013/03/ul-li.html 
-	
+li에 float:left를 추가, ul을 li의 height만큼 늘어나게 하려면 ul의 overflow:auto 추가 <br>
   
   
   

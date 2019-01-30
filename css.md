@@ -133,6 +133,12 @@ ex) 마우스를 요소 위로 가져갈 경우 회전하게 하는 등의 효�
 3. 해당 텍스트에 block 적용 후 margin 속성값을 사용 <br>
 4. 해당 텍스트를 block으로 묶은 후 부모요소에 position을 relative를 한 후 자신에게는 상하 조절하는 top또는 bottom값을 지정 <br>
 
+ul li를 이용해 pagination<br>
+- ul요소에 inline-block을 주고 margin을 좌우만 auto로 줌 ex)margin: 0 auto;<br>
+- 자식인 li에 float을 적용<br>
+
+
+
 
 
 

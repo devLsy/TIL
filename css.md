@@ -124,6 +124,16 @@ ex) 마우스를 요소 위로 가져갈 경우 회전하게 하는 등의 효�
 위의 이미지를 좀 더 부드러운 에니메이션 효과를 주기위해서 아래와 같이 트랜지션 적용 <br>
 <img src="https://user-images.githubusercontent.com/44331989/51727311-c1d6f800-20ae-11e9-8397-611358a6dc1d.png">
 참조 url: https://developer.mozilla.org/ko/docs/Web/CSS/CSS_Transforms/Using_CSS_transforms#%ED%9A%8C%EC%A0%84 <br>
+<h1>20190130 TIL</h1>
+텍스트 수직, 세로방향으로 중앙 정렬하는 다양한 방법 <br>
+참조 url: https://webisfree.com/2014-03-07/[html-css]-%ED%85%8D%EC%8A%A4%ED%8A%B8-%EC%88%98%EC%A7%81-%EC%84%B8%EB%A1%9C%EB%B0%A9%ED%96%A5%EC%9C%BC%EB%A1%9C-%EC%A4%91%EC%95%99-%EC%A0%95%EB%A0%AC%ED%95%98%EB%8A%94-%EB%8B%A4%EC%96%91%ED%95%9C-%EB%B0%A9%EB%B2%95-%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0
+
+1. line-height를 사용해서 요소의 height만큼 설정해줌<br>
+2. padding값을 적절하게 넣는 방법 <br>
+3. 해당 텍스트에 block 적용 후 margin 속성값을 사용 <br>
+4. 해당 텍스트를 block으로 묶은 후 부모요소에 position을 relative를 한 후 자신에게는 상하 조절하는 top또는 bottom값을 지정 <br>
+
+
 
 
 
@@ -142,4 +152,4 @@ ex) 마우스를 요소 위로 가져갈 경우 회전하게 하는 등의 효�
 <p><br>
   
     
-<h2>출처: Head First HTML and CSS(개정판)</h2> 
+<h2>출처: Head First HTML and CSS(개정판) 및 google</h2> 

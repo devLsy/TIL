@@ -83,7 +83,7 @@ SampleController 클래스가 스프링에서 관리되면 아래 이미지와 �
 	
 클래스 선언부에는 @Controller와 함께 @RequestMapping을 많이 사용함
 @RequestMapping은 현재 클래스의 모든 메서드들의 기본적인 URL 경로가 됨<br>
-예를 들어 SampleController 클래스를 아래와 같이 "/sample/" 이라는 경로로 지정했다면 /sample/aaa, /sample/bbb과 같은 URL은 모두 SampleController에서 처리됨
+예를 들어 SampleController 클래스를 아래와 같이 "/sample/*" 이라는 경로로 지정했다면 /sample/aaa, /sample/bbb과 같은 URL은 모두 SampleController에서 처리됨
 
 <img src="https://user-images.githubusercontent.com/44331989/52997564-3ad62f00-3464-11e9-984d-d620944a922d.JPG"><br><p>
 

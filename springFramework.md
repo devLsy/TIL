@@ -63,9 +63,9 @@ Servlet/JSP에서는 HttpServletRequest/HttpServletResponse라는 타입의 객�
 (스프링 MVC 역시 내부적으로는 Servlet API를 활용함)<br><p>
 <img src="https://user-images.githubusercontent.com/44331989/52994208-2db44280-345a-11e9-9b3e-dc7c65209668.jpg"><br>
 
-사용자의 Request는 Front-controller인 DispatcherServlet을 통해서 처리함(web.xml에 설정되어 있음)
-	<servlet-name>appServlet</servlet-name>
-	   <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+사용자의 Request는 Front-controller인 DispatcherServlet을 통해서 처리함(아래 이미지)<br>
+<img src="https://user-images.githubusercontent.com/44331989/52994436-e7abae80-345a-11e9-8f53-2c95376c229b.JPG"><br>
+	
 	
 
 

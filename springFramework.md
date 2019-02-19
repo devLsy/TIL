@@ -51,7 +51,7 @@ org.springframework.web.servlet.DispatcherServlet 클래스는 스프링 MVC의 
 
 
   
-  
+<h1>출처: 코드로 배우는 스프링 웹 프로젝트(개정판)예제</h1>
   
   
   

@@ -32,6 +32,7 @@ properties에서 lib가 있는 디렉터리를 ${project.lib.path}안에 설정 
 그리고 web.xml상단의 web-app에서 이미 id값도 설정 했기에 제일 마지막 줄의 id도 삭제를 해야 정상적으로 tomcat을 구동할 수 있음 <br>
 <br>
 <p>
+## 설정 관련 	
 스프링 구동 시 읽는 XML은 web.xml, root-context.xml, servlet-context.xml파일임
 이 파일 중 web.xml은 Tomcat 구동과 관련된 설정, 나머지 두 파일은 스프링과 관련된 설정임
 

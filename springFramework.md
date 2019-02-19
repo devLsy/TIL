@@ -40,7 +40,13 @@ ContextLoaderListener는 해당 웹 애플리케이션 구동 시 같이 동작�
 
 root-context.xml이 처리되면 그안에 있는 빈(Bean)설정들이 동작하게 됨
 root-context.xml에 정의된 객체(Bean)들은 스프링의 영역(context)안에 생성되고 객체들 간의 의존성이 처리됨
-root-context.xml이 처리된 후에는 스프링 MVC에서 사용하는 DispatcherServlet
+root-context.xml이 처리된 후에는 스프링 MVC에서 사용하는 DispatcherServlet이라는 서블릿과 관련된 설정이 동작함
+
+org.springframework.web.servlet.DispatcherServlet 클래스는 스프링 MVC의 구조에서 가장 핵심적인 역할을 하는 클래스임
+내부적으로 웹 관련 처리의 준비작업을 진행하는데 이 때 사용하는 파일이 servlet-context.xml임
+프로젝트가 실행될 때 로그를 보면 DispatcherServlet에서 XmlWebApplicationContext를 이용해서 servlet-context.xml을 로딩하고 해석하기 시작함
+이 과정에서 등록된 객체(Bean)들은 기존에 만들어진 객체(Bean)들과 같이 연동되게 됨
+
 
 
 

@@ -66,7 +66,15 @@ Servlet/JSP에서는 HttpServletRequest/HttpServletResponse라는 타입의 객�
 <img src="https://user-images.githubusercontent.com/44331989/52994777-fd6da380-345b-11e9-95ae-8325c64e01cf.jpg"><br><p>
 
 <img src="https://user-images.githubusercontent.com/44331989/52995137-132f9880-345d-11e9-85f3-312b7dd4f7b3.jpg"><br><p>	
-	
+
+스프링 MVC를 이용하는 경우 작성되는 Controller는 다음과 같은 특징이 있음
+* HttpServletRequest, HttpServletResponse를 거의 사용할 필요 없이 필요한 기능 구현 <br>
+* 다양한 타입의 parameter 처리, 다양한 타입의 return 타입 사용 가능 <br>
+* GET, POST방식 등 전송방식에 대한 처리를 어노테이션으로 처리 가능 <br>
+* 상속/인터페이스 방식 대신에 어노테이션만으로도 필요한 설정 가능 <br>
+
+
+
 
 
 

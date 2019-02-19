@@ -63,7 +63,7 @@ Servlet/JSP에서는 HttpServletRequest/HttpServletResponse라는 타입의 객�
 (스프링 MVC 역시 내부적으로는 Servlet API를 활용함)<br><p>
 <img src="https://user-images.githubusercontent.com/44331989/52994208-2db44280-345a-11e9-9b3e-dc7c65209668.jpg"><br><p>
 	
-<img src="https://user-images.githubusercontent.com/44331989/52994615-8506e280-345b-11e9-8065-f9d71c88c460.jpg"><br><p>
+<img src="https://user-images.githubusercontent.com/44331989/52994777-fd6da380-345b-11e9-95ae-8325c64e01cf.jpg"><br><p>
 
 	
 	

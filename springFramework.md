@@ -32,7 +32,7 @@ properties에서 lib가 있는 디렉터리를 ${project.lib.path}안에 설정 
 그리고 web.xml상단의 web-app에서 이미 id값도 설정 했기에 제일 마지막 줄의 id도 삭제를 해야 정상적으로 tomcat을 구동할 수 있음 <br>
 <hr>
 
-## 스프링MVC 구성 관련<br>
+## 20190219 TIL: 스프링MVC 구성 관련<br>
 스프링 구동 시 읽는 XML은 web.xml, root-context.xml, servlet-context.xml파일임
 이 파일 중 web.xml은 Tomcat 구동과 관련된 설정, 나머지 두 파일은 스프링과 관련된 설정임
 web.xml상단에 root-context.xml의 경로가 설정되어 있고 <listener>에는 스프링 MVC의 ContextLoaderListener가 등록되어 있음
@@ -51,7 +51,7 @@ org.springframework.web.servlet.DispatcherServlet 클래스는 스프링 MVC의 
 
 
   
-<h1>출처: 코드로 배우는 스프링 웹 프로젝트(개정판)예제</h1>
+<h1>20190219 TIL 출처: 코드로 배우는 스프링 웹 프로젝트(개정판)예제</h1>
   
   
   

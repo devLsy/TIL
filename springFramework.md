@@ -78,7 +78,7 @@ Servlet/JSP에서는 HttpServletRequest/HttpServletResponse라는 타입의 객�
 
 
   
-<h1>20190219 TIL 출처: 코드로 배우는 스프링 웹 프로젝트(개정판)예제</h1>
+<h2>20190219 TIL 출처: 코드로 배우는 스프링 웹 프로젝트(개정판)예제</h2>
   
   
   

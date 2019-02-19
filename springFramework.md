@@ -79,7 +79,14 @@ Servlet/JSP에서는 HttpServletRequest/HttpServletResponse라는 타입의 객�
 servlet-context.xml 하단부분에 context:component-scan base-package="com.ex.controller"라고 되어 있고 이는
 context:component-scan이라는 태그를 이용해서 지정된 패키지를 scan하라는 의미, 해당 패키지에 선언된 클래스들을 scan하면서 스프링에서 객체(Bean)설정에 사용되는 어노테이션들을 가진 클래스들을 파악하고 필요하면 이를 객체로 생성해서 관리하게 됨
 SampleController 클래스가 스프링에서 관리되면 아래 이미지와 같이 클래스 옆에 작게 's'모양의 아이콘이 추가됨
-<img src="https://user-images.githubusercontent.com/44331989/52996242-54757780-3460-11e9-896c-e2e4754002bf.JPG"><br>
+<img src="https://user-images.githubusercontent.com/44331989/52996242-54757780-3460-11e9-896c-e2e4754002bf.JPG"><br><p>
+	
+클래스 선언부에는 @Controller와 함께 @RequestMapping을 많이 사용함
+@RequestMapping은 현재 클래스의 모든 메서드들의 기본적인 URL 경로가 됨<br>
+예를 들어 SampleController 클래스를 아래와 같이 "/sample/" 이라는 경로로 지정했다면 /sample/aaa, /sample/bbb과 같은 URL은 모두 SampleController에서 처리됨
+
+<img src="https://user-images.githubusercontent.com/44331989/52996550-4d9b3480-3461-11e9-8bd1-1b25f15a0a22.JPG"><br><p>
+
 
 
 

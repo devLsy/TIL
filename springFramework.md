@@ -93,8 +93,9 @@ method 속성이고 흔히 GET방식, POST 방식을 구분해서 사용할 때 
 @RequestMapping은 POST, GET 방식 둘다 지원해야 하는 경우네느 배열로 처리해서 지정할 수 있고 일반적으로는 GET, POST방식만을 사용하지만 최근에는 PUT, DELETE 방식 등도 점점 많이 사용하고 있음, @GetMapping의 경우 오직 GET방식에만 사용할 수 있으므로 간편하지만 기능에 대한 제한은 많은 편임<br>
 
 ### Controller의 parameter 수집
-Controller를 작성할 때 가장 편리한 기능은 parameter가 자동으로 수집되는 기능임, 이 기능을 이용하면 매번 request.getParameter()를 이용하는 불편함을 없앨 수 있음
-
+Controller를 작성할 때 가장 편리한 기능은 parameter가 자동으로 수집되는 기능임, 이 기능을 이용하면 매번 request.getParameter()를 이용하는 불편함을 없앨 수 있음<br>
+<img src="https://user-images.githubusercontent.com/44331989/53060274-327e0280-34fd-11e9-9e96-d732378cc500.JPG"><br><p>
+	
 
 
 

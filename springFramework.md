@@ -127,8 +127,7 @@ Controller가 parameter를 수집하는 방식은 parameter type에 따라 자�
 브라우저에서 http://localhost:9393/sample/ex02List?ids=dev&ids=111&ids=222 이런식으로 호출 시 아래 이미지 처럼 데이터가 들어옴<br>
 <img src="https://user-images.githubusercontent.com/44331989/53093908-0a71bc00-355c-11e9-8452-4b3b07f68835.JPG"><br>
 
-아래 이미지처럼 배열의 경우도 동일하게 처리할 수 있음<br>
-
+아래 이미지처럼 배열의 경우도 동일하게 처리할 수 있음
 <img src="https://user-images.githubusercontent.com/44331989/53094135-ac91a400-355c-11e9-9da1-eabb93b6174b.JPG">
 
 

@@ -104,7 +104,7 @@ method에는 @GetMapping이 사용되었으므로, 아래와 같이 브라우저
 
 <img src="https://user-images.githubusercontent.com/44331989/53060596-69a0e380-34fe-11e9-980f-3a86ce31418b.JPG"><br>
 
-아래와 같이 Tomcat의 log에 호출한 parameter값이 찍히는걸 확인할 수 있음<br>
+아래와 같이 Tomcat의 log에 호출한 parameter값이 찍히는걸 확인할 수 있음<strong>(주목할 점은 자동으로 타입을 변환해서 처리한다는 점)</strong><br>
 <img src="https://user-images.githubusercontent.com/44331989/53060661-9fde6300-34fe-11e9-9249-21ac057cf689.JPG"><br><p>
 
 

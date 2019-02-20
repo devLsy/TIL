@@ -138,6 +138,11 @@ Controller가 parameter를 수집하는 방식은 parameter type에 따라 자�
 예를 들어 SampleDTO를 여러 개 전달 받아서 처리하고 싶다면 아래 이미지처럼 SampleDTO의 리스트를 포함하는 SampleDTOList class를 설계함<br>
 <img src="https://user-images.githubusercontent.com/44331989/53094986-f2e80280-355e-11e9-9c09-5ce2177795d0.JPG"><br>
 
+SampleController에서는 아래 이미지처럼 SampleDTOList tyle을 parameter로 사용하는 method를 작성함<br>
+https://user-images.githubusercontent.com/44331989/53095227-9c2ef880-355f-11e9-94b7-9efb3ca2aed5.JPG<br>
+
+
+
 
 
 

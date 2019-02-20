@@ -107,6 +107,13 @@ method에는 @GetMapping이 사용되었으므로, 아래와 같이 브라우저
 아래와 같이 Tomcat의 log에 호출한 parameter값이 찍히는걸 확인할 수 있음<strong>(주목할 점은 자동으로 타입을 변환해서 처리한다는 점)</strong><br>
 <img src="https://user-images.githubusercontent.com/44331989/53060661-9fde6300-34fe-11e9-9249-21ac057cf689.JPG"><br><p>
 
+### parameter의 수집과 변환
+Controller가 parameter를 수집하는 방식은 parameter type에 따라 자동으로 변환하는 방식을 이용함<br>
+예를 들어 위읫 SampleDTO에는 int type으로 선언된 age가 자동으로 숫자로 변환되는 것을 볼수 있음<br>
+
+만일 기본 자료형이나 문자열 등을 이용한다면 parameter의 type만을 맞게 선언해주는 방식을 사용할 수 있음<br>
+
+
 
 
 

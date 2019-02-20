@@ -96,6 +96,7 @@ method 속성이고 흔히 GET방식, POST 방식을 구분해서 사용할 때 
 Controller를 작성할 때 가장 편리한 기능은 parameter가 자동으로 수집되는 기능임, 이 기능을 이용하면 매번 request.getParameter()를 이용하는 불편함을 없앨 수 있음<br>
 
 <img src="https://user-images.githubusercontent.com/44331989/53060353-8f79b880-34fd-11e9-85e9-87b2966d56a6.JPG"><br>
+위와 
 
 
 

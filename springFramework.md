@@ -111,7 +111,9 @@ method에는 @GetMapping이 사용되었으므로, 아래와 같이 브라우저
 Controller가 parameter를 수집하는 방식은 parameter type에 따라 자동으로 변환하는 방식을 이용함<br>
 예를 들어 위읫 SampleDTO에는 int type으로 선언된 age가 자동으로 숫자로 변환되는 것을 볼수 있음<br>
 
-만일 기본 자료형이나 문자열 등을 이용한다면 parameter의 type만을 맞게 선언해주는 방식을 사용할 수 있음<br>
+만일 기본 자료형이나 문자열 등을 이용한다면 아래 이미지와 같이 parameter의 type만을 맞게 선언해주는 방식을 사용할 수 있음<br>
+<img src="https://user-images.githubusercontent.com/44331989/53092821-16a84a00-3559-11e9-8a64-388c52f211bd.JPG"><br>
+
 
 
 

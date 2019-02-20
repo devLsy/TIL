@@ -87,6 +87,10 @@ SampleController 클래스가 스프링에서 관리되면 아래 이미지와 �
 
 <img src="https://user-images.githubusercontent.com/44331989/52997564-3ad62f00-3464-11e9-984d-d620944a922d.JPG"><br><p>
 
+@Controller 어노테이션은 추가적인 속성을 지정할 수 없지만 @RequestMapping은 몇 가지의 속성을 추가할 수 있는데 그중 많이 사용하는 속성이
+method 속성이고 흔히 GET방식, POST 방식을 구분해서 사용할 때 이용되며 스프링 4.3버전에서는 @RequestMapping을 줄여서 사용할 수 있는 @GetMapping, @PostMapping이 등장하는데 축약형의 표현이므로 기존의 @RequestMapping과 비교해서 학습하는 걸 권장<br>
+@RequestMapping은 POST, GET 방식 둘다 지원해야 하는 경우네느 배열로 처리해서 지정할 수 있고 일반적으로는 GET, POST방식만을 사용하지만 최근에는 PUT, DELETE 방식 등도 점점 많이 사용하고 있음, @GetMapping의 경우 오직 GET방식에만 사용할 수 있으므로 간편하지만 기능에 대한 제한은 많은 편임
+
 
 
 

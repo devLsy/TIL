@@ -133,6 +133,12 @@ Controller가 parameter를 수집하는 방식은 parameter type에 따라 자�
 
 <img src="https://user-images.githubusercontent.com/44331989/53094456-84ef0b80-355d-11e9-9c3c-79520bd5c28a.JPG"><br>
 
+### 객체 리스트
+만일 전달하는 데이터가 SampleDTO와 같이 객체 타입이고 여러 개를 처리해야 한다면 약간의 작업으로 한번에 처리 가능<br>
+예를 들어 SampleDTO를 여러 개 전달 받아서 처리하고 싶다면 아래 이미지처럼 SampleDTOList class를 설계함<br>
+<img src="https://user-images.githubusercontent.com/44331989/53094986-f2e80280-355e-11e9-9c09-5ce2177795d0.JPG"><br>
+
+
 
 
 

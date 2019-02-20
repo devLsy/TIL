@@ -120,8 +120,12 @@ Controller가 parameter를 수집하는 방식은 parameter type에 따라 자�
 	
 ### 리스트, 배열 처리
 동일한 이름의 parameter가 여러 개 전달되는 경우에는 아래 이미지와 같이 ArrayList<> 등을 이용해서 처리가 가능함<br>
-<img src="https://user-images.githubusercontent.com/44331989/53093534-05f8d380-355b-11e9-8b50-fe3e592a2754.JPG"><br>
+스프링은 parameter의 type을 보고 객체를 생성하므로 parameter의 type은 List<>와 같이 interface type이 아닌 실제적인 class type으로 지정해야 함
+아래 코드의 경우 'ids'라는 이름의 parameter가 여러개 전달되더라도 ArrayList<String>이 생성되어 자동으로 수집됨<br>
+브라우저에서 http://localhost:9393/sample/ex02List?ids=%EA%B0%9C%EB%B0%9C%EC%9E%90&ids=%EA%B7%BC%EB%91%90%EC%9A%B4&ids=%EB%8F%8C%EC%97%B0%EB%B3%80%EC%9D%B4
 
+<img src="https://user-images.githubusercontent.com/44331989/53093534-05f8d380-355b-11e9-8b50-fe3e592a2754.JPG"><br>
+브라우저에서 
 
 
 

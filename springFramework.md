@@ -94,8 +94,16 @@ method 속성이고 흔히 GET방식, POST 방식을 구분해서 사용할 때 
 
 ### Controller의 parameter 수집
 Controller를 작성할 때 가장 편리한 기능은 parameter가 자동으로 수집되는 기능임, 이 기능을 이용하면 매번 request.getParameter()를 이용하는 불편함을 없앨 수 있음<br>
+<img src="https://user-images.githubusercontent.com/44331989/53060353-8f79b880-34fd-11e9-85e9-87b2966d56a6.JPG"><br>
+위와 같은 SampleDTO 클래스를 만들고
 <img src="https://user-images.githubusercontent.com/44331989/53060274-327e0280-34fd-11e9-9e96-d732378cc500.JPG"><br><p>
-	
+위와 같이 SampleController의 method가 SampleDTO를 parameter로 사용하게 되면 자동으로 setter 메서드가 동작하면서 parameter를 수집하게 됨<br>
+method에는 @GetMapping이 사용되었으므로, 아래와 같이 브라우저에서 필요한 parameter를 추가후 호출하게 되면
+<img src="https://user-images.githubusercontent.com/44331989/53060596-69a0e380-34fe-11e9-980f-3a86ce31418b.JPG"><br>
+
+아래와 같이 Tomcat의 log에 호출한 parameter값이 찍히는걸 확인할 수 있음<br>
+<img src="https://user-images.githubusercontent.com/44331989/53060661-9fde6300-34fe-11e9-9249-21ac057cf689.JPG"><br><p>
+
 
 
 

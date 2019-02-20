@@ -131,7 +131,8 @@ Controller가 parameter를 수집하는 방식은 parameter type에 따라 자�
 <img src="https://user-images.githubusercontent.com/44331989/53094296-1742df80-355d-11e9-877a-e986630b8e9d.JPG"><br>
 브라우저에서 http://localhost:9393/sample/ex02Array?ids=dev&ids=good&ids=tel 이렇게 호출 시 아래 이미지 처럼 데이터가 들어옴<br>
 
-<img src="">
+<img src="https://user-images.githubusercontent.com/44331989/53094456-84ef0b80-355d-11e9-9c3c-79520bd5c28a.JPG"><br>
+
 
 
 

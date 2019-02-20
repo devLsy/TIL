@@ -129,7 +129,9 @@ Controller가 parameter를 수집하는 방식은 parameter type에 따라 자�
 
 아래 이미지처럼 배열의 경우도 동일하게 처리할 수 있음
 <img src="https://user-images.githubusercontent.com/44331989/53094296-1742df80-355d-11e9-877a-e986630b8e9d.JPG">
+브라우저에서 http://localhost:9393/sample/ex02Array?ids=dev&ids=good&ids=tel 이렇게 호출 시 아래 이미지 처럼 데이터가 들어옴<br>
 
+<img src="">
 
 
 

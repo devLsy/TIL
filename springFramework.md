@@ -116,7 +116,15 @@ Controller가 parameter를 수집하는 방식은 parameter type에 따라 자�
 
 위에서는 @RequestParam 어노테이션을 사용했는데 @RequestParam은 parameter로 하나 이상의 parameter를 받을 때(사용된 변수의 이름과 전달되는 parameter의 이름이 다른 경우에 유용하게 사용됨)사용됨, 단점이 있는데 넘어오는 requestParam중 @RequestParam에서 지정한 키값이 존재하지 않다면 BabRequest http 404 에러가 발생함 이를 방지하기 위한 방법 url: https://heavenly-appear.tistory.com/302<br><p>
 브라우저에서 http://localhost:9393/sample/ex02?name=dev&age=98 이런식으로 parameter를 추가해서 호출 시 아래 이미지처럼 이전과 동일하게 데이터가 들어온 것을 확인할 수 있음
-<img src="https://user-images.githubusercontent.com/44331989/53093336-7a7f4280-355a-11e9-9901-f978303b2ea2.JPG"><br>
+<img src="https://user-images.githubusercontent.com/44331989/53093336-7a7f4280-355a-11e9-9901-f978303b2ea2.JPG"><br><p>
+	
+### 리스트, 배열 처리
+동일한 이름의 parameter가 여러 개 전달되는 경우에는 아래 이미지와 같이 ArrayList<> 등을 이용해서 처리가 가능함<br>
+<img src="https://user-images.githubusercontent.com/44331989/53093534-05f8d380-355b-11e9-8b50-fe3e592a2754.JPG"><br>
+
+
+
+
 
 
 

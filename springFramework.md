@@ -151,7 +151,9 @@ Javascript를 이용하는 경우에는 encodeURLComponent()와 같은 방법으
 위의 url을 http://localhost:9393/sample/ex02Bean?list%5B0%5D.name=aaa&list%5B2%5D.name=bbb 변경후 다시 요청하면 아래와 같이 3개의 SampleDTO객체가 생성된 것을 볼 수 있고 '[]' 안에 인덱스 번호에 맞게 객체의 속성값이 들어간 게 확인 됨
 <img src="https://user-images.githubusercontent.com/44331989/53142435-2fefdb80-35d7-11e9-9f43-418fb10303e9.JPG"><br>
 
-<strong>parameter의 수집을 다른 용어로는 바인딩이라고 하는데 변환이 가능한 데이터는 자동으로 변환되지만 경우에 따라서 parameter를 변환해서 처리해야 하는 경우도 존재하는데 스프링 Controller에서는 @InitBinder를 이용해서 이러한 변환처리를 할 수 있음, </strong><br>
+<strong>parameter의 수집을 다른 용어로는 바인딩이라고 하는데 변환이 가능한 데이터는 자동으로 변환되지만 경우에 따라서 parameter를 변환해서 처리해야 하는 경우도 존재하는데 스프링 Controller에서는 @InitBinder를 이용해서 이러한 변환처리를 할 수 있음</strong><br>
+
+
 
 
 

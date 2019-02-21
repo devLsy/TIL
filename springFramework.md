@@ -148,7 +148,13 @@ Tomcat은 version에 따라서 위와 같은 문자열에서 "[]" 문자를 특�
 
 Javascript를 이용하는 경우에는 encodeURLComponent()와 같은 방법으로 해결할 수 있으나 URL 인코딩 방식으로 처리하도록 함<br>
 참조 url: https://stackoverflow.com/questions/9966053/what-does-5b-and-5d-in-post-requests-stand-for <br>
-위의 url을 http://localhost:9393/sample/ex02Bean?list%5B0%5D.name=aaa&list%5B2%5D.name=bbb 변경후 다시 요청<br>
+위의 url을 http://localhost:9393/sample/ex02Bean?list%5B0%5D.name=aaa&list%5B2%5D.name=bbb 변경후 다시 요청하면 아래와 같이 3개의 SampleDTO객체가 생성된 것을 볼 수 있고 '[]' 안에 인덱스 번호에 맞게 객체의 속성값이 들어간 게 확인 됨
+<img src="https://user-images.githubusercontent.com/44331989/53142435-2fefdb80-35d7-11e9-9f43-418fb10303e9.JPG"><br>
+
+
+
+
+
 
 
 

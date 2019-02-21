@@ -187,6 +187,15 @@ Javascript를 이용하는 경우에는 encodeURLComponent()와 같은 방법으
 화면에서의 결과는 아래와 같이 page에는 추가한 값이 안 들어왔음<br>
 <img src="https://user-images.githubusercontent.com/44331989/53144799-12277400-35e1-11e9-8aa5-daecde532ea7.JPG"><br>
 
+<strong>@ModelAttribute는 강제로 전달받은 parameter를 Model에 담아서 전달하도록 할 때 필요한 어노테이션임, @ModelAttribute가 걸린 Parameter는 타입에 관계없이 무조건 Model에 담아서 전달되므로, parameter로 전달된 데이터를 다시 화면에서 사용해야 할 경우에 유용하게 사용됨</strong><br>
+
+SampleController에 추가한 메서드의 parameter에 @ModelAttribute를 추가하면 아래와 같이 됨<br>
+<img src="https://user-images.githubusercontent.com/44331989/53144954-b14c6b80-35e1-11e9-847d-170864bc764b.JPG"><br>
+
+브라우저에서 호출 시 화면에 page의 값이 잘 전달된 것이 확인됨<br>
+<img src="https://user-images.githubusercontent.com/44331989/53145004-e35dcd80-35e1-11e9-9c1a-376ed48544a4.JPG"><br>
+
+
 
 
 

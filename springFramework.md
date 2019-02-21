@@ -230,6 +230,9 @@ return 되는 데이터가 view를 통해서 출력되지 않고 HTTP Response B
 HTTP protocol의 header를 다룰 경우에 스프링 MVC에서는 HttpServletRequest나 HttpServletResponse를 직접 핸들링하지 않아도 이런 작업이 가능하게 되어 있음<br>
 이러한 처리를 위해 ResponseEntity를 통해서 원하는 헤더 정보나 데이터를 전달할 수 있음<br>
 ResponseEntity는 HttpHeaders 객체를 같이 전달할 수 있고, 이를 통해서 원하는 HTTP 헤더 메시지를 가공하는 것이 가능함<br>
+Controller에서 아래와 같이 메서드를 작성을 한다음<br>
+<img src="https://user-images.githubusercontent.com/44331989/53153678-39d80580-35fc-11e9-85bc-9318d1592d7e.JPG"><br>
+
 
 
 

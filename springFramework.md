@@ -141,6 +141,12 @@ Controller가 parameter를 수집하는 방식은 parameter type에 따라 자�
 SampleController에서는 아래 이미지처럼 SampleDTOList tyle을 parameter로 사용하는 method를 작성함<br>
 <img src="https://user-images.githubusercontent.com/44331989/53095227-9c2ef880-355f-11e9-94b7-9efb3ca2aed5.JPG"><br>
 
+parameter는 "[인덱스]"와 같은 형식으로 전달해서 처리할 수 있음<br>
+전송하려고 하는 URL: http://localhost:9393/sample/ex02Bean?list[0].name=aaa&list[2].name=bbb <br>
+Tomcat은 version에 따라서 위와 같은 문자열에서 "[]" 문자를 특수문자로 허용하지 않을 수 있는데 이 경우에는 아래와 같은 에러를 발생시킴<br>
+<img src="https://user-images.githubusercontent.com/44331989/53142162-421d4a00-35d6-11e9-8b09-ad0eb5b3f35a.JPG"><br>
+
+
 
 
 

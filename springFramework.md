@@ -185,7 +185,9 @@ Javascript를 이용하는 경우에는 encodeURLComponent()와 같은 방법으
 <img src="https://user-images.githubusercontent.com/44331989/53144706-b4932780-35e0-11e9-929f-251a4b34badb.JPG"><br>
 
 화면에서의 결과는 아래와 같이 page에는 추가한 값이 안 들어왔음<br>
-<img src="https://user-images.githubusercontent.com/44331989/53144758-e1dfd580-35e0-11e9-93c4-4bfef885ceb5.JPG"><br>
+<img src="https://user-images.githubusercontent.com/44331989/53144799-12277400-35e1-11e9-8aa5-daecde532ea7.JPG"><br>
+
+
 
 
 

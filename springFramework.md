@@ -146,6 +146,12 @@ parameter는 "[인덱스]"와 같은 형식으로 전달해서 처리할 수 있
 Tomcat은 version에 따라서 위와 같은 문자열에서 "[]" 문자를 특수문자로 허용하지 않을 수 있는데 이 경우에는 아래와 같은 에러를 발생시킴<br>
 <img src="https://user-images.githubusercontent.com/44331989/53142162-421d4a00-35d6-11e9-8b09-ad0eb5b3f35a.JPG"><br>
 
+Javascript를 이용하는 경우에는 encodeURLComponent()와 같은 방법으로 해결할 수 있으나 URL 인코딩 방식으로 처리하도록 함<br>
+참조 url: https://stackoverflow.com/questions/9966053/what-does-5b-and-5d-in-post-requests-stand-for <br>
+위의 url을 http://localhost:9393/sample/ex02Bean?list%5B0%5D.name=aaa&list%5B2%5D.name=bbb 변경후 다시 요청<br>
+
+
+
 
 
 

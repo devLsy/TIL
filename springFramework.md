@@ -189,11 +189,15 @@ Javascript를 이용하는 경우에는 encodeURLComponent()와 같은 방법으
 
 <strong>@ModelAttribute는 강제로 전달받은 parameter를 Model에 담아서 전달하도록 할 때 필요한 어노테이션임, @ModelAttribute가 걸린 Parameter는 타입에 관계없이 무조건 Model에 담아서 전달되므로, parameter로 전달된 데이터를 다시 화면에서 사용해야 할 경우에 유용하게 사용됨</strong><br>
 
-SampleController에 추가한 메서드의 parameter에 @ModelAttribute를 추가하면 아래와 같이 됨<br>
+SampleController에 추가한 메서드의 parameter에 @ModelAttribute를 추가하면 아래와 같이 됨, 기본자료형에 @ModelAttribute를 적용할 경우에는 반드시 @ModelAttribute("변수명") value(int page) 이런식으로 지정해야 함 <br>
 <img src="https://user-images.githubusercontent.com/44331989/53144954-b14c6b80-35e1-11e9-847d-170864bc764b.JPG"><br>
 
 브라우저에서 호출 시 화면에 page의 값이 잘 전달된 것이 확인됨<br>
 <img src="https://user-images.githubusercontent.com/44331989/53145025-fbcde800-35e1-11e9-8539-5fa192b929db.JPG"><br>
+jsp에서 Model에서 받아온 값을 출력하는 건 아래와 같음<br>
+<img src="https://user-images.githubusercontent.com/44331989/53145247-ce356e80-35e2-11e9-9e2a-aea7663c98d4.JPG"><br>
+${"Controller의 Model객체에서 설정한 변수명을 입력"}<br>
+
 
 
 

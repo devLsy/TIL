@@ -166,6 +166,14 @@ Javascript를 이용하는 경우에는 encodeURLComponent()와 같은 방법으
 
 이를 해결하기 위해 SampleController에서 아래처럼 @InitBinder를 이용해서 작업을 해준다.<br>
 <img src="https://user-images.githubusercontent.com/44331989/53143515-a5f64180-35db-11e9-8fb0-42985e0aa532.JPG"><br>
+@InitBinder 설명 참조 url: https://nkcnow.tistory.com/174 <br>
+
+그 후 다시 브라우저에서 http://localhost:9393/sample/ex03?title=test&dueDate=2018-02-21로 호출 하면 아래와 같이 타입이 변환되어 값이 들어옴<br>
+<img src="https://user-images.githubusercontent.com/44331989/53143762-c70b6200-35dc-11e9-8243-d68b4792c27c.JPG"><br>
+
+
+
+
 
 
 

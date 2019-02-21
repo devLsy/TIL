@@ -271,6 +271,11 @@ WAS의 구동 중 가장 흔한 에러와 관련된 HTTP 상태코드는 '404'�
 404처리에 해당되는 jsp도 작성 후 브라우저에서 고의로 없는 URL을 호출 하면 정상적으로 작성한 404처리 페이지가 아래처럼 호출됨<br>
 <img src="https://user-images.githubusercontent.com/44331989/53159392-25e6d080-3609-11e9-88bb-53fb8d397f00.JPG"><br>
 
+## 스프링 MVC프로젝트의 기본 구성
+일반적으로 웹 프로젝트는 아래처럼 3-tier(티어)방식으로 구성됨<br>
+<img src="https://user-images.githubusercontent.com/44331989/53160902-33518a00-360c-11e9-8c0a-d5549a2ebdf8.jpg"><br>
+
+
 
 
 

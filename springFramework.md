@@ -157,8 +157,9 @@ Javascript를 이용하는 경우에는 encodeURLComponent()와 같은 방법으
 
 <img src="https://user-images.githubusercontent.com/44331989/53143371-08027700-35db-11e9-9830-7fcd73ba665d.JPG"><br>
 
+
 아래와 같이 SampleController에서 /ex03으로 요청받게 매핑 한 뒤
-<img src="https://user-images.githubusercontent.com/44331989/53143420-3d0ec980-35db-11e9-972f-6f111c1a4b7e.JPG"><br>
+
 
 브라우저에서 http://localhost:9393/sample/ex03?title=test&dueDate=2018-02-21 이런식으로 호출을 하면 아래처럼 400 에러가 발생한다.
 <img src="https://user-images.githubusercontent.com/44331989/53143479-75160c80-35db-11e9-90ec-444f2c1a952a.JPG"><br>

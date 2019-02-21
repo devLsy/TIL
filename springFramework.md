@@ -176,7 +176,7 @@ Javascript를 이용하는 경우에는 encodeURLComponent()와 같은 방법으
 <img src="https://user-images.githubusercontent.com/44331989/53143942-8bbd6300-35dd-11e9-855f-43e2ba7a0473.JPG"><br>
 브라우저에서 dueDate의 형식이 2018/02/21으로 호출(http://localhost:9393/sample/ex03?title=test&dueDate=2018/02/21)할 경우 @InitBinder를 사용했을 때와 동일하게 타입이 변환되어 값이 들어옴<br><p>
 	
-### ModelAttribute 어노테이션
+### @ModelAttribute 어노테이션
 스프링MVC의 Controller는 기본적으로 Java Beans 규칙에 맞는 객체는 다시 화면으로 객체를 전달함<br>
 좁은 의미에서 Java Beans 규칙은 단순히 생성자가 없거나 빈 생성자를 가져야 하며, getter/setter를 가진 클래스의 객체들을 의미함<br>
 앞의 예제에서 parameter로 사용되었던 SampleDTO의 경우는 Java Beans 규칙에 맞기 때문에 자동으로 다시 화면까지 객체가 전달되었음(전달 될 때는 클래스명의 앞글자는 소문자로 처리됨)<br>
@@ -215,7 +215,7 @@ Controller의 method가 사용할 수 있는 return type은 주로 다음과 같
 * Model, ModelAndView: Model로 데이터를 반환하거나 화면까지 같이 지정하는 경우에 사용함(최근에는 많이 사용하지 않음)<br>
 * HttpHeaders: 응답에 내용 없이 Http 헤더 메시지만 전달하는 용도로 사용함<br>
 
-### ResponseBody
+### @ResponseBody
 return 되는 데이터가 view를 통해서 출력되지 않고 HTTP Response Body에 직접 쓰여지게 됨<br>
 참조 url: https://ismydream.tistory.com/140 <br>
 

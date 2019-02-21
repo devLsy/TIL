@@ -198,6 +198,12 @@ jsp에서 Model에서 받아온 값을 출력하는 건 아래와 같음<br>
 <img src="https://user-images.githubusercontent.com/44331989/53145247-ce356e80-35e2-11e9-9e2a-aea7663c98d4.JPG"><br>
 ${"Controller의 Model객체에서 설정한 변수명을 입력"}<br>
 
+### RedirectAttribute
+Model 타입과 더불어서 스프링 MVC가 자동으로 전달해 주는 타입 중에는 RedirectAttribute 타입이 존재함<br>
+RedirectAttribute는 조금 특별하게도 일회성으로 데이터를 전달하는 용도로 사용됨<br>
+RedirectAttribute는 기존에 Servlet에서 response.sendRedirect()를 사용할 때와 동일한 용도로 사용됨<br>
+
+
 
 
 

@@ -266,6 +266,10 @@ WAS의 구동 중 가장 흔한 에러와 관련된 HTTP 상태코드는 '404'�
 스프링 MVC의 모든 요청은 DispatcherServlet을 이용해서 처리되므로 404 에러도 같이 처리할 수 있도록 아래와 같이 web.xml을 수정함<strong>(적색표시된 부분 추가)</strong><br>
 <img src="https://user-images.githubusercontent.com/44331989/53158772-bf14e780-3607-11e9-90c1-d61fabc1390f.jpg"><br>
 
+그 후 예외처리 클래스에 다음과 같이 method를 추가함<br>
+<img src="https://user-images.githubusercontent.com/44331989/53159083-81fd2500-3608-11e9-9452-53973f9970a3.JPG"><br>
+
+
 
 
 

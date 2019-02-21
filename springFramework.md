@@ -202,6 +202,9 @@ ${"Controller의 Model객체에서 설정한 변수명을 입력"}<br>
 Model 타입과 더불어서 스프링 MVC가 자동으로 전달해 주는 타입 중에는 RedirectAttribute 타입이 존재함<br>
 RedirectAttribute는 조금 특별하게도 일회성으로 데이터를 전달하는 용도로 사용됨<br>
 RedirectAttribute는 기존에 Servlet에서 response.sendRedirect()를 사용할 때와 동일한 용도로 사용됨<br>
+아래 이미지처럼 RedirectAttribute는 Model과 같이 parameter로 선언해서 사용하고 addFlashAttribute(이름, 값) 메서드를 이용해서 화면에 한번만 사용하고 다음에는 사용하지 않는 데이터를 전달하기 위해서 사용됨<br>
+<img src="https://user-images.githubusercontent.com/44331989/53148602-946a6500-35ee-11e9-8d84-708e17c159c0.JPG"><br>
+
 
 
 

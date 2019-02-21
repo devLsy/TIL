@@ -193,7 +193,9 @@ SampleController에 추가한 메서드의 parameter에 @ModelAttribute를 추�
 <img src="https://user-images.githubusercontent.com/44331989/53144954-b14c6b80-35e1-11e9-847d-170864bc764b.JPG"><br>
 
 브라우저에서 호출 시 화면에 page의 값이 잘 전달된 것이 확인됨<br>
-<img src="https://user-images.githubusercontent.com/44331989/53145004-e35dcd80-35e1-11e9-9c1a-376ed48544a4.JPG"><br>
+<img src="https://user-images.githubusercontent.com/44331989/53145025-fbcde800-35e1-11e9-8539-5fa192b929db.JPG"><br>
+
+
 
 
 

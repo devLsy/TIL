@@ -173,7 +173,7 @@ Javascript를 이용하는 경우에는 encodeURLComponent()와 같은 방법으
 
 ### @InitBinder 외에 또 다른 방법
 아래와 같이 parameter로 사용되는 인스턴스 변수에 @DateTimeFormat을 적용해도 변환이 가능함(이 경우에는 @InitBinder가 필요 없음)<br>
-<img src="https://user-images.githubusercontent.com/44331989/53143942-8bbd6300-35dd-11e9-855f-43e2ba7a0473.JPG">
+<img src="https://user-images.githubusercontent.com/44331989/53143942-8bbd6300-35dd-11e9-855f-43e2ba7a0473.JPG"><br>
 브라우저에서 dueDate의 형식이 2018/02/21으로 호출(http://localhost:9393/sample/ex03?title=test&dueDate=2018/02/21)할 경우 @InitBinder를 사용했을 때와 동일하게 타입이 변환되어 값이 들어옴<br><p>
 	
 

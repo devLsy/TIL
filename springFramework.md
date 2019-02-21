@@ -236,6 +236,22 @@ ResponseEntity는 HttpHeaders 객체를 같이 전달할 수 있고, 이를 통�
 Header Message가 잘 들어왔고 개발자도구에서 보면 200 OK라는 상태코드가 전달됨이 확인 됨<br>
 <img src="https://user-images.githubusercontent.com/44331989/53154089-4741bf80-35fd-11e9-9da4-55025caa9ab5.JPG"><br>
 
+### Controller의 Exception 처리
+Controller를 작성할 때 예외 상황을 고려하면 처리해야 하는 작업이 엄청나게 늘어날 수 밖에 없는데 스프링 MVC에서는 이러한 작업을 다음과 같은 방식으로 처리할 수 있음<br>
+
+* @ExceptionHandler와 @ControllerAdvice를 이용한 처리
+* @ResponseEntity를 이용하는 예외 메시지 구성
+
+#### ControllerAdvice
+@ControllerAdvice는 스프링의 AOP(Aspect-Oriented-Programming)을 이용하는 방식(간단히 언급하면 핵심적인 로직은 아니지만 프로그램에서 필요한 '공통적인 관심사(cross-concern)는 분리'하자는 개념임)<br>
+이를 활용해서 공통적인 예외사항에 대해서는 별도로 @ControllerAdvice를 이용해서 분리하는 방식임<br>
+
+아래 이미지는 공통적인 예외처리를 담당할 CommonExceptionAdvice 클래스를 생성 후 Exception Message를 콘솔에 출력<br>
+model에 Exception을 담아서 에러 페이지로 넘겨서 error_page에서 에러 메시지를 출력하는 예제임<br>
+<img src="https://user-images.githubusercontent.com/44331989/53157556-16fe1f00-3605-11e9-8a3f-eea6c49829dd.JPG"><br>
+
+
+
 
 
 

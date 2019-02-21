@@ -268,7 +268,7 @@ WAS의 구동 중 가장 흔한 에러와 관련된 HTTP 상태코드는 '404'�
 
 그 후 예외처리 클래스에 다음과 같이 method를 추가함<br>
 <img src="https://user-images.githubusercontent.com/44331989/53159083-81fd2500-3608-11e9-9452-53973f9970a3.JPG"><br>
-404처리에 해당되는 jsp도 작성 후 브라우저에서 고의로 없는 URL을 호출 하면 404처리 페이지가 아래처럼 호출됨<br>
+404처리에 해당되는 jsp도 작성 후 브라우저에서 고의로 없는 URL을 호출 하면 정상적으로 작성한 404처리 페이지가 아래처럼 호출됨<br>
 <img src="https://user-images.githubusercontent.com/44331989/53159392-25e6d080-3609-11e9-88bb-53fb8d397f00.JPG"><br>
 
 

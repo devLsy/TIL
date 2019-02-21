@@ -215,11 +215,15 @@ Controller의 method가 사용할 수 있는 return type은 주로 다음과 같
 * Model, ModelAndView: Model로 데이터를 반환하거나 화면까지 같이 지정하는 경우에 사용함(최근에는 많이 사용하지 않음)<br>
 * HttpHeaders: 응답에 내용 없이 Http 헤더 메시지만 전달하는 용도로 사용함<br>
 
+### ResponseBody
+return 되는 데이터가 view를 통해서 출력되지 않고 HTTP Response Body에 직접 쓰여지게 됨<br>
+참조 url: https://ismydream.tistory.com/140 <br>
+
 아래와 같은 메서드의 경우는 JSON type으로 객체를 변환해서 브라우저에 전달됨<br>
 선행작업이 필요함(pom.xml에 Jackson Databind 라이브러리를 추가해야 함, 안 할 경우 에러 발생)
 <img src="https://user-images.githubusercontent.com/44331989/53153073-a3571480-35fa-11e9-8a6b-c3b0198aa169.JPG"><br>
 
-브라우저에 전달 된 결과값은 아래와 같음<br><
+아래와 같이 JSON type으로 변환되어 브라우저에 전달됨<br>
 <img src="https://user-images.githubusercontent.com/44331989/53153121-d00b2c00-35fa-11e9-9913-0cb18a21e07b.JPG"><br>
 
 

@@ -257,6 +257,18 @@ model에 Exception을 담아서 예외 발생 시 에러 페이지로 넘겨서 
 에러 페이지가 정상적으로 출력되는 지 확인하기 위해서 브라우저에서 고의로 parameter를 넣지 않고 호출한 결과는 아래 이미지와 같음<br>
 <img src="https://user-images.githubusercontent.com/44331989/53158180-5f6a0c80-3606-11e9-85e1-30bd99cc9ffb.JPG"><br>
 
+### 404 에러 페이지 처리
+WAS의 구동 중 가장 흔한 에러와 관련된 HTTP 상태코드는 '404'와 '500' 에러코드 임<br>
+500 메시지는 'Internal Server Error'이므로 @ExceptionHandler를 이용해서 처리되지만, 잘못된 URL을 호출할 때 보이는 404 에러 메시지의 경우는 조금 다르게 처리하는 것이 좋음<br>
+
+서블릿이나 jsp를 이용했던 개발 시에는 web.xml을 이용해서 별도의 에러 페이지를 지정할 수 있었음, 에러 발생 시 추가적인 작업을 하기는 어렵기 때문에 스프링을 이용해서 404와 같이 WAS 내부에서 발생하는 에러를 처리하는 방식을 알아두는 것이 좋음<br>
+
+스프링 MVC의 모든 요청은 DispatcherServlet을 이용해서 처리되므로 404 에러도 같이 처리할 수 있도록 아래와 같이 web.xml을 수정함<br>
+<img src="https://user-images.githubusercontent.com/44331989/53158772-bf14e780-3607-11e9-90c1-d61fabc1390f.jpg"><br>
+
+
+
+
 
 
 

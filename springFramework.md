@@ -181,7 +181,7 @@ Javascript를 이용하는 경우에는 encodeURLComponent()와 같은 방법으
 좁은 의미에서 Java Beans 규칙은 단순히 생성자가 없거나 빈 생성자를 가져야 하며, getter/setter를 가진 클래스의 객체들을 의미함<br>
 앞의 예제에서 parameter로 사용되었던 SampleDTO의 경우는 Java Beans 규칙에 맞기 때문에 자동으로 다시 화면까지 객체가 전달되었음(전달 될 때는 클래스명의 앞글자는 소문자로 처리됨)<br>
 반면 기본 자료형의 경우는 parameter로 선언하더라도 기본적으로 화면까지 전달되지는 않음<br>
-아래 이미지처럼 SampleController에서 method를 작성한 뒤 브라우저에서 parameter를 추가해서 호출해 보면 dto의 값은 화면에 전달되지만, page의 값은 화면에 전달되지 않음<br>
+아래 이미지처럼 SampleController에서 method를 작성한 뒤 브라우저에서 parameter의 값을 추가해서 호출해 보면 dto의 값은 화면에 전달되지만, page의 값은 화면에 전달되지 않음<br>
 <img src="https://user-images.githubusercontent.com/44331989/53144706-b4932780-35e0-11e9-929f-251a4b34badb.JPG"><br>
 
 화면에서의 결과는 아래와 같이 page에는 추가한 값이 안 들어왔음<br>

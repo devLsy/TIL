@@ -205,6 +205,16 @@ RedirectAttribute는 기존에 Servlet에서 response.sendRedirect()를 사용�
 아래 이미지처럼 RedirectAttribute는 Model과 같이 parameter로 선언해서 사용하고 addFlashAttribute(이름, 값) 메서드를 이용해서 화면에 한번만 사용하고 다음에는 사용하지 않는 데이터를 전달하기 위해서 사용됨<br>
 <img src="https://user-images.githubusercontent.com/44331989/53148602-946a6500-35ee-11e9-8d84-708e17c159c0.JPG"><br>
 
+### Controller의 return type
+스프링 MVC의 구조가 기존의 상속과 인터페이스에서 어노테이션을 사용하는 방식으로 변한 이후 가장 큰 변화 중 하나는 return type이 자유로워 졌다는 점임<br>
+Controller의 method가 사용할 수 있는 return type은 주로 다음과 같음<br>
+* String: jsp를 이용하는 경우에는 jsp파일의 경로와 파일이름을 나타내기 위해서 사용함<br>
+* void: 호출하는 URL과 동일한 이름의 jsp를 의미함<br>
+* VO, DTO 타입: 주로 JSON type의 데이터를 만들어서 반환하는 용도로 사용됨<br>
+* ResponseEntity 타입: response 할 때 Http 헤더 정보와 내용을 가공하는 용도로 사용함<br>
+* Model, ModelAndView: Model로 데이터를 반환하거나 화면까지 같이 지정하는 경우에 사용함(최근에는 많이 사용하지 않음)<br>
+* HttpHeaders: 응답에 내용 없이 Http 헤더 메시지만 전달하는 용도로 사용함<br>
+
 
 
 

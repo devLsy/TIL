@@ -153,6 +153,21 @@ Javascript를 이용하는 경우에는 encodeURLComponent()와 같은 방법으
 
 <strong>parameter의 수집을 다른 용어로는 바인딩이라고 하는데 변환이 가능한 데이터는 자동으로 변환되지만 경우에 따라서 parameter를 변환해서 처리해야 하는 경우도 존재하는데 예를 들면 화면에서 '2018-02-21'과 같이 문자열로 전달 된 데이터를 java.util.Date타입으로 변환하는 과정이 그렇다<br>
 스프링 Controller에서는 @InitBinder를 이용해서 이러한 변환처리를 할 수 있음</strong><br>
+아래와 같이 TodoDTO 클래스를 하나 만들고 dueDate의 변수타입을 java.util.Date로 설정했음
+<img src="https://user-images.githubusercontent.com/44331989/53143371-08027700-35db-11e9-9830-7fcd73ba665d.JPG"><br>
+
+아래와 같이 SampleController에서 /ex03으로 요청받게 매핑 한 뒤
+<img src="https://user-images.githubusercontent.com/44331989/53143420-3d0ec980-35db-11e9-972f-6f111c1a4b7e.JPG"><br>
+
+브라우저에서 http://localhost:9393/sample/ex03?title=test&dueDate=2018-02-21 이런식으로 호출을 하면 아래처럼 400 에러가 발생한다.
+<img src="https://user-images.githubusercontent.com/44331989/53143479-75160c80-35db-11e9-90ec-444f2c1a952a.JPG"><br>
+
+이를 해결하기 위해 SampleController에서 아래처럼 @InitBinder를 이용해서 작업을 해준다.<br>
+<img src="https://user-images.githubusercontent.com/44331989/53143515-a5f64180-35db-11e9-8fb0-42985e0aa532.JPG"><br>
+
+
+
+
 
 
 

@@ -275,6 +275,7 @@ WAS의 구동 중 가장 흔한 에러와 관련된 HTTP 상태코드는 '404'�
 일반적으로 웹 프로젝트는 아래처럼 3-tier(티어)방식으로 구성됨<br>
 <img src="https://user-images.githubusercontent.com/44331989/53160902-33518a00-360c-11e9-8c0a-d5549a2ebdf8.jpg"><br>
 
+<img src="https://user-images.githubusercontent.com/44331989/53218435-77da3580-369f-11e9-933a-55319f04b867.jpg"><br>
 
 
 

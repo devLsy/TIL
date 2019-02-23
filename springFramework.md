@@ -87,10 +87,14 @@ SampleController 클래스가 스프링에서 관리되면 아래 이미지와 �
 
 <img src="https://user-images.githubusercontent.com/44331989/52997564-3ad62f00-3464-11e9-984d-d620944a922d.JPG"><br><p>
 
+<hr>
+
 ### RequestMapping의 변화
 @Controller 어노테이션은 추가적인 속성을 지정할 수 없지만 @RequestMapping은 몇 가지의 속성을 추가할 수 있는데 그중 많이 사용하는 속성이
 method 속성이고 흔히 GET방식, POST 방식을 구분해서 사용할 때 이용되며 스프링 4.3버전에서는 @RequestMapping을 줄여서 사용할 수 있는 @GetMapping, @PostMapping이 등장하는데 축약형의 표현이므로 기존의 @RequestMapping과 비교해서 학습하는 걸 권장<br>
 @RequestMapping은 POST, GET 방식 둘다 지원해야 하는 경우네느 배열로 처리해서 지정할 수 있고 일반적으로는 GET, POST방식만을 사용하지만 최근에는 PUT, DELETE 방식 등도 점점 많이 사용하고 있음, @GetMapping의 경우 오직 GET방식에만 사용할 수 있으므로 간편하지만 기능에 대한 제한은 많은 편임<br>
+
+<hr>
 
 ### Controller의 parameter 수집
 Controller를 작성할 때 가장 편리한 기능은 parameter가 자동으로 수집되는 기능임, 이 기능을 이용하면 매번 request.getParameter()를 이용하는 불편함을 없앨 수 있음<br>
@@ -107,6 +111,8 @@ method에는 @GetMapping이 사용되었으므로, 아래와 같이 브라우저
 아래와 같이 Tomcat의 log에 호출한 parameter값이 찍히는걸 확인할 수 있음<strong>(주목할 점은 자동으로 타입을 변환해서 처리한다는 점)</strong><br>
 <img src="https://user-images.githubusercontent.com/44331989/53060661-9fde6300-34fe-11e9-9249-21ac057cf689.JPG"><br><p>
 
+<hr>
+
 ### parameter의 수집과 변환
 Controller가 parameter를 수집하는 방식은 parameter type에 따라 자동으로 변환하는 방식을 이용함<br>
 예를 들어 위읫 SampleDTO에는 int type으로 선언된 age가 자동으로 숫자로 변환되는 것을 볼수 있음<br>
@@ -117,7 +123,9 @@ Controller가 parameter를 수집하는 방식은 parameter type에 따라 자�
 위에서는 @RequestParam 어노테이션을 사용했는데 @RequestParam은 parameter로 하나 이상의 parameter를 받을 때(사용된 변수의 이름과 전달되는 parameter의 이름이 다른 경우에 유용하게 사용됨)사용됨, 단점이 있는데 넘어오는 requestParam중 @RequestParam에서 지정한 키값이 존재하지 않다면 BabRequest http 400 에러가 발생함 이를 방지하기 위한 방법 url: https://heavenly-appear.tistory.com/302<br><p>
 브라우저에서 http://localhost:9393/sample/ex02?name=dev&age=98 이런식으로 parameter를 추가해서 호출 시 아래 이미지처럼 이전과 동일하게 데이터가 들어온 것을 확인할 수 있음
 <img src="https://user-images.githubusercontent.com/44331989/53093336-7a7f4280-355a-11e9-9901-f978303b2ea2.JPG"><br><p>
-	
+
+<hr>
+
 ### 리스트, 배열 처리
 동일한 이름의 parameter가 여러 개 전달되는 경우에는 아래 이미지와 같이 ArrayList<> 등을 이용해서 처리가 가능함<br>
 스프링은 parameter의 type을 보고 객체를 생성하므로 parameter의 type은 List<>와 같이 interface type이 아닌 실제적인 class type으로 지정해야 함
@@ -132,6 +140,8 @@ Controller가 parameter를 수집하는 방식은 parameter type에 따라 자�
 브라우저에서 http://localhost:9393/sample/ex02Array?ids=dev&ids=good&ids=tel 이렇게 호출 시 아래 이미지 처럼 데이터가 들어옴<br>
 
 <img src="https://user-images.githubusercontent.com/44331989/53094456-84ef0b80-355d-11e9-9c3c-79520bd5c28a.JPG"><br>
+
+<hr>
 
 ### 객체 리스트
 만일 전달하는 데이터가 SampleDTO와 같이 객체 타입이고 여러 개를 처리해야 한다면 약간의 작업으로 한번에 처리 가능<br>
@@ -171,11 +181,15 @@ Javascript를 이용하는 경우에는 encodeURLComponent()와 같은 방법으
 그 후 다시 브라우저에서 http://localhost:9393/sample/ex03?title=test&dueDate=2018-02-21로 호출 하면 아래와 같이 타입이 변환되어 값이 들어옴<br>
 <img src="https://user-images.githubusercontent.com/44331989/53143762-c70b6200-35dc-11e9-8243-d68b4792c27c.JPG"><br>
 
+<hr>
+
 ### @InitBinder 외에 또 다른 방법
 아래와 같이 parameter로 사용되는 인스턴스 변수에 @DateTimeFormat을 적용해도 변환이 가능함(이 경우에는 @InitBinder가 필요 없음)<br>
 <img src="https://user-images.githubusercontent.com/44331989/53143942-8bbd6300-35dd-11e9-855f-43e2ba7a0473.JPG"><br>
 브라우저에서 dueDate의 형식이 2018/02/21으로 호출(http://localhost:9393/sample/ex03?title=test&dueDate=2018/02/21)할 경우 @InitBinder를 사용했을 때와 동일하게 타입이 변환되어 값이 들어옴<br><p>
-	
+
+<hr>
+
 ### @ModelAttribute 어노테이션
 스프링MVC의 Controller는 기본적으로 Java Beans 규칙에 맞는 객체는 다시 화면으로 객체를 전달함<br>
 좁은 의미에서 Java Beans 규칙은 단순히 생성자가 없거나 빈 생성자를 가져야 하며, getter/setter를 가진 클래스의 객체들을 의미함<br>
@@ -198,12 +212,16 @@ jsp에서 Model에서 받아온 값을 출력하는 건 아래와 같음<br>
 <img src="https://user-images.githubusercontent.com/44331989/53145247-ce356e80-35e2-11e9-9e2a-aea7663c98d4.JPG"><br>
 ${"Controller의 Model객체에서 설정한 변수명을 입력"}<br>
 
+<hr>
+
 ### RedirectAttribute
 Model 타입과 더불어서 스프링 MVC가 자동으로 전달해 주는 타입 중에는 RedirectAttribute 타입이 존재함<br>
 RedirectAttribute는 조금 특별하게도 일회성으로 데이터를 전달하는 용도로 사용됨<br>
 RedirectAttribute는 기존에 Servlet에서 response.sendRedirect()를 사용할 때와 동일한 용도로 사용됨<br>
 아래 이미지처럼 RedirectAttribute는 Model과 같이 parameter로 선언해서 사용하고 addFlashAttribute(이름, 값) 메서드를 이용해서 화면에 한번만 사용하고 다음에는 사용하지 않는 데이터를 전달하기 위해서 사용됨<br>
 <img src="https://user-images.githubusercontent.com/44331989/53148602-946a6500-35ee-11e9-8d84-708e17c159c0.JPG"><br>
+
+<hr>
 
 ### Controller의 return type
 스프링 MVC의 구조가 기존의 상속과 인터페이스에서 어노테이션을 사용하는 방식으로 변한 이후 가장 큰 변화 중 하나는 return type이 자유로워 졌다는 점임<br>
@@ -214,6 +232,8 @@ Controller의 method가 사용할 수 있는 return type은 주로 다음과 같
 * ResponseEntity 타입: response 할 때 Http 헤더 정보와 내용을 가공하는 용도로 사용함<br>
 * Model, ModelAndView: Model로 데이터를 반환하거나 화면까지 같이 지정하는 경우에 사용함(최근에는 많이 사용하지 않음)<br>
 * HttpHeaders: 응답에 내용 없이 Http 헤더 메시지만 전달하는 용도로 사용함<br>
+
+<hr>
 
 ### @ResponseBody
 return 되는 데이터가 view를 통해서 출력되지 않고 HTTP Response Body에 직접 쓰여지게 됨<br>
@@ -226,6 +246,8 @@ return 되는 데이터가 view를 통해서 출력되지 않고 HTTP Response B
 아래와 같이 JSON type으로 변환되어 브라우저에 전달됨<br>
 <img src="https://user-images.githubusercontent.com/44331989/53153121-d00b2c00-35fa-11e9-9913-0cb18a21e07b.JPG"><br>
 
+<hr>
+
 ### ResponseEntity
 HTTP protocol의 header를 다룰 경우에 스프링 MVC에서는 HttpServletRequest나 HttpServletResponse를 직접 핸들링하지 않아도 이런 작업이 가능하게 되어 있음<br>
 이러한 처리를 위해 ResponseEntity를 통해서 원하는 헤더 정보나 데이터를 전달할 수 있음<br>
@@ -236,11 +258,15 @@ ResponseEntity는 HttpHeaders 객체를 같이 전달할 수 있고, 이를 통�
 Header Message가 잘 들어왔고 개발자도구에서 보면 200 OK라는 상태코드가 전달됨이 확인 됨<br>
 <img src="https://user-images.githubusercontent.com/44331989/53154089-4741bf80-35fd-11e9-9da4-55025caa9ab5.JPG"><br>
 
+<hr>
+
 ### Controller의 Exception 처리
 Controller를 작성할 때 예외 상황을 고려하면 처리해야 하는 작업이 엄청나게 늘어날 수 밖에 없는데 스프링 MVC에서는 이러한 작업을 다음과 같은 방식으로 처리할 수 있음<br>
 
 * @ExceptionHandler와 @ControllerAdvice를 이용한 처리
 * @ResponseEntity를 이용하는 예외 메시지 구성
+
+<hr>
 
 #### ControllerAdvice
 @ControllerAdvice는 스프링의 AOP(Aspect-Oriented-Programming)을 이용하는 방식(간단히 언급하면 핵심적인 로직은 아니지만 프로그램에서 필요한 '공통적인 관심사(cross-concern)는 분리'하자는 개념임)<br>
@@ -257,6 +283,8 @@ model에 Exception을 담아서 예외 발생 시 에러 페이지로 넘겨서 
 에러 페이지가 정상적으로 출력되는 지 확인하기 위해서 브라우저에서 고의로 parameter를 넣지 않고 호출한 결과는 아래 이미지와 같음<br>
 <img src="https://user-images.githubusercontent.com/44331989/53158180-5f6a0c80-3606-11e9-85e1-30bd99cc9ffb.JPG"><br>
 
+<hr>
+
 ### 404 에러 페이지 처리
 WAS의 구동 중 가장 흔한 에러와 관련된 HTTP 상태코드는 '404'와 '500' 에러코드 임<br>
 500 메시지는 'Internal Server Error'이므로 @ExceptionHandler를 이용해서 처리되지만, 잘못된 URL을 호출할 때 보이는 404 에러 메시지의 경우는 조금 다르게 처리하는 것이 좋음<br>
@@ -271,12 +299,15 @@ WAS의 구동 중 가장 흔한 에러와 관련된 HTTP 상태코드는 '404'�
 404처리에 해당되는 jsp도 작성 후 브라우저에서 고의로 없는 URL을 호출 하면 정상적으로 작성한 404처리 페이지가 아래처럼 호출됨<br>
 <img src="https://user-images.githubusercontent.com/44331989/53159392-25e6d080-3609-11e9-88bb-53fb8d397f00.JPG"><br>
 
+<hr>
+
 ## 스프링 MVC프로젝트의 기본 구성
 일반적으로 웹 프로젝트는 아래처럼 3-tier(티어)방식으로 구성됨<br>
 <img src="https://user-images.githubusercontent.com/44331989/53160902-33518a00-360c-11e9-8c0a-d5549a2ebdf8.jpg"><br>
 
 <img src="https://user-images.githubusercontent.com/44331989/53218435-77da3580-369f-11e9-933a-55319f04b867.jpg"><br>
 
+<hr>
 
 ## 단위테스트 jUnit
 <strong>단위테스트 하기 위해 매번 Tomcat을 실행하지 않고도 jUnit 테스트 도구를 이용해서 Tomcat 실행 없이 springFramework를 구동시켜서 DB Connection, CRUD등의 테스트가 가능함, 매우 효율적이므로 개발 시에 항상 작성하는 습관을 기르도록 하자, 스프링5 버전의 경우 pom.xml에서 jUnit 버전을 4.12 이상으로 해야 한다고 함,<strong> 아래는 HikariCP를 이용한 Connection Pool Test 예제 이미지임<br>
@@ -284,6 +315,8 @@ WAS의 구동 중 가장 흔한 에러와 관련된 HTTP 상태코드는 '404'�
 <img src="https://user-images.githubusercontent.com/44331989/53281250-cef80d00-3768-11e9-89b6-db63d2c69c8c.JPG"><br>
 root-context-xml 설정은 아래와 같음<br>
 <img src="https://user-images.githubusercontent.com/44331989/53281367-85a8bd00-376a-11e9-95b1-9764885b79fc.JPG"><br>
+
+<hr>
 
 ## 프레젠테이션(웹)계층의 CRUD 구현 시 Mock Test
 과거에는 view페이지를 만든 뒤 Tomcat을 실행하고 웹 페이지에서 결과를 확인하는 방식의 코드를 작성해 왔는데, 이 방식은 시간도 오래 걸리고 테스트를 자동화 하기에도 어려움이 많아서 Mock을 이용해서 Controller를 테스트 하는 방식이 있음<br>

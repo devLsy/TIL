@@ -322,7 +322,7 @@ root-context-xml 설정은 아래와 같음<br>
 
 <hr>
 
-## 프레젠테이션(웹)계층의 CRUD 구현 시 Mock Test
+## 프레젠테이션(웹)계층의 CRUD 구현 시 Mock mvc Test
 과거에는 view페이지를 만든 뒤 Tomcat을 실행하고 웹 페이지에서 결과를 확인하는 방식의 코드를 작성해 왔는데, 이 방식은 시간도 오래 걸리고 테스트를 자동화 하기에도 어려움이 많아서 Mock을 이용해서 Controller를 테스트 하는 방식이 있음<br>
 MockMvc는 말 그대로 '가짜 mvc'라고 생각하면 되고, 가짜로 URL과 parameter 등을 브라우저에서 사용하는 것처럼 만들어서 Controller를 실행 해 볼 수 있음<br>
 

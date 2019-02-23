@@ -283,7 +283,7 @@ WAS의 구동 중 가장 흔한 에러와 관련된 HTTP 상태코드는 '404'�
 @RunWith, @ContextConfiguration 어노테이션등을 사용해서 설정한다. <h3>자세한 설명은 구글신에게<h3>
 <img src="https://user-images.githubusercontent.com/44331989/53281250-cef80d00-3768-11e9-89b6-db63d2c69c8c.JPG"><br>
 root-context-xml 설정은 아래와 같음<br>
-<img src="https://user-images.githubusercontent.com/44331989/53281333-dc61c700-3769-11e9-8b6c-75a09b8461b8.JPG"><br>
+<img src="ttps://user-images.githubusercontent.com/44331989/53281359-6a3db200-376a-11e9-9869-445da2ea8618.JPG"><br>
 
 ## 프레젠테이션(웹)계층의 CRUD 구현 시 Mock Test
 과거에는 view페이지를 만든 뒤 Tomcat을 실행하고 웹 페이지에서 결과를 확인하는 방식의 코드를 작성해 왔는데, 이 방식은 시간도 오래 걸리고 테스트를 자동화 하기에도 어려움이 많아서 Mock을 이용해서 Controller를 테스트 하는 방식이 있음<br>

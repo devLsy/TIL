@@ -349,7 +349,12 @@ MockMvcRequestBuilders.post().param("name", "value")이런식으로 추가하면
 <img src="https://user-images.githubusercontent.com/44331989/53282001-1ab0b380-3775-11e9-943f-33c6895f02b2.JPG"><br>
 
 위의 테스트 코드를 실행한 결과값은 아래와 같음<br>
-<img src=""><br>
+<img src="https://user-images.githubusercontent.com/44331989/53282025-5c415e80-3775-11e9-93a5-a670f6385d72.JPG"><br>
+
+아래 이미지처럼 실제로 DB에도 정상적으로 등록이 된것을 확인 할 수 있음<br>
+<img src="https://user-images.githubusercontent.com/44331989/53282067-dffb4b00-3775-11e9-84c5-e7572b5b69d6.JPG"><br>
+
+
 
 
 

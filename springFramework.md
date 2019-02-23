@@ -336,6 +336,9 @@ MockMvc는 말 그대로 '가짜 mvc'라고 생각하면 되고, 가짜로 URL�
 @Before 어노테이션이 적용된 method는 모든 테스트 전에 매번 실행되는 method가 됨, @Before는 import 시 jUnit을 이용해야 함<br>
 MockMvcRequestBuilders라는 존재를 이용해서 GET 방식의 호출을 하고 이후에는 BoardController의 getList()에서 반환된 결과를 이용해서 model에 담겨진 데이터들을 확인함<br>
 
+아래는 jUnit으로 테스트 한 결과값임, model에 담긴 값이 정상적으로 확인 됨<br>
+<img src="https://user-images.githubusercontent.com/44331989/53281561-f3a2b380-376d-11e9-8723-0b2586dd8874.JPG"><br>
+
 
 
 

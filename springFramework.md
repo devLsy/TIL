@@ -331,6 +331,13 @@ MockMvc는 말 그대로 '가짜 mvc'라고 생각하면 되고, 가짜로 URL�
 
 그 다음 아래 이미지처럼 테스트 코드는 웹을 개발할 때 매번 URL을 테스트 하기 위해 Tomcat을 실행하는 불편한 단계를 생략하기 위해서 기존과 다르게 작성<br>
 <img src="https://user-images.githubusercontent.com/44331989/53281481-6b6fde80-376c-11e9-9faa-84725a3da40b.JPG"><br>
+@WebAppConfiguration 어노테이션은 Servlet의 ServletContext를 이용하기 위해서인데, 스프링에서는 WebApplicationContext라는 존재를 이용하기 위해서임<br>
+
+@Before 어노테이션이 적용된 method는 모든 테스트 전에 매번 실행되는 method가 됨, @Before는 import 시 jUnit을 이용해야 함<br>
+MockMvcRequestBuilders라는 존재를 이용해서 GET 방식의 호출을 하고 이후에는 BoardController의 getList()에서 반환된 결과를 이용해서 model에 담겨진 데이터들을 확인함<br>
+
+
+
 
 
 

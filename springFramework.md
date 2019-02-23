@@ -279,7 +279,7 @@ WAS의 구동 중 가장 흔한 에러와 관련된 HTTP 상태코드는 '404'�
 
 
 ## 단위테스트 jUnit
-<strong>단위테스트 하기 위해 매번 Tomcat을 실행하지 않고도 jUnit 테스트 도구를 이용해서 springFramework를 구동시켜서 DB Connection, CRUD등의 테스트가 가능함, 매우 효율적이므로 개발 시에 항상 작성하는 습관을 기르도록 하자<strong>
+<strong>단위테스트 하기 위해 매번 Tomcat을 실행하지 않고도 jUnit 테스트 도구를 이용해서 Tomcat 실행 없이 springFramework를 구동시켜서 DB Connection, CRUD등의 테스트가 가능함, 매우 효율적이므로 개발 시에 항상 작성하는 습관을 기르도록 하자<strong>
 아래는 사용 예제 이미지임<br>
 @RunWith, @ContextConfiguration 어노테이션등을 사용해서 설정한다. <h3>자세한 설명은 구글신에게<h3>
 <img src="https://user-images.githubusercontent.com/44331989/53281250-cef80d00-3768-11e9-89b6-db63d2c69c8c.JPG"><br>

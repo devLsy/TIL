@@ -277,7 +277,15 @@ WAS의 구동 중 가장 흔한 에러와 관련된 HTTP 상태코드는 '404'�
 
 <img src="https://user-images.githubusercontent.com/44331989/53218435-77da3580-369f-11e9-933a-55319f04b867.jpg"><br>
 
-## Moc
+## 프레젠테이션(웹)계층의 CRUD 구현 시 Mock Test
+과거에는 view페이지를 만든 뒤 Tomcat을 실행하고 웹 페이지에서 결과를 확인하는 방식의 코드를 작성해 왔는데, 이 방식은 시간도 오래 걸리고 테스트를 자동화 하기에도 어려움이 많아서 Mock을 이용해서 Controller를 테스트 하는 방식이 있음<br>
+
+우선 아래처럼 BoardController에서 게시글 전체 목록을 가져오는 예제 코드를 작성함<br>
+<img src="https://user-images.githubusercontent.com/44331989/53281184-b4716400-3767-11e9-80ea-79a4af66602e.JPG"><br>
+
+
+
+
 
 
 

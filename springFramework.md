@@ -339,6 +339,11 @@ MockMvcRequestBuilders라는 존재를 이용해서 GET 방식의 호출을 하�
 아래는 jUnit으로 테스트 한 결과값임, model에 담긴 값이 정상적으로 확인 됨<br>
 <img src="https://user-images.githubusercontent.com/44331989/53281561-f3a2b380-376d-11e9-8723-0b2586dd8874.JPG"><br>
 
+MockMvc를 이용해서 parameter의 값을 전달해야 하는 경우에는 아래와 같이 처리함<br>
+아래는 BoardController의 내용<br>
+<img src="https://user-images.githubusercontent.com/44331989/53281880-27cca300-3773-11e9-9668-81a86c176f34.JPG"><br>
+
+
 
 
 

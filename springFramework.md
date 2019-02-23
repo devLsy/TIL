@@ -283,6 +283,8 @@ WAS의 구동 중 가장 흔한 에러와 관련된 HTTP 상태코드는 '404'�
 우선 아래처럼 BoardController에서 게시글 전체 목록을 가져오는 예제 코드를 작성함<br>
 <img src="https://user-images.githubusercontent.com/44331989/53281184-b4716400-3767-11e9-80ea-79a4af66602e.JPG"><br>
 
+그 다음 테스트 코드는 웹을 개발할 때 매번 URL을 테스트 하기 위해 Tomcat을 실행하는 불편한 단계를 생략하기 위해서 기존과 다르게 작성<br>
+
 
 
 

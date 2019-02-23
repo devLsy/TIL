@@ -315,6 +315,8 @@ WAS의 구동 중 가장 흔한 에러와 관련된 HTTP 상태코드는 '404'�
 <img src="https://user-images.githubusercontent.com/44331989/53281250-cef80d00-3768-11e9-89b6-db63d2c69c8c.JPG"><br>
 root-context-xml 설정은 아래와 같음<br>
 <img src="https://user-images.githubusercontent.com/44331989/53281367-85a8bd00-376a-11e9-95b1-9764885b79fc.JPG"><br>
+결과는 아래와 같이 성공<br>
+<img src="https://user-images.githubusercontent.com/44331989/53281400-20a19700-376b-11e9-8cc8-2c2bd61204e1.JPG"><br>
 
 <hr>
 

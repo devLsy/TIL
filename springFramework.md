@@ -342,7 +342,7 @@ MockMvcRequestBuilders라는 존재를 이용해서 GET 방식의 호출을 하�
 MockMvc를 이용해서 parameter의 값을 전달해야 하는 경우에는 아래와 같이 처리함(parameter의 값 전달 시 문자열로만 처리해야 함<br>
 아래는 BoardController의 내용<br>
 <img src="https://user-images.githubusercontent.com/44331989/53281880-27cca300-3773-11e9-9668-81a86c176f34.JPG"><br>
-url Mapping을 "/register"로 하고 parameter로 BoardVO 객체, bno의 값도 전달하기 위해서 RedirectAttributes객체를 받았다<br>
+url Mapping을 "/board/register"로 하고 parameter로 BoardVO 객체, bno의 값도 전달하기 위해서 RedirectAttributes객체를 받았다<br>
 
 아래는 위의 resister() method를 테스트 하기 위한 테스트 코드임<br>
 MockMvcRequestBuilders.post().param("name", "value")이런식으로 추가하면 됨<br>

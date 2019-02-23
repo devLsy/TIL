@@ -346,9 +346,10 @@ url Mapping을 "/register"로 하고 parameter로 BoardVO 객체, bno의 값도 
 
 아래는 위의 resister() method를 테스트 하기 위한 테스트 코드임<br>
 MockMvcRequestBuilders.post().param("name", "value")이런식으로 추가하면 됨<br>
-<img src="https://user-images.githubusercontent.com/44331989/53281926-e092e200-3773-11e9-816e-4ea7f68efff1.JPG"><br>
+<img src="https://user-images.githubusercontent.com/44331989/53282001-1ab0b380-3775-11e9-943f-33c6895f02b2.JPG"><br>
 
-
+위의 테스트 코드를 실행한 결과값은 아래와 같음<br>
+<img src=""><br>
 
 
 

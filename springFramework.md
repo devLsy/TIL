@@ -345,7 +345,8 @@ MockMvc를 이용해서 parameter의 값을 전달해야 하는 경우에는 아
 url Mapping을 "/register"로 하고 parameter로 BoardVO 객체, bno의 값도 전달하기 위해서 RedirectAttributes객체를 받았다<br>
 
 아래는 위의 resister() method를 테스트 하기 위한 테스트 코드임<br>
-<img src=""><br>
+MockMvcRequestBuilders.post().param("name", "value")이런식으로 추가하면 됨<br>
+<img src="https://user-images.githubusercontent.com/44331989/53281926-e092e200-3773-11e9-816e-4ea7f68efff1.JPG"><br>
 
 
 

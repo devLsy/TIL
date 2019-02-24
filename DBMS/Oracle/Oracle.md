@@ -4,6 +4,6 @@
 <strong>(ex)INSERT INTO tbl_board (bno, title, content, writer)<br>
     (SELECT SEQ_BOARD.nextval, title, content, writer FROM tbl_board);</strong><br>
 위의 경우는 tbl_board 테이블의 데이터 수만큼 insert를 진행하는 예제 쿼리문임<br>
-
+반복할 경우 2배씩 증가함<br>
 
 

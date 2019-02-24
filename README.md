@@ -10,7 +10,7 @@
 <h3>CSS: https://github.com/devLsy/TIL/blob/master/css.md </h3> <br>
 <h3>springFramework: https://github.com/devLsy/TIL/blob/master/springFramework.md </h3> <br>
 <h3>ETC: https://github.com/devLsy/TIL/blob/master/devEtc.md </h3> <br>
-<h3>전자정부프레임워크: https://github.com/devLsy/TIL/blob/master/egovframework.md </h3> <br>
+<h3>전자정부프레임워크: https://github.com/devLsy/TIL/blob/master/egovFramework/egovframework.md </h3> <br>
 <h3>deploy: https://github.com/devLsy/TIL/blob/master/jenkins.md </h3> <br>
 
 

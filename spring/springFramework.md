@@ -363,7 +363,10 @@ https://epthffh.tistory.com/entry/Mybatis-%EC%97%90%EC%84%9C-CDATA-%EC%82%AC%EC%
 ### pagination
 이건 스프링에만 국한된 기술은 아니고 웹 전반적으로 쓰이는 기술임<br>
 화면에 페이지네이션 처리를 하기 위해서는 우선적으로 크게 다음과 같은 정보들이 필요함<br>
-* 
+* 현재 페이지 번호(page)
+* 이전과 다음으로 이동 가능한 링크의 표시 여부(prev, next)
+* 화면에서 보여지는 페이지의 시작 번호와 끝 번호(startPage, endPage)
+
 
 
 

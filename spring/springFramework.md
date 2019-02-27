@@ -354,13 +354,13 @@ MockMvcRequestBuilders.post().param("name", "value")이런식으로 추가하면
 아래 이미지처럼 실제로 DB에도 정상적으로 등록이 된것을 확인 할 수 있음<br>
 <img src="https://user-images.githubusercontent.com/44331989/53282067-dffb4b00-3775-11e9-84c5-e7572b5b69d6.JPG"><br>
 
-### CDATA
+## CDATA
 mybatis의 xml파일에서 CDATA 섹션 사용하는 경우가 종종 있는데 이는 XML에서 사용할 수 없는 부등호를 사용하기 위함<br>
 XML을 사용하는 경우에는 '<, >' 이런 기호들은 태그로 인식을 하는데 이로 인해 생기는 문제를 막기위해서 CDATA로 감싸는 것임<br>
 참조 url:
 https://epthffh.tistory.com/entry/Mybatis-%EC%97%90%EC%84%9C-CDATA-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0 <br>
 
-### pagination
+## pagination
 이건 스프링에만 국한된 기술은 아니고 웹 전반적으로 쓰이는 기술임<br>
 화면에 페이지네이션 처리를 하기 위해서는 우선적으로 크게 다음과 같은 정보들이 필요함<br>
 * 현재 페이지 번호(page)
@@ -449,7 +449,7 @@ https://epthffh.tistory.com/entry/Mybatis-%EC%97%90%EC%84%9C-CDATA-%EC%82%AC%EC%
 
 
 
-
+<hr>
   
 <h2>20190219 TIL 출처: 코드로 배우는 스프링 웹 프로젝트(개정판)예제</h2>
   

@@ -360,8 +360,10 @@ XML을 사용하는 경우에는 '<, >' 이런 기호들은 태그로 인식을 
 참조 url:
 https://epthffh.tistory.com/entry/Mybatis-%EC%97%90%EC%84%9C-CDATA-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0 <br>
 
-
-
+### pagination
+이건 스프링에만 국한된 기술은 아니고 웹 전반적으로 쓰이는 기술임<br>
+화면에 페이지네이션 처리를 하기 위해서는 우선적으로 크게 다음과 같은 정보들이 필요함<br>
+* 
 
 
 

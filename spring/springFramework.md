@@ -373,7 +373,7 @@ https://epthffh.tistory.com/entry/Mybatis-%EC%97%90%EC%84%9C-CDATA-%EC%82%AC%EC%
 
 2. 바깥쪽 SELECT문에서 인라인뷰에서 나온 1 ~ 20번까지의 데이터 중 조건이 rn이 10보다 큰 데이터만 구함(인라인뷰의 결과중 11번부터 20번까지의 데이터만 조회됨<br>
 (BNO:10589495 ~ BNO:10589486의 데이터에 해당됨)화면에서 2페이지에 해당되는 데이터임)<br>
-<img src=""><br>
+<img src="https://user-images.githubusercontent.com/44331989/54081339-d57cac00-4346-11e9-984a-b7fc6ea50268.JPG"><br>
 
 
 

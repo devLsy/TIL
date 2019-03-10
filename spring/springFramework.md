@@ -375,7 +375,8 @@ https://epthffh.tistory.com/entry/Mybatis-%EC%97%90%EC%84%9C-CDATA-%EC%82%AC%EC%
 (BNO:10589495 ~ BNO:10589486의 데이터에 해당됨)화면에서 2페이지에 해당되는 데이터임)<br>
 <img src="https://user-images.githubusercontent.com/44331989/54081339-d57cac00-4346-11e9-984a-b7fc6ea50268.JPG"><br>
 
-
+이를 mybatis에서 쿼리로 하면 아래와 같음<br>
+<img src="https://user-images.githubusercontent.com/44331989/54081392-a0bd2480-4347-11e9-804b-3ff00e836fd5.JPG"><br>
 
 
 

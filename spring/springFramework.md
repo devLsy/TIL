@@ -368,7 +368,7 @@ https://epthffh.tistory.com/entry/Mybatis-%EC%97%90%EC%84%9C-CDATA-%EC%82%AC%EC%
 * 화면에서 보여지는 페이지의 시작 번호와 끝 번호(startPage, endPage)
 
 #### 오라클을 기준으로 설명
-
+ㅇㅇ
 <img src="https://user-images.githubusercontent.com/44331989/54081290-ab76ba00-4345-11e9-9f39-52fd7b0ac041.JPG"><br>
 
 

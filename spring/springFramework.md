@@ -367,6 +367,8 @@ https://epthffh.tistory.com/entry/Mybatis-%EC%97%90%EC%84%9C-CDATA-%EC%82%AC%EC%
 * 이전과 다음으로 이동 가능한 링크의 표시 여부(prev, next)
 * 화면에서 보여지는 페이지의 시작 번호와 끝 번호(startPage, endPage)
 
+오라클을 기준으로 설명
+<img src="https://user-images.githubusercontent.com/44331989/54081240-9e0d0000-4344-11e9-932e-a4d44f5e763f.JPG"><br>
 
 
 

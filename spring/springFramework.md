@@ -378,9 +378,9 @@ https://epthffh.tistory.com/entry/Mybatis-%EC%97%90%EC%84%9C-CDATA-%EC%82%AC%EC%
 이를 mybatis에서 쿼리로 하면 아래와 같음<br>
 <img src="https://user-images.githubusercontent.com/44331989/54081392-a0bd2480-4347-11e9-804b-3ff00e836fd5.JPG"><br>
 
-### 페이지네이션처리를 위한 공식<br>
-#### 페이징의 끝번호(endPage)계산 공식
-#### 한페이지에 보여줄 게시글의 갯수는 10개라고 가정
+### 페이지네이션처리를 위한 공식 <br>
+#### 페이징의 끝번호(endPage)계산 공식 <br>
+#### 한페이지에 보여줄 게시글의 갯수는 10개라고 가정 <br>
 <img src="https://user-images.githubusercontent.com/44331989/54169570-8b1a3d00-44b6-11e9-899b-4f0ee1662438.JPG"><br>
 
 끝페이지(endPage)는 전체 데이터수(total)에 의해 영향을 받음, 예를 들어 10개씩 보여주는 경우 전체 데이터 수가 80개라고 가정하면 끝번호는 10이 아닌 8이 되어야 함<br>

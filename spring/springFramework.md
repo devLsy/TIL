@@ -378,7 +378,7 @@ https://epthffh.tistory.com/entry/Mybatis-%EC%97%90%EC%84%9C-CDATA-%EC%82%AC%EC%
 이를 mybatis에서 쿼리로 하면 아래와 같음<br>
 <img src="https://user-images.githubusercontent.com/44331989/54081392-a0bd2480-4347-11e9-804b-3ff00e836fd5.JPG"><br>
 
-### 페이지네이션처리를 위한 공식
+### 페이지네이션처리를 위한 공식<br>
 #### 페이징의 끝번호(endPage)계산 공식
 #### 한페이지에 보여줄 게시글의 갯수는 10개라고 가정
 <img src="https://user-images.githubusercontent.com/44331989/54169570-8b1a3d00-44b6-11e9-899b-4f0ee1662438.JPG"><br>

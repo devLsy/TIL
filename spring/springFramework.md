@@ -383,7 +383,13 @@ https://epthffh.tistory.com/entry/Mybatis-%EC%97%90%EC%84%9C-CDATA-%EC%82%AC%EC%
 #### 한페이지에 보여줄 게시글의 갯수는 10개라고 가정
 <img src="https://user-images.githubusercontent.com/44331989/54169570-8b1a3d00-44b6-11e9-899b-4f0ee1662438.JPG"><br>
 
-만일 끝 번호와 
+끝페이지(endPage)는 전체 데이터수(total)에 의해 영향을 받음, 예를 들어 10개씩 보여주는 경우 전체 데이터 수가 80개라고 가정하면 끝번호는 10이 아닌 8이 되어야 함<br>
+그러므로 끝번호(endPage)와 한페이지당 출력되는 데이터의 수(amount)의 곱이 전체데이터 수보다 크다면 끝번호는 다시 전체 데이터를 이용해 다시 계산되어야 함<br>
+먼저 전체 데이터 수(total)를 이용해서 실제 끝 페이지(realEnd)가 몇 번까지 되는지를 계산한 뒤 만일 실제 끝 페이지가 구해둔 끝번호보다 작다면<br>
+실제 끝페이지값을 끝페이지값에 대입해야 함<br>
+이전(prev)의 경우는 시작번호(startPage)가 1보다 큰 경우라면 존재하면 됨<br>
+다음(next)의 경우는 실제 끝번호(realEnd)가 끝번호(endPage)보다 큰 경우에만 존재하면 됨<br>
+
 
 
 

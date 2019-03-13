@@ -391,8 +391,7 @@ https://epthffh.tistory.com/entry/Mybatis-%EC%97%90%EC%84%9C-CDATA-%EC%82%AC%EC%
 실제 끝페이지값을 끝페이지값에 대입해야 함<br>
 이전(prev)의 경우는 시작번호(startPage)가 1보다 큰 경우라면 존재하면 됨, 시작번호가 1보다 큰 경우라면 시작번호가 11인 경우부터 해당됨<br>
 다음(next)의 경우는 실제 끝번호(realEnd)가 끝번호(endPage)보다 큰 경우에만 존재하면 됨<br>
-위의 로직으로 back단에서 페이지네이션 처리에 필요한 데이터들을 구해서 view단에서 jstl등을 이용해서 화면에 표시해주면 됨<br>
-view단에서 페이지네이션 표시할 경우 ul, li태그를 display inline을 이용해서 표시함<br>
+
 
 
 

@@ -399,8 +399,10 @@ https://epthffh.tistory.com/entry/Mybatis-%EC%97%90%EC%84%9C-CDATA-%EC%82%AC%EC%
 UriComponentsBuilder 클래스임, 사용방법은 아래와 같음<br>
 아래는 검색조건을 유지하는 Criteria class인데 여기에 UriComponentsBuilder를 이용해서 parameter를 연결해서 링크를 생성하는 기능을 추가할 수 있음<br>
 <img src="https://user-images.githubusercontent.com/44331989/54660879-79badb80-4b1b-11e9-8e65-d0cd2532a391.PNG"><br>
-getListLink()는 페이지번호, 보여줄 페이지 수, 검색타입, 검색 키워드를 parameter의 값으로 넣은 뒤 uri로 변환한 뒤 return<br>
-controller에서 getListLink()를 불러와서 사용하면 된다.<br>
+getListLink()는 페이지번호, 보여줄 페이지 수, 검색타입, 검색 키워드를 parameter의 값으로 넣은 뒤 uri로 변환한 뒤 return한다.<br>
+
+위에서 반환한 uri는 controller에서 아래와 같이 사용하면 됨<br>
+<img src="https://user-images.githubusercontent.com/44331989/54661308-00bc8380-4b1d-11e9-8b25-165f72b3f573.PNG"><br>
 
 
 

@@ -393,6 +393,12 @@ https://epthffh.tistory.com/entry/Mybatis-%EC%97%90%EC%84%9C-CDATA-%EC%82%AC%EC%
 다음(next)의 경우는 실제 끝번호(realEnd)가 끝번호(endPage)보다 큰 경우에만 존재하면 됨<br>
 위와 같이 back단(java)에서 구한 데이터를 가지고 controller에서 model에 담은 뒤 화면단(jsp)으로 보낸 후 화면단에서 해당 데이터를 표시해주면 됨<br>
 
+### UriComponentsBuilder
+게시판에서 검색한 결과값이 글 수정, 조회를 해도 계속 페이지에 결과값이 유지되어야 하는 경우가 필요함<br>
+이 때 화면에서 form에 input hidden 속성으로 데이터를 담아서 javascript로 동적으로 form action을 변경시켜서 전송해서 하는데 이 작업을 줄여줄 수 있는게<br>
+UriComponentsBuilder 클래스임, 사용방법은 아래와 같음<br>
+아래는 검색조건을 유지하는 Criteria class인데 여기에 UriComponentsBuilder를 이용해서 parameter를 연결해서 링크를 생성하는 기능을 추가할 수 있음<br>
+<img src="https://user-images.githubusercontent.com/44331989/54660879-79badb80-4b1b-11e9-8e65-d0cd2532a391.PNG"><br>
 
 
 

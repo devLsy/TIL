@@ -391,6 +391,7 @@ https://epthffh.tistory.com/entry/Mybatis-%EC%97%90%EC%84%9C-CDATA-%EC%82%AC%EC%
 실제 끝페이지값을 끝페이지값에 대입해야 함<br>
 이전(prev)의 경우는 시작번호(startPage)가 1보다 큰 경우라면 존재하면 됨, 시작번호가 1보다 큰 경우라면 시작번호가 11인 경우부터 해당됨<br>
 다음(next)의 경우는 실제 끝번호(realEnd)가 끝번호(endPage)보다 큰 경우에만 존재하면 됨<br>
+위와 같이 back단(java)에서 구한 데이터를 가지고 controller에서 model에 담은 뒤 화면단(jsp)으로 보낸 후 화면단에서 해당 데이터를 표시해주면 됨<br>
 
 
 

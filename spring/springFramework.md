@@ -408,7 +408,7 @@ getListLink()는 페이지번호, 보여줄 페이지 수, 검색타입, 검색 
 결과는 아래와 같음<br>
 <img src="https://user-images.githubusercontent.com/44331989/54661508-d1f2dd00-4b1d-11e9-9864-7935ced6a9f6.PNG"><br>
 /board/list 뒤에 GET방식과 흡사하게 parameter의 값들이 전달된 것이 확인됨<br>
-가장 편리한 점은 한글 처리에 신경 쓰지 않아도 된다고 함<br>
+가장 편리한 점은 한글 처리에 신경 쓰지 않아도 된다고 하고, 주로 javascript를 사용할 수 없는 상황에서 링크를 처리해야 하는 경우에 사용된다고 함<br>
 
 
 

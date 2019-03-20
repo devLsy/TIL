@@ -406,7 +406,8 @@ getListLink()는 페이지번호, 보여줄 페이지 수, 검색타입, 검색 
 페이지 수정 후 /board/list로 redirect하면서 cri.getListLink()를 더한값을 return한다<br>
 
 결과는 아래와 같음<br>
-
+<img src="https://user-images.githubusercontent.com/44331989/54661508-d1f2dd00-4b1d-11e9-9864-7935ced6a9f6.PNG"><br>
+/board/list 뒤에 GET방식과 흡사하게 parameter의 값들이 전달된 것이 확인됨<br>
 
 
 

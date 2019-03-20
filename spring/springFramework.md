@@ -403,6 +403,9 @@ getListLink()는 페이지번호, 보여줄 페이지 수, 검색타입, 검색 
 
 위에서 반환한 uri는 controller에서 아래와 같이 사용하면 됨<br>
 <img src="https://user-images.githubusercontent.com/44331989/54661308-00bc8380-4b1d-11e9-8b25-165f72b3f573.PNG"><br>
+페이지 수정 후 /board/list로 redirect하면서 cri.getListLink()를 return한다<br>
+
+결과는 아래와 같음<br>
 
 
 

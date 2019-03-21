@@ -446,6 +446,12 @@ HTTP의 상태코드와 에러 메시지등과 함께 데이터를 전달할 수
 check method는 반드시 parameter의 값으로 'height', 'weight'를 전달 받음, 이 때 height의 값이 150보다 작으면<br>
 502(bad gateway)상태코드와 데이터를 전송, 그렇지 않다면 200(ok)코드와 데이터를 전송함<br>
 
+아래는 브라우저에서 호출한 결과값임<br>
+<img src="https://user-images.githubusercontent.com/44331989/54748617-7c99f700-4c15-11e9-8f01-2cc32c101f6f.PNG"><br>
+위는 데이터이고
+
+<img src="https://user-images.githubusercontent.com/44331989/54748701-b3700d00-4c15-11e9-831e-53206ce61544.PNG"><br>
+위는 브라우저에 전송된 상태코드임, parameter값으로 height가 150이므로 정상적으로 200상태코드가 전송되었음<br>
 
 
 

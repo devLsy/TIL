@@ -479,6 +479,21 @@ http://localhost:9595/sample/{sno}/page/{pno} <br>
 <img src="https://user-images.githubusercontent.com/44331989/54749599-6477a700-4c18-11e9-95c7-51f809c4192e.PNG"><br>
 위와 같이 호출하면 cat과 pid 변수의 값으로 처리되는 것을 확인할 수 있음<br>
 
+#### @RequestBody
+@RequestBody는 전달된 요청(Request)의 내용(body)을 이용해서 해당 parameter의 타입으로 반환을 요구함<br>
+내부적으로 HttpMessageConverter 타입의 객체들을 이용해서 다양한 포맷의 입력 데이터를 변환할 수 있음<br>
+대부분의 경우에는 JSON 데이터를 서버에 보내서 원하는 타입의 객체로 변환하는 용도로 사용되지만, 경우에 따라서는 원하는 포맷의 데이터를 보내고<br>
+이를 해석해서 원하는 타입으로 사용하기도 함<br>
+변환을 위한 예제를 위해서 VO로 사용할 Ticket 클래스를 생성했다고 가정함<br>
+
+아래는 Ticket을 사용하는 Controller 예제임<br>
+<img src="https://user-images.githubusercontent.com/44331989/54750101-efa56c80-4c19-11e9-9d90-32dcf6587278.PNG"><br>
+위의 method는 다른 예제와 다르게 @PostMapping이 적용되었는데 이것은 @RequestBody가 말 그대로 요청(Request)한 내용(body)을 처리하기 때문에<br> 일반적인 parameter 전달방식을 사용할 수 없기 때문임<br>
+이 경우에는 JUnit 기반의 테스트에서는 MockMVC를 이용할 수 있음<br>
+
+아래는 jUnit 기반의 테스트 예제임<br>
+<img src="https://user-images.githubusercontent.com/44331989/54750351-b0c3e680-4c1a-11e9-837f-c549357a6c2d.PNG"><br>
+
 
 
 

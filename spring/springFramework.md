@@ -464,15 +464,20 @@ RestController는 기존의 @Controller에서 사용하던 일반적인 타입�
 REST 방식에서는 경로의 일부로 차용되는 경우가 많음<br>
 
 Spring MVC에서는 @PathVariable 어노테이션을 이용해서 URL 상에 경로의 일부를 parameter로 사용할 수 있음<br>
-"http://localhost:9595/sample{sno}" <br>
-"http://localhost:9595/sample/{sno}/page/{pno}" <br>
+http://localhost:9595/sample{sno} <br>
+http://localhost:9595/sample/{sno}/page/{pno} <br>
 위의 URL에서 '{}'로 처리된 부분은 Controller의 method에서 변수로 처리가 가능함<br>
 @PathVariable은 '{}'의 이름을 처리할 때 사용함, REST 방식에서는 URL 자체에 데이터를 식별할 수 있는 정보들을 표현하는 경우가 많으므로<br>
 다양한 방식으로 @PathVariable이 사용됨<br>
 아래는 예제 method임<br>
 
 <img src="https://user-images.githubusercontent.com/44331989/54749452-e74c3200-4c17-11e9-8160-8aee76f03124.PNG"><br>
+@PathVariable을 적용하고 싶은 경우에는 '{}'를 이용해서 변수명을 지정하고, @PathVariable을 이용해서 지정된 이름의 변숫값을 얻을 수 있음<br>
+값을 얻을 때에는 int, double과 같은 기본 자료형은 사용할 수 없음<br>
 
+아래는 브라우저에서 호출한 결과값임<br>
+<img src="https://user-images.githubusercontent.com/44331989/54749599-6477a700-4c18-11e9-95c7-51f809c4192e.PNG"><br>
+위와 같이 호출하면 cat과 pid 변수의 값으로 처리되는 것을 확인할 수 있음<br>
 
 
 

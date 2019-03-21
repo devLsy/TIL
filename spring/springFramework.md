@@ -431,6 +431,8 @@ REST와 관련해서 알아둘 필요가 있는 어노테이션은 아래와 같
 위의 실행결과는 아래와 같음<br>
 <img src="https://user-images.githubusercontent.com/44331989/54747846-51aea380-4c13-11e9-968f-369e1453c279.PNG"><br>
 
+개발자도구를 이용해 브라우저에 전송된 데이터의 produces 속성값이 컨트롤러에서 지정한 'text/plain'인걸 확인할 수 있음<br>
+<img src="https://user-images.githubusercontent.com/44331989/54747984-b2d67700-4c13-11e9-8739-bbca1f96f7e3.PNG"><br>
 
 
 

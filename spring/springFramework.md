@@ -428,6 +428,8 @@ REST와 관련해서 알아둘 필요가 있는 어노테이션은 아래와 같
 위 Controller는 일반 문자열을 반환하는 예제임, @Getmapping에 사용된 produces 속성은 해당 메서드가 생산하는 MIME 타입을 의미함<br>
 위와 같이 문자열로 직접 지정할 수도 있고, produces 메서드내의 MediaType이라는 클래스를 이용할 수도 있음<br>
 
+위의 실행결과는 아래와 같음<br>
+<img src="https://user-images.githubusercontent.com/44331989/54747846-51aea380-4c13-11e9-968f-369e1453c279.PNG"><br>
 
 
 

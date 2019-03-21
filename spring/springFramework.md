@@ -502,6 +502,12 @@ Gson 라이브러리는 Java 객체를 JSON 문자열로 변환하기 위해서 
 <img src="https://user-images.githubusercontent.com/44331989/54750620-a7874980-4c1b-11e9-9ec9-568dc0f5083f.PNG"><br>
 첫번 째는 테스트코드에서 JSON타입으로 담은 데이터이고, 두번 째는 테스트코드에서 전달한 JSON 타입 문자열을 Ticket타입으로 객체로 변환한 값임<br>
 
+jUnit을 이용하는 방식 외에도 Tomcat을 구동한다면 REST 방식으로 테스트할 수 있는 여러가지 도구들이 존재함<br>
+Mac or 리눅스 등을 이용한다면 간단히 curl(https://curl.haxx.se/)같은 도구를 이용할 수 있고, Java나 각종 언어로 개발된 라이브러리 이용 가능<br> 최근에는 브라우저에서 직접 REST 방식을 테스트 할 수 있는 도구들이 꽤 많은데 Chrome 브라우저 앱 스토어에서 'Rest client'로 검색하면<br>
+꽤 많은 크롬 확장 프로그램을 볼 수 있음, 여기서는 'Restlet Client'를 이용해서 테스트를 진행 하였음<br>
+'Restlet Client'를 설치하면 크롬 브라우저 주소창 우측 옆에 아이콘을 통해 실행 가능하며 아래는 실행한 화면임<br>
+<img src="https://user-images.githubusercontent.com/44331989/54751011-f8e40880-4c1c-11e9-9213-92214f0b8aeb.PNG"><br>
+
 
 
 

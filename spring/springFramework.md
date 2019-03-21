@@ -410,7 +410,7 @@ getListLink()는 페이지번호, 보여줄 페이지 수, 검색타입, 검색 
 /board/list 뒤에 GET방식과 흡사하게 parameter의 값들이 전달된 것이 확인됨<br>
 가장 편리한 점은 한글 처리에 신경 쓰지 않아도 된다고 하고, 주로 javascript를 사용할 수 없는 상황에서 링크를 처리해야 하는 경우에 사용된다고 함<br>
 
-#### rest 방식
+#### REST 방식
 Rest는 "Representational State Transfer"의 약어로 하나의 URI는 하나의 고유한 리소스(Resource)를 대표하도록 설계된다는 개념에<br>
 전송방식을 결합해서 원하는 작업을 지정함<br>
 스프링에서는 @RequestMapping, @ResponseBody와 같은 REST방식의 데이터 처리를 위한 여러 종류의 어노테이션과 기능을 제공함<br>

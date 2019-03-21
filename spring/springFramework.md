@@ -513,6 +513,11 @@ Mac or 리눅스 등을 이용한다면 간단히 curl(https://curl.haxx.se/)같
 <img src="https://user-images.githubusercontent.com/44331989/54751414-3d23d880-4c1e-11e9-8f62-b5ebc9f6ddeb.PNG"><br>
 Restlet Client에서 전송한 JSON 데이터가 Ticket 타입으로 변환됨이 확인됨<br>
 
+#### 다양한 전송방식
+REST 방식의 데이터 교환에서 가장 특이한 점은 기존의 GET/POST 외에 다양한 방식으로 데이터를 전달한다는 점인데 HTTP의 전송방식은<br>
+아래와 같은 형태로 사용됨<br>
+Create를 위한 작업에는 POST방식, Read를 위한 작업에는 GET방식, Update에는 PUT, Delete는 DELETE방식이 사용됨<br>
+POST 방식도 그렇지만 PUT, DELETE 방식은 브라우저에서 테스트하기 쉽지 않기 때문에 개발 시 jUnit이나 'Restlet Client'등의 도구 이용필요<br>
 
 
 

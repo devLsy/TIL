@@ -425,7 +425,8 @@ REST와 관련해서 알아둘 필요가 있는 어노테이션은 아래와 같
 @RestController는 JSP와 달리 순수한 데이터를 반환하는 형태이므로 다양한 포맷의 데이터를 전송할 수 있음<br>
 주로 많이 사용하는 형태는 일반 문자열이나 JSON, XML 등을 사용함<br>
 <img src="https://user-images.githubusercontent.com/44331989/54744063-51110f80-4c09-11e9-800d-2f623e58a31b.PNG"><br>
-위 Controller는 일반 문자열을 반환하는 예제임, @Getmapping에 사용된 produces 속성은 해당 메서드가 생산하는 MIME 타입을 의미함
+위 Controller는 일반 문자열을 반환하는 예제임, @Getmapping에 사용된 produces 속성은 해당 메서드가 생산하는 MIME 타입을 의미함<br>
+위와 같이 문자열로 직접 지정할 수도 있고, produces 메서드내의 MediaType이라는 클래스를 이용할 수도 있음<br>
 
 
 

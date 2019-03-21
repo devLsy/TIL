@@ -507,11 +507,12 @@ Mac or 리눅스 등을 이용한다면 간단히 curl(https://curl.haxx.se/)같
 꽤 많은 크롬 확장 프로그램을 볼 수 있음, 여기서는 'Restlet Client'를 이용해서 테스트를 진행 하였음<br>
 'Restlet Client'를 설치하면 크롬 브라우저 주소창 우측 옆에 아이콘을 통해 실행 가능하며 아래는 실행한 화면임<br>
 <img src="https://user-images.githubusercontent.com/44331989/54751317-eae2b780-4c1d-11e9-8a6b-fd36a563176b.PNG"><br>
-테스트를 위해 전송방식을 POST방식, url은 http://localhost:9595/sample/ticket, body안의 내용을 입력, contentType을 JSON으로<br>
-입력한 후 Send를 누르면 Controller로 전송이 됨<br>
+테스트를 위해 전송방식을 POST방식, url은 http://localhost:9595/sample/ticket, body안의 내용을 입력, contentType을 JSON으로 입력한 후<br> Send를 누르면 Controller로 전송이 됨<br>
 
 아래는 Controller에서 전달받은 결과값임<br>
-<img src=""><br>
+<img src="https://user-images.githubusercontent.com/44331989/54751414-3d23d880-4c1e-11e9-8f62-b5ebc9f6ddeb.PNG"><br>
+Restlet Client에서 전송한 JSON 데이터가 Ticket 타입으로 변환됨이 확인됨<br>
+
 
 
 

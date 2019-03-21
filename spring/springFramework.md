@@ -410,101 +410,18 @@ getListLink()는 페이지번호, 보여줄 페이지 수, 검색타입, 검색 
 /board/list 뒤에 GET방식과 흡사하게 parameter의 값들이 전달된 것이 확인됨<br>
 가장 편리한 점은 한글 처리에 신경 쓰지 않아도 된다고 하고, 주로 javascript를 사용할 수 없는 상황에서 링크를 처리해야 하는 경우에 사용된다고 함<br>
 
+#### rest 방식
+Rest는 "Representational State Transfer"의 약어로 하나의 URI는 하나의 고유한 리소스(Resource)를 대표하도록 설계된다는 개념에<br>
+전송방식을 결합해서 원하는 작업을 지정함<br>
+스프링에서는 @RequestMapping, @ResponseBody와 같은 REST방식의 데이터 처리를 위한 여러 종류의 어노테이션과 기능을 제공함<br>
+REST와 관련해서 알아둘 필요가 있는 어노테이션은 아래와 같음<br>
+* @RestController: Controller가 REST방식을 처리하기 위함을 명시함<br>
+* @ResponseBody: 일반적인 JSP와 같은 뷰로 전달되는 것이 아니라 데이터 자체를 전달하기 위한 용도에 사용<br>
+* @PathVariable: URL 경로에 있는 값을 parameter로 추출하려고 할 때 사용<br>
+* @CrossOrigin: Ajax의 크로스 도메인 문제를 해결해주는 어노테이션<br>
+* RequestBody: JSON 데이터를 원하는 타입으로 바인딩 처리<br>
 
-package org.zerock.controller;
 
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.stream.Collectors;
-import java.util.stream.IntStream;
-
-import org.springframework.http.HttpStatus;
-import org.springframework.http.MediaType;
-import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
-import org.zerock.domain.SampleVO;
-import org.zerock.domain.Ticket;
-
-import lombok.extern.log4j.Log4j;
-
-@RestController
-@RequestMapping("/sample")
-@Log4j
-public class SampleController {
-
-	@GetMapping(value = "/getText", produces = "text/plain; charset=UTF-8")
-	public String getText() {
-
-		log.info("MIME TYPE: " + MediaType.TEXT_PLAIN_VALUE);
-
-		return "안녕하세요";
-
-	}
-
-	@GetMapping(value = "/getSample", 
-			produces = { MediaType.APPLICATION_JSON_UTF8_VALUE,
-			MediaType.APPLICATION_XML_VALUE })
-	public SampleVO getSample() {
-		return new SampleVO(112, "스타", "로드");
-
-	}
-
-	@GetMapping(value = "/getSample2")
-	public SampleVO getSample2() {
-		return new SampleVO(113, "로켓", "라쿤");
-	}
-
-	@GetMapping(value = "/getList")
-	public List<SampleVO> getList() {
-
-		return IntStream.range(1, 20).mapToObj(i -> new SampleVO(i, i + " First", i + " Last"))
-				.collect(Collectors.toList());
-	}
-	
-	@GetMapping(value = "/getMap")
-	public Map<String, SampleVO> getMap() {
-		
-		Map<String, SampleVO> map = new HashMap<>();
-		map.put("First", new SampleVO(111, "그루트", "주니어"));
-		
-		return map;
-	}
-	
-	@GetMapping(value = "/check", params = { "height", "weight" })
-	public ResponseEntity<SampleVO> check(Double height, Double weight) {
-		
-		SampleVO vo = new SampleVO(0, "" + height, "" + weight);
-		
-		ResponseEntity<SampleVO> result = null;
-		
-		if(height < 150) {
-			result = ResponseEntity.status(HttpStatus.BAD_GATEWAY).body(vo);
-		} else {
-			result = ResponseEntity.status(HttpStatus.OK).body(vo);
-		}
-		return result;	
-	}
-	
-	@GetMapping("/product/{cat}/{pid}")
-	public String[] getPath(@PathVariable("cat") String cat, @PathVariable("pid") Integer pid) {
-		return new String[] { "category: " + cat, "productid: " + pid};
-	}
-	
-	@PostMapping("/ticket")
-	public Ticket convert(@RequestBody Ticket ticket) {
-		
-		log.info("convert.............ticket: " + ticket);
-		return ticket;
-	}
-	
-
-}
 
 
 

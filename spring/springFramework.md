@@ -443,6 +443,9 @@ REST 방식으로 호출하는 경우는 화면 자체가 아니라 데이터 �
 HTTP의 상태코드와 에러 메시지등과 함께 데이터를 전달할 수 있기 때문에 받는 입장에서 확실히 결과를 알 수 있음<br>
 아래는 예제임<br>
 <img src="https://user-images.githubusercontent.com/44331989/54748369-ca622f80-4c14-11e9-9d90-768813f47f51.PNG"><br>
+check method는 반드시 parameter의 값으로 'height', 'weight'를 전달 받음, 이 때 height의 값이 150보다 작으면<br>
+502(bad gateway)상태코드와 데이터를 전송, 그렇지 않다면 200(ok)코드와 데이터를 전송함<br>
+
 
 
 

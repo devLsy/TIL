@@ -434,7 +434,15 @@ REST와 관련해서 알아둘 필요가 있는 어노테이션은 아래와 같
 개발자도구를 이용해 브라우저에 전송된 데이터의 produces 속성값이 컨트롤러에서 지정한 'text/plain'인걸 확인할 수 있음<br>
 <img src="https://user-images.githubusercontent.com/44331989/54747984-b2d67700-4c13-11e9-8739-bbca1f96f7e3.PNG"><br>
 
+REST Controller의 반환타입은 문자열, VO 객체, 컬렉션타입의 객체(list, map 등)도 가능함<br>
 
+### ResponseEntity 타입
+REST 방식으로 호출하는 경우는 화면 자체가 아니라 데이터 자체를 전송하는 방식으로 처리되기 때문에 데이터를 요청한 쪽에서<br>
+정상적인 데이터인지 비정상적인 데이터인지를 구분할 수 있는 확실한 방법을 제공해야 하는데<br>
+이때 ResponseEntity는 데이터와 함께 HTTP 헤더의 상태 메시지 등을 같이 전달하는 용도로 사용함<br>
+HTTP의 상태코드와 에러 메시지등과 함께 데이터를 전달할 수 있기 때문에 받는 입장에서 확실히 결과를 알 수 있음<br>
+아래는 예제임<br>
+<img src="https://user-images.githubusercontent.com/44331989/54748369-ca622f80-4c14-11e9-9d90-768813f47f51.PNG"><br>
 
 
 

@@ -421,6 +421,14 @@ REST와 관련해서 알아둘 필요가 있는 어노테이션은 아래와 같
 * @CrossOrigin: Ajax의 크로스 도메인 문제를 해결해주는 어노테이션<br>
 * RequestBody: JSON 데이터를 원하는 타입으로 바인딩 처리<br>
 
+### REST Conroller의 반환 타입
+@RestController는 JSP와 달리 순수한 데이터를 반환하는 형태이므로 다양한 포맷의 데이터를 전송할 수 있음<br>
+주로 많이 사용하는 형태는 일반 문자열이나 JSON, XML 등을 사용함<br>
+<img src="https://user-images.githubusercontent.com/44331989/54744063-51110f80-4c09-11e9-800d-2f623e58a31b.PNG"><br>
+
+
+
+
 
 
 

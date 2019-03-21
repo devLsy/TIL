@@ -453,6 +453,28 @@ check method는 반드시 parameter의 값으로 'height', 'weight'를 전달 �
 <img src="https://user-images.githubusercontent.com/44331989/54748701-b3700d00-4c15-11e9-831e-53206ce61544.PNG"><br>
 위는 브라우저에 전송된 상태코드임, parameter값으로 height가 150이므로 정상적으로 200상태코드가 전송되었음<br>
 
+### @RestController에서 parameter
+RestController는 기존의 @Controller에서 사용하던 일반적인 타입이나 사용자가 정의한 타입(class)을 사용함<br>
+여기에 추가로 몇 가지 어노테이션을 이용하는 경우가 있음<br>
+@PathVariable: 일반 컨트롤러에서도 사용이 가능하지만 REST 방식에서 자주 사용된다고 함, URL 경로의 일부를 paraemter로 사용할 때 이용<br>
+@RequestBody: JSON 데이터를 원하는 타입의 객체로 변환해야 하는 경우에 주로 사용<br>
+
+#### @PathVariable
+예전에 URL의 '?' 뒤에 추가되는 쿼리 스트링(query string)이라는 형태로 parameter를 이용해서 전달되던 데이터들이<br>
+REST 방식에서는 경로의 일부로 차용되는 경우가 많음<br>
+
+Spring MVC에서는 @PathVariable 어노테이션을 이용해서 URL 상에 경로의 일부를 parameter로 사용할 수 있음<br>
+"http://localhost:9595/sample{sno}" <br>
+"http://localhost:9595/sample/{sno}/page/{pno}" <br>
+위의 URL에서 '{}'로 처리된 부분은 Controller의 method에서 변수로 처리가 가능함<br>
+@PathVariable은 '{}'의 이름을 처리할 때 사용함, REST 방식에서는 URL 자체에 데이터를 식별할 수 있는 정보들을 표현하는 경우가 많으므로<br>
+다양한 방식으로 @PathVariable이 사용됨<br>
+아래는 예제 method임<br>
+
+<img src="https://user-images.githubusercontent.com/44331989/54749452-e74c3200-4c17-11e9-8160-8aee76f03124.PNG"><br>
+
+
+
 
 
 

@@ -493,7 +493,14 @@ http://localhost:9595/sample/{sno}/page/{pno} <br>
 
 아래는 jUnit 기반의 테스트 예제임<br>
 <img src="https://user-images.githubusercontent.com/44331989/54750351-b0c3e680-4c1a-11e9-837f-c549357a6c2d.PNG"><br>
+위의 testConvert()는 SampleController에 작성해 둔 convert()를 테스트하기 위해 작성한 것임<br>
+SampleController의 convert()는 JSON으로 전달되는 데이터를 받아서 Ticket 타입으로 변환함, 이를 위해서 해당 데이터가 JSON이라는 것을<br>
+명시해 줄 필요가 있어서 MockMvc의 contentType으로 전달하려는 데이터가 JSON이라는 것을 명시함<br>
+Gson 라이브러리는 Java 객체를 JSON 문자열로 변환하기 위해서 사용하였음<br>
 
+아래는 위의 코드를 실행한 결과값임<br>
+<img src="https://user-images.githubusercontent.com/44331989/54750620-a7874980-4c1b-11e9-9ec9-568dc0f5083f.PNG"><br>
+첫번 째는 테스트코드에서 JSON타입으로 담은 데이터이고, 두번 째는 테스트코드에서 전달한 JSON 타입 문자열을 Ticket타입으로 객체로 변환한 값임<br>
 
 
 

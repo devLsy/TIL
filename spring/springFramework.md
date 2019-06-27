@@ -519,6 +519,15 @@ REST 방식의 데이터 교환에서 가장 특이한 점은 기존의 GET/POST
 Create를 위한 작업에는 POST방식, Read를 위한 작업에는 GET방식, Update에는 PUT, Delete는 DELETE방식이 사용됨<br>
 POST 방식도 그렇지만 PUT, DELETE 방식은 브라우저에서 테스트하기 쉽지 않기 때문에 개발 시 jUnit이나 'Restlet Client'등의 도구 이용필요<br>
 
+## 스프링 시큐리티의 표현식을 이용한 동적 화면 구성
+경우에 따라서 특정한 페이지에서 로그인한 사용자의 경우에는 A의 내용을 보여주고, 로그인을 안한 사용자에게는 B의 내용을 보여주는 경우가 있는데
+이 때 유용한 것이 스프링 시큐리티의 표현식(expression)이고 이 표현식은 security-context.xml에서도 사용되며 아래의 종류가 있음<br>
+<img src="https://user-images.githubusercontent.com/44331989/60307946-a6378c80-9981-11e9-97d8-69625a4451b3.jpg"><br>
+<img src="https://user-images.githubusercontent.com/44331989/60308192-b4d27380-9982-11e9-8441-d0f89ed63baf.jpg"><br>
+
+
+
+
 
 
 

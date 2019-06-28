@@ -525,6 +525,9 @@ POST 방식도 그렇지만 PUT, DELETE 방식은 브라우저에서 테스트�
 <img src="https://user-images.githubusercontent.com/44331989/60307946-a6378c80-9981-11e9-97d8-69625a4451b3.jpg"><br>
 <img src="https://user-images.githubusercontent.com/44331989/60308192-b4d27380-9982-11e9-8441-d0f89ed63baf.jpg"><br>
 
+스프링 시큐리티의 모든 설정이 다 되어 있다는 가정하에 화면에서 아래와 같은 형식으로 동적으로 사용할 수 있음<br>
+이 경우엔 로그인한 사용자는 로그아웃이 보이고, 로그인 안한 사용자의 경우 로그인이 보이게 됨<br>
+<img src="https://user-images.githubusercontent.com/44331989/60308300-25799000-9983-11e9-9c14-f2cfacb1ee67.PNG"><br>
 
 
 

@@ -310,6 +310,9 @@ WAS의 구동 중 가장 흔한 에러와 관련된 HTTP 상태코드는 '404'�
 <hr>
 
 ## 단위테스트 jUnit
+<strong>개발하기전 아래와 같이 jUnit으로 JDBC Connection을 먼저 하고 시작하는 습관을 기를 것</strong>
+<img src="https://user-images.githubusercontent.com/44331989/61417764-45252800-a933-11e9-9565-7f404b5bf2c9.PNG"><br>
+
 <strong>단위테스트 하기 위해 매번 Tomcat을 실행하지 않고도 jUnit 테스트 도구를 이용해서 Tomcat 실행 없이 springFramework를 구동시켜서 DB Connection, CRUD등의 테스트가 가능해서 시간도 절약되고 매우 효율적이므로 개발 시에 항상 작성하는 습관을 기르도록 하자<br>
 스프링5 버전의 경우 pom.xml에서 jUnit 버전을 4.12 이상으로 해야 한다고 함<br>
 <strong> 아래는 HikariCP를 이용한 Connection Pool Test 예제 이미지임<br>
@@ -531,9 +534,8 @@ POST 방식도 그렇지만 PUT, DELETE 방식은 브라우저에서 테스트�
 <hr>
 <h2>20190219 TIL 출처: 코드로 배우는 스프링 웹 프로젝트(개정판)예제</h2>
 
-# jUnit Test
-* 개발하기전 반드시 아래와 같이 테스트 코드를 작성해서 Connection 연결을 확인하고 개발하는 습관을 기를 것
-<img src="https://user-images.githubusercontent.com/44331989/61417764-45252800-a933-11e9-9565-7f404b5bf2c9.PNG"><br>
+
+
 
   
   

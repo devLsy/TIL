@@ -6,14 +6,14 @@ tomcat server OverView에서 Port Name부분의 Tomcat admin port, HTTP/1.1 port
 
 ## 로컬에 테스트 SSL 적용
 ### keytool -genkey -alias tomcat -keyalg RSA -validity 3650 -keystore tomcat.keystore -> keystore 생성
-### 아래와 같이 tomcat 설정 변경(keystore 경로 및 비밀번호 설정)
+### 아래와 같이 tomcat 설정파일(server.xml) 변경(keystore 경로 및 비밀번호 설정)
 ~~~
 <server.xml>
 <Connector port="8443" protocol="HTTP/1.1" maxThreads="150" scheme="https" secure="true" sslProtocol="TLS"
     	KeystoreFile="C:\eGovCI-3.8.0_64bit\bin\tomcat.keystore" SSLEnabled="true" clientAuth="false" keystorePass="dldks12!@" type="RSA"> 
 </Connector>
 ~~~
-참조 URL : https://dy20c.tistory.com/12
+참조  : https://dy20c.tistory.com/12
 <hr>
 
 

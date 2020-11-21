@@ -13,6 +13,8 @@ tomcat server OverView에서 Port Name부분의 Tomcat admin port, HTTP/1.1 port
     	KeystoreFile="C:\eGovCI-3.8.0_64bit\bin\tomcat.keystore" SSLEnabled="true" clientAuth="false" keystorePass="dldks12!@" type="RSA"> 
 </Connector>
 ~~~
+참조 URL : https://dy20c.tistory.com/12
+<hr>
 
 
 

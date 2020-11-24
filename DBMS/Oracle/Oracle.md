@@ -16,11 +16,12 @@
 INDEX_ASC/DESC 힌트는 테이블 이름과 인덱스 이름을 같이 parameter로 사용함<br>
 INDEX_ASC/DESC를 이용하는 경우에는 동일한 조건의 ORDER BY 구문을 작성하지 않아도 됨<br>
 
-## 사용자 테이블 중 빈 테이블 조회(user_tables 이용)
+## 사용자 테이블 중 빈 테이블 조회(ALL_TABLES, USER_TABLES, TAB 이용)
 ~~~
-select * FROM user_tables
-    WHERE NUM_ROWS = 0
-;
+SELECT * FROM ALL_TABLES; (관리자일 경우)
+SELECT * FROM USER_TABLES; (관리자 아닐 경우)
+SELECT * FROM TAB; (관리자 아닐 경우)
 ~~~
+참조 블로그 : https://javaoop.tistory.com/65 
 
 

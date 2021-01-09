@@ -24,4 +24,26 @@ SELECT * FROM TAB; (관리자 아닐 경우)
 ~~~
 참조 블로그 : https://javaoop.tistory.com/65 
 
+## GROUPB BY + 그룹함수(SUM, COUNT 등)
+쉽게 생각하면 된다. GROUP BY 다음에 오는 컬럼으로 먼저 그룹핑을 한 다음 그룹함수를 실행<br>
+(ex)
+~~~
+SELECT deptno, 
+	   job,
+	   AVG(NVL(sal, 0)) "AVG_SAL"
+FROM emp
+GROUP BY deptno, job
+ORDER BY deptno,job;
+~~~
+위의 쿼리는 emp테이블에서 학급(deptno)으로 먼저 그룹핑을 한 다음 직업(job)으로 그룹핑을 한 후 SELECT절에 있는 그룹함수인 AVG() 함수를 실행한 결과를 나타낸다.<br>
+주의사항이 있는데 GROUP BY사용 시 SELECT절의 그룹함수를 제외한 컬럼은 반드시 GROUP BY 절에 나온 컬럼을 명시해야 한다. 안할 경우 에러 발생<br>
+~~~
+SELECT deptno, 
+	   job,
+	   AVG(NVL(sal, 0)) "AVG_SAL"
+FROM emp
+GROUP BY deptno
+ORDER BY deptno;
+~~~
+위와 같은 쿼리는 "ORA-00979 : GROUP BY 표현식이 아닙니다." 에러 발생 -> GROUP BY절에 없는 job이라는 컬럼을 SELECT절에 사용 했기 때문임<br>
 

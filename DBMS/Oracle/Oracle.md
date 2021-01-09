@@ -24,7 +24,7 @@ SELECT * FROM TAB; (관리자 아닐 경우)
 ~~~
 참조 블로그 : https://javaoop.tistory.com/65 
 
-## GROUPB BY + 그룹함수(SUM, COUNT 등)
+## GROUP BY + 그룹함수(SUM, COUNT 등)
 쉽게 생각하면 된다. GROUP BY 다음에 오는 컬럼으로 먼저 그룹핑을 한 다음 그룹함수를 실행<br>
 (ex)
 ~~~

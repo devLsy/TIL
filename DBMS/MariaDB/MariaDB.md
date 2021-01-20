@@ -24,4 +24,5 @@ WHERE COLUMN_NAME='컬럼명';
 <img src="https://user-images.githubusercontent.com/44331989/99140701-7b89c900-2687-11eb-82ee-f043198c88cf.png" alt="MariaDB information_schema" /> <br>
 화면에는 나오지 않았지만 TABLE_COMMENT도 조회할 수 있음 <br>
 
-
+### 계정 생성 등
+<img src="https://user-images.githubusercontent.com/44331989/105168972-350c8b00-5b5e-11eb-925f-0b0c36434232.PNG" /> <br>

@@ -26,3 +26,6 @@ WHERE COLUMN_NAME='컬럼명';
 
 ### 계정 생성 등
 <img src="https://user-images.githubusercontent.com/44331989/105168972-350c8b00-5b5e-11eb-925f-0b0c36434232.PNG" /> <br>
+### 권한 부여 등
+<img src="https://user-images.githubusercontent.com/44331989/105169090-5b322b00-5b5e-11eb-8de9-dd5360e0be4f.PNG" /> <br>
+출처 : https://ora-sysdba.tistory.com/entry/MariaDB-Maria-DB-%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4-%EC%83%9D%EC%84%B1-%EA%B6%8C%ED%95%9C-%EB%B6%80%EC%97%AC-%EC%A0%91%EC%86%8D <br>

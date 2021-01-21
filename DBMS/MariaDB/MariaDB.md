@@ -45,5 +45,5 @@ show variables like 'lower_case_table_names';
 쿼리 날렸을 때 값이 0이면 값을 1로 바꿔서 대소문자 구분을 없애줘야 함 <br>
 vi로 /etc/my.cnf을 열어서 [mysqld]안에 lower_case_table_names = 1를 넣어줌 <br>
 <img src="https://user-images.githubusercontent.com/44331989/105277086-118d2300-5be6-11eb-9f4c-a994142a3acc.PNG" /> <br>
-
+그 후 mariadb 재시작 후 테이블 다시 조회 해서 테스트 <br>
 

@@ -34,5 +34,16 @@ WHERE COLUMN_NAME='컬럼명';
 <img src="https://user-images.githubusercontent.com/44331989/105273386-88beb900-5bde-11eb-8b93-820eb7a4dab1.PNG" /> <br>
 출처 : https://hsunnystory.tistory.com/75 <br>
 
+### Table '테이블명' doesn't exist
+테이블이 있음에도 테이블이 없다고 나오는 경우 <br>
+윈도우는 기본적으로 대소문자 구분이 없이 mariadb가 설치 되지만 리눅스는 대소문자 구분해서 설치하는 경우가 있음 <br>
+mysql 계정으로 접속 후 아래의 쿼리를 보낸 후 값을 확인해야 함 <br>
+0인 경우 대소문자 구분함, 1인 경우 대소문자 구분안함, 값이 2인 경우도 있다는데 아직 본적은 없음<br>
+~~~
+show variables like 'lower_case_table_names';
+~~~
+쿼리 날렸을 때 값이 0이면 값을 1로 바꿔서 대소문자 구분을 없애줘야 함 <br>
+vi로 /etc/my.cnf을 열어서 [mysqld]안에 lower_case_table_names = 1를 넣어줌 <br>
+<img src="https://user-images.githubusercontent.com/44331989/105277086-118d2300-5be6-11eb-9f4c-a994142a3acc.PNG" /> <br>
 
 

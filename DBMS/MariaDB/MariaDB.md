@@ -47,3 +47,8 @@ vi로 /etc/my.cnf을 열어서 [mysqld]안에 lower_case_table_names = 1를 넣�
 <img src="https://user-images.githubusercontent.com/44331989/105277086-118d2300-5be6-11eb-9f4c-a994142a3acc.PNG" /> <br>
 그 후 mariadb 재시작 후 테이블 다시 조회 해서 테스트 <br>
 
+### linux 터미널에서 sql파일 실행
+~~~
+mysql -uroot -p "db명" < "sql파일명"
+~~~
+

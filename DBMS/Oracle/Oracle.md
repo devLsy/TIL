@@ -61,6 +61,9 @@ AS SELECT * FROM emp
    WHERE 1 = 2;
 ~~~
 위 방법은 데이터를 제외한 테이블 구조만 복사할 때 많이 사용하는 방법이며 WHERE절에 1 = 2라는 틀린 조건을 적어줘서 그 조건에 해당되는 데이터가 없게 만드는게 핵심임 <br>
+### DELETE, TRUNCATE, DROP 차이
+<img src="https://user-images.githubusercontent.com/44331989/106087790-10b93b80-6168-11eb-95a3-a444f2e27626.jpg"> <br>
+이미지 출처 : 오라클 SQL과 PL/SQL 책 <br>
 
 
 

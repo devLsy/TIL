@@ -48,8 +48,19 @@ ORDER BY deptno;
 위와 같은 쿼리는 "ORA-00979 : GROUP BY 표현식이 아닙니다." 에러 발생 -> GROUP BY절에 없는 job이라는 컬럼을 SELECT절에 사용 했기 때문임<br>
 
 ### 테이블 복사(CTAS라고도 함)
+#### 테이블 전체 복사
 ~~~
 CREATE TABLE emp2
 AS SELECT * FROM emp;
 ~~~
 테이블을 만들 시 기존에 만들어진 테이블을 참조하여 생성하는 방법인데 주로 테이블 복사(백업 테이블)에 쓰임, 위의 쿼리는 emp테이블의 모든 걸 복사하는 것임 <br>
+#### 테이블 구조만 복사
+~~~
+CREATE TABLE emp2
+AS SELECT * FROM emp
+   WHERE 1 = 2;
+~~~
+위 방법은 데이터를 제외한 테이블 구조만 복사할 때 많이 사용하는 방법이며 WHERE절에 1 = 2라는 틀린 조건을 적어줘서 그 조건에 해당되는 데이터가 없게 만드는게 핵심임 <br>
+
+
+

@@ -63,6 +63,9 @@ AS SELECT * FROM emp
 위 방법은 데이터를 제외한 테이블 구조만 복사할 때 많이 사용하는 방법이며 WHERE절에 1 = 2라는 틀린 조건을 적어줘서 그 조건에 해당되는 데이터가 없게 만드는게 핵심임 <br>
 ### DELETE, TRUNCATE, DROP 차이
 <img src="https://user-images.githubusercontent.com/44331989/106087790-10b93b80-6168-11eb-95a3-a444f2e27626.jpg"> <br>
+delete는 데이터만 지워지고 사용중인 디스크상의 공간은 유지, TRUNCATE는 CREATE TABLE로 테이블을 만들었던 상태(데이터가 1도 없음)로 모든 데이터를 삭제하고 컬럼만 남겨놓음, 사용중인 디스크 공간도 사라짐, DROP은 제일 위험한 명령어이고 데이터와 테이블 전체를 삭제함(사용중인 공간, 인덱스, 제약조건등 전부 삭제됨) <br>
+
+
 이미지 출처 : 오라클 SQL과 PL/SQL 책 <br>
 
 

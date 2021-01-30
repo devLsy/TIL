@@ -11,4 +11,9 @@
 참조 블로그 : https://mine-it-record.tistory.com/208 <br>
 <hr>
 
-### 
+### workspace 변경
+eclipse - file - switch workspace 선택해서 변경할 폴더를 선택해서 변경하면 됨 <br>
+이 경우 기존의 환경이 초기화가 되는데 기존과 동일한 환경으로 작업하고 싶을 경우 기존 워크스페이스의 ".metadata" 폴더를 변경할 폴더에 복사하면 됨 <br>
+그리고 tomcat 설정도 동일하게 사용하려면 기존 workspace의 Servers 폴더도 복사 하면 됨 <br>
+그냥 기존의 workspace 폴더안의 .metadata와 Servers폴더를 복사해서 사용하자 <br>
+출처 : https://frog-hindleg.tistory.com/218

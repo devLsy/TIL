@@ -12,7 +12,8 @@
 <hr>
 
 ### workspace 변경
-eclipse - file - switch workspace 선택해서 변경할 폴더를 선택해서 변경하면 됨 <br>
+eclipse - file - switch workspace - others 선택해서 변경할 폴더를 선택해서 변경하면 됨(아래 이미지 참조) <br>
+<img src="https://user-images.githubusercontent.com/44331989/106348950-6da22680-630d-11eb-862a-b95e02536161.png"> <br>
 이 경우 기존의 환경이 초기화가 되는데 기존과 동일한 환경으로 작업하고 싶을 경우 기존 워크스페이스의 ".metadata" 폴더를 변경할 폴더에 복사하면 됨 <br>
 그리고 tomcat 설정도 동일하게 사용하려면 기존 workspace의 Servers 폴더도 복사 하면 됨 <br>
 그냥 기존의 workspace 폴더안의 .metadata와 Servers폴더를 복사해서 사용하자 <br>

@@ -89,5 +89,6 @@ DELETE 문법은 쉽지만 DELETE문은 데이터를 삭제한다고 알고 있�
 예를 들어, 100만건 데이터가 있는 테이블의 용량이 100MB였는데, 1만건만 남기고 DELETE한다고 해서 용량이 1MB가 되지 않는다<br>
 중요하니까 꼭 숙지할 것<br>
 
-
-
+### MERGE
+<img src="https://user-images.githubusercontent.com/44331989/106987202-47b6cf00-67b0-11eb-9450-cb9cc028458a.jpg"> <br>
+이미지 출처 : 오라클 SQL과 PL/SQL 책 <br>

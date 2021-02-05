@@ -80,5 +80,14 @@ FROM PROFESSOR
 WHERE profno BETWEEN 3000 AND 3999
 ~~~
 
+### DML 중 DELETE문법
+~~~
+DELETE FROM table WHERE 조건;
+~~~
+DELETE 문법은 쉽지만 DELETE문은 데이터를 삭제한다고 알고 있지만 사실 데이터는 삭제되지 않고 해당 블록에 그대로 남아 있고 BBED같은 툴을 이용하면 DELETE된 데이터도 전부 복구 가능하다고 함 <br>
+그래서 DELETE를 한 후에 테이블의 크기를 확인해 보면 크기가 줄어들지 않고 그대로임 <br>
+예를 들어, 100만건 데이터가 있는 테이블의 용량이 100MB였는데, 1만건만 남기고 DELETE한다고 해서 용량이 1MB가 되지 않는다<br>
+중요하니까 꼭 숙지할 것<br>
+
 
 

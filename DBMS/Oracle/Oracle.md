@@ -92,3 +92,7 @@ DELETE 문법은 쉽지만 DELETE문은 데이터를 삭제한다고 알고 있�
 ### MERGE
 <img src="https://user-images.githubusercontent.com/44331989/106987202-47b6cf00-67b0-11eb-9450-cb9cc028458a.jpg"> <br>
 이미지 출처 : 오라클 SQL과 PL/SQL 책 <br>
+
+### package 
+오라클의 패키지를 생성 후 이를 사용하기 위해서는 컴파일을 통해서 사용할 수 있도록 해야 함 <br>
+이 때 이 패키지관련 권한 체크도 필요할 수 있음 <br>

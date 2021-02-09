@@ -91,6 +91,7 @@ DELETE 문법은 쉽지만 DELETE문은 데이터를 삭제한다고 알고 있�
 
 ### MERGE
 <img src="https://user-images.githubusercontent.com/44331989/106987202-47b6cf00-67b0-11eb-9450-cb9cc028458a.jpg"> <br>
+mege를 할 때 중복값이 있으면 에러가 발생하기에 일반적으로 집계가 되는(중심이 되는) 테이블의 조건 컬럼에는 PK나 UNIQUE INDEX를 많이 설정하고 merge기능은 쿼리의 특징상 부하가 아주 많이 걸리는 경우가 많음, 많이 사용하지만 사용시에 주의 해야 함 <br>
 이미지 출처 : 오라클 SQL과 PL/SQL 책 <br>
 
 ### package 

@@ -97,3 +97,8 @@ mege를 할 때 중복값이 있으면 에러가 발생하기에 일반적으로
 ### package 
 오라클의 패키지를 생성 후 이를 사용하기 위해서는 컴파일을 통해서 사용할 수 있도록 해야 함 <br>
 이 때 이 패키지관련 권한 체크도 필요할 수 있음 <br>
+
+### SELECT 1 from 테이블명
+<img src="https://user-images.githubusercontent.com/44331989/107314145-64684500-6ad7-11eb-9b74-e06a9071b010.png"> <br>
+이미지 출처 : https://codedragon.tistory.com/5885 <br>
+

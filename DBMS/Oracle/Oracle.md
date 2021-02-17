@@ -56,8 +56,8 @@ FROM PROFESSOR
 GROUP BY ROLLUP(position) 
 ;
 ~~~
-위의 쿼리의 결과는 아래와 같고 직급별 보너스의 합계의 소계를 구함 <br>
-<img src="" alt="오라클rollup"> <br>
+위의 쿼리의 결과는 아래와 같고 직급별 보너스의 합계를 구한 뒤 그 합계의 소계를 구함 (position으로 group by한 다음 sum한 값의 합을 구함) <br>
+<img src="https://user-images.githubusercontent.com/44331989/108153081-c64f2d00-711d-11eb-942c-2ee90c3029e5.PNG" alt="오라클rollup"> <br>
 
 ### 테이블 복사(CTAS라고도 함)
 #### 테이블 전체 복사

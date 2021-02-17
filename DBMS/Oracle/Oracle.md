@@ -47,6 +47,18 @@ ORDER BY deptno;
 ~~~
 위와 같은 쿼리는 "ORA-00979 : GROUP BY 표현식이 아닙니다." 에러 발생 -> GROUP BY절에 없는 job이라는 컬럼을 SELECT절에 사용 했기 때문임<br>
 
+## ROLL UP을 이용한 소계 구하기
+~~~
+SELECT 
+	  DECODE(POSITION,NULL,'합계',POSITION) postion
+	, NVL(sum(BONUS),0) sum
+FROM PROFESSOR
+GROUP BY ROLLUP(position) 
+;
+~~~
+위의 쿼리의 결과는 아래와 같고 직급별 보너스의 합계의 소계를 구함 <br>
+<img src="" alt="오라클rollup"> <br>
+
 ### 테이블 복사(CTAS라고도 함)
 #### 테이블 전체 복사
 ~~~

@@ -128,5 +128,5 @@ mege를 할 때 중복값이 있으면 에러가 발생하기에 일반적으로
 메모리에서 정렬이 끝난 데이터들은 인덱스 파일의 블록에 순서대로 기록됨<br>
 인덱스 생성에서 기억해야 될 점은 인덱스를 생성하라고 하면 전체 테이블 스캔 후 정렬한 뒤 인덱스 파일의 블록에 순서대로 기록을 하게 됨 <br>
 ※ 이 과정에서 인덱스는 데이터가 정렬이 된 상태로 들어간다는 걸 알 수 있음 <br>
-<img src="https://user-images.githubusercontent.com/44331989/111772824-a6fc1900-88f0-11eb-8503-558881499a85.png"> <br>
+<img src="https://user-images.githubusercontent.com/44331989/111773481-939d7d80-88f1-11eb-9dc4-86eeabe35baa.png"> <br>
 이미지 & 내용 출처 : 오라클 SQL과 PL/SQL 책 <br>

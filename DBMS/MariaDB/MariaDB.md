@@ -68,3 +68,22 @@ update table set field = replace(field, 'char(13)', '');
 출처 : https://curryyou.tistory.com/68
 캐리지리턴 참조 블로그 : https://jink1982.tistory.com/122
 
+### 문자열 붙이기(concat, concat_ws)
+oracle에서는 ||로 붙이면 되지만 mysql에서는 concat()을 이용해서 붙임,
+~~~
+select concat('동해물과','|','백두산이') 애국가1;
+result : 동해물과|백두산이
+
+-- concat같은 경우 인자값에 null이 있는 경우 null이 return되니 주의 할 것
+select concat('동해물과','|','백두산이',null) 애국가1; 
+result : {null}
+
+-- 동일한 구분자를 기준으로 계속 문자열을 붙이는 경우는 concat_ws()를 사용하면 됨
+select CONCAT_WS('|', '동해물과', '백두산이', '마르고 닳도록', '하느님이', '보우하사', '우리나라', '만세') 애국가1;
+result : 동해물과|백두산이|마르고 닳도록|하느님이|보우하사|우리나라|만세
+
+-- concat_ws()는 인자값에 null이 정상적으로 결과값이 표시됨
+select CONCAT_WS('|', '동해물과', '백두산이', '마르고 닳도록', '하느님이', '보우하사', '우리나라', '만세', null) 애국가2;
+result : 동해물과|백두산이|마르고 닳도록|하느님이|보우하사|우리나라|만세
+-- 상황에 따라 적절한 함수를 사용하면 
+~~~

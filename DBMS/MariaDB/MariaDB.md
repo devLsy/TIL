@@ -54,15 +54,17 @@ mysql -uroot -p "db명" < "sql파일명"
 
 ### 테이블 필드의 공객, 개행문자, 캐리지리턴 치환
 ~~~
--- 공백제거
+-- 공백 치환
 update table set field = replace(field, ' ', '');
--- 개행문자 제거
+-- 개행문자 치환
 update table set field = replace(field, '\r\n', '');
--- 탭 제거
+-- 탭 치환
 update table set field = replace(field, 'char(9)', '');
--- 라인피드 제거
+-- 라인피드 치환
 update table set field = replace(field, 'char(10)', '');
--- 캐리지리턴 제거
+-- 캐리지리턴 치환
 update table set field = replace(field, 'char(13)', '');
 ~~~
 출처 : https://curryyou.tistory.com/68
+캐리지리턴 참조 블로그 : https://jink1982.tistory.com/122
+

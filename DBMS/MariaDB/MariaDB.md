@@ -52,3 +52,17 @@ vi로 /etc/my.cnf을 열어서 [mysqld]안에 lower_case_table_names = 1를 넣�
 mysql -uroot -p "db명" < "sql파일명"
 ~~~
 
+### 테이블 필드의 공객, 개행문자, 캐리지리턴 치환
+~~~
+-- 공백제거
+update table set field = replace(field, ' ', '');
+-- 개행문자 제거
+update table set field = replace(field, '\r\n', '');
+-- 탭 제거
+update table set field = replace(field, 'char(9)', '');
+-- 라인피드 제거
+update table set field = replace(field, 'char(10)', '');
+-- 캐리지리턴 제거
+update table set field = replace(field, 'char(13)', '');
+~~~
+출처 : https://curryyou.tistory.com/68

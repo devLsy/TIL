@@ -15,7 +15,7 @@ store.each(function(rec) {
 ~~~
 출처 : https://stackoverflow.com/questions/21643086/retrieve-set-of-records-based-on-same-field-values-from-store
 
-## 이벤트 리스너에서 param값 넘기는 방법
+## 이벤트 리스너에서 store의 데이터를 param값으로 넘기는 방법
 ~~~
 var testContainer = Ext.create('Ext.container.Container',{
      id       : 'testContainer',

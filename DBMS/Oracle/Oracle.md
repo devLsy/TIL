@@ -130,3 +130,10 @@ mege를 할 때 중복값이 있으면 에러가 발생하기에 일반적으로
 ※ 이 과정에서 인덱스는 데이터가 정렬이 된 상태로 들어간다는 걸 알 수 있음 <br>
 <img src="https://user-images.githubusercontent.com/44331989/111773481-939d7d80-88f1-11eb-9dc4-86eeabe35baa.png"> <br>
 이미지 & 내용 출처 : 오라클 SQL과 PL/SQL 책 <br>
+
+인덱스는 WHERE절에 오는 조건 컬럼이나 조인 컬럼 등에 만들어야 함(특별한 경우에는 SELECT에 있는 컬럼에 생성하기도 함) <br>
+만약 pay컬럼으로 인덱스를 생성 했는데 SQL문에서 WHERE pay + 1000 = 2000이라는 조건으로 조회를 하면 pay컬럼의 인덱스는 사용할 수 없게 됨 <br>
+이런 현상을 INDEX Suppressing Error이라고 부름 <br>
+인덱스는 잘 생성해 놓고 SQL을 잘못 작성해서 인덱스를 사용할 수 없는 경우를 뜻함 <br>
+위 경우 말고 인덱스가 설정 되어 있는 컬럼 조회 시 Not을 사용하는 경우도 마찬가지임 <br>
+<strong>※ 인덱스 사용 시 WHERE절의 조건을 절대로 다른 형태로 가공해서 사용하면 안됨</strong> <br>

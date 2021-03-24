@@ -7,6 +7,7 @@ Store.load(); // 데이터스토어에서 load해서 사용
 
 ## store에 저장된 데이터 전부 추출하는 방법
 ~~~
+// 스토어를 반복문 돌려서 데이터를 전부 
 store.each(function(rec) {
     // getData(); 이용해서 데이터만 전부 뽑아 올 수 있음
     var recData = rec.getData();

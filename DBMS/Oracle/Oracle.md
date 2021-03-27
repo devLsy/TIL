@@ -146,3 +146,23 @@ B-TREE 형식의 인덱스는 주로 데이터의 값의 종류가 많고 중복
 그리고 BITMAP INDEX를 생성하려면 데이터의 변경량이 적거나 없어야 함, 만약 BITMAP INDEX가 생성된 곳에 새로운 데이터가 들어오게 되거나 변경이 되면 기존에 만들어진 모든 Map을 다 고쳐야 함<br>
 SELECT만 하는 테이블은 모든 컬럼에 인덱스 생성 해도 되지만 DML(INSERT, UPDATE, DELETE)이 발생하는 테이블은 인덱스를 최소한으로 작게 만들어야 함 <br>
 출처 : 오라클 SQL과 PL/SQL 책 <br>
+
+### 인덱스 조회
+~~~
+-- 특정 사용자가 생성한 인덱스 조회
+SELECT table_name, COLUMN_NAME, index_name
+		FROM USER_IND_COLUMNS;
+SELECT table_name, INDEX_NAME 
+		FROM user_indexes
+;
+~~~
+~~~
+-- 데이터베이스 전체에 생성된 인덱스 내역 조회
+SELECT table_name, index_name 
+	FROM DBA_IND_COLUMNS 
+;
+SELECT table_name, index_name 
+	FROM DBA_INDEXES 
+;
+~~~
+

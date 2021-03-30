@@ -166,3 +166,14 @@ SELECT table_name, index_name
 ;
 ~~~
 인덱스는 한번 만들어 놓으면 영구적으로 잘 작동하는것이 아니라 생성 후에도 꾸준히 관리를 해 줘야 좋은 성능을 기대할 수 있음 <br>
+
+### 프로시저
+1부터 10000까지 숫자를 입력하는 간단한 프로시저
+~~~
+BEGIN
+	FOR i IN 1..10000 LOOP
+		INSERT INTO test_table values(i);
+	END LOOP;
+	COMMIT;
+END;
+~~~

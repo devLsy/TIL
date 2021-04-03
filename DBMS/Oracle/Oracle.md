@@ -193,6 +193,6 @@ SELECT * FROM v_emp1;
 ~~~
 <img src="https://user-images.githubusercontent.com/44331989/113467110-d330a180-947b-11eb-833e-b8a20413edac.png"> <br>
 view를 생성하면 오라클은 해당 view 정보를 딕셔너리에 저장한 다음 사용자가 view를 사용할 때만 view의 서브쿼리가 실행되어 원본 테이블에서 데이터를 가져옴 <br>
-<strong>※ 이 의미는 평소에 이 view에는 데이터가 없다는 뜻이기도 함</<strong> <br>
+<strong>※ 이 의미는 평소에 이 view에는 데이터가 없다는 뜻이기도 함</strong> <br>
 view에는 제약조건이나 인덱스 등을 생성할 수가 없음 <br>
 	

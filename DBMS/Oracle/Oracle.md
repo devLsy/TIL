@@ -230,4 +230,20 @@ Mview는 사용자가 요청하는 데이터를 가지고 있다가 요청이 �
 <strong>※ 이 방식의 문제는 원본 테이블과 MView간의 데이터 동기화임</strong> <br>
 Mview를 생성하기 위해서는 Query Rewrite라는 권한과 Create Materialized view라는 권한이 있어야만 함(스펠링 특히 주의) <br>
 
-다음과 같은 방법으로 Mview를 생성하면 됨 <br>
+다음과 같은 방법으로 Mview를 생성하면 됨(오라클 엔터프라이즈 버전만 지원) <br>
+~~~
+-- 관리자 계정으로 권한 부여
+GRANT query rewrite TO scott;
+GRANT CREATE MATERIALIZED VIEW TO scott;
+-- Mview 생성
+CREATE MATERIALIZED VIEW m_prof
+build IMMEDIATE -- Mview를 생성하면서 즉시 서브 쿼리를 실행해서 데이터를 가져오라는 소리
+refresh	        
+ON demand       -- 사용자가 수동으로 동기화 명령을 수행
+complete        -- Mview 내의 데이터 전체가 원본 테이블과 동기화되는 방법(ATOMIC_REFRESH=TRUE와 COMPLETE로 설정필요)
+enable query rewrite
+AS 
+	SELECT profno, name, pay
+	FROM professor
+;
+~~~

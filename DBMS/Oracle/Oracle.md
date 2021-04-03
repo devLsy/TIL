@@ -179,3 +179,16 @@ BEGIN
 	COMMIT;
 END;
 ~~~
+
+### view
+view는 가상의 테이블을 의미, view는 데이터는 없고 원본 테이블에 가서 데이터를 불러오는 SQL query만 저장되어 있음 <br>
+사용자가 해당 view를 사용하는 SQL를 실행할 때만 view에 들어 있는 쿼리가 실행됨 <br>
+~~~
+-- 간단한 view 생성
+CREATE OR REPLACE VIEW v_emp1
+AS SELECT empno, ename, hiredate
+   FROM emp;   
+-- view 조회 시 아래처럼 결과가 표시됨
+SELECT * FROM v_emp1;
+~~~
+<img src="https://user-images.githubusercontent.com/44331989/113467110-d330a180-947b-11eb-833e-b8a20413edac.png"> <br>

@@ -247,3 +247,4 @@ AS
 	FROM professor
 ;
 ~~~
+<strong>※ 오라클 엔터프라이즈 버전만 사용가능해서 테스트는 못해 봄</strong> <br>

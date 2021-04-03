@@ -188,7 +188,7 @@ view는 가상의 테이블을 의미, view는 데이터는 없고 원본 테이
 CREATE OR REPLACE VIEW v_emp1
 AS SELECT empno, ename, hiredate
    FROM emp;   
--- view 조회 시 아래처럼 결과가 표시됨
+-- view 조회 시 아래처럼 결과가 표시됨(emp테이블에서 데이터를 조회해 )
 SELECT * FROM v_emp1;
 ~~~
 <img src="https://user-images.githubusercontent.com/44331989/113467110-d330a180-947b-11eb-833e-b8a20413edac.png"> <br>

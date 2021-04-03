@@ -221,3 +221,10 @@ view는 필요시 생성해 놓고 다른 쿼리에서 여러번 반복해서 �
 #### view 조회
 <img src="https://user-images.githubusercontent.com/44331989/113469214-e301b300-9486-11eb-9be7-b0b4f2d00db1.png"> <br>
 위의 예에서는 scott 사용자가 생성한 view를 조회 했기 때문에 USER_VIEWS를 조회 했지만, 모든 view를 조회할 경우 DBA_VIEWS로 조회(DBA 권한 필요) <br>
+
+#### Materialized View(Mview) 구체화된 뷰
+view는 일반적으로 데이터는 없고 서브 쿼리만 가지고 있음, 그래서 사용자가 view를 조회할 때 해당 쿼리문을 실행 후 원본 테이블에서 데이터를 가져온 후 사용자에게 반환 한 다음
+데이터를 삭제하는데 이 특성이 대용량 view일 경우에는 성능상 문제가 많이 됨 <br>
+Mview는 사용자가 요청하는 데이터를 가지고 있다가 요청이 들어오면 사용자에게 보내 줌 <br>
+사용자가 많고 데이터가 많을 수록 Mview를 사용하는 것이 일반 view를 사용하는 것보다 아주 효율적이고 성능도 좋게 됨 <br>
+<strong>※ 이 방식의 문제는 원본 테이블과 MView간의 데이터 동기화임</strong> <br>

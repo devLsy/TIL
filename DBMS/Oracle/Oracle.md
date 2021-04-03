@@ -196,6 +196,15 @@ view를 생성하면 오라클은 해당 view 정보를 딕셔너리에 저장�
 <strong>※ 이 의미는 평소에 이 view에는 데이터가 없다는 뜻이기도 함</strong> <br>
 view에는 제약조건이나 인덱스 등을 생성할 수가 없음 <br>
 
-매번 복잡한 서브쿼리를 생성해서 조회하기가 귀찮고 힘들 때 view를 생성 해 놓고 간단하게 조회할 수 있다는 것이 view의 큰 편리함임 <br>
+~~~
+-- emp table과 dept 테이블을 조회하여 사원이름과 부서 이름을 출력하는 view생성(부서번호로 조인) 
+CREATE OR REPLACE VIEW v_emp
+AS
+	SELECT e.ENAME, d.DNAME 
+	FROM emp e, dept d
+	WHERE e.DEPTNO = d.DEPTNO
+;
+~~~
+매번 위와 같은 복잡한 서브쿼리를 생성해서 조회하기가 귀찮고 힘들 때 view를 생성 해 놓고 간단하게 조회할 수 있다는 것이 view의 큰 편리함임 <br>
 그러나 view를 잘못 사용할 경우 성능 저하의 주 원인이 되는 경우도 많음 <br>
 <strong>view안에는 가급적 INTERSECT, MINUS, UNION 같은 집합 연산자는 사용하지 않는 것이 성능 향상에 도움이 된다는 점도 기억할 것</strong> <br>

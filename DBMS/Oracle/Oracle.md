@@ -217,3 +217,7 @@ view는 필요시 생성해 놓고 다른 쿼리에서 여러번 반복해서 �
 <img src="https://user-images.githubusercontent.com/44331989/113469078-936eb780-9485-11eb-94e0-5b5391e9f06a.png"> <br>
 중요한 건 FROM절에 있는 Inline View 쿼리를 수행해서 나온 테이블(e)은 원래 존재하지 않지만 우리가 원하는 결과를 만들기 위해서 메모리에 임시로 생성했다는 점임, 즉 Inline View를 이용해서 원하는 형태의 테이블을 먼저 만드는 것이 가장 중요함 <br>
 <strong>출처 : 오라클 SQL과 PL/SQL 책</strong> <br>
+
+#### view 조회
+<img src="https://user-images.githubusercontent.com/44331989/113469214-e301b300-9486-11eb-9be7-b0b4f2d00db1.png"> <br>
+위의 예에서는 scott 사용자가 생성한 view를 조회 했기 때문에 USER_VIEWS를 조회 했지만, 모든 view를 조회할 경우 DBA_VIEWS로 조회(DBA 권한 필요) <br>

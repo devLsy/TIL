@@ -228,3 +228,6 @@ view는 일반적으로 데이터는 없고 서브 쿼리만 가지고 있음, �
 Mview는 사용자가 요청하는 데이터를 가지고 있다가 요청이 들어오면 사용자에게 보내 줌 <br>
 사용자가 많고 데이터가 많을 수록 Mview를 사용하는 것이 일반 view를 사용하는 것보다 아주 효율적이고 성능도 좋게 됨 <br>
 <strong>※ 이 방식의 문제는 원본 테이블과 MView간의 데이터 동기화임</strong> <br>
+Mview를 생성하기 위해서는 Query Rewrite라는 권한과 Create Materialized view라는 권한이 있어야만 함(스펠링 특히 주의) <br>
+
+다음과 같은 방법으로 Mview를 생성하면 됨 <br>

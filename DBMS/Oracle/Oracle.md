@@ -24,6 +24,21 @@ SELECT * FROM TAB; (관리자 아닐 경우)
 ~~~
 참조 블로그 : https://javaoop.tistory.com/65 
 
+## 오라클 db 전체 테이블 갯수, 컬럼 갯수 추출
+~~~
+-- 오라클 테이블 별 컬럼 갯수
+select owner, table_name, count(column_name)
+from ALL_TAB_COLUMNS(관리자 계정일 경우만)
+where owner = 'dbuser명'
+group by owner, table_name
+order by owner
+;
+-- 현재 사용자 테이블 갯수
+SELECT count(1) FROM ALL_TABLES(관리자 계정일 경우만) 
+  WHERE owner = 'dbuser명'
+;
+~~~
+
 ## GROUP BY + 그룹함수(SUM, COUNT 등)
 쉽게 생각하면 된다. GROUP BY 다음에 오는 컬럼으로 먼저 그룹핑을 한 다음 그룹함수를 실행<br>
 (ex)

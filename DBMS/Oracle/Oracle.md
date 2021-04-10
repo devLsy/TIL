@@ -263,3 +263,7 @@ AS
 ;
 ~~~
 <strong>※ 오라클 엔터프라이즈 버전만 사용가능해서 테스트는 못해 봄</strong> <br>
+
+### 서브 쿼리
+서브쿼리는 하나의 메인 쿼리안에 또 하나의 쿼리가 담겨 있는 것을 의미 <br>
+<img src="https://user-images.githubusercontent.com/44331989/114257365-7fcdce80-99fa-11eb-997b-603d34e8adee.png"> <br>

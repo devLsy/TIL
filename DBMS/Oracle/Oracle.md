@@ -275,6 +275,15 @@ WHERE 조건 연산자( SELECT select_list FROM TABLE WHERE 조건 );
 ※ 서브 쿼리 작성 시 주의사항 <br>
 서브쿼리 부분은 WHERE절의 연산자 오른쪽에 위치해야 하며 반드시 괄호로 묶어야 함 <br>
 특별한 경우(Top-n 분석 등)를 제외하고는 서브 쿼리절에 Order by절이 올 수 없음 <br>
-단일행 서브쿼리와 다중행 서브쿼리에 따라 연산자를 잘 선택해야 함 <br>
+단일행 서브쿼리(일반적으로 사용되는 유형이고 서브 쿼리 수행결과가 1건만 나오는 경우)와 다중행 서브쿼리에 따라 연산자를 잘 선택해야 함 <br>
+~~~
+-- 단일행 서브쿼리일 경우 WHERE절에서 사용되는 연산자 
+= : 같다.
+<> : 같지 않다.
+> : 크다.
+< : 작다.
+<= : 작거나 같다.
+~~~
+
 <img src="https://user-images.githubusercontent.com/44331989/114257365-7fcdce80-99fa-11eb-997b-603d34e8adee.png"> <br>
 <strong>출처 : 오라클 SQL과 PL/SQL 책</strong> <br>

@@ -287,3 +287,10 @@ WHERE 조건 연산자( SELECT select_list FROM TABLE WHERE 조건 );
 
 <img src="https://user-images.githubusercontent.com/44331989/114257365-7fcdce80-99fa-11eb-997b-603d34e8adee.png"> <br>
 <strong>출처 : 오라클 SQL과 PL/SQL 책</strong> <br>
+
+### SELECT 결과값 별칭을 사용해서 테이블처럼 질의
+현업에서 아래처럼 사용하는 경우가 많음 <br>
+학생 테이블에서 학생번호, 이름, 아이디, 주민번호, 생년월일을 조회하는 쿼리 결과값을 s라는 별칭을 줘서 하나의 테이블이 되는것임 <br>
+바깥쪽 메인쿼리에서는 안쪽 결과를 테이블처럼 사용 <br>
+
+<img src="https://user-images.githubusercontent.com/44331989/114260315-f83e8a80-9a0e-11eb-8604-63deee19d320.png"> <br>

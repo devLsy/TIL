@@ -286,6 +286,8 @@ WHERE 조건 연산자( SELECT select_list FROM TABLE WHERE 조건 );
 ~~~
 
 <img src="https://user-images.githubusercontent.com/44331989/114257365-7fcdce80-99fa-11eb-997b-603d34e8adee.png"> <br>
+
+<img src="https://user-images.githubusercontent.com/44331989/114385095-857a0e80-9bca-11eb-8c12-24cba42681dc.png"> <br>
 <strong>출처 : 오라클 SQL과 PL/SQL 책</strong> <br>
 
 ### SELECT 결과값 별칭을 사용해서 테이블처럼 질의

@@ -288,7 +288,24 @@ WHERE 조건 연산자( SELECT select_list FROM TABLE WHERE 조건 );
 <img src="https://user-images.githubusercontent.com/44331989/114257365-7fcdce80-99fa-11eb-997b-603d34e8adee.png"> <br>
 
 <img src="https://user-images.githubusercontent.com/44331989/114385095-857a0e80-9bca-11eb-8c12-24cba42681dc.png"> <br>
+
+### 다중행 서브 쿼리
+다중행 서브쿼리란 서브 쿼리의 결과가 2건 이상 출력되는 것을 의미하고 다중행 서브 쿼리에서는 단일행 연산자를 사용할 수 없음 <br>
+~~~
+-- 다중행 서브 쿼리의 WHERE절에서 사용되는 연산자
+IN : 서브 쿼리 결과와 같은 값을 찾음
+EXISTS : 서크 쿼리의 값이 있을 경우 메인 쿼리를 수행
+>ANY : 서브 쿼리 결과 중 최솟값을 반환 
+<ANY : 서브 쿼리 결과 중 최댓값을 반환 
+<ALL : 서브 쿼리 결과 중 최솟값을 반환 
+<ALL : 서브 쿼리 결과 중 최댓값을 반환 
+~~~
+위의 ANY와 ALL은 연산자의 방향에 따라 최댓값, 최솟값이 달라짐 <br>
+서브쿼리에서 반환되는 값은 최솟값이거나 최댓값이지만 연산자 좌측에 어떤 값이 오는가에 따라서 출력되는 결괏값은 다르게 나옴 <br>
 <strong>출처 : 오라클 SQL과 PL/SQL 책</strong> <br>
+
+
+
 
 ### SELECT 결과값 별칭을 사용해서 테이블처럼 질의
 현업에서 아래처럼 사용하는 경우가 많음 <br>

@@ -304,11 +304,13 @@ EXISTS : 서크 쿼리의 값이 있을 경우 메인 쿼리를 수행
 서브쿼리에서 반환되는 값은 최솟값이거나 최댓값이지만 연산자 좌측에 어떤 값이 오는가에 따라서 출력되는 결괏값은 다르게 나옴 <br>
 <strong>출처 : 오라클 SQL과 PL/SQL 책</strong> <br>
 
-#### Exists, IN
+#### Exists, IN 연산자
 EXISTS 연산자와 IN 연산자는 비슷한 듯 하지만 아주 다름 <br>
 EXISTS 연산자는 서브 쿼리의 결과가 있으면 그 결과와 관계없이 메인쿼리를 수행하지만 IN 연산자는 서브 쿼리의 결과가 있으면 그 결과에 해당되는 메인 쿼리를 수행 <br>
 이 두가지를 잘 구분해서 적절하게 사용해야 하며 특히 EXISTS는 실무에서 어떤 데이터가 있는지 없는지 체크해서 쿼리를 실행할 때 자주 사용되는 함수이므로 꼭 이해하고 있어야 함 <br>
 
+<img src="https://user-images.githubusercontent.com/44331989/114650572-722b8800-9d1d-11eb-9d95-f3368befc29c.png"> <br>
+<img src="https://user-images.githubusercontent.com/44331989/114650667-9ab38200-9d1d-11eb-9641-abdd933b0cba.png"> <br>
 
 
 ### SELECT 결과값 별칭을 사용해서 테이블처럼 질의

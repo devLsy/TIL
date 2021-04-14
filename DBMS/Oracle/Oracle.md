@@ -312,6 +312,10 @@ EXISTS 연산자는 서브 쿼리의 결과가 있으면 그 결과와 관계없
 <img src="https://user-images.githubusercontent.com/44331989/114650572-722b8800-9d1d-11eb-9d95-f3368befc29c.png"> <br>
 <img src="https://user-images.githubusercontent.com/44331989/114650667-9ab38200-9d1d-11eb-9641-abdd933b0cba.png"> <br>
 
+#### 다중 컬럼 서브쿼리
+다중 컬럼 서브 쿼리는 서브 쿼리의 결과가 여러 컬럼인 경우를 말함 <br>
+주로 pk를 여러 컬럼으로 합쳐서 만들었을 경우 한꺼번에 비교하기 위해서 자주 사용<br>
+<img src="https://user-images.githubusercontent.com/44331989/114652682-588c3f80-9d21-11eb-9beb-fe639e351b22.png"> <br>
 
 ### SELECT 결과값 별칭을 사용해서 테이블처럼 질의
 현업에서 아래처럼 사용하는 경우가 많음 <br>

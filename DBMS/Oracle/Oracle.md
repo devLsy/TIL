@@ -325,3 +325,8 @@ EXISTS 연산자는 서브 쿼리의 결과가 있으면 그 결과와 관계없
 바깥쪽 메인쿼리에서는 안쪽 결과를 테이블처럼 사용 <br>
 
 <img src="https://user-images.githubusercontent.com/44331989/114260315-f83e8a80-9a0e-11eb-8604-63deee19d320.png"> <br>
+
+## 스칼라 서브 쿼리
+스칼라 서브 쿼리는 SELECT절에 오는 서브 쿼리로 한번에 결과를 1행씩 반환함 <br>
+
+

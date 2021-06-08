@@ -402,6 +402,8 @@ CYCLE
 CACHE 2
 ;
 ~~~
+위 시퀀스 생성 후 데이터를 넣으면 아래처럼 결과가 표시됨 <br>
+![image](https://user-images.githubusercontent.com/44331989/121270236-47fcdd80-c8fc-11eb-8c92-031eb959c5d1.png)
 
 
 

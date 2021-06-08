@@ -402,7 +402,13 @@ CYCLE
 CACHE 2
 ;
 ~~~
-위 시퀀스 생성 후 데이터를 넣으면 아래처럼 결과가 표시됨 <br>
+위 시퀀스 생성 후 아래처럼 NEXTVAL로 데이터를 넣으면 아래처럼 결과가 표시됨 <br>
+~~~
+INSERT INTO s_order
+VALUES(dev_seq.NEXTVAL, 'James', 'apple', 5);
+INSERT INTO s_order
+VALUES(dev_seq.NEXTVAL, '홍길동', '포도', 5000);
+~~~
 ![image](https://user-images.githubusercontent.com/44331989/121270236-47fcdd80-c8fc-11eb-8c92-031eb959c5d1.png)
 
 

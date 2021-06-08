@@ -398,7 +398,8 @@ INCREMENT BY 1
 START WITH 100
 MAXVALUE 110
 MINVALUE 90
-CYCLE
+CYCLE : CYCLE 옵션 넣을 경우 MAXVALUE 값을 다 사용하게 되면 MINVALUE로 설정된 값으로 다시 돌아가서 시작됨,
+        만일 CYCLE 옵션 지정하지 않을 경우 기본값은 NOCYCLE인데 이 경우 값을 초과한 요청이 올 경우 ORA-08004 : sequence SEQ_NAME.NEXTVAL exceeds MAXVALUE and cannot be instantiated와 같은 에러 발생
 CACHE 2
 ;
 ~~~

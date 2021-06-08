@@ -402,7 +402,7 @@ CYCLE
 CACHE 2
 ;
 ~~~
-위 시퀀스 생성 후 아래처럼 NEXTVAL로 데이터를 넣으면 아래처럼 결과가 표시됨 <br>
+위 시퀀스 생성 후 아래처럼 NEXTVAL 함수로 데이터를 넣으면 아래처럼 결과가 표시됨 <br>
 ~~~
 INSERT INTO s_order
 VALUES(dev_seq.NEXTVAL, 'James', 'apple', 5);

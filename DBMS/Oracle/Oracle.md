@@ -470,7 +470,8 @@ create public synonym TO scott;
 user_synonyms에서 조회하면 됨 <br>
 
 #### 시노님 삭제
+~~~
 drop synonym "synonym명";
-
+~~~
 
 

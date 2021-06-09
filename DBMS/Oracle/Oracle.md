@@ -501,4 +501,15 @@ invisible된 컬럼은 안보이지만 제약조건도 적용됨<br>
 11g까지는 인라인뷰를 사용하거나 rownum등을 사용해서 비교적 복잡한(?) 방법을 사용했었지만 12c부터는 편하게 Top-N으로 가능해 졌음 <br>
 (11g 사용중이라 테스트는 못 해 봤음) <br>
 
+### IDENTITY Column 지원
+기존의 ANSI SQL에서는 테이블에서 primary key와 같은 기능을 사용하기 위해 자동증가되는 identity columne을 지원했으나 오라클은 없었음 <br>
+그래서 시퀀스 등을 이용해서 수동으로 설정 했었는데 12c부터 오라클에서도 이 기능을 지원하게 되었음 <br>
+mysql의 auto-increment와 비슷한 기능으로 이해 됨 <br>
 
+~~~
+-- 문법은 아래와 같음
+CREATE TABLE t_iden
+( no NUMBER GENERATED AS IDENTITY, -- 이 부분이 자동증가
+  name varchar2(10)
+);
+~~~

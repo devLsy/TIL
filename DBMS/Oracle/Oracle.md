@@ -552,7 +552,21 @@ SET SERVEROUTPUT ON;
 ### PL/SQL 문 내에서의 SQL 문장 사용 하기
 ![image](https://user-images.githubusercontent.com/44331989/121443617-c7f07980-c9c8-11eb-8a6e-fff43072d505.png)
 
-
+~~~
+-- 작성 예
+SET serveroutput ON;
+DECLARE
+  v_empid             employees.employee_id%TYPE ;
+  v_salary            employees.salary%TYPE ;
+BEGIN
+  SELECT employee_id, salary INTO v_empid, v_salary
+  FROM employees
+  WHERE employyee_id = 197;
+  
+  DBMS_OUTPUT.PUT_LINE(v_empid||' == '||v_salary);
+END ;
+/
+~~~
 
 
 

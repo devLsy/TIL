@@ -513,3 +513,18 @@ CREATE TABLE t_iden
   name varchar2(10)
 );
 ~~~
+
+### Null 값 위한 DEFAULT 값 지정 가능
+12c에서는 null이 입력될 경우 null 대신 입력될 값을 default로 지정하는 기능이 추가 됨 <br>
+~~~
+-- 문법은 아래와 같음
+CREATE TABLE d_test100
+( no NUMBER,
+  name varchar2(10),
+  sal NUMBER DEFAULT on null 100 -- null일 경우 100을 입력
+);
+~~~
+
+
+
+

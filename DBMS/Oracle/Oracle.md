@@ -474,4 +474,21 @@ user_synonyms에서 조회하면 됨 <br>
 drop synonym "synonym명";
 ~~~
 
+### 12c SQL에 추가된 새로운 기능(DEFALUT VALUE로 sequence의 next value 지정 가능)
+12c 이전의 오라클에서는 자동 증가값을 설정하기 위해 시퀀스를 생성 한 후 테이블을 만들 때부터 생성한 시퀀스의 값을 설정할 수 있음 <br>
+~~~
+-- ex) 12c에서는 아래처럼 시퀀스를 생성 후 
+CREATE SEQUENCE t_seq
+start with 1
+increment by 1
+maxvalue 10
+nocycle
+;
+
+-- 테이블을 만들 때 시퀀스의 next value 지정이 가능함
+CREATE TALBE test
+( no NUMBER DEFAULT t_seq.nextval PRIMARY KEY,
+  name varchar2(10)
+);
+~~~
 

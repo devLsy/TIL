@@ -412,7 +412,23 @@ VALUES(dev_seq.NEXTVAL, '홍길동', '포도', 5000);
 ~~~
 ![image](https://user-images.githubusercontent.com/44331989/121270236-47fcdd80-c8fc-11eb-8c92-031eb959c5d1.png)
 
-
+### 시퀀스 초기화하기
+일반적으로 시퀀스를 초기화하는 경우도 드물지만 정말 업무상 반드시 초기화를 해야 할 경우도 생김 <br>
+이 경우에는 아래와 같이 프로시저를 생성해서 수행하면 됨 <br>
+~~~
+CREATE OR REPLACE PROCEDURE re_seq
+(
+  SNAME IN VACHAR2
+)
+IS
+  VAL NUMBER
+BEGIN
+  EXCUTE IMMEDIATE `SELECT ` || SNAME || `.NEXTVAL FROM DUAL `INTO VAL;
+  EXCUTE IMMEDIATE `ALTER SEQUENCE ` || SNAME || ` INCREMENT BY -` || VAL || ` MINVALUE 0`;
+  EXCUTE IMMEDIATE `SELECT ` || SNAME || `.NEXTVAL FROM DUAL ` INTO VAL;
+  EXCUTE IMMEDIATE `ALTER SEQUENCE ` || SNAME || `INCREMENT BY 1 MINVALUE 0`; 
+END  
+~~~
 
 
 

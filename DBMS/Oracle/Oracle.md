@@ -547,7 +547,8 @@ SET SERVEROUTPUT ON;
 ~~~
 
 ### PL/SQL 블록 작성 시 기본규칙과 권장사항
-![image](https://user-images.githubusercontent.com/44331989/121443382-5e706b00-c9c8-11eb-9c26-8fa998d08bd0.png)
+![image](https://user-images.githubusercontent.com/44331989/121443539-a4c5ca00-c9c8-11eb-9844-ef377dba2c0a.png)
+
 
 
 

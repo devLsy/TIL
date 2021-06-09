@@ -525,6 +525,28 @@ CREATE TABLE d_test100
 );
 ~~~
 
+## Oracle PL/SQL
+PL/SQL은 오라클에서 제공하는 프로그래밍 언어임, 기존 SQL은 DB의 데이터를 조회하거나 조작할 때 여러 불편함이 많지만,
+SQL과 PL/SQL을 함께 활용하면 효과적으로 DB에 접근할 수 있음 <br>
+PL/SQL이란 Procedural Language/SQL의 약자로 절차적인 기능을 기본적으로 가지는 프로그래밍 언어임 <br>
+PL/SQL은 일반 프로그래밍 언어적인 요소를 거의 다 가지고 있어서 실무에서 요구되는 절차적인 데이터 처리가 모두 가능하고 <br>
+SQL과 결합해 기존 언어보다 더 강력하게 DB 관련 작업들을 할 수 있음 <br>
+
+### PL/SQL 기본구조
+PL/SQL은 기본적으로 블록(BLOCK) 구조이고
+선언부(DECLARE), 실행부(BEGIN), 예외 처리부(EXCEPTION)로 구성되어 있음 <br>
+PL/SQL 블록은 블록 안에 블록을 포함할 수 있는데, 포함된 블록을 Nested Block(중첩 블록)이라고 부르기도 함 <br>
+블록의 유형에는 Anonymous PL/SQL Block(익명 블록)과 Stored PL/SQL Block(저장된 블록)이 있음 <br>
+익명 블록은 주로 일회성에 많이 사용되고, 저장된 블록은 서버에 파싱해서 저장 한 뒤 주기적으로 반복해서 사용할 때 많이 사용 <br>
+
+
+
+
+
+
+
+
+
 
 
 

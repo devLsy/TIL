@@ -449,6 +449,22 @@ CACHE 10;
 DROP SEQUENCE '시퀀스명';
 ~~~
 
+### SYNONYM(시노님-동의어)
+사람도 친구의 별명을 부르듯 오라클에서도 테이블에 별명을 붙일 수 가 있는데 이 별명을 붙이는 기능을 시노님이라고 함 <br>
+시노님을 사용하는 목적은 보안이나 사용자의 편리성 때문임 <br>
+~~~
+-- 생성 문법
+CREATE [PUBLIC] SYNONYM synonym_name
+FOR [schema.] 대상객체;
+~~~
+종류는 Private Synonym과 public Synonym이 있고 private synonym은 만든 사용자만 사용할 수 있는 synonym임 <br>
+대부분은 synonym은 프로젝트에 참여한 많은 사람들이 다 볼 수 있도록 만드는 것이 좋은데 이 때 사용하는게 public synonym임 <br>
+synonym을 생성하려면 CREATE [PUBLIC] SYNONYM이란 권한이 필요하므로 아래와 같이 권한을 먼저 할당 해야 함 <br>
+~~~
+conn / as sysdba로 sysdba 권한으로 접속
+create synonym TO scott;
+create public synonym TO scott;
+~~~
 
 
 

@@ -546,6 +546,9 @@ PL/SQL 블록은 블록 안에 블록을 포함할 수 있는데, 포함된 블�
 SET SERVEROUTPUT ON;
 ~~~
 
+### PL/SQL 블록 작성 시 기본규칙과 권장사항
+![image](https://user-images.githubusercontent.com/44331989/121443382-5e706b00-c9c8-11eb-9c26-8fa998d08bd0.png)
+
 
 
 

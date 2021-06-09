@@ -549,6 +549,8 @@ SET SERVEROUTPUT ON;
 ### PL/SQL 블록 작성 시 기본규칙과 권장사항
 ![image](https://user-images.githubusercontent.com/44331989/121443539-a4c5ca00-c9c8-11eb-9844-ef377dba2c0a.png)
 
+### PL/SQL 문 내에서의 SQL 문장 사용 하기
+![image](https://user-images.githubusercontent.com/44331989/121443617-c7f07980-c9c8-11eb-8a6e-fff43072d505.png)
 
 
 

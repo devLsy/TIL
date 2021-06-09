@@ -461,7 +461,7 @@ FOR [schema.] 대상객체;
 대부분은 synonym은 프로젝트에 참여한 많은 사람들이 다 볼 수 있도록 만드는 것이 좋은데 이 때 사용하는게 public synonym임 <br>
 synonym을 생성하려면 CREATE [PUBLIC] SYNONYM이란 권한이 필요하므로 아래와 같이 권한을 먼저 할당 해야 함 <br>
 ~~~
-conn / as sysdba로 sysdba 권한으로 접속
+conn / as sysdba로 sysdba 권한으로 접속(터미널로 안하고 db툴에서 system계정으로 부여해도 될 듯)
 create synonym TO scott;
 create public synonym TO scott;
 ~~~

@@ -550,10 +550,10 @@ SET SERVEROUTPUT ON;
 ![image](https://user-images.githubusercontent.com/44331989/121443539-a4c5ca00-c9c8-11eb-9844-ef377dba2c0a.png)
 
 ### PL/SQL 문 내에서의 SQL 문장 사용 하기
-![image](https://user-images.githubusercontent.com/44331989/121443617-c7f07980-c9c8-11eb-8a6e-fff43072d505.png)
+![image](https://user-images.githubusercontent.com/44331989/121443617-c7f07980-c9c8-11eb-8a6e-fff43072d505.png) <br>
 
 작성 예
-![image](https://user-images.githubusercontent.com/44331989/121444054-b065c080-c9c9-11eb-9a98-5f9e15f574a2.png)
+![image](https://user-images.githubusercontent.com/44331989/121444054-b065c080-c9c9-11eb-9a98-5f9e15f574a2.png) <br>
 
 
 

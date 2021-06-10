@@ -551,9 +551,8 @@ SET SERVEROUTPUT ON;
 
 ### PL/SQL 문 내에서의 SQL 문장 사용 하기
 ![image](https://user-images.githubusercontent.com/44331989/121443617-c7f07980-c9c8-11eb-8a6e-fff43072d505.png) <br>
-
-
 ![image](https://user-images.githubusercontent.com/44331989/121444054-b065c080-c9c9-11eb-9a98-5f9e15f574a2.png) <br>
+![image](https://user-images.githubusercontent.com/44331989/121444476-911b6300-c9ca-11eb-8743-133d7d4c585b.png) <br>
 
 
 

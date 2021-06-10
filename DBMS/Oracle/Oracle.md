@@ -575,6 +575,10 @@ IS | AS
  Subprogram specifications
 END package_name;
 ~~~
+OR REPLACE : 생성하려는 패키지가 존재할 경우 기존의 내용을 현재의 내용으로 수정하는 옵션, 이 옵션은 해당 패키지 body를 삭제한 후 다시 생성함 <br>
+package_name : 생성하고자 하는 패키지명으로 스키마내에는 유일한 이름이어야 함, 패키지 선언부와 패키지 몸체부의 패키지명은 동일해야 함 <br>
+public type and item declarations : 변수, 상수, 명시적 커서, 사용자 정의 예외, PRAGMA 등을 선언, 이들은 모두 public 임 <br>
+Subprogram specifications : PL/SQL 서브 프로그램을 선언하는 부분, 선언할 때에는 형식 매개 변수를 포함한 헤더만을 기술 함 <br>
 
 패키지 몸통부 문법
 ~~~

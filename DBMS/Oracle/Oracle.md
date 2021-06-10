@@ -579,6 +579,9 @@ OR REPLACE : 생성하려는 패키지가 존재할 경우 기존의 내용을 �
 package_name : 생성하고자 하는 패키지명으로 스키마내에는 유일한 이름이어야 함, 패키지 선언부와 패키지 몸체부의 패키지명은 동일해야 함 <br>
 public type and item declarations : 변수, 상수, 명시적 커서, 사용자 정의 예외, PRAGMA 등을 선언, 이들은 모두 public 임 <br>
 Subprogram specifications : PL/SQL 서브 프로그램을 선언하는 부분, 선언할 때에는 형식 매개 변수를 포함한 헤더만을 기술 함 <br>
+Subprogram bodies : 실제 작동할 서브 프로그램(프로시저, 함수 등)을 기록하는 부분임 <br>
+주의해야 할 사항은 서브 프로그램의 순서인데 기본적으로 참조되는 변수든 서브 프로그램이든 참조하는 서브 프로그램보다는 먼저 정의 되어야 함 <br>
+일반적으로 PUBLIC의 서브 프로그램은 마지막 부분에 정의함 <br>
 
 패키지 몸통부 문법
 ~~~
@@ -589,7 +592,13 @@ IS | AS
 END package_name;
 ~~~
 
-
+### 패키지 삭제
+~~~
+-- 패키지 전체 삭제
+DROP PACKAGE package_name ;
+-- 패키지 몸통 삭제
+DROP PACKAGE BODY package_name ;
+~~~
 
 
 

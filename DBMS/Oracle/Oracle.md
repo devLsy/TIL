@@ -541,6 +541,7 @@ PL/SQL 블록은 블록 안에 블록을 포함할 수 있는데, 포함된 블�
 때에 따라 선언부와 예외처리부는 생략도 가능함 <br>
 블록 내의 각 부분에 포함되는 명령들 중 DECLARE, BEGIN, EXCEPTION과 같은 예약어들은 ;(세미콜론)으로 끝나지 않지만 <br>
 나머지 명령어들은 SQL 문장처럼 ;으로 끝이 남 <br>
+PL/SQL 블록 내에서 DML(CRUD)도 처리 할 수 있음 <br>
 ※ PL/SQL은 기본적으로 처리된 PL/SQL의 문장의 결과를 화면에 출력하지 않음, 아래처럼 활성화 필요<br>
 ~~~
 SET SERVEROUTPUT ON;
@@ -553,7 +554,6 @@ SET SERVEROUTPUT ON;
 ![image](https://user-images.githubusercontent.com/44331989/121443617-c7f07980-c9c8-11eb-8a6e-fff43072d505.png) <br>
 ![image](https://user-images.githubusercontent.com/44331989/121444054-b065c080-c9c9-11eb-9a98-5f9e15f574a2.png) <br>
 ![image](https://user-images.githubusercontent.com/44331989/121444476-911b6300-c9ca-11eb-8743-133d7d4c585b.png) <br>
-
 
 
 

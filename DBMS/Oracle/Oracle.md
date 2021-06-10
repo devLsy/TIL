@@ -567,6 +567,23 @@ SET SERVEROUTPUT ON;
 만일 생성된 선언부가 변경되었다면 무조건 패키지 몸체는 다시 재생성해야 하고 참조하는 서브 프로그램들도 재번역(recompile)해야 함 <br>
 반대로 몸체부만 변경되는 경우는 선언부와 다른 관련 서브 프로그램에 영향을 주지 않고 몸체부만 재 생성하면 됨 <br>
 
+패키지 선언부 문법
+~~~
+CREATE [OR REPLACE] PACKAGE package_name
+IS | AS
+ public type and item declarations
+ Subprogram specifications
+END package_name;
+~~~
+
+패키지 몸통부 문법
+~~~
+CREATE [OR REPLACE] PACKAGE BODY package_name
+IS | AS
+ public type and item declarations
+ Subprogram specifications
+END package_name;
+~~~
 
 
 

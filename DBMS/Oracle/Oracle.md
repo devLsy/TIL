@@ -555,6 +555,11 @@ SET SERVEROUTPUT ON;
 ![image](https://user-images.githubusercontent.com/44331989/121444054-b065c080-c9c9-11eb-9a98-5f9e15f574a2.png) <br>
 ![image](https://user-images.githubusercontent.com/44331989/121444476-911b6300-c9ca-11eb-8743-133d7d4c585b.png) <br>
 
+## Oracle Package(패키지)
+서브 프로그램 단위의 하나인 패키지는 특정 처리를 위해 관련된 PL/SQL 블록들이 논리적으로 하나의 그룹을 이루는 특수한 형태 <br>
+이 때 패키지를 구성하는 PL/SQL 블록들은 프로시저 또는 함수가 될 수 있으며, 그 외에도 오라클에서 제공하는 PL/SQL 데이터 유형, 복합 유형 등이 포함됨 <br>
+<strong>※ 패키지는 연관성이 높은 함수나 프로시저를 하나의 그룹으로 묶어두는 개념</strong>
+
 
 
 

@@ -600,5 +600,9 @@ DROP PACKAGE package_name ;
 DROP PACKAGE BODY package_name ;
 ~~~
 
+### 패키지 생성 예제
+![image](https://user-images.githubusercontent.com/44331989/121463508-27f91700-c9ed-11eb-983c-da1f84b90f61.png)
+![image](https://user-images.githubusercontent.com/44331989/121463517-2cbdcb00-c9ed-11eb-87ad-e81905fbebc8.png)
+
 
 

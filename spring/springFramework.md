@@ -534,6 +534,10 @@ POST 방식도 그렇지만 PUT, DELETE 방식은 브라우저에서 테스트�
 <hr>
 <h2>20190219 TIL 출처: 코드로 배우는 스프링 웹 프로젝트(개정판)예제</h2>
 
+## @RequestBody, @ResponseBody	
+위에 이미 적었었지만 개념이 없었을 때 적은거라서 다시 기입함
+![image](https://user-images.githubusercontent.com/44331989/123400049-4e6ba480-d5e0-11eb-9d04-1306cb4d15f9.png) <br>
+image source : https://lee-mandu.tistory.com/242 <br>	
 
 
 

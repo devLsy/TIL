@@ -13,9 +13,9 @@
 * [ETC](https://github.com/devLsy/TIL/blob/master/devEtc/devEtc.md)
 * [egovframework](https://github.com/devLsy/TIL/blob/master/egovFramework/egovframework.md)
 * [deploy](https://github.com/devLsy/TIL/blob/master/deploy/jenkins.md)
-* DBMS :
--- [MariaDB](https://github.com/devLsy/TIL/blob/master/DBMS/MariaDB/MariaDB.md)
--- [Oracle](https://github.com/devLsy/TIL/blob/master/DBMS/Oracle/Oracle.md)
+### DBMS
+* [MariaDB](https://github.com/devLsy/TIL/blob/master/DBMS/MariaDB/MariaDB.md)
+* [Oracle](https://github.com/devLsy/TIL/blob/master/DBMS/Oracle/Oracle.md)
 * [웹취약점](https://github.com/devLsy/TIL/blob/master/web_vulnerability/web_vulnerability.md)
 
 

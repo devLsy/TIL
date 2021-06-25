@@ -13,8 +13,8 @@
 * 전자정부프레임워크: https://github.com/devLsy/TIL/blob/master/egovFramework/egovframework.md </h3> <br>
 * deploy: https://github.com/devLsy/TIL/blob/master/deploy/jenkins.md </h3> <br>
 * DBMS : <br>
-- MariaDB : https://github.com/devLsy/TIL/blob/master/DBMS/MariaDB/MariaDB.md <br>
-- Oracle : https://github.com/devLsy/TIL/blob/master/DBMS/Oracle/Oracle.md <br>
+-- MariaDB : https://github.com/devLsy/TIL/blob/master/DBMS/MariaDB/MariaDB.md <br>
+-- Oracle : https://github.com/devLsy/TIL/blob/master/DBMS/Oracle/Oracle.md <br>
 * 웹취약점 : https://github.com/devLsy/TIL/blob/master/web_vulnerability/web_vulnerability.md <br>
 
 

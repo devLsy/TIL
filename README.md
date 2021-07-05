@@ -15,8 +15,10 @@ image source : https://brunch.co.kr/@dudqjatn1/6
 ---------------------------------------------------------
 ### IDE
 * [IDE](https://github.com/devLsy/TIL/blob/master/IDE/Eclipse.md)
+---------------------------------------------------------
 ### deploy
 * [deploy](https://github.com/devLsy/TIL/blob/master/deploy/jenkins.md)
+---------------------------------------------------------
 ### DBMS
 * [MariaDB](https://github.com/devLsy/TIL/blob/master/DBMS/MariaDB/MariaDB.md)
 * [Oracle](https://github.com/devLsy/TIL/blob/master/DBMS/Oracle/Oracle.md)
@@ -27,6 +29,7 @@ image source : https://brunch.co.kr/@dudqjatn1/6
 ### OS
 * [linux](https://github.com/devLsy/TIL/blob/master/OS/lunix.md)
 * [windows](https://github.com/devLsy/TIL/blob/master/OS/windows.md)
+---------------------------------------------------------
 ### ETC
 * [ETC](https://github.com/devLsy/TIL/blob/master/devEtc/devEtc.md)
 

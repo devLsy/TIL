@@ -7,6 +7,7 @@ image source : https://brunch.co.kr/@dudqjatn1/6
 ### frontend
 * [HTML](https://github.com/devLsy/TIL/blob/master/HTML/HTML.md)
 * [CSS](https://github.com/devLsy/TIL/blob/master/css/css.md)
+* [JS](https://github.com/devLsy/TIL/blob/master/JS/javascript.md)
 ---------------------------------------------------------
 ### framework
 * [springFramework](https://github.com/devLsy/TIL/blob/master/spring/springFramework.md)

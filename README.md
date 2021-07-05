@@ -16,7 +16,9 @@ image source : https://brunch.co.kr/@dudqjatn1/6
 * [Oracle](https://github.com/devLsy/TIL/blob/master/DBMS/Oracle/Oracle.md)
 ---------------------------------------------------------
 * [웹취약점](https://github.com/devLsy/TIL/blob/master/web_vulnerability/web_vulnerability.md)
-
+### OS
+* [linux](https://github.com/devLsy/TIL/blob/master/OS/lunix.md)
+* [windows](https://github.com/devLsy/TIL/blob/master/OS/windows.md)
 
 
 

@@ -21,4 +21,16 @@ https://drive.google.com/drive/folders/1sOMCoyxnpww_Ac08ecP7Ejpz5FBCZiGs
 공통코드 상세 탭 <br>
 공통학력이라는 업무를 UNI00으로 대분류 코드를 만들고 하위분류를 UNI01 ~ 04까지로 정했음 <br>
 
+# 감리관련
+
+### 산출물 테일러링 목록표
+산출물 테일러링 목록표는 아래와 비슷하고 산출물을 한번에 알 수 있게 목록화 해 놓은 파일임 <br>
+목록표의 폴더 경로를 따라 들어가면 파일들을 손 쉽게 찾을 수 있음 <br>
+![image](https://user-images.githubusercontent.com/44331989/124719614-4c8bd480-df42-11eb-9887-7341efd4f498.png) <br>
+
+### 산출물 문서번호
+산출물 문서번호 부여 방법은 아래와 같음 <br>
+![image](https://user-images.githubusercontent.com/44331989/124704332-de89e200-df2e-11eb-99ce-cd8b4fcdddc9.png) <br>
+
+
 

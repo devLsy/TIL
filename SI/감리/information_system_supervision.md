@@ -17,5 +17,6 @@ https://drive.google.com/drive/folders/1sOMCoyxnpww_Ac08ecP7Ejpz5FBCZiGs
 
 ![image](https://user-images.githubusercontent.com/44331989/125027157-c77af980-e0c0-11eb-821d-566dfe5d3f7a.png)
 공통코드 상세 탭 <br>
+공통학력이라는 업무를 UNI00으로 대분류 코드를 만들고 하위분류를 UNI01 ~ 04까지로 정했음 <br>
 
 

@@ -88,7 +88,6 @@ result : 동해물과|백두산이|마르고 닳도록|하느님이|보우하사
 -- 상황에 따라 적절한 함수를 사용하면 됨
 ~~~
 
-### unsigned
+### unsigned(음수 사용하지 않는 경우)
 ![image](https://user-images.githubusercontent.com/44331989/125229498-e6bc9580-e311-11eb-905d-152e7a8245bf.png) <br>
 image source : https://info-lab.tistory.com/29 <br>
-

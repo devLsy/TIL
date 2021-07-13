@@ -604,5 +604,11 @@ DROP PACKAGE BODY package_name ;
 ![image](https://user-images.githubusercontent.com/44331989/121463508-27f91700-c9ed-11eb-983c-da1f84b90f61.png)
 ![image](https://user-images.githubusercontent.com/44331989/121463517-2cbdcb00-c9ed-11eb-87ad-e81905fbebc8.png)
 
-
+### as sysdba 방지
+![image](https://user-images.githubusercontent.com/44331989/125397032-57ce7c80-e3e8-11eb-8606-612746e22942.png) <br>
+![image](https://user-images.githubusercontent.com/44331989/125397060-5f8e2100-e3e8-11eb-9e1b-7078ce14e929.png) <br>
+image source : https://wookoa.tistory.com/235 <br>	
+	
+	
+	
 

@@ -24,6 +24,10 @@ image source : https://zzznara2.tistory.com/726?category=333274 <br>
 ![image](https://user-images.githubusercontent.com/44331989/125437711-4c0ea89d-371a-4b6d-b224-a76cf5f9f272.png) <br>
 image source : https://walkingfox.tistory.com/1 <br>
 
+## erd 컬럼 데이터 타입 표시
+![image](https://user-images.githubusercontent.com/44331989/125438909-e7bb1e87-685d-4687-90c4-0b556ea73f7e.png) <br>
+image source : https://antillablog.tistory.com/entry/ERwin-%EB%8D%B0%EC%9D%B4%ED%83%80%ED%83%80%EC%9E%85-%EB%94%94%EC%8A%A4%ED%94%8C%EB%A0%88%EC%9D%B4 <br>
+
 
   
 

@@ -16,6 +16,15 @@ image source : https://dorongdogfoot.tistory.com/74 <br>
 ![image](https://user-images.githubusercontent.com/44331989/125388190-07502280-e3da-11eb-96f2-338626d9e759.png) <br>
 image source : https://zzznara2.tistory.com/726?category=333274 <br>
 
+## 논리명 변경 안되는 현상
+![image](https://user-images.githubusercontent.com/44331989/125437552-70fcd666-fedf-4a4d-9113-a1216df10a64.png) <br>
+![image](https://user-images.githubusercontent.com/44331989/125437585-e0e57050-1c10-4432-8b08-c479650f369c.png) <br>
+![image](https://user-images.githubusercontent.com/44331989/125437619-240445d3-6494-43a9-be05-f0d9af29d6ca.png) <br>
+![image](https://user-images.githubusercontent.com/44331989/125437647-603f3a95-e904-47ee-932c-06f52bb07947.png) <br>
+
+  
+
+
 
 
 

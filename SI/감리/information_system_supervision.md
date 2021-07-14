@@ -9,6 +9,7 @@ https://drive.google.com/drive/folders/1sOMCoyxnpww_Ac08ecP7Ejpz5FBCZiGs
 ## 현행 업무 및 시스템 분석
 현재 기능구조도(메뉴리스트) 나열, 개발환경(개발언어, 사용 DBMS, 서버 OS, 솔루션 사용 시 솔루션 스펙 등 기입) <br>
 현재 이런 기능이 있고 사용자가 얼마나 사용하고 있고 문제점은 무엇인지 등등을 표시 <br>
+![image](https://user-images.githubusercontent.com/44331989/125559035-b285b51c-4bfd-4f7c-92f4-9028635f6f55.png) <br>
 
 ## 클래스설계서 
 * 클래스설계서의 클래스ID는 요구사항 추적 매트릭스에 있는 ID를 따옴 <br>

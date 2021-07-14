@@ -32,5 +32,8 @@ https://drive.google.com/drive/folders/1sOMCoyxnpww_Ac08ecP7Ejpz5FBCZiGs
 산출물 문서번호 부여 방법은 아래와 같음 <br>
 ![image](https://user-images.githubusercontent.com/44331989/124704332-de89e200-df2e-11eb-99ce-cd8b4fcdddc9.png) <br>
 
-
+### 감리 핵심
+WBS 진척률과 요구사항대로 충실히 분석·설계 및 진행이 되고 있는지를 중점적으로 감리함 <br>
+하지만 (주)한국전산감리원에서 나오는 감리원마다 스타일이 다 다르기에 감리에 맞춰서 유동적으로 대처할 필요도 있음 <br>
+요구사항 관련 필수 산출물들은 반드시 있어야 하고 상황에 따라 감리원과 협의하에 변경도 가능한 경우도 있음 <br>
 

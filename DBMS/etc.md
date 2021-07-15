@@ -6,6 +6,9 @@
 * 테이블 구조 변경시 고려사항이 많이 생김
 * 테스트 데이터 만드는 것이 불편함
 
+DB에서 FK 없이 설계하는 경우 프로그램에서 체크해야 함 <br>
+DB에서 FK 없이 설계하는 경우에 대한 의견은 다 다름 <br>
+
 이 경우 Foreign Key를 잠시 Disable 시켜 놓고 나중에 다시 enable 하는 방법도 있음 <br>
 ![image](https://user-images.githubusercontent.com/44331989/125753576-e41f1596-0989-469d-8940-14bf9af183b4.png) <br>
 

@@ -373,6 +373,8 @@ UNION ALL
 SELECT * FROM b
 ;
 ~~~
+![image](https://user-images.githubusercontent.com/44331989/125757918-83f12f72-949f-458d-a3af-4aa0c192a67e.png)
+image source : https://coding-factory.tistory.com/445 <br>
 
 ### 스칼라 서브쿼리의 NULL 처리
 스칼라 서브 쿼리에서 조인 후 해당 값이 없을 때, 실제로 NULL이 발생하는 곳은 스칼라 서브 쿼리를 호출한 메인 쿼리의 컬럼부분임 <br>

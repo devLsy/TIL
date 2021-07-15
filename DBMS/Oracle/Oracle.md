@@ -377,6 +377,7 @@ UNION ALL
 SELECT * FROM b
 ;
 ~~~
+![image](https://user-images.githubusercontent.com/44331989/125763151-74ddc675-9cf2-411c-9fbf-b80d9e39ac43.png) <br>
 ![image](https://user-images.githubusercontent.com/44331989/125757918-83f12f72-949f-458d-a3af-4aa0c192a67e.png)
 image source : https://coding-factory.tistory.com/445 <br>
 

@@ -5,3 +5,4 @@
 테스트 데이터 넣거나 하는 경우나 그밖의 이 제약조건 때문에 불편한 경우는 Foreign Key를 잠시 Disable 시켜 놓고 나중에 다시 enable 하는 방법이 있음 <br>
 
 출처 : https://engineering-skcc.github.io/oracle%20tuning/foreign_key_%EC%97%86%EC%9D%B4_%EA%B5%AC%EC%B6%95%ED%95%98%EB%8A%94_DB/ <br>
+출처 : https://velog.io/@subutai/%EB%A7%A4%EC%9D%BC-2day <br>

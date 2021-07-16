@@ -13,5 +13,7 @@
 ~~~
 문법
 (타입 매개변수, ...) -> {실행문;...}
+ex)
+InterfaceA1 a1 = (int a) -> {System.out.println("a : " + a); };
 ~~~
 출처 : https://multifrontgarden.tistory.com/124 <br>

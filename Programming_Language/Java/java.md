@@ -7,4 +7,11 @@
 ![image](https://user-images.githubusercontent.com/44331989/125906772-ab7431d1-6156-4d30-b7c6-c1c2c2a6f6fe.png) <br>
 ![image](https://user-images.githubusercontent.com/44331989/125907032-f2669709-689c-4fc6-a10a-600d77d9d6fe.png) <br>
 ![image](https://user-images.githubusercontent.com/44331989/125907408-6e87a82d-6639-4ec2-b0be-faf3308957a5.png) <br>
+## 람다식 구현 핵심
+* 람다식을 사용하기 위해서는 구현할 인터페이스(반드시 함수적 인터페이스만 가능)가 필요 -> @FunctionallInterface 어노테이션으로 명시 가능 <br>
+* @FunctionallInterface가 적용된 인터페이스는 한개의 추상 메소드만 선언할 수 있음, 메서드 추가 시 컴파일 에러 발생 <br>
+~~~
+문법
+(타입 매개변수, ...) -> {실행문;...}
+~~~
 출처 : https://multifrontgarden.tistory.com/124 <br>

@@ -10,10 +10,5 @@
 ## 람다식 구현 핵심
 * 람다식을 사용하기 위해서는 구현할 인터페이스(반드시 함수적 인터페이스만 가능)가 필요 -> @FunctionallInterface 어노테이션으로 명시 가능 <br>
 * @FunctionallInterface가 적용된 인터페이스는 한개의 추상 메소드만 선언할 수 있음, 메서드 추가 시 컴파일 에러 발생 <br>
-~~~
-문법
-(타입 매개변수, ...) -> {실행문;...}
-ex)
-InterfaceA1 a1 = (int a) -> {System.out.println("a : " + a); };
-~~~
+![image](https://user-images.githubusercontent.com/44331989/125908656-eb100be5-7e24-4140-886d-70f40b7ddd37.png) <br>
 출처 : https://multifrontgarden.tistory.com/124 <br>

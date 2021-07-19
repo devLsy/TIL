@@ -61,6 +61,8 @@ Servlet/JSP에서는 HttpServletRequest/HttpServletResponse라는 타입의 객�
 개발자의 코드는 스프링 MVC에서 동작하기 때문에 과거에는 스프링 MVC의 특정한 클래스를 상속하거나 인터페이스를 구현하는 형태로 개발할 수 있었지만,
 스프링 2.5버전부터 등장한 어노테이션 방식으로 인해 최근 개발에는 어노테이션이나 XML 등의 설정만으로 개발이 가능하게 되었음<br>
 (스프링 MVC 역시 내부적으로는 Servlet API를 활용함)<br><p>
+![image](https://user-images.githubusercontent.com/44331989/126112706-1b5cf3df-1c58-41f7-b6ff-f6a3f08bcd82.png)
+
 <img src="https://user-images.githubusercontent.com/44331989/52994208-2db44280-345a-11e9-9b3e-dc7c65209668.jpg"><br><p>
 	
 <img src="https://user-images.githubusercontent.com/44331989/52994777-fd6da380-345b-11e9-95ae-8325c64e01cf.jpg"><br><p>

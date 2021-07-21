@@ -24,6 +24,10 @@ SELECT * FROM TAB; (관리자 아닐 경우)
 ~~~
 참조 블로그 : https://javaoop.tistory.com/65 
 
+### 오라클 컬럼 코멘트 조회
+![image](https://user-images.githubusercontent.com/44331989/126446814-afec158a-2e2d-4bfa-a217-bf9e5bc08544.png)
+image source : https://gent.tistory.com/206 <br>
+
 ## 오라클 db 전체 테이블 갯수, 컬럼 갯수 추출
 ~~~
 -- 오라클 테이블 별 컬럼 갯수

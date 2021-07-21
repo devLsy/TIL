@@ -6,6 +6,8 @@
 ## 밀리 세컨드 초 이해하기
 ![image](https://user-images.githubusercontent.com/44331989/126420046-f12c03f1-4a58-4b64-baa3-cfc8b57265a6.png) <br>
 ![image](https://user-images.githubusercontent.com/44331989/126420064-93f9e733-61bc-4de6-b4d7-093aa5873ad4.png) <br>
+![image](https://user-images.githubusercontent.com/44331989/126420211-15280250-64c6-41a7-87c0-d6833e2cea6b.png) <br>
+![image](https://user-images.githubusercontent.com/44331989/126420271-a6e7131c-417e-4924-980a-a69009c61d7a.png) <b>
   
 출처 : https://blogofpjj.tistory.com/37 <br>
   

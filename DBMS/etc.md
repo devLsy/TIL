@@ -16,3 +16,7 @@ FK가 없는게 불편하다는 사람도 있고 FK 없이 프로그램에서 �
 
 출처 : https://engineering-skcc.github.io/oracle%20tuning/foreign_key_%EC%97%86%EC%9D%B4_%EA%B5%AC%EC%B6%95%ED%95%98%EB%8A%94_DB/ <br>
 출처 : https://velog.io/@subutai/%EB%A7%A4%EC%9D%BC-2day <br>
+
+## 외래키
+![image](https://user-images.githubusercontent.com/44331989/126437814-e3beacad-b5ba-4f55-9a5e-e18c04703d21.png) <br>
+출처 : https://bamdule.tistory.com/45 <br>

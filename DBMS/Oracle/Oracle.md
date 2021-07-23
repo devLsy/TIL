@@ -633,6 +633,9 @@ image source : https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blog
 
 image source : https://yjh5369.tistory.com/entry/Oracle-Create-a-Schema-%EC%98%A4%EB%9D%BC%ED%81%B4-%EC%8A%A4%ED%82%A4%EB%A7%88-%EC%83%9D%EC%84%B1 <br>
 	
+### Oracle 내(현재) 계정 권한 조회
+![image](https://user-images.githubusercontent.com/44331989/126740698-a06136be-ad77-4ccc-88b8-7d8cd6fc44b2.png) <br>
+image source : https://keichee.tistory.com/68 	
 	
 	
 

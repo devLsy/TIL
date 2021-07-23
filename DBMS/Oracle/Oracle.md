@@ -627,6 +627,12 @@ image source : https://wookoa.tistory.com/235 <br>
 ![image](https://user-images.githubusercontent.com/44331989/126739573-0d87e326-3d72-46b1-a6a2-311eb2efedda.png) <br>
 	
 image source : https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=ohmydata00&logNo=221262610912 <br>
+
+### Oracle의 Schema 생성 절차
+![image](https://user-images.githubusercontent.com/44331989/126739632-5733c392-c993-4b52-b05d-22a8220c6865.png) <br>
+
+image source : https://yjh5369.tistory.com/entry/Oracle-Create-a-Schema-%EC%98%A4%EB%9D%BC%ED%81%B4-%EC%8A%A4%ED%82%A4%EB%A7%88-%EC%83%9D%EC%84%B1 <br>
+	
 	
 	
 

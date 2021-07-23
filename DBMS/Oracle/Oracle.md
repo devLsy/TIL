@@ -620,6 +620,11 @@ DROP PACKAGE BODY package_name ;
 ![image](https://user-images.githubusercontent.com/44331989/125397060-5f8e2100-e3e8-11eb-9e1b-7078ce14e929.png) <br>
 image source : https://wookoa.tistory.com/235 <br>	
 	
+### Table Space
+![image](https://user-images.githubusercontent.com/44331989/126739462-513af7c7-a892-48f9-a670-83cc15537f7d.png) <br>
+![image](https://user-images.githubusercontent.com/44331989/126739485-cea23916-19b2-47b5-add1-f9c69515841a.png) <br>
+![image](https://user-images.githubusercontent.com/44331989/126739526-ca51cb11-5402-4e21-9ca9-728a2c58a8fd.png) <br>
 	
+
 	
 

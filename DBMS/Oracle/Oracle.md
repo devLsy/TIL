@@ -641,5 +641,11 @@ image source : https://keichee.tistory.com/68
 ### Oracle DBF : data file 즉, 물리적인 저장 구조
 ![image](https://user-images.githubusercontent.com/44331989/126745847-fab6a461-ef59-41c2-a3ae-e583b0c1bde3.png) <br>
 image source : https://blog.daum.net/pilgrimfortruth/2877	
+
+### Oracle DB Architecture
+![image](https://user-images.githubusercontent.com/44331989/126746018-3c6dcb31-258b-4609-b047-e0e31125beb9.png) <br>
+image source : https://jeong-pro.tistory.com/147
 	
+	
+
 

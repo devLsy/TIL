@@ -638,5 +638,8 @@ image source : https://yjh5369.tistory.com/entry/Oracle-Create-a-Schema-%EC%98%A
 ![image](https://user-images.githubusercontent.com/44331989/126741028-ad326247-8e21-4c87-bcee-cc838a75e7bb.png) <br>
 image source : https://keichee.tistory.com/68 	
 	
+### Oracle DBF : data file 즉, 물리적인 저장 구조
+![image](https://user-images.githubusercontent.com/44331989/126745847-fab6a461-ef59-41c2-a3ae-e583b0c1bde3.png) <br>
+image source : https://blog.daum.net/pilgrimfortruth/2877	
 	
 

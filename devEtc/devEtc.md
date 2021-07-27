@@ -14,6 +14,8 @@
 ## 개발방법론
 ![image](https://user-images.githubusercontent.com/44331989/127084949-f8ffc382-a969-4842-81d0-c338df6435d6.png) <br>
 ![image](https://user-images.githubusercontent.com/44331989/127093401-2dbf1500-0646-436f-b7de-79b5aa2225b8.png) <br>
+![image](https://user-images.githubusercontent.com/44331989/127093702-5e64bd9a-456d-45e4-8ef6-5f2f740d00f7.png) <br>
+
 image source : https://simsimjae.medium.com/%EC%95%A0%EC%9E%90%EC%9D%BC-%EB%B0%A9%EB%B2%95%EB%A1%A0-753368aa3058
   
 

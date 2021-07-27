@@ -9,8 +9,13 @@
 ![image](https://user-images.githubusercontent.com/44331989/126420211-15280250-64c6-41a7-87c0-d6833e2cea6b.png) <br>
 ![image](https://user-images.githubusercontent.com/44331989/126420271-a6e7131c-417e-4924-980a-a69009c61d7a.png) <br>
 ![image](https://user-images.githubusercontent.com/44331989/126420330-ad1fc983-0905-4fc6-8ff5-fbeba9eb420b.png) <br>
-  
 출처 : https://blogofpjj.tistory.com/37 <br>
+  
+## 개발방법론
+![image](https://user-images.githubusercontent.com/44331989/127084949-f8ffc382-a969-4842-81d0-c338df6435d6.png) <br>
+image source : https://simsimjae.medium.com/%EC%95%A0%EC%9E%90%EC%9D%BC-%EB%B0%A9%EB%B2%95%EB%A1%A0-753368aa3058
+  
+
   
 
 

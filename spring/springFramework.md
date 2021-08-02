@@ -126,6 +126,9 @@ Controller가 parameter를 수집하는 방식은 parameter type에 따라 자�
 브라우저에서 http://localhost:9393/sample/ex02?name=dev&age=98 이런식으로 parameter를 추가해서 호출 시 아래 이미지처럼 이전과 동일하게 데이터가 들어온 것을 확인할 수 있음
 <img src="https://user-images.githubusercontent.com/44331989/53093336-7a7f4280-355a-11e9-9901-f978303b2ea2.JPG"><br><p>
 
+![image](https://user-images.githubusercontent.com/44331989/127873415-16d1498c-3934-44e3-8ff4-93eb3fb2142f.png)
+![image](https://user-images.githubusercontent.com/44331989/127873494-4161e7ab-edd7-4aa0-92ab-b7e01a4f8fd8.png)
+image source : 	https://n1tjrgns.tistory.com/198
 <hr>
 
 ### 리스트, 배열 처리

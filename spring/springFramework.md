@@ -127,7 +127,7 @@ Controller가 parameter를 수집하는 방식은 parameter type에 따라 자�
 <img src="https://user-images.githubusercontent.com/44331989/53093336-7a7f4280-355a-11e9-9901-f978303b2ea2.JPG"><br><p>
 
 ![image](https://user-images.githubusercontent.com/44331989/127873415-16d1498c-3934-44e3-8ff4-93eb3fb2142f.png)
-![image](https://user-images.githubusercontent.com/44331989/127873494-4161e7ab-edd7-4aa0-92ab-b7e01a4f8fd8.png)
+![image](https://user-images.githubusercontent.com/44331989/127873494-4161e7ab-edd7-4aa0-92ab-b7e01a4f8fd8.png) <br>
 image source : 	https://n1tjrgns.tistory.com/198
 <hr>
 

@@ -6,3 +6,7 @@
 tail -5000 a.catalina.out | cat > test.out
 ~~~
 출처 : https://sound10000w.tistory.com/96
+
+## su, su - 차이
+![image](https://user-images.githubusercontent.com/44331989/127940084-ab518b53-c129-467e-8c11-ae68789e0cd1.png)
+image source : https://gxnzi.tistory.com/75

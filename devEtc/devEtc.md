@@ -22,10 +22,7 @@ image source : https://simsimjae.medium.com/%EC%95%A0%EC%9E%90%EC%9D%BC-%EB%B0%A
 ![image](https://user-images.githubusercontent.com/44331989/127270743-2bca5791-e9f9-48b2-b4de-6c4d673ed1cf.png) <br>
 image source : https://www.nextree.co.kr/p3239/   
   
-## multipart/form-data paramter값으로 받기
-![image](https://user-images.githubusercontent.com/44331989/128136740-b9d990d8-9ee0-40ba-83e3-510792b338c5.png) <br>
-아래 링크에 들어가면 자세히 설명 되어 있음 <br>
-image source : https://kbseok.tistory.com/entry/form%ED%83%80%EC%9E%85%EC%9D%B4-multipartform-data%EC%9D%BC%EB%95%8C-requestgetParameter%EB%A1%9C-%EA%B0%92-%EB%B0%9B%EA%B8%B0
+
   
   
 

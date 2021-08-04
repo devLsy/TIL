@@ -546,7 +546,11 @@ image source : https://lee-mandu.tistory.com/242 <br>
 비동기 통신인 경우 서버로 보낼 때도 본문(body)에 담고 서버에서 클라이언트로 돌려줄 때도 본문에 담아서 보내야 하는데 이 때 사용하는 애노테이션임 <br>
 HTTP로 본문에 담아 서버로 전송한걸 JAVA로 변환해줄 때 사용하는게 @RequestBody이고 반대의 경우 사용하는게 @ResponseBody임 <br>	
 
-
+## 파일 다운로드 시 파일명 지정
+![image](https://user-images.githubusercontent.com/44331989/128143837-99cfe295-8993-4636-9ca0-d2b32943e63c.png) <br>
+image source : https://namocom.tistory.com/391 
+	
+	
   
   
   

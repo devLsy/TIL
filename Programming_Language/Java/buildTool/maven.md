@@ -9,4 +9,6 @@ image source : https://linux.systemv.pe.kr/maven-%EC%A0%80%EC%9E%A5%EC%86%8C-url
 
 ![image](https://user-images.githubusercontent.com/44331989/129296298-f7a22636-840c-479f-93e8-26ee4be54e26.png)
 image source : https://ixtears23.github.io/Maven-%EC%A0%80%EC%9E%A5%EC%86%8C-%EA%B4%80%EB%A0%A8-%EC%84%A4%EC%A0%95/
+![image](https://user-images.githubusercontent.com/44331989/129296334-4ffa46dd-5e88-4911-bde2-e5613c8f16c3.png)
+이렇게 하면 해당 프로젝트의 central 저장소를 https://repo.maven.apache.org/maven2로 변경
 

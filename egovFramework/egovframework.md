@@ -168,39 +168,10 @@ webapp 에 압축을 풀고 커맨드창에서 Tomcat>bin 디렉터리에서 sta
 </div><br/><p>  
 jenkins 접속 후 시작 및 배포 등등은 20181219_전자정부프레임워크_설치 및 설정 가이드.zip파일을 참조
 
+출처: 전자정부프레임워크 퍼스트북
   
+## egovframework 경량화
+![image](https://user-images.githubusercontent.com/44331989/129294376-b413e59e-8f8c-4946-bb97-2c24801476d9.png)
+image source : https://www.egovframe.go.kr/wiki/doku.php?id=egovframework:dev3.8:install_guide  
 
   
-  
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-
-
-
-
-
-
-* 출처: 전자정부프레임워크 퍼스트북

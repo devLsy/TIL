@@ -5,4 +5,8 @@ source : https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=duc
 ## 저장소 변경
 ![image](https://user-images.githubusercontent.com/44331989/129295085-b9047a7e-0d0a-44ae-a9fb-9d2bfb186e61.png)
 ![image](https://user-images.githubusercontent.com/44331989/129295110-290d197f-80e7-4987-a565-f3908fd36b42.png)
-image source : https://linux.systemv.pe.kr/maven-%EC%A0%80%EC%9E%A5%EC%86%8C-url-%EB%B3%80%EA%B2%BD%ED%95%98%EA%B8%B0/
+image source : https://linux.systemv.pe.kr/maven-%EC%A0%80%EC%9E%A5%EC%86%8C-url-%EB%B3%80%EA%B2%BD%ED%95%98%EA%B8%B0/ <br>
+
+![image](https://user-images.githubusercontent.com/44331989/129296298-f7a22636-840c-479f-93e8-26ee4be54e26.png)
+image source : https://ixtears23.github.io/Maven-%EC%A0%80%EC%9E%A5%EC%86%8C-%EA%B4%80%EB%A0%A8-%EC%84%A4%EC%A0%95/
+

@@ -174,4 +174,11 @@ jenkins 접속 후 시작 및 배포 등등은 20181219_전자정부프레임워
 ![image](https://user-images.githubusercontent.com/44331989/129294376-b413e59e-8f8c-4946-bb97-2c24801476d9.png)
 image source : https://www.egovframe.go.kr/wiki/doku.php?id=egovframework:dev3.8:install_guide  
 
+## GPKI 의존성 에러
+![image](https://user-images.githubusercontent.com/44331989/129294742-0e00a546-3d09-4e0d-bfb8-cb6f99dcecca.png)
+image source : https://roadrunner.tistory.com/423
+  
+
+  
+  
   

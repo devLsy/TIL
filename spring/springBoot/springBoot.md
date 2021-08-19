@@ -14,7 +14,11 @@ Intellij에서 프로젝트 열기에서 다운로드 받은 프로젝트 경로
 ![image](https://user-images.githubusercontent.com/44331989/130046914-9b8caa03-edb1-49bc-a72e-61bdbca9e624.png)
 최초 프로젝트 열 경우 외부에서 라이브러리를 다운받기 때문에 인터넷 연결 필수이고 시간이 꽤 걸림 <br>
 
-
+![image](https://user-images.githubusercontent.com/44331989/130060960-d9660e36-70a1-417f-957a-80e07e0f9e7f.png)
+gradle 설정관련 중요한 파일임, gradle 설정파일이 여기에 기입되어 있음, https://start.spring.io에서 설정한 내용과 동일함 <br>
+1. 스프링부트 버전과 개발언어 등 세팅
+2. 그룹, 버전, 컴파일 버전, 라이브러리 다운받는 저장소 등 세팅
+3. 라이브러리, html 템플릿 엔진 그리고 테스트 라이브러리는 jUnit으로 자동 추가 됨
 
 
 

@@ -31,6 +31,8 @@ gradle 설정관련 중요한 파일임, gradle 설정파일이 여기에 기입
 이렇게 금방 프로젝트를 구동할 수 있음 <br>
 https://start.spring.io에서 프로젝트 구성후 다운로드 후 프로젝트를 IDE에서 열고 실행하면 바로 container가 구동됨 <br>
 
+![image](https://user-images.githubusercontent.com/44331989/130064606-c5554c3e-c7d7-413c-a548-1eea0f95eb20.png)
+인텔리제이에서 gradle을 통해서 빌드가 되면 시간이 오래걸릴 수 있으므로 gradle 통하지 않고 인텔리제이에서 직접 빌드하도록 변경함 <br>
 
 
 

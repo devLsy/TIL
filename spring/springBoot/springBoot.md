@@ -23,6 +23,8 @@ gradle 설정관련 중요한 파일임, gradle 설정파일이 여기에 기입
 ![image](https://user-images.githubusercontent.com/44331989/130061990-58d39d46-7780-4ebe-b5dc-7c89efaf160e.png)
 .gitignore도 자동으로 추가되어 있음 <br>
 
+![image](https://user-images.githubusercontent.com/44331989/130063244-83b72517-6988-43c8-be1a-0d1302154fe4.png)
+@springBootApplication 에너테이션이 있는 메인 메서드 java파일이 있고 실행 시 내장 tomcat이 8080포트로 구동됨 <br>
 
 
 

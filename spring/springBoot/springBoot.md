@@ -11,6 +11,8 @@ https://start.spring.io 접속 후 프로젝트 세팅 후 다운로드
 
 ![image](https://user-images.githubusercontent.com/44331989/130046609-5fa130f0-dbb4-4e9d-a555-5ce26e749f43.png)
 Intellij에서 프로젝트 열기에서 다운로드 받은 프로젝트 경로의 build.gradle선택(gradle 프로젝트) <br>
+![image](https://user-images.githubusercontent.com/44331989/130046914-9b8caa03-edb1-49bc-a72e-61bdbca9e624.png)
+최초 프로젝트 열 경우 외부에서 라이브러리를 다운받기 때문에 인터넷 연결 필수이고 시간이 꽤 걸림 <br>
 
 
 

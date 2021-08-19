@@ -26,7 +26,7 @@ gradle 설정관련 중요한 파일임, gradle 설정파일이 여기에 기입
 ![image](https://user-images.githubusercontent.com/44331989/130063244-83b72517-6988-43c8-be1a-0d1302154fe4.png)
 @springBootApplication 에너테이션이 있는 메인 메서드 java파일이 있고 실행 시 내장 tomcat이 8080포트로 구동됨 <br>
 
-![image](https://user-images.githubusercontent.com/44331989/130063667-f20ad8a3-8101-423b-8d58-f407cf9c1060.png)
+![image](https://user-images.githubusercontent.com/44331989/130063667-f20ad8a3-8101-423b-8d58-f407cf9c1060.png) <br>
 브라우저에서 페이지 호출 시 404가 표시됨(index페이지가 없으니까 당연함), 여기까지 표시되면 정상 구동된 것임 <br>
 이렇게 금방 프로젝트를 구동할 수 있음 <br>
 

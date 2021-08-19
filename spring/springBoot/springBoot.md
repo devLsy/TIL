@@ -20,6 +20,8 @@ gradle 설정관련 중요한 파일임, gradle 설정파일이 여기에 기입
 2. 그룹, 버전, 컴파일 버전, 라이브러리 다운받는 저장소 등 세팅
 3. 라이브러리, html 템플릿 엔진 그리고 테스트 라이브러리는 jUnit으로 자동 추가 됨
 
+![image](https://user-images.githubusercontent.com/44331989/130061990-58d39d46-7780-4ebe-b5dc-7c89efaf160e.png)
+.gitignore도 자동으로 추가되어 있음 <br>
 
 
 

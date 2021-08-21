@@ -34,6 +34,15 @@ https://start.spring.io에서 프로젝트 구성후 다운로드 후 프로젝�
 ![image](https://user-images.githubusercontent.com/44331989/130064606-c5554c3e-c7d7-413c-a548-1eea0f95eb20.png) <br>
 인텔리제이에서 gradle을 통해서 빌드가 되면 시간이 오래걸릴 수 있으므로 gradle 통하지 않고 인텔리제이에서 직접 빌드하도록 변경함 <br>
 
+## thymeleaf 템플릿 엔진 이용해 view 처리
+![image](https://user-images.githubusercontent.com/44331989/130309919-794bccaf-f998-408a-b9ac-d034743320d7.png) <br>
+위처럼 test Controller파일 생성 후 hello라는 view파일 return <br>
+
+![image](https://user-images.githubusercontent.com/44331989/130309936-26d48ab4-965c-472a-8606-5246555203d8.png)
+![image](https://user-images.githubusercontent.com/44331989/130309958-054689ba-8d8d-4871-947a-0a4193d70528.png)
+
+
+
 ## thymeleaf templaet engine 동작 원리
 ![image](https://user-images.githubusercontent.com/44331989/130309876-4b8a22b8-6966-4256-aae7-60f68f82dc3a.png)
 image source : https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81-%EC%9E%85%EB%AC%B8-%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8/lecture/49573?tab=curriculum

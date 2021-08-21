@@ -42,7 +42,7 @@ https://start.spring.io에서 프로젝트 구성후 다운로드 후 프로젝�
 상단에 네임스페이스를 thymeleaf로 설정 후 body에서 th태그를 이용해 thymeleaf 템플릿 이용, 컨트롤러에서 model에 담아 보낸 data 표시 <br>
 
 ![image](https://user-images.githubusercontent.com/44331989/130310049-a802a6b4-ad40-4418-ae74-3af08b6cfb56.png) <br>
-
+결과물
 
 ## thymeleaf templaet engine 동작 원리
 ![image](https://user-images.githubusercontent.com/44331989/130309876-4b8a22b8-6966-4256-aae7-60f68f82dc3a.png)

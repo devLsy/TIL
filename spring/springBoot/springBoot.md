@@ -52,8 +52,8 @@ image source : https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81-%EC%9
 * IntelliJ 2021.2 버전기준 <br>
 * 스프링부트에서는 빌드하는게 정말 간단함, 빌드 실행하면 jar파일이 생기고 해당 jar파일을 실행하면 내장 tomcat을 이용해서 웹 애플리케이션이 구동됨 <br>
 1. 인텔리제이에서 빌드하는 방법
- - Gradle-Tasks-build-bootjar실행
-  ![image](https://user-images.githubusercontent.com/44331989/130310878-f81a05d1-440d-435d-967c-ddfee9dcf029.png) <br>
+    - Gradle-Tasks-build-bootjar실행
+      ![image](https://user-images.githubusercontent.com/44331989/130310878-f81a05d1-440d-435d-967c-ddfee9dcf029.png) <br>
 
 2. cmd로 빌드하는 방법
 

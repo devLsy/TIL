@@ -72,6 +72,10 @@ image source : https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81-%EC%9
 ### 정적 컨텐츠
 ![image](https://user-images.githubusercontent.com/44331989/130311729-2e3fb8ac-d85d-4365-9a76-dd46d38549e1.png) <br>
 스프링을 이용해서 정적 컨텐츠 자체를 개발하는 일은 거의 없을 것이지만 그래도 뭐하는 기능인지는 알아 놓자 <br>
+![image](https://user-images.githubusercontent.com/44331989/130311800-f38f86bd-8a6a-48ae-94a4-eadee09462a1.png) <br>
+static경로에 html파일을 생성 후 브라우저에서 html파일명을 .html까지 붙여서 호출하면 끝 <br>
+![image](https://user-images.githubusercontent.com/44331989/130311818-71b6a701-a2c8-4670-a562-d9a12aef7327.png) <br>
+
 
 
 

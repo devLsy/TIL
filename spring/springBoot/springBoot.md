@@ -38,10 +38,8 @@ https://start.spring.io에서 프로젝트 구성후 다운로드 후 프로젝�
 ![image](https://user-images.githubusercontent.com/44331989/130309919-794bccaf-f998-408a-b9ac-d034743320d7.png) <br>
 위처럼 test Controller파일 생성 후 hello라는 view파일 return <br>
 
-![image](https://user-images.githubusercontent.com/44331989/130309936-26d48ab4-965c-472a-8606-5246555203d8.png)
-![image](https://user-images.githubusercontent.com/44331989/130309958-054689ba-8d8d-4871-947a-0a4193d70528.png)
-
-
+![image](https://user-images.githubusercontent.com/44331989/130309958-054689ba-8d8d-4871-947a-0a4193d70528.png) <br>
+상단에 네임스페이스를 thymeleaf로 설정 후 body에서 th태그를 이용해 thymeleaf 템플릿 이용, 컨트롤러에서 model에 담아 보낸 data 표시 <br>
 
 ## thymeleaf templaet engine 동작 원리
 ![image](https://user-images.githubusercontent.com/44331989/130309876-4b8a22b8-6966-4256-aae7-60f68f82dc3a.png)

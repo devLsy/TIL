@@ -68,6 +68,11 @@ image source : https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81-%EC%9
 * 웹 애플리케이션이 정상 호출됨을 확인할 수 있음 <br>
 ![image](https://user-images.githubusercontent.com/44331989/130311175-931ec991-c9c7-43d3-8894-dbae8054cd6e.png) <br>
 
+## 스프링부트 웹 개발
+### 정적 컨텐츠
+![image](https://user-images.githubusercontent.com/44331989/130311729-2e3fb8ac-d85d-4365-9a76-dd46d38549e1.png) <br>
+스프링을 이용해서 정적 컨텐츠 자체를 개발하는 일은 거의 없을 것이지만 그래도 뭐하는 기능인지는 알아 놓자 <br>
+
 
 
 

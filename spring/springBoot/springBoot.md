@@ -62,8 +62,8 @@ image source : https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81-%EC%9
       
 * 빌드가 정상적으로 완료되면 아래처럼 프로젝트 경로에 build라는 폴더가 생기고 libs폴더안에 jar파일이 생성됨 <br>
 ![image](https://user-images.githubusercontent.com/44331989/130311140-53fe4bcf-70bc-4eb5-a0aa-ea8059f95f67.png) <br>
-* 해당 jar파일 실행 시 아래처럼 웹 애플리케이션이 실행됨 <br>
-* 예전 스프링 프로젝트 처럼 tomcat 설치하고 tomcat에 build된 war파일 올리고 하는 번거로운 작업을 안해도 됨 <br>
+* 해당 jar파일 실행 시 내장 tomcat을 이용해 웹 애플리케이션이 실행됨 <br>
+  <h2>예전 스프링 프로젝트 처럼 tomcat 설치하고 tomcat에 build된 war파일 올리고 하는 번거로운 작업을 안해도 됨 :)</h2> <br>
 ![image](https://user-images.githubusercontent.com/44331989/130311151-fc85389a-45bd-409f-b4a0-46656586b044.png)
 * 웹 애플리케이션이 정상 호출됨을 확인할 수 있음 <br>
 ![image](https://user-images.githubusercontent.com/44331989/130311175-931ec991-c9c7-43d3-8894-dbae8054cd6e.png) <br>

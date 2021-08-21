@@ -40,7 +40,9 @@ https://start.spring.io에서 프로젝트 구성후 다운로드 후 프로젝�
 
 ![image](https://user-images.githubusercontent.com/44331989/130309958-054689ba-8d8d-4871-947a-0a4193d70528.png) <br>
 상단에 네임스페이스를 thymeleaf로 설정 후 body에서 th태그를 이용해 thymeleaf 템플릿 이용, 컨트롤러에서 model에 담아 보낸 data 표시 <br>
-"안녕하세요! 손님 zzzz" 텍스트가 th태그 안에 있는 변수값으로 치환되어 표시됨 <br>
+* 안녕하세요! 손님 zzzz" 텍스트가 th태그 안에 있는 변수값으로 치환되어 표시됨 <br>
+* 안녕하세요! 손님 zzzz" 이 텍스트는 사실 없어도 되는데 화면에서 마크업 할 경우 보기 위해 적는다고 함 <br>
+* 해당 마크업이 서버를 통해서 표시되면 th태그 안에 있는 내용으로 치환되어 보여짐 <br>
 
 ![image](https://user-images.githubusercontent.com/44331989/130310049-a802a6b4-ad40-4418-ae74-3af08b6cfb56.png) <br>
 결과물

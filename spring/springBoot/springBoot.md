@@ -55,7 +55,9 @@ image source : https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81-%EC%9
     - Gradle-Tasks-build-bootjar실행
       ![image](https://user-images.githubusercontent.com/44331989/130310878-f81a05d1-440d-435d-967c-ddfee9dcf029.png) <br>
 
-2. cmd로 빌드하는 방법
+2. cmd로 빌드하는 방법(window 10 기준)
+    - gradlew.bat파일이 있는 경로로 이동 후 gradlew.bat 실행
+      ![image](https://user-images.githubusercontent.com/44331989/130311045-1cd91459-1f63-4b3f-aca4-76a6fa7e3b70.png) <br>
 
   
 

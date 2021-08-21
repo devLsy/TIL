@@ -76,7 +76,7 @@ static경로에 html파일을 생성 후 브라우저에서 html파일명을 .ht
 
 ![image](https://user-images.githubusercontent.com/44331989/130311729-2e3fb8ac-d85d-4365-9a76-dd46d38549e1.png) <br>
 스프링을 이용해서 정적 컨텐츠 자체를 개발하는 일은 거의 없을 것이지만 그래도 뭐하는 기능인지는 알아 놓자 <br>
-컨트롤러에서 해당 method가 있는지 먼저 체크하고 없으면 resources의 static안의 리소스를 찾아서 있으면 return <br>
+컨트롤러를 먼저 찾고 컨트롤러가 없으면 resources의 static안의 리소스를 찾아서 있으면 return <br>
 
 
 

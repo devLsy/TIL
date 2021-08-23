@@ -47,7 +47,7 @@ https://start.spring.io에서 프로젝트 구성후 다운로드 후 프로젝�
 ![image](https://user-images.githubusercontent.com/44331989/130310049-a802a6b4-ad40-4418-ae74-3af08b6cfb56.png) <br>
 결과물
 
-## thymeleaf templaet engine 동작 원리
+## thymeleaf template engine 동작 원리
 ![image](https://user-images.githubusercontent.com/44331989/130310083-45000410-d185-48a6-9c53-285a872e53d6.png) <br>
 image source : https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81-%EC%9E%85%EB%AC%B8-%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8/lecture/49573?tab=curriculum
 

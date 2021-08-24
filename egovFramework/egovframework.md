@@ -177,7 +177,7 @@ image source : https://www.egovframe.go.kr/wiki/doku.php?id=egovframework:dev3.8
 ## GPKI 의존성 에러
 ![image](https://user-images.githubusercontent.com/44331989/129294742-0e00a546-3d09-4e0d-bfb8-cb6f99dcecca.png)
 image source : https://roadrunner.tistory.com/423
-  
+해당 라이브러리 사용하는 java파일 모두 삭제 해야 함  
 
   
   

@@ -1,6 +1,6 @@
 # springBoot 관련
 ## springBoot 프로젝트 세팅(IntelliJ 사용)
-https://start.spring.io 접속 후 프로젝트 세팅 후 다운로드(IntelliJ에서 spring initializr해도 같은 결과0)
+https://start.spring.io 접속 후 프로젝트 세팅 후 다운로드(IntelliJ에서 spring initializr해도 같은 결과)
 ![image](https://user-images.githubusercontent.com/44331989/130045598-444f794c-08bb-43d8-9d03-a1c4cec35f7c.png)
 1. 프로젝트 빌드도구 선택 -> 요즘 Gradle로 넘어가는 추세라고 함 <br>
 2. 개발언어 선택 <br>

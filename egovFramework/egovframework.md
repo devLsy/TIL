@@ -179,6 +179,10 @@ image source : https://www.egovframe.go.kr/wiki/doku.php?id=egovframework:dev3.8
 image source : https://roadrunner.tistory.com/423
 해당 라이브러리 사용하는 java파일 모두 삭제 해야 함  
 
+## maven https 이슈
+maven 저장소가 https로 바뀌면서 jdk가 1.7인 개발환경에서 빌드가 실패하는 경우가 있음 <br>
+여러가지 방법이 있지만 로컬에서 할 수 있는 가장 쉬운 방법은 jdk 버전을 1.8로 올리는 방법인데 IDE에서 jdk가 여러개 설치된 경우 아래처럼 1.8로 설정 후 빌드 할 것 <br>
+![image](https://user-images.githubusercontent.com/44331989/131087167-4a7dbb1c-b521-4750-8f56-9ad72126bb62.png) <br>
   
   
   

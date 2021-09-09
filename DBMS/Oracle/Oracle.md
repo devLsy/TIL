@@ -28,6 +28,9 @@ SELECT * FROM TAB; (관리자 아닐 경우)
 ![image](https://user-images.githubusercontent.com/44331989/126446814-afec158a-2e2d-4bfa-a217-bf9e5bc08544.png)
 image source : https://gent.tistory.com/206 <br>
 
+### 오라클 컬럼으로 테이블 조회
+![image](https://user-images.githubusercontent.com/44331989/132607146-99a8fdba-d9a1-47de-9acb-a38e4f8c1e82.png)
+
 ## 오라클 db 전체 테이블 갯수, 컬럼 갯수 추출
 ~~~
 -- 오라클 테이블 별 컬럼 갯수

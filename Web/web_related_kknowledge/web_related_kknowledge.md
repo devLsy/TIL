@@ -7,4 +7,8 @@ image source : https://sarc.io/index.php/miscellaneous/749, https://juyeop.tisto
 
 ## DOM
 ![image](https://user-images.githubusercontent.com/44331989/133384183-bb87fe73-6438-4423-b5e1-8fcfb6b5e59b.png)
+* DOM은 HTML, XML 문서의 프로그래밍 interface 입니다. 
+* DOM은 자바스크립트와는 독립적인 기술 표준입니다. 
+* DOM은 HTML, CSS와 같은 W3C의 기술의 한 종류입니다. 
+* DOM은 문서의 구조화된 표현(structured representation)입니다.
 image source : https://iamdaeyun.tistory.com/entry/DOM-01Document-Object-Model-DOM%EC%9D%98-%EB%9C%BB <br>

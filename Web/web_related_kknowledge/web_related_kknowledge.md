@@ -4,3 +4,7 @@
 ![image](https://user-images.githubusercontent.com/44331989/124926085-1761ae00-e038-11eb-9e61-1adc3f04446a.png) <br>
 ![image](https://user-images.githubusercontent.com/44331989/124931392-21d27680-e03d-11eb-82f1-5c921d77f93c.png) <br>
 image source : https://sarc.io/index.php/miscellaneous/749, https://juyeop.tistory.com/24 <br>
+
+## DOM
+![image](https://user-images.githubusercontent.com/44331989/133384183-bb87fe73-6438-4423-b5e1-8fcfb6b5e59b.png)
+image source : https://iamdaeyun.tistory.com/entry/DOM-01Document-Object-Model-DOM%EC%9D%98-%EB%9C%BB <br>

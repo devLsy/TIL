@@ -9,3 +9,7 @@ IntelliJ 2021.2 버전에서는 registry에 compiler.automake.allow.when.app.run
 Settings-Advanced Settings로 이동됨 <br>
 https://powernote.tistory.com/19
 image source : https://lejewk.github.io/springboot-devtool/
+
+## idea vim 설치 이후 클립보드 복사 방법
+* 하단의 v 누른 후 ~/.ideavimrc 파일을 열어서 set clipboard+=unnamed 입력 <br>
+![image](https://user-images.githubusercontent.com/44331989/134801322-65f616f8-eb2b-415c-9a89-db2931537b6c.png)

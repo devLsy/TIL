@@ -12,4 +12,5 @@ image source : https://lejewk.github.io/springboot-devtool/
 
 ## idea vim 설치 이후 클립보드 복사 방법
 * 하단의 v 누른 후 ~/.ideavimrc 파일을 열어서 set clipboard+=unnamed 입력 <br>
-![image](https://user-images.githubusercontent.com/44331989/134801322-65f616f8-eb2b-415c-9a89-db2931537b6c.png)
+![image](https://user-images.githubusercontent.com/44331989/134801322-65f616f8-eb2b-415c-9a89-db2931537b6c.png) <br>
+![image](https://user-images.githubusercontent.com/44331989/134801373-1d475424-e620-4a29-9cae-e820320dd817.png) <br>

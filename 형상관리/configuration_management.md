@@ -182,6 +182,7 @@ show history로 히스토리를 확인 합니다. <br>
 
 ### eclipse svn branch 생성
 프로젝트를 진행하다 보면 같은 프로젝트를 다르게 관리해야 되는 경우가 생김, 이 때 브랜치를 만들어서 관리하면 효율적임 <br>
+브랜치를 따로 가져가고 최종 반영 시 메인 브랜치인 trunk 브랜치와 merge해서 통합시키면 됨 <br>
 * eclipse에서 생성하는 걸 가정
 ![image](https://user-images.githubusercontent.com/44331989/134853551-b944abf5-0f6d-48d5-bab3-79a2afd2b9fc.png)
 ![image](https://user-images.githubusercontent.com/44331989/134853729-c33227f2-7e27-4d5f-b131-1303a0f5db74.png)

@@ -186,5 +186,13 @@ show history로 히스토리를 확인 합니다. <br>
 * eclipse에서 생성하는 걸 가정
 ![image](https://user-images.githubusercontent.com/44331989/134853551-b944abf5-0f6d-48d5-bab3-79a2afd2b9fc.png)
 ![image](https://user-images.githubusercontent.com/44331989/134853729-c33227f2-7e27-4d5f-b131-1303a0f5db74.png)
+![image](https://user-images.githubusercontent.com/44331989/134854243-f018df1d-4739-483c-9ea7-f21d1137ed44.png)
+그리고 기존 프로젝트와 동일한 프로젝트명은 기존 프로젝트를 덮어 쓰게 되니 branch아래의 프로젝트 명을 변경해주는 걸 권장 <br>
+![image](https://user-images.githubusercontent.com/44331989/134854327-e114cf9f-5c4f-4636-8ab4-86f9b302d172.png)
+![image](https://user-images.githubusercontent.com/44331989/134854367-10fd06e0-a80e-4021-bfcd-ab5809b6fbac.png)
+
+
+
+
 
 

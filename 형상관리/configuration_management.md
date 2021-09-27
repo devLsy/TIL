@@ -190,7 +190,7 @@ show history로 히스토리를 확인 합니다. <br>
 그리고 기존 프로젝트와 동일한 프로젝트명은 기존 프로젝트를 덮어 쓰게 되니 branch아래의 프로젝트 명을 변경해주는 걸 권장 <br>
 ![image](https://user-images.githubusercontent.com/44331989/134854327-e114cf9f-5c4f-4636-8ab4-86f9b302d172.png)
 ![image](https://user-images.githubusercontent.com/44331989/134854367-10fd06e0-a80e-4021-bfcd-ab5809b6fbac.png)
-![image](https://user-images.githubusercontent.com/44331989/134854704-c80f9094-d777-44c1-b7e6-b1bd94c9676c.png)
+![image](https://user-images.githubusercontent.com/44331989/134854704-c80f9094-d777-44c1-b7e6-b1bd94c9676c.png) <br>
 바뀐 프로젝트명으로 check out 받아서 작업하면 됨 <br>
 
 

@@ -238,7 +238,8 @@ svn에서 제공하는 merge의 종류가 3종류인데 여기서는 1번 째 �
 url에는 branch의 프로젝트 주소를 기입(browse 이용) 후 ok 선택
 ![image](https://user-images.githubusercontent.com/44331989/135040287-402c00ef-eeb3-4c65-9e29-46e9afe7cd9b.png) <br>
 
-아래처럼 선택한 branch와 trunk의 다른점이 표시되고 여기서 다른 부분을 고친 후 Accept하게 되면 branch의 내용이 trunk에 반영됨 <br>
+ok 선택 시 branch에서 변경된 내역들이 좌측에 나타나고 이것들 중 선택적으로 merge를 시켜주면 됨 <br>
+tunk와 branch의 내용이 달라서 충돌 나는 경우는 수정 해주면 됨 <br>
 
 
 

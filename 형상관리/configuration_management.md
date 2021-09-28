@@ -198,7 +198,6 @@ show history로 히스토리를 확인 합니다. <br>
 위처럼 210928_nssp라는 branch를 새로 생성 한 상태이고 메인에서 이 branch로 변경하려면 아래처럼 switch를 이용함 <br>
 ![image](https://user-images.githubusercontent.com/44331989/135029108-9e65c5f3-e3ed-4768-a849-8192a23ce4d1.png) 
 switch To창에서 바꿀 browse 선택 <br>
-![image](https://user-images.githubusercontent.com/44331989/135029174-7062f3e1-c95d-4af1-a0d5-99f00a48f66f.png)
 ※ 바꿀 branch밑의 프로젝트를 선택 후 ok
 ![image](https://user-images.githubusercontent.com/44331989/135029213-b034948a-bc0f-4c91-9ec4-804391948da4.png)
 

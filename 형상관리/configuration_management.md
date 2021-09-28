@@ -240,7 +240,7 @@ url에는 branch의 프로젝트 주소를 기입(browse 이용) 후 ok 선택
 
 ok 선택 시 branch에서 변경된 내역들이 좌측에 나타나고 이것들 중 선택적으로 merge를 시켜주면 됨 <br>
 tunk와 branch의 내용이 달라서 충돌 나는 경우는 수정 해주면 됨 <br>
-
+메인을 기준으로 branch와 병합하거나 branch를 기준으로 메인과 병합하거나 순서는 상관 없음 <br>
 참조 : https://oingdaddy.tistory.com/30 <br>
 
 

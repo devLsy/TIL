@@ -192,7 +192,18 @@ show history로 히스토리를 확인 합니다. <br>
 ![image](https://user-images.githubusercontent.com/44331989/134854367-10fd06e0-a80e-4021-bfcd-ab5809b6fbac.png)
 ![image](https://user-images.githubusercontent.com/44331989/134854704-c80f9094-d777-44c1-b7e6-b1bd94c9676c.png) <br>
 바뀐 프로젝트명으로 check out 받아서 작업하면 됨 <br>
+* 위 처럼 프로젝트명을 변경해서 check out받는 방법도 있지만 이 방법 보다는 svn의 switch 기능을 이용해서 main에서 다른 branch로 변경해서
+  관리하는 방법이 더 효율적임 <br>
+![image](https://user-images.githubusercontent.com/44331989/135028884-9694cf6f-44ad-4169-858d-9752d6780710.png) 
+위처럼 210928_nssp라는 branch를 새로 생성 한 상태이고 메인에서 이 branch로 변경하려면 아래처럼 switch를 이용함 <br>
+![image](https://user-images.githubusercontent.com/44331989/135029108-9e65c5f3-e3ed-4768-a849-8192a23ce4d1.png) 
+switch To창에서 바꿀 browse 선택 <br>
+![image](https://user-images.githubusercontent.com/44331989/135029174-7062f3e1-c95d-4af1-a0d5-99f00a48f66f.png)
+<h2> ※ 바꿀 branch밑의 프로젝트를 선택 </h2>
+![image](https://user-images.githubusercontent.com/44331989/135029213-b034948a-bc0f-4c91-9ec4-804391948da4.png)
 
+
+  
 
 
 

@@ -218,8 +218,13 @@ switch 작업이 완료되면 아래처럼 project의 branch가 바뀜 <br>
 ※ 소스코드를 위처럼 수정했으면 commit을 해서 branch별로 버전관리를 해줘야만 함 <br>
 만일 다른 branch에서 소스코드 수정 후 바뀐 내용을 commit 하지 않는 경우 원치 않는 내용이 trunk의 프로젝트에 적용됨 <br>
 
+아래처럼 반드시 commit을 해서 버전관리를 다르게 해야 함 <br>
+![image](https://user-images.githubusercontent.com/44331989/135030673-8fa7c87e-97d8-4fbd-8b1e-ed0aa092c5d1.png)
 
+그리고 다른 branch에서 수정한 내용을 trunk에 최종 반영 할 때는 merge 기능을 이용해서 main과 병합, 이 때 branch별로 소스코드가 상이하기에 에러가 발생할 텐데 <br>
+다른 부분을 수정해서 잘 반영할 것 <br>
 
+정답은 없기 때문에 branch를 따로 생성 후 프로젝트를 하나 더 check out받을 지, switch로 변경해서 사용할지 적절히 선택해서 사용하면 됨 <br>
   
 
 

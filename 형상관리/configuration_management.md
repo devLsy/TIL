@@ -225,7 +225,20 @@ switch 작업이 완료되면 아래처럼 project의 branch가 바뀜 <br>
 다른 부분을 수정해서 잘 반영할 것 <br>
 
 정답은 없기 때문에 branch를 따로 생성 후 프로젝트를 하나 더 check out받을 지, switch로 변경해서 사용할지 적절히 선택해서 사용하면 됨 <br>
-  
+
+#### branch를 trunk에 merge
+branch를 나눠서 프로젝트 관리할 시 branch의 프로젝트의 소스코드에서 변경된 내용을 최종적으로 trunk에 반영해줘야 함 <br>
+![image](https://user-images.githubusercontent.com/44331989/135039827-c27f50fa-89aa-44a7-ba9d-c45a7e6a006e.png)
+위처럼 branch에서 소스코드를 수정한 뒤 commit을 한 상태이고 이를 메인 trunk에 반영하고 싶으면 merge 기능을 이용하면 됨 <br>
+svn에서 제공하는 merge의 종류가 3종류인데 여기서는 1번 째 방법인 URL을 이용, 나머지는 구글링 <br>
+
+일단 프로젝트를 trunk로 변경 후 merge 선택 <br>
+![image](https://user-images.githubusercontent.com/44331989/135040239-4d217000-aa9f-486d-8f4e-56dde6175d7b.png) <br>
+
+url에는 branch의 프로젝트 주소를 기입(browse 이용) 후 ok 선택
+![image](https://user-images.githubusercontent.com/44331989/135040287-402c00ef-eeb3-4c65-9e29-46e9afe7cd9b.png) <br>
+
+
 
 
 

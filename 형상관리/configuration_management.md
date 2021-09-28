@@ -192,6 +192,8 @@ show history로 히스토리를 확인 합니다. <br>
 ![image](https://user-images.githubusercontent.com/44331989/134854367-10fd06e0-a80e-4021-bfcd-ab5809b6fbac.png)
 ![image](https://user-images.githubusercontent.com/44331989/134854704-c80f9094-d777-44c1-b7e6-b1bd94c9676c.png) <br>
 바뀐 프로젝트명으로 check out 받아서 작업하면 됨 <br>
+
+
 * 위 처럼 프로젝트명을 변경해서 check out받는 방법도 있지만 이 방법 보다는 svn의 switch 기능을 이용해서 main에서 다른 branch로 변경해서
   관리하는 방법이 더 효율적임 <br>
 ![image](https://user-images.githubusercontent.com/44331989/135028884-9694cf6f-44ad-4169-858d-9752d6780710.png) 

@@ -206,6 +206,19 @@ switch To창에서 바꿀 browse 선택 <br>
 ※ 바꿀 branch밑의 프로젝트를 선택 후 ok
 ![image](https://user-images.githubusercontent.com/44331989/135029213-b034948a-bc0f-4c91-9ec4-804391948da4.png) <br>
 
+browse에서 선택한 branch가 선택이 된걸 확인 할 수 있음 <br>
+![image](https://user-images.githubusercontent.com/44331989/135030114-62b1e662-0a02-4350-9793-9d30cec050d7.png) <br>
+
+switch 작업이 완료되면 아래처럼 project의 branch가 바뀜 <br>
+![image](https://user-images.githubusercontent.com/44331989/135030279-822aa02b-4446-4293-b470-eaea54fb1a01.png)
+
+이 branch의 프로젝트는 main인 trunk에 영향을 끼치지 않는 branch니까 마음 껏 테스트 하면 됨 <br>
+이 다음도 중요한데 소스코드를 수정 후 반드 시 commit을 해야만 main branch에 영향을 끼치지 않음 <br>
+![image](https://user-images.githubusercontent.com/44331989/135030438-1e540fb3-5570-4b3c-8cea-6a89886287de.png) <br>
+※ 소스코드를 위처럼 수정했으면 commit을 해서 branch별로 버전관리를 해줘야만 함 <br>
+만일 다른 branch에서 소스코드 수정 후 바뀐 내용을 commit 하지 않는 경우 원치 않는 내용이 trunk의 프로젝트에 적용됨 <br>
+
+
 
   
 

@@ -8,5 +8,5 @@ HTTP STATUS를 표시, 서버가 다운되거나 하는 걸 캐치할 수 있음
 https status가 200에서 500으로 변경되거나 하면 
 ![image](https://user-images.githubusercontent.com/44331989/135208474-89c82266-408d-4e83-a467-cd3cb5500375.png) <br>
 
-아래는 앱 화면
+아래는 앱 화면 <br>
 ![image](https://user-images.githubusercontent.com/44331989/135208483-9e6a490d-2d44-4859-89a7-52df81c7652e.png) <br>

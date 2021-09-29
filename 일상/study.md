@@ -15,7 +15,7 @@ ex)
 아 이렇게 해서 이렇게 되는 원리구나 <br>
 끊임없이 생각하고 개선하려고 하는 습관을 가질 것 <br>
 
-"생각하는것도 습관이다"
+"생각하는것도 습관이다" <br>
 ![image](https://user-images.githubusercontent.com/44331989/135244290-ac5c65c4-c663-4d55-ab0e-54c8245fa678.png) <br>
 
 출처 : https://www.youtube.com/watch?v=Fn719ObYlXg <br>

@@ -115,7 +115,7 @@ Activator.cmd 관리자 권한으로 실행 <br>
 ![image](https://user-images.githubusercontent.com/44331989/135368842-3e9eadb3-bc50-4f85-b6d5-a5d414d7cdfc.png)
 image source : https://www.soft2000.com/12506 <br>
 
-개발자분은 아래 링크를 통해 윈도우10위에 egovframework 진행을 해주시길 바랍니다. <br>
+개발자분은 아래 링크를 통해 윈도우에 egovframework 진행을 해주시길 바랍니다. <br>
 [egovframework 설치](https://github.com/iansystem-info/Manual/blob/main/dev/BackEnd/Framework/egovframework/egovframework_install.md) <br>
 
 

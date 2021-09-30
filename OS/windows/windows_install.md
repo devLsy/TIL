@@ -78,8 +78,29 @@ BIOS 예시 이미지 <br>
 ![image](https://user-images.githubusercontent.com/44331989/135264197-ac3f0d2c-b30a-4f49-9573-389b721df547.png)
 
 설치과정이 위 이미지와 동일하지는 않을 수 있음, 참조용임 <br>
-
 인터넷 설정 및 기타 유틸리티 설치 및 윈도우10 정품인증을 받고 사용하면 됩니다. <br>
+
+### windows 10 정품인증
+#### 반드시 정품인증 하기 전에 백신 실시간 감시 끄고 진행할 것
+
+Activator파일은 윈도우 원격 pc 아래 경로에 있습니다. <br>
+![image](https://user-images.githubusercontent.com/44331989/135385778-1cf157d5-e929-485c-a685-2924ac28f7a3.png)
+
+![image](https://user-images.githubusercontent.com/44331989/135384915-7d207f50-4dfb-4a0a-94b2-ac3be8b3cce5.png)
+Activator.cmd 관리자 권한으로 실행 <br>
+![image](https://user-images.githubusercontent.com/44331989/135385279-6d6baf58-c7be-4ec2-8ea9-cc3c903e4177.png) <br>
+
+일반 윈도우10이니까 숫자 2 입력 <br>
+![image](https://user-images.githubusercontent.com/44331989/135385444-f5147908-c329-4eee-996c-d92cce6ce7cf.png) <br>
+
+정품 인증 활성화 하기 위해서 숫자 1 입력 <br>
+![image](https://user-images.githubusercontent.com/44331989/135385483-d0d5c60c-b1dd-42ba-833e-f68ab64290c9.png)
+
+정품인증 성공했다고 표시되고 아무키나 입력해서 빠져나오면 됨, 빠져 나오고 창 닫기 <br>
+![image](https://user-images.githubusercontent.com/44331989/135385509-3b0c6437-5d6f-401d-bd61-3486d2e878e0.png)
+
+
+
 
 회사 윈도우 서버 아래 경로에 웬만한 유틸은 다 있습니다. <br>
 ![image](https://user-images.githubusercontent.com/44331989/135368842-3e9eadb3-bc50-4f85-b6d5-a5d414d7cdfc.png)

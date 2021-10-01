@@ -6,6 +6,9 @@
   ![image](https://user-images.githubusercontent.com/44331989/135573548-210246b8-8b99-4b7f-9e97-e78e13d362d1.png)
   - 입력모드 단축키 <br>
   ![image](https://user-images.githubusercontent.com/44331989/135573624-f68a7c49-354e-4f0a-a168-f4caba3608e4.png)
-
-- 사용법은 아래 링크 참조, 및 구글링, 절대 다 외울 필요는 없음
+  - 명령모드 단축키 <br>
+  ![image](https://user-images.githubusercontent.com/44331989/135573660-9bac1b5f-c34c-4b7b-8e18-57d6f0d33d3f.png)
+  - 비쥬얼모드 단축키 <br>
+  ![image](https://user-images.githubusercontent.com/44331989/135573687-7db23057-6f9f-42d3-9a42-df7eb69eff67.png)
+- 이외에도 정말 많은 단축키가 있음, 기타 단축키는 구글링, 절대 다 외울 필요는 없음 <br>
 image source : https://languidcat.tistory.com/125 

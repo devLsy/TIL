@@ -14,5 +14,5 @@ image source : https://sarc.io/index.php/miscellaneous/749, https://juyeop.tisto
 image source : https://iamdaeyun.tistory.com/entry/DOM-01Document-Object-Model-DOM%EC%9D%98-%EB%9C%BB <br>
 
 ## 네임서버
-![image](https://user-images.githubusercontent.com/44331989/136151768-3418450d-badc-42d6-90f2-ca82aeda39f6.png)
-image source : https://help.hosting.kr/hc/ko/articles/360035320172-%EB%84%A4%EC%9E%84%EC%84%9C%EB%B2%84%EA%B0%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94-
+![image](https://user-images.githubusercontent.com/44331989/136151768-3418450d-badc-42d6-90f2-ca82aeda39f6.png) <br>
+image source : https://help.hosting.kr/hc/ko/articles/360035320172-%EB%84%A4%EC%9E%84%EC%84%9C%EB%B2%84%EA%B0%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94- 

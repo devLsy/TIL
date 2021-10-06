@@ -16,3 +16,10 @@ image source : https://iamdaeyun.tistory.com/entry/DOM-01Document-Object-Model-D
 ## 네임서버
 ![image](https://user-images.githubusercontent.com/44331989/136151768-3418450d-badc-42d6-90f2-ca82aeda39f6.png) <br>
 image source : https://help.hosting.kr/hc/ko/articles/360035320172-%EB%84%A4%EC%9E%84%EC%84%9C%EB%B2%84%EA%B0%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94- 
+
+### 네임서버 조회
+![image](https://user-images.githubusercontent.com/44331989/136174450-76f22b63-b249-404d-8001-895ea198baf4.png) <br>
+~~~
+윈도우 기준 cmd창에서 nslookup -type=ns(네임서버) 도메인명(gis.kofpi.or.kr) 명령어 실행해보면 네임서버가 나옴,
+위의 경우는 tenten.vn이 네임서버 제공 사이트이고, 아래의 경우는 whoisdomain.kr임
+~~~

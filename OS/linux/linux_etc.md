@@ -1,5 +1,5 @@
 # 리눅스 사용 관련
-## 파일 뒷부분을 잘라서 저장
+## 리눅스 사용 관련 팁을 정리
 ### 로그를 잘라서 파일로 저장할 때 유용하게 사용
 ~~~
 #tail -line 수 파일명 | cat > 저장할 파일명
@@ -7,6 +7,10 @@ tail -5000 a.catalina.out | cat > test.out
 ~~~
 출처 : https://sound10000w.tistory.com/96
 
-## su, su - 차이
+### su, su - 차이
 ![image](https://user-images.githubusercontent.com/44331989/127940084-ab518b53-c129-467e-8c11-ae68789e0cd1.png)
 image source : https://gxnzi.tistory.com/75
+
+### 심볼릭 링크
+![image](https://user-images.githubusercontent.com/44331989/136323974-2e545268-7512-4ff2-a7a2-5ebb9c2b9928.png) <br>
+image source : https://server-talk.tistory.com/140 

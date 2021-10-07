@@ -15,4 +15,6 @@ image source : https://gxnzi.tistory.com/75
 ![image](https://user-images.githubusercontent.com/44331989/136323974-2e545268-7512-4ff2-a7a2-5ebb9c2b9928.png) <br>
 ![image](https://user-images.githubusercontent.com/44331989/136324115-a654d774-da5d-43f1-a1a8-b37cc6d78792.png) <br>
 ![image](https://user-images.githubusercontent.com/44331989/136324058-26eabbad-cf0d-4e98-8b44-c9aa90a7b4df.png) <br>
-image source : https://server-talk.tistory.com/140 
+![image](https://user-images.githubusercontent.com/44331989/136325081-092fcab9-c4f6-47ce-9222-93576b430e1b.png)
+image source : https://server-talk.tistory.com/140, <br>
+               https://bio-info.tistory.com/33 <br>

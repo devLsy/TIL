@@ -693,7 +693,9 @@ image source : https://blog.daum.net/pilgrimfortruth/2877
 ### Oracle DB Architecture
 ![image](https://user-images.githubusercontent.com/44331989/126746018-3c6dcb31-258b-4609-b047-e0e31125beb9.png) <br>
 image source : https://jeong-pro.tistory.com/147
-	
+
+### 구버전 오라클 설치 방법
+https://yeonyeon.tistory.com/11	 <br>
 	
 
 

@@ -27,6 +27,8 @@ image source : https://help.hosting.kr/hc/ko/articles/360035320172-%EB%84%A4%EC%
 ### WEB & WAS 
 ![image](https://user-images.githubusercontent.com/44331989/137080262-e52611f2-7c64-4944-b414-71983ba42ab5.png) <br>
 ![image](https://user-images.githubusercontent.com/44331989/137080304-69432532-1204-46f4-8760-61054dc1af37.png) <br>
+![image](https://user-images.githubusercontent.com/44331989/137080418-e0df318b-23ca-49b2-aad3-a13392b24207.png) <br>
+
 
 
 image source : https://gmlwjd9405.github.io/2018/10/27/webserver-vs-was.html <br>

@@ -23,3 +23,10 @@ image source : https://help.hosting.kr/hc/ko/articles/360035320172-%EB%84%A4%EC%
 윈도우 기준 cmd창에서 nslookup -type=ns(네임서버) 도메인명(gis.kofpi.or.kr) 명령어 실행해보면 네임서버가 나옴,
 위의 경우는 tenten.vn이 네임서버 제공 사이트이고, 아래의 경우는 whoisdomain.kr임
 ~~~
+
+### WEB & WAS 
+![image](https://user-images.githubusercontent.com/44331989/137080262-e52611f2-7c64-4944-b414-71983ba42ab5.png) <br>
+![image](https://user-images.githubusercontent.com/44331989/137080304-69432532-1204-46f4-8760-61054dc1af37.png) <br>
+
+
+image source : https://gmlwjd9405.github.io/2018/10/27/webserver-vs-was.html <br>

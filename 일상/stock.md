@@ -1,6 +1,6 @@
 # 주식관련
 ## 주식관련 파일입니다.
->![image](https://user-images.githubusercontent.com/44331989/137052421-c13889e4-35c7-4d73-94c6-f5570d5d98f9.png)
+>![image](https://user-images.githubusercontent.com/44331989/137052421-c13889e4-35c7-4d73-94c6-f5570d5d98f9.png) <br>
 >image source : https://m.encarmagazine.com/news/news1/view/123937 
 
 ### 해외주식

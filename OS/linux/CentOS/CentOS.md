@@ -16,6 +16,8 @@ image source : https://m.blog.naver.com/wideeyed/221289811134 <br>
 root로 접속
 # vi /etc/ssh/sshd_config
 ~~~
+PermitRootLogin을 찾으면 제일 처음엔 아래처럼 루트 로그인이 yes로 되어 있고
+#PermitRootLogin yes이렇게 주석되어 있을건데 아래처럼 주석 해제하고 no로 변경 함
 ![image](https://user-images.githubusercontent.com/44331989/137238111-b31c551e-88f1-4d9a-871e-5f9c2eb1b9a8.png) <br>
 image source : https://overcode.tistory.com/entry/%EB%A6%AC%EB%88%85%EC%8A%A4-Root-%EA%B3%84%EC%A0%95-SSH-%EC%A7%81%EC%A0%91-%EC%A0%91%EC%86%8D-%EB%A7%89%EA%B8%B0-CentOS-76 <br>
 

@@ -11,7 +11,9 @@ image source : https://devmg.tistory.com/83 <br>
 image source : https://m.blog.naver.com/wideeyed/221289811134 <br>
 
 ### ssh root 접속 차단
-![image](https://user-images.githubusercontent.com/44331989/137237932-23291cb9-a7e7-41f8-8157-50e61f816301.png) <br>
+리눅스를 기본 설치할 경우 ssh 접속 시 root계정으로 접근이 가능한데 이는 보안상 취약할 수 있기에 접근을 제한하는걸 권장함 <br>
+일반 계정으로 접속 후 su를 통해서 계정을 root로 변경하거나 sudo 권한을 부여받아서 1회성으로 root 권한으로 작업하는 방식이 일반적임 <br>
+ssh 접속 시 root제한하기 위해선 아래 명령어로 sshd_config파일을 변경해야 함 <br>
 ~~~
 root로 접속
 # vi /etc/ssh/sshd_config
@@ -19,6 +21,10 @@ root로 접속
 PermitRootLogin을 찾으면 제일 처음엔 아래처럼 루트 로그인이 yes로 되어 있고
 #PermitRootLogin yes이렇게 주석되어 있을건데 아래처럼 주석 해제하고 no로 변경 함
 ![image](https://user-images.githubusercontent.com/44331989/137238111-b31c551e-88f1-4d9a-871e-5f9c2eb1b9a8.png) <br>
-image source : https://overcode.tistory.com/entry/%EB%A6%AC%EB%88%85%EC%8A%A4-Root-%EA%B3%84%EC%A0%95-SSH-%EC%A7%81%EC%A0%91-%EC%A0%91%EC%86%8D-%EB%A7%89%EA%B8%B0-CentOS-76 <br>
+
+그 후 아래 명령어로 ssh 데몬을 재시작해서 변경된 파일을 적용해야 함 <br>
+~~~
+# service sshd restart
+~~~
 
 

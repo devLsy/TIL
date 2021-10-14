@@ -30,3 +30,11 @@ PermitRootLogin을 찾으면 제일 처음엔 아래처럼 루트 로그인이 y
 
 ### CentOS에 Oracle DBMS 설치
 출처 : https://xxsiyoung.tistory.com/3 <br>
+
+### 환경변수
+![image](https://user-images.githubusercontent.com/44331989/137296534-f1301cd2-f616-4096-9d73-cc369478afb4.png) <br>
+![image](https://user-images.githubusercontent.com/44331989/137296575-22805fc2-09e0-491a-a934-885ab60ea991.png) <br>
+![image](https://user-images.githubusercontent.com/44331989/137296604-6634ddb6-a97a-4325-a7f5-c95d5bd97882.png) <br>
+image source : https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=jeong2091&logNo=221995920586 <br>
+
+

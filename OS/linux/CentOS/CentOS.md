@@ -28,3 +28,5 @@ PermitRootLogin을 찾으면 제일 처음엔 아래처럼 루트 로그인이 y
 ~~~
 그 후 터미널을 껐다가 다시 실행 후 root로 직접 접근이 되는지 확인 <br>
 
+### CentOS에 Oracle DBMS 설치
+출처 : https://xxsiyoung.tistory.com/3 <br>

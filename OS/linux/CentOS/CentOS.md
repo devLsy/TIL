@@ -9,3 +9,14 @@ image source : https://devmg.tistory.com/83 <br>
 ![image](https://user-images.githubusercontent.com/44331989/137234911-29459954-3051-46f2-90ec-a2f0b49dfa76.png) <br>
 ![image](https://user-images.githubusercontent.com/44331989/137234944-2a4d0ebf-48fc-46d2-a171-eb7c8956262e.png) <br>
 image source : https://m.blog.naver.com/wideeyed/221289811134 <br>
+
+### ssh root 접속 차단
+![image](https://user-images.githubusercontent.com/44331989/137237932-23291cb9-a7e7-41f8-8157-50e61f816301.png) <br>
+~~~
+root로 접속
+# vi /etc/ssh/sshd_config
+~~~
+![image](https://user-images.githubusercontent.com/44331989/137238111-b31c551e-88f1-4d9a-871e-5f9c2eb1b9a8.png) <br>
+image source : https://overcode.tistory.com/entry/%EB%A6%AC%EB%88%85%EC%8A%A4-Root-%EA%B3%84%EC%A0%95-SSH-%EC%A7%81%EC%A0%91-%EC%A0%91%EC%86%8D-%EB%A7%89%EA%B8%B0-CentOS-76 <br>
+
+

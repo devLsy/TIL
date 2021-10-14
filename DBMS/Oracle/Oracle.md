@@ -696,6 +696,13 @@ image source : https://jeong-pro.tistory.com/147
 
 ### 구버전 오라클 설치 방법
 https://yeonyeon.tistory.com/11	 <br>
-	
 
+### CentOS Oracle 설치
+출처 : https://xxsiyoung.tistory.com/3 <br>
+	
+### 오라클 설치 후 charSet 변경
+![image](https://user-images.githubusercontent.com/44331989/137291934-ed636786-3ae9-4da1-a1e8-dc1d4f172c14.png) <br>
+image source : https://couplewith.tistory.com/entry/%EC%98%A4%EB%9D%BC%ED%81%B4-Charset-%EB%B3%80%EA%B2%BD-%ED%95%B4%EC%95%BC-%ED%95%98%EB%8A%94-%EC%9D%B4%EC%9C%A0%EC%99%80-%EB%B0%A9%EB%B2%95 <br>
+	
+	
 

@@ -746,7 +746,19 @@ sql developer 이용할 경우  <br>
 ### 리눅스 오라클 삭제 
 https://euless.tistory.com/75 <br>	
 
-	
+### 사용자에게 부여된 권한 조회
+~~~
+SELECT GRANTEE, PRIVILEGE, ADMIN_OPTION
+ FROM DBA_SYS_PRIVS
+WHERE grantee= '사용자명'
+;	
+~~~
+~~~
+권한부여	
+# 아래는 예시
+GRANT SELECT ANY SEQUENCE, CREATE ANY VIEW, CREATE VIEW, SELECT ANY TABLE, INSERT ANY TABLE, SELECT ANY TRANSACTION, CREATE ANY SEQUENCE, UNLIMITED TABLESPACE
+TO "사용자명";	
+~~~
 	
 	
 

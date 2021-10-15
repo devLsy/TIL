@@ -26,7 +26,7 @@ image source : https://www.hankyung.com/finance/article/202011306475i <br>
 기업의 가치는 시총을 봐야 함 <br>
 ![image](https://user-images.githubusercontent.com/44331989/137427268-1e503f10-7d13-4f63-8396-ae7b094a2962.png) <br>
 ![image](https://user-images.githubusercontent.com/44331989/137427202-8923082f-af04-4c08-9774-ead6e0a5e690.png) <br>
-![image](https://user-images.githubusercontent.com/44331989/137427421-170ed2de-e406-4c83-885e-d6cf66494942.png) br>
+![image](https://user-images.githubusercontent.com/44331989/137427421-170ed2de-e406-4c83-885e-d6cf66494942.png) <br>
 위의 삼성전자 주가는 2019년 12월 기준 <br>
 ![image](https://user-images.githubusercontent.com/44331989/137427513-478eb2ef-77a7-4249-9936-a25b729f456e.png) <br>
 1주당 가격은 현대차가 더 비싸지만 실제 시총은 삼성이 훨씬 비싼 걸 알 수 있음 <br>

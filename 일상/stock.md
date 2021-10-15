@@ -22,6 +22,9 @@ image source : https://creavart.tistory.com/137#gsc.tab=0 <br>
 image source : https://www.hankyung.com/finance/article/202011306475i <br>
 
 ### 주가가 아닌 시총(시가총액)을 봐야하는 이유
+주가는 시총을 발행주식수로 나눈 것 <br>
+기업의 가치는 시총을 봐야 함 <br>
+![image](https://user-images.githubusercontent.com/44331989/137427268-1e503f10-7d13-4f63-8396-ae7b094a2962.png) <br>
 ![image](https://user-images.githubusercontent.com/44331989/137427202-8923082f-af04-4c08-9774-ead6e0a5e690.png) <br>
 image source : https://www.youtube.com/watch?v=2C_v31d046M <br>
 

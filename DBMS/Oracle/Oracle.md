@@ -720,6 +720,11 @@ image source : https://supercoding.tistory.com/6 <br>
 ![image](https://user-images.githubusercontent.com/44331989/137465530-825d2b88-0e43-47b0-a5f7-f95588acee08.png) <br>
 image source : https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=steady1547&logNo=220777076107 <br>	
 	
+### 사용자가 생성한 테이블 전부 삭제
+![image](https://user-images.githubusercontent.com/44331989/137472927-443a6c46-5e6a-4be8-b0fa-a98d8cd02498.png) <br>
+중요한 점은 반드시 해당 테이블을 가진 사용자로 로그인 후  <br>
+select 해 봐야 된다는 것임	<br>
+image source : https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=tawoo0&logNo=221547724506 <br>	
 	
 	
 	

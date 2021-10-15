@@ -725,6 +725,12 @@ image source : https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blog
 중요한 점은 반드시 해당 테이블을 가진 사용자로 로그인 후  <br>
 select 해 봐야 된다는 것임	<br>
 image source : https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=tawoo0&logNo=221547724506 <br>	
+~~~
+SELECT 'drop table' || OBJECT_NAME || 'casecade constraints;'
+FROM user_objects
+WHERE object_type='TABLE'
+;	
+~~~
 
 ### 테이블 생성
 sql developer 이용할 경우  <br>

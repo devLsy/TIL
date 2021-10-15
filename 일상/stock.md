@@ -21,3 +21,7 @@ image source : https://creavart.tistory.com/137#gsc.tab=0 <br>
 ![image](https://user-images.githubusercontent.com/44331989/137065684-740d655f-478f-4b27-899b-89daa9ac32c2.png) <br>
 image source : https://www.hankyung.com/finance/article/202011306475i <br>
 
+### 주가가 아닌 시총(시가총액)을 봐야하는 이유
+![image](https://user-images.githubusercontent.com/44331989/137427202-8923082f-af04-4c08-9774-ead6e0a5e690.png) <br>
+image source : https://www.youtube.com/watch?v=2C_v31d046M <br>
+

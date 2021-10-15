@@ -725,11 +725,10 @@ image source : https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blog
 중요한 점은 반드시 해당 테이블을 가진 사용자로 로그인 후  <br>
 select 해 봐야 된다는 것임	<br>
 image source : https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=tawoo0&logNo=221547724506 <br>	
-	
-	
-	
-	
-	
-	
-	
 
+### 테이블 복사
+sql developer 이용할 경우  <br>
+![image](https://user-images.githubusercontent.com/44331989/137490159-b77a1d2c-106b-4f9e-9655-f333e002d3eb.png)
+복사할 테이블들을 선택 후 우클릭 - 빠른 DDL - 파일에 저장(sql파일로 저장할 것이기에) <br>
+생성된 sql을 db 스크립트에 복사 붙여 넣기하고 실행 <br>
+	

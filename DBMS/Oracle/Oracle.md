@@ -739,8 +739,13 @@ sql developer 이용할 경우  <br>
 ![image](https://user-images.githubusercontent.com/44331989/137490159-b77a1d2c-106b-4f9e-9655-f333e002d3eb.png) <br>
 복사할 테이블들을 선택 후 우클릭 - 빠른 DDL - 파일에 저장(sql파일로 저장할 것이기에) <br>
 생성된 sql을 db 스크립트에 복사 붙여 넣기하고 실행 <br>
-	
+
+### 리눅스 오라클 삭제 
+https://euless.tistory.com/75 <br>	
 
 	
+	
+	
+
 	
 	

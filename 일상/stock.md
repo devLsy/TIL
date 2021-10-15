@@ -26,5 +26,7 @@ image source : https://www.hankyung.com/finance/article/202011306475i <br>
 기업의 가치는 시총을 봐야 함 <br>
 ![image](https://user-images.githubusercontent.com/44331989/137427268-1e503f10-7d13-4f63-8396-ae7b094a2962.png) <br>
 ![image](https://user-images.githubusercontent.com/44331989/137427202-8923082f-af04-4c08-9774-ead6e0a5e690.png) <br>
+![image](https://user-images.githubusercontent.com/44331989/137427421-170ed2de-e406-4c83-885e-d6cf66494942.png) br>
+위의 삼성전자 주가는 2019년 12월 기준 <br>
 image source : https://www.youtube.com/watch?v=2C_v31d046M <br>
 

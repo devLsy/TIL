@@ -710,6 +710,12 @@ image source : https://tenlie10.tistory.com/35 <br>
 ![image](https://user-images.githubusercontent.com/44331989/137446646-f7ef90b2-4cd0-4b0f-940c-9fc8862ef944.png) <br>
 image source : https://fruitdev.tistory.com/40 <br>	
 
+#### 테이블 스페이스 export & import
+![image](https://user-images.githubusercontent.com/44331989/137460575-2a5b037f-5823-4bcc-8faa-9ae9b6d561a1.png) <br>
+	
+image source : https://supercoding.tistory.com/6 <br>	
+	
+	
 	
 	
 	

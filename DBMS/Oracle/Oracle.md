@@ -719,6 +719,9 @@ image source : https://supercoding.tistory.com/6 <br>
 
 ![image](https://user-images.githubusercontent.com/44331989/137465530-825d2b88-0e43-47b0-a5f7-f95588acee08.png) <br>
 image source : https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=steady1547&logNo=220777076107 <br>	
+
+![image](https://user-images.githubusercontent.com/44331989/137500074-b1c43aff-d83e-4f09-a27f-5c63d56e6b7f.png) <br>
+image source : https://godlvkhj.tistory.com/215 <br>
 	
 ### 사용자가 생성한 테이블 전부 삭제
 ![image](https://user-images.githubusercontent.com/44331989/137472927-443a6c46-5e6a-4be8-b0fa-a98d8cd02498.png) <br>
@@ -736,4 +739,8 @@ sql developer 이용할 경우  <br>
 ![image](https://user-images.githubusercontent.com/44331989/137490159-b77a1d2c-106b-4f9e-9655-f333e002d3eb.png) <br>
 복사할 테이블들을 선택 후 우클릭 - 빠른 DDL - 파일에 저장(sql파일로 저장할 것이기에) <br>
 생성된 sql을 db 스크립트에 복사 붙여 넣기하고 실행 <br>
+	
+
+	
+	
 	

@@ -716,6 +716,10 @@ image source : https://fruitdev.tistory.com/40 <br>
 import시에도 테이블 스페이스를 먼저 만들어야 함, export한 db가 테이블스페이스를 가지고 있는 경우 <br>
 동일한 테이블 스페이스가 존재해야 import가 제대로 됨	 <br>
 image source : https://supercoding.tistory.com/6 <br>	
+
+![image](https://user-images.githubusercontent.com/44331989/137465530-825d2b88-0e43-47b0-a5f7-f95588acee08.png) <br>
+image source : https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=steady1547&logNo=220777076107 <br>	
+	
 	
 	
 	

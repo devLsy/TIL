@@ -713,6 +713,9 @@ image source : https://fruitdev.tistory.com/40 <br>
 ![image](https://user-images.githubusercontent.com/44331989/137501076-5d660500-4111-40d4-8d14-e10261b5511d.png) <br>
 image source : https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=sin160cm&logNo=220803132213 <br>
 
+![image](https://user-images.githubusercontent.com/44331989/137504096-95c4b6a9-77b2-40ea-95ae-d1220381ab59.png) <br>	
+image source : https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=hi_mylover&logNo=50085628355 <br>	
+	
 #### 테이블 스페이스 export & import
 ![image](https://user-images.githubusercontent.com/44331989/137460575-2a5b037f-5823-4bcc-8faa-9ae9b6d561a1.png) <br>
 오라클은 테이블을 생성하기전에 테이블 스페이스를 먼저 생성해서 테이블이 들어갈 공간을 확보하는데  <br>

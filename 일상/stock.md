@@ -30,6 +30,7 @@ image source : https://www.hankyung.com/finance/article/202011306475i <br>
 위의 삼성전자 주가는 2019년 12월 기준 <br>
 ![image](https://user-images.githubusercontent.com/44331989/137427513-478eb2ef-77a7-4249-9936-a25b729f456e.png) <br>
 1주당 가격은 현대차가 더 비싸지만 실제 시총은 삼성이 훨씬 비싼 걸 알 수 있음 <br>
+![image](https://user-images.githubusercontent.com/44331989/137427642-98108db7-40de-46aa-9226-6da890032dc9.png) <br>
 image source : https://www.youtube.com/watch?v=2C_v31d046M <br>
 
 

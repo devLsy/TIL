@@ -726,10 +726,10 @@ image source : https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blog
 select 해 봐야 된다는 것임	<br>
 image source : https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=tawoo0&logNo=221547724506 <br>	
 ~~~
-SELECT 'drop table' || OBJECT_NAME || 'casecade constraints;'
+SELECT 'drop table ' || OBJECT_NAME || ' casecade constraints;'
 FROM user_objects
 WHERE object_type='TABLE'
-;	
+;
 ~~~
 
 ### 테이블 생성

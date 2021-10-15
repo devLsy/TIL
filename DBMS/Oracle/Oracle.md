@@ -715,6 +715,11 @@ image source : https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blog
 
 ![image](https://user-images.githubusercontent.com/44331989/137504096-95c4b6a9-77b2-40ea-95ae-d1220381ab59.png) <br>	
 image source : https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=hi_mylover&logNo=50085628355 <br>	
+토드같은 툴을 이용하는 방법도 있지만 난 아직까지 이 cli 방식이 더 잘되는 듯 싶다. <br>
+핵심은 userid는 system으로 하고 parameter값으로 owner을 dump 뜨고 싶은 스키마명(test)으로 할 경우
+system 계정으로 test 데이터베이스를 dump 뜨겠다는 소리, 
+imp시에는 fromuser에 test를 넣고 touser에는 스키마명이 그대로 될 경우 똑같이 test를 넣으면 됨
+그냥 cmd로 dump 뜨는게 테이블 스페이스, 인덱스, 시퀀스, 프로시저, 데이터 전부 dump가 되서 이게 더 편하다 나는 <br>
 	
 #### 테이블 스페이스 export & import
 ![image](https://user-images.githubusercontent.com/44331989/137460575-2a5b037f-5823-4bcc-8faa-9ae9b6d561a1.png) <br>

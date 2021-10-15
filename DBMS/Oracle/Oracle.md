@@ -726,7 +726,7 @@ image source : https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blog
 select 해 봐야 된다는 것임	<br>
 image source : https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=tawoo0&logNo=221547724506 <br>	
 
-### 테이블 복사
+### 테이블 생성
 sql developer 이용할 경우  <br>
 ![image](https://user-images.githubusercontent.com/44331989/137490159-b77a1d2c-106b-4f9e-9655-f333e002d3eb.png) <br>
 복사할 테이블들을 선택 후 우클릭 - 빠른 DDL - 파일에 저장(sql파일로 저장할 것이기에) <br>

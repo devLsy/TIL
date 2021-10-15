@@ -712,7 +712,9 @@ image source : https://fruitdev.tistory.com/40 <br>
 
 #### 테이블 스페이스 export & import
 ![image](https://user-images.githubusercontent.com/44331989/137460575-2a5b037f-5823-4bcc-8faa-9ae9b6d561a1.png) <br>
-	
+오라클은 테이블을 생성하기전에 테이블 스페이스를 먼저 생성해서 테이블이 들어갈 공간을 확보하는데  <br>
+import시에도 테이블 스페이스를 먼저 만들어야 함, export한 db가 테이블스페이스를 가지고 있는 경우 <br>
+동일한 테이블 스페이스가 존재해야 import가 제대로 됨	 <br>
 image source : https://supercoding.tistory.com/6 <br>	
 	
 	

@@ -84,8 +84,13 @@ exit 0
 ![image](https://user-images.githubusercontent.com/44331989/137296604-6634ddb6-a97a-4325-a7f5-c95d5bd97882.png) <br>
 image source : https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=jeong2091&logNo=221995920586 <br>
 
-
-
+### ssh 타임아웃 설정
+vim .bash_profile로 환경변수 설정파일을 오픈 <br>
+~~~
+#아래처럼 사용자 계정 환경변수 파일에 TMOUT 설정(단위 : 초)
+.bash_profile에서 export TMOUT=1800
+~~~
+source .bash_profile로 환경변수 적용 <br>
 
 
 

@@ -92,6 +92,10 @@ vim .bash_profile로 환경변수 설정파일을 오픈 <br>
 ~~~
 source .bash_profile로 환경변수 적용 <br>
 
+### source의미
+![image](https://user-images.githubusercontent.com/44331989/137708220-f2848cf6-7e6f-4548-adf6-34f15f085488.png) <br>
+image source : https://klero.tistory.com/entry/source-%EB%AA%85%EB%A0%B9%EC%96%B4%EB%9E%80 <br>
+
 
 
 

@@ -96,6 +96,9 @@ source .bash_profile로 환경변수 적용 <br>
 ![image](https://user-images.githubusercontent.com/44331989/137708220-f2848cf6-7e6f-4548-adf6-34f15f085488.png) <br>
 image source : https://klero.tistory.com/entry/source-%EB%AA%85%EB%A0%B9%EC%96%B4%EB%9E%80 <br>
 
+### 서비스 등록
+![image](https://user-images.githubusercontent.com/44331989/137892531-81f97c6a-4c64-4dc1-a4f5-61bae2616d94.png) <br>
+image source : https://victorydntmd.tistory.com/215 <br>
 
 
 

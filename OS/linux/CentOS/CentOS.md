@@ -100,5 +100,9 @@ image source : https://klero.tistory.com/entry/source-%EB%AA%85%EB%A0%B9%EC%96%B
 ![image](https://user-images.githubusercontent.com/44331989/137892531-81f97c6a-4c64-4dc1-a4f5-61bae2616d94.png) <br>
 image source : https://victorydntmd.tistory.com/215 <br>
 
+#### journalctl
+![image](https://user-images.githubusercontent.com/44331989/137893166-76d29df6-e9b5-460b-94b1-29a1178f9fe8.png) <br>
+image source : https://sysops.tistory.com/115 <br>
+
 
 

@@ -104,7 +104,7 @@ image source : https://victorydntmd.tistory.com/215 <br>
 ![image](https://user-images.githubusercontent.com/44331989/137893166-76d29df6-e9b5-460b-94b1-29a1178f9fe8.png) <br>
 image source : https://sysops.tistory.com/115 <br>
 
-#### systemctl start 에러
+### systemctl start 에러
 ~~~
 ex)
 systemctl start postgresql-9.6.service

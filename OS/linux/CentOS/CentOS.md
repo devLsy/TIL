@@ -104,5 +104,60 @@ image source : https://victorydntmd.tistory.com/215 <br>
 ![image](https://user-images.githubusercontent.com/44331989/137893166-76d29df6-e9b5-460b-94b1-29a1178f9fe8.png) <br>
 image source : https://sysops.tistory.com/115 <br>
 
+#### systemctl start 에러
+~~~
+ex)
+systemctl start postgresql-9.6.service
+Job for postgresql-9.6.service failed because the control process exited with error code. See "systemctl status postgresql-9.6.service" and "journalctl -xe" for details.
+~~~
+systemctl에 등록된 서비스 실행 시 위와 같은 에러를 발견하는 운 나쁜 경우가 생기면 <br>
+systemctl status postgresql-9.6.service(등록된 서비스명)과 journalctl -xe를 통해서 로그를 확인해서 문제를 해결해야 함 <br>
+
+회사에서 postgreSQL가 root로 systemctl start로 실행 시(원래 잘 되다가 오라클 설치하면서 리눅스 설정을 좀 변경한게 원인 인 듯) <br>
+나의 경우 postgresql-9.6.service를 실행 한 경우 아래처럼 에러가 발생 했었음 <br>
+~~~
+[root@centos7 ~]# systemctl status postgresql-9.6.service
+● postgresql-9.6.service - PostgreSQL 9.6 database server
+   Loaded: loaded (/usr/lib/systemd/system/postgresql-9.6.service; enabled; vendor preset: disabled)
+   Active: failed (Result: exit-code) since 화 2021-10-19 15:30:09 KST; 50s ago
+     Docs: https://www.postgresql.org/docs/9.6/static/
+  Process: 30514 ExecStart=/usr/pgsql-9.6/bin/postmaster -D ${PGDATA} (code=exited, status=1/FAILURE)
+  Process: 30507 ExecStartPre=/usr/pgsql-9.6/bin/postgresql96-check-db-dir ${PGDATA} (code=exited, status=0/SUCCESS)
+ Main PID: 30514 (code=exited, status=1/FAILURE)
+
+10월 19 15:30:08 centos7 systemd[1]: Starting PostgreSQL 9.6 database server...
+10월 19 15:30:09 centos7 postmaster[30514]: < 2021-10-19 15:30:09.071 KST > 로그:  redirecting log output to logging… process
+10월 19 15:30:09 centos7 postmaster[30514]: < 2021-10-19 15:30:09.071 KST > 힌트:  Future log output will appear in …pg_log".
+10월 19 15:30:09 centos7 systemd[1]: postgresql-9.6.service: main process exited, code=exited, status=1/FAILURE
+10월 19 15:30:09 centos7 systemd[1]: Failed to start PostgreSQL 9.6 database server.
+10월 19 15:30:09 centos7 systemd[1]: Unit postgresql-9.6.service entered failed state.
+10월 19 15:30:09 centos7 systemd[1]: postgresql-9.6.service failed.
+Hint: Some lines were ellipsized, use -l to show in full.
+~~~
+
+구글링 해 본 결과.. 정보가 많이 부족 했었지만 어떤 블로그를 참조해서 아래처럼 에러가 발생하는 경로에 직접 들어가서 서비스를 실행 해 봤음 <br>
+~~~
+/usr/pgsql-9.6/bin/postmaster
+~~~
+
+그 결과 권한 문제라고 아래처럼 나왔음 <br>
+~~~
+시스템 보안 관련 문제로, PostgreSQL server를 "root" ID로 실행할 수 없습니다.
+반드시 일반 사용자 ID(시스템 관리자 권한이 없는 ID)로 서버를 실행하십시오.
+Server를 어떻게 안전하게 기동하는가 하는 것은 문서를 참조하시기 바랍니다.
+~~~
+
+그래서 sudo 권한 있는 일반 사용자 계정으로 systemctl start 서비스명을 입력 했는데 되네... <br>
+systemctl은 원래 root로만 실행이 가능, sudo 권한 있는 계정으로 실행 시 root 비밀번호를 입력하라고 나오는데
+root 비밀번호 입력 후 정상 실행이 됨 <br>
+
+![image](https://user-images.githubusercontent.com/44331989/138075494-9f252628-ba6c-4e2b-bbb7-40f42df9eb40.png) <br>
+![image](https://user-images.githubusercontent.com/44331989/138075541-7e42df72-09d7-47bd-89a9-50d318438857.png) <br>
+
+systemctl 에러를 안 만나길 바라지만 만일 에러를 만날 경우 경로에 직접 들어가서 실행해 본 다음 에러로그를 보면서 문제 해결이 필요하다고 생각됨 <br>
+
+
+
+
 
 

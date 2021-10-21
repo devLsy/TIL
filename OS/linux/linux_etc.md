@@ -33,3 +33,9 @@ image source : https://server-talk.tistory.com/140, <br>
 ### 크론탭
 ![image](https://user-images.githubusercontent.com/44331989/138197998-b13cf7db-6ea7-4b8f-98ab-36e39187f94a.png) <br>
 image source : https://m.blog.naver.com/anysecure3/221739040530 <br>
+
+#### 크론탭 상태
+![image](https://user-images.githubusercontent.com/44331989/138198398-cbdda3aa-f59a-41a5-b90a-3268a77a4d6f.png) <br>
+image source : https://m.blog.naver.com/anysecure3/221739040530 <br> 
+
+

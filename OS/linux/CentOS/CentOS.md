@@ -156,6 +156,10 @@ root 비밀번호 입력 후 정상 실행이 됨 <br>
 
 systemctl 에러를 안 만나길 바라지만 만일 에러를 만날 경우 경로에 직접 들어가서 실행해 본 다음 에러로그를 보면서 문제 해결이 필요하다고 생각됨 <br>
 
+### OS 재부팅 시 자동 시작되는 서비스 리스트 확인
+~~~
+systemctl list-unit-files --type service | grep enabled
+~~~
 
 
 

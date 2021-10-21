@@ -29,3 +29,7 @@ image source : https://server-talk.tistory.com/140, <br>
 그리고 보통 오라클과 계약을 체결 후 오라클 전문 엔지니어가 작업하는게 일반적인 사항 <br>
 만일 정말 운 나쁘게 개발자가 이를 처리할 수 밖에 없는 상황이 오면..일단 운영이 아닌 개발 서버에서 동일하게 시뮬레이션을 해봐야 함
 오라클 덤프를 해서 데이터를 백업 해 두고, 오라클 서비스 내리고 tar로 묶어서 폴더를 옮긴 다음 심볼릭 링크를 걸고 오라클 재시작 후 테스트 <br>
+
+### 크론탭
+![image](https://user-images.githubusercontent.com/44331989/138197998-b13cf7db-6ea7-4b8f-98ab-36e39187f94a.png) <br>
+image source : https://m.blog.naver.com/anysecure3/221739040530 <br>

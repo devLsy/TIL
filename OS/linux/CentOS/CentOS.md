@@ -160,6 +160,8 @@ systemctl 에러를 안 만나길 바라지만 만일 에러를 만날 경우 �
 ~~~
 systemctl list-unit-files --type service | grep enabled
 ~~~
+![image](https://user-images.githubusercontent.com/44331989/138196255-afb5eb22-830f-4227-a829-34b3300e9cea.png) <br>
+
 
 
 

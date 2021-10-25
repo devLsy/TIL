@@ -228,3 +228,8 @@ ex) kill -9 4159 -> 4159의 pid를 가진 프로세스가 강제 종료됨
 ~~~
 당연히 root권한이 있거나 sudo 권한이 있거나 본인 소유의 프로세스만 종료 가능 <br>
 
+## adduser, deluser(사용자 생성, 삭제)
+![image](https://user-images.githubusercontent.com/44331989/138676340-839bccc7-13f6-4b0a-b857-61f67ea36be8.png) <br>
+위처럼 명령어 입력 시(root계정으로 해야 함) test1이라는 계정이 생성되고 아래처럼 /home 밑에 해당 test1이라는 폴더가 생성됨 <br>
+![image](https://user-images.githubusercontent.com/44331989/138676476-6b6bc05b-6d46-4667-8533-ff9b0e405909.png) <br>
+

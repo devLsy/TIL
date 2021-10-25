@@ -48,6 +48,7 @@ image source : https://webdir.tistory.com/134 <br>
 r : 읽기, <br> 
 w : 쓰기(생성, 삭제, 수정 포함) <br> , 
 x : 실행 <br> 
+![image](https://user-images.githubusercontent.com/44331989/138646649-1cf1cfd3-b6f7-454a-b36e-74e0e5e9a248.png) <br>
 ~~~
 ex) 
 drwxr-xr-x. 

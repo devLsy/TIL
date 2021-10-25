@@ -55,7 +55,11 @@ drwxr-xr-x.
 디렉토리를 이며 소유주는 읽고 쓰고 실행 모두 가능, 소유그룹은 읽기, 실행만 가능, other역시 읽기 실행만 가능하다는 소리임
 ~~~
 위처럼 테스트폴더의 내용이 있음 <br>
-
-
+해당 폴더 또는 파일의 권한을 변경하기 위해선 보통 최고관리자인 root 계정으로 작업을 함 <br>
+~~~
+chmod 
+~~~
+![image](https://user-images.githubusercontent.com/44331989/138635495-a564211d-5d9a-4489-b9ed-f7ebcf9aa6bf.png) <br>
+image source : https://victorydntmd.tistory.com/214 <br>
 
 

@@ -246,6 +246,12 @@ ex) kill -9 4159 -> 4159의 pid를 가진 프로세스가 강제 종료됨
 삭제된 계정으로 로그인 시 아래처럼 존재하지 않는다고 나옴 <br>
 ![image](https://user-images.githubusercontent.com/44331989/138677853-29bbc72d-e1fa-4322-97a5-b5e5b9a39878.png) <br>
 
+계정 삭제 시 디렉토리까지 삭제하려면 아래처럼 -r 옵션 입력 <br>
+![image](https://user-images.githubusercontent.com/44331989/138678490-7ac14482-7492-4f80-993d-7a536feffaf2.png) <br>
+
+해당 디렉토리가 아래처럼 사라졌음 <br>
+![image](https://user-images.githubusercontent.com/44331989/138678565-5623beae-5add-4acd-9589-33ef1f5a8110.png) <br>
+
 
 
 

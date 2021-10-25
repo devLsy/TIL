@@ -193,5 +193,10 @@ image source : https://webdir.tistory.com/158 <br>
 ![image](https://user-images.githubusercontent.com/44331989/138672294-4cd59d9a-d5cd-4e6c-9cb9-533cabf7ac2c.png) <br>
 더 자세한 건 구글링 <br>
 
+### w, who(서버 접속자 정보 확인)
+![image](https://user-images.githubusercontent.com/44331989/138672650-9288ab35-0931-4058-bcbc-bed4e37c06b7.png) <br>
+현재 리눅스에 접속한 사용자에 대한 정보 <br>
+사용자 아이디, 아이피, 로그인 시간, cpu 사용률, 현재 작업목록 <br>
+w보다 좀더 간략하게 표현하려면 who <br>
 
 

@@ -164,6 +164,7 @@ tar cvfz(옵션) backup.tar.gz(압축파일명) ./dir3 ./file3 ./system.log
 image source : https://clansim.tistory.com/50 <br>
 ![image](https://user-images.githubusercontent.com/44331989/138658435-0f0790f1-2934-4ea8-994d-ccc9a5cba364.png) <br>
 image source : https://recipes4dev.tistory.com/146 <br>
+※ tar 자체는 압축의 의미가 아니고 하나로 모은다는 소리이고 z라는 옵션을 줘야 gzip으로 압축을 한다는 소리임 <br>
 
 
 

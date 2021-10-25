@@ -199,4 +199,13 @@ image source : https://webdir.tistory.com/158 <br>
 사용자 아이디, 아이피, 로그인 시간, cpu 사용률, 현재 작업목록 <br>
 w보다 좀더 간략하게 표현하려면 who <br>
 
+### ping(Packet INternet Groper)
+주로 네트워크 설정 이후 네트워크 확인하기 위해 날리곤 함 <br>
+~~~
+ping 아이피 또는 도메인
+~~~
+![image](https://user-images.githubusercontent.com/44331989/138673475-ff32eb86-b46c-43df-accd-cc0e645f1d05.png) <br>
+위는 구글 서버로 ping을 날린 상태 <br>
+제일 우측의 time은 ping을 날린 서버에서 타켓 서버까지의 응답속도를 나타내는데 당연히 time값이 적을 수록 인터넷이 빠르다는 의미임 <br>
+
 

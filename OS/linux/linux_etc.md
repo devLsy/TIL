@@ -62,6 +62,10 @@ chmod
 ![image](https://user-images.githubusercontent.com/44331989/138635495-a564211d-5d9a-4489-b9ed-f7ebcf9aa6bf.png) <br>
 image source : https://victorydntmd.tistory.com/214 <br>
 ![image](https://user-images.githubusercontent.com/44331989/138636122-871619ce-5d0c-42df-9de5-63a97c9d2a69.png) <br>
-
+모든 권한 부여는 7(4+2+1)
+~~~
+chmod 755(소유주는 모든 권한 부여, 소유그룹과 기타는 읽고 실행만 가능)
+chmod 777(소유주, 소유그룹, 기타 모두 읽고 쓰고 실행 모두 가능)
+~~~
 
 

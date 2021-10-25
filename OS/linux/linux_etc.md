@@ -45,6 +45,9 @@ image source : https://webdir.tistory.com/134 <br>
 ### chmod(change mod) 폴더, 파일 권한 
 리눅스에서 폴더 또는 파일의 권한을 변경하기 위해선 chmod 명령어를 사용함 <br>
 ![image](https://user-images.githubusercontent.com/44331989/138634760-10433bf8-e930-4254-b0f2-be0d32d4f874.png) <br>
+r : 읽기, <br> 
+w : 쓰기(생성, 삭제, 수정 포함) <br> , 
+x : 실행 <br> 
 위처럼 테스트폴더의 내용이 있음 <br>
 
 

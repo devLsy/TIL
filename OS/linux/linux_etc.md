@@ -148,6 +148,8 @@ image source : https://jybaek.tistory.com/704 <br>
 ![image](https://user-images.githubusercontent.com/44331989/138656812-7f11d2eb-7cc9-4d8d-a668-465770978be2.png) <br>
 서버에 로그를 확인 해야 하는데 로그의 크기가 매우 클 때, 현재 잔여 메모리가 얼마 남지 않은 상태에 vi가 아닌 less로 열면 효율적 <br>
 서버의 자원이 여유롭지 않은 상태에서 vi를 열게 되면 메모리 부하, 만일 원격에서 열었을 경우 네트워크 트래픽 부하, 그래서 이 경우는 less를 사용하자 <br>
+1gb의 파일을 vi로 열게 되면 메모리에 1gb만큼의 공간이 할당됨, 만일 메모리 여유공간이 부족하면 생각만 해도 끔찍 <br>
+하지만 less로 열게 되면 less로 연 부분만큼만 메모리에 할당됨 <br>
 읽기 전용 에디터임 <br>
 
 

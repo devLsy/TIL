@@ -180,4 +180,6 @@ find 경로 조건 target
 ex) find . -name system.log -> 현재 경로(.)에서 파일명이 system.log인 것을 찾아라
 ~~~
 권한 없는 디렉토리 검색 시 sudo 입력 필요 <br>
+![image](https://user-images.githubusercontent.com/44331989/138670253-7a7dc426-9503-4a3f-8d9a-ff6bbeb7005d.png) <br>
+image source : https://recipes4dev.tistory.com/156 <br>
 

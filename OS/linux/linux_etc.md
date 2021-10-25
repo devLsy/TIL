@@ -100,6 +100,9 @@ image source : https://withcoding.com/92 <br>
 ![image](https://user-images.githubusercontent.com/44331989/138639829-014523ba-d6a4-4666-93d9-af4bc8f869dd.png) <br>
 image source : https://withcoding.com/95 <br>
 
+### cd(change directory)
+![image](https://user-images.githubusercontent.com/44331989/138639997-d2dcbf70-9725-4949-94c5-21574af7df91.png) <br>
+image source : https://shaeod.tistory.com/597 <br>
 
 
 

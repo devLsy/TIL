@@ -233,3 +233,11 @@ ex) kill -9 4159 -> 4159의 pid를 가진 프로세스가 강제 종료됨
 위처럼 명령어 입력 시(root계정으로 해야 함) test1이라는 계정이 생성되고 아래처럼 /home 밑에 해당 test1이라는 폴더가 생성됨 <br>
 ![image](https://user-images.githubusercontent.com/44331989/138676476-6b6bc05b-6d46-4667-8533-ff9b0e405909.png) <br>
 
+생성된 사용자의 비밀번호를 아래처럼 설정할 수 있음 <br>
+![image](https://user-images.githubusercontent.com/44331989/138676748-2becd9e9-f733-4caa-9a0c-354ef0561b3b.png) <br>
+
+새로 생성된 사용자로 계정을 변경하기 위해선 su - "계정명" 입력하면 됨 <br>
+![image](https://user-images.githubusercontent.com/44331989/138677037-538924a7-e36c-46a6-ad0f-669bf79cb353.png) <br>
+
+
+

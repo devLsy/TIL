@@ -1,4 +1,5 @@
-# 람다 표현식(Lambda Expression)
+# java 관련
+## 람다 표현식(Lambda Expression)
 * 람다식을 사용하기 위해서는 구현할 인터페이스(반드시 함수적 인터페이스만 가능)가 필요 -> @FunctionallInterface 어노테이션으로 명시 가능 <br>
 * @FunctionallInterface가 적용된 인터페이스는 한개의 추상 메소드만 선언할 수 있음, 메서드 추가 시 컴파일 에러 발생 <br>
 ![image](https://user-images.githubusercontent.com/44331989/125908656-eb100be5-7e24-4140-886d-70f40b7ddd37.png) <br>
@@ -17,3 +18,11 @@ ex)
 출처 : https://multifrontgarden.tistory.com/124 <br>
       https://pangtrue.tistory.com/194 <br>
       https://yookeun.github.io/java/2017/01/24/java-anonymousclass/ <br>
+
+## 제네릭
+![image](https://user-images.githubusercontent.com/44331989/138624348-7ab90040-455e-4f15-b8ad-8e7d9dad8ca6.png) <br>
+![image](https://user-images.githubusercontent.com/44331989/138624377-a1f62954-ff9d-4e8a-84dd-b7495523607c.png) <br>
+![image](https://user-images.githubusercontent.com/44331989/138624398-177df884-090d-4112-8cad-9f7e753995ed.png) <br>
+![image](https://user-images.githubusercontent.com/44331989/138624412-f2a8fc1f-357e-448d-ab07-a20b99d559dc.png) <br>
+![image](https://user-images.githubusercontent.com/44331989/138624439-9ab0a5b0-20d6-4c62-82c8-805673488610.png) <br>
+image source : https://st-lab.tistory.com/153 <br>

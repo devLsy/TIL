@@ -155,6 +155,13 @@ image source : https://jybaek.tistory.com/704 <br>
 image souece : https://tychejin.tistory.com/94 <br>
 
 ### tar(파일, 디렉토리 압축)
+![image](https://user-images.githubusercontent.com/44331989/138657935-d7807222-ce67-4262-b299-acd51f22ccc4.png) <br>
+~~~
+tar cvfz(옵션) backup.tar.gz(압축파일명) ./dir3 ./file3 ./system.log
+./dir3 ./file3 ./system.log를 압축해서 backup.tar.gz라는 압축파일명으로 만들겠다.
+~~~
+![image](https://user-images.githubusercontent.com/44331989/138658202-30fb5c2c-bf6f-4c4f-b760-c308adfe4d27.png) <br>
+image source : https://clansim.tistory.com/50 <br>
 
 
 

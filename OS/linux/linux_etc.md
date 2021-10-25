@@ -243,6 +243,8 @@ ex) kill -9 4159 -> 4159의 pid를 가진 프로세스가 강제 종료됨
 이 때 만약 해당 사용자의 프로세스가 사용중이라고 나오면 kill -9로 해당 프로세스 죽이고 할 것 <br>
 
 ![image](https://user-images.githubusercontent.com/44331989/138677658-b8f9c1a7-28d5-4f24-be62-6d09b6d9b49a.png) <br>
+삭제된 계정으로 로그인 시 아래처럼 존재하지 않는다고 나옴 <br>
+![image](https://user-images.githubusercontent.com/44331989/138677853-29bbc72d-e1fa-4322-97a5-b5e5b9a39878.png) <br>
 
 
 

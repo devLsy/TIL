@@ -139,5 +139,10 @@ image source : https://arer.tistory.com/148 <br>
 ![image](https://user-images.githubusercontent.com/44331989/138646083-cbae9ed0-604b-417c-b8a8-d503f41e0f36.png) <br>
 image source : https://sisiblog.tistory.com/218 <br>
 
+### grep(특정 문자열 검색)
+정말 많이 사용하는 기능 <br>
+![image](https://user-images.githubusercontent.com/44331989/138648717-fa208715-dbf5-427f-b72e-83b08017219f.png) <br>
+image source : https://jybaek.tistory.com/704 <br>
+
 
 

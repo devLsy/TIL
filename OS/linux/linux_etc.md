@@ -69,8 +69,7 @@ chmod 755(소유주는 모든 권한 부여, 소유그룹과 기타는 읽고 �
 chmod 777(소유주, 소유그룹, 기타 모두 읽고 쓰고 실행 모두 가능)
 ~~~
 이런식으로 8진수로 표현할 수도 있고 직접 chmod +w 이런식으로 문자로도 표현 가능 <br>
-![image](https://user-images.githubusercontent.com/44331989/138647052-dc5e37ad-b161-4840-8c57-3edbdc036288.png) <br>
-
+![image](https://user-images.githubusercontent.com/44331989/138647328-eb6a1ebb-2734-4906-bc36-f465412d84ac.png) <br>
 
 ### 디렉토리 및 파일 목록 출력(ls)
 아마 리눅스를 배우면서 제일 먼저 배우는 명령어중 하나일 듯 싶음 <br>

@@ -88,7 +88,7 @@ ls -al(소유권 및 숨긴 항목까지 표시)를 주로 많이 쓰고 상황�
 ### mkdir(폴더 생성)
 ![image](https://user-images.githubusercontent.com/44331989/138638777-b43d8867-708c-4177-8d2c-af3d2d981eb7.png) <br>
 ![image](https://user-images.githubusercontent.com/44331989/138638814-5c7eb176-5f79-476f-85d4-c839a40ee501.png) <br>
-
+image source : https://withcoding.com/92 <br>
 
 
 

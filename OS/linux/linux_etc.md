@@ -260,7 +260,8 @@ ex) kill -9 4159 -> 4159의 pid를 가진 프로세스가 강제 종료됨
 호스트네임은 이 서버의 별명을 출력(리눅스 최초 설치 시 설정한 변명) <br>
 
 ![image](https://user-images.githubusercontent.com/44331989/138679932-321532b9-5149-4899-8d4d-2b06b5ce5763.png) <br>
-시스템 재부팅 명령어 reboot, 시스템 완전 종료(전원까지 내림) halt -p
+시스템 재부팅 명령어 reboot <br>
+시스템 완전 종료(전원까지 내림) halt -p
 
 
 

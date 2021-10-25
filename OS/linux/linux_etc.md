@@ -179,5 +179,5 @@ tar zvfz "압축파일명"
 find 경로 조건 target
 ex) find . -name system.log -> 현재 경로(.)에서 파일명이 system.log인 것을 찾아라
 ~~~
-
+권한 없는 디렉토리 검색 시 sudo 입력 필요 <br>
 

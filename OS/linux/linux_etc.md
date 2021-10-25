@@ -200,7 +200,8 @@ image source : https://webdir.tistory.com/158 <br>
 w보다 좀더 간략하게 표현하려면 who <br>
 
 ### ping(Packet INternet Groper)
-주로 네트워크 설정 이후 네트워크 확인하기 위해 날리곤 함 <br>
+일정한 크기의 패킷을 타겟으로 보내서 상대가 응답하는지 체크 <br>
+주로 네트워크 설정 이후 네트워크 상태를 확인하기 위해 사용<br>
 ~~~
 ping 아이피 또는 도메인
 ~~~

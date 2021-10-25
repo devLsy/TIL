@@ -239,5 +239,11 @@ ex) kill -9 4159 -> 4159의 pid를 가진 프로세스가 강제 종료됨
 새로 생성된 사용자로 계정을 변경하기 위해선 su - "계정명" 입력하면 됨 <br>
 ![image](https://user-images.githubusercontent.com/44331989/138677037-538924a7-e36c-46a6-ad0f-669bf79cb353.png) <br>
 
+사용자 삭제 시 centos 기준은 userdel "사용자명" 입력 하면 됨 <br>
+이 때 만약 해당 사용자의 프로세스가 사용중이라고 나오면 kill -9로 해당 프로세스 죽이고 할 것 <br>
+
+![image](https://user-images.githubusercontent.com/44331989/138677658-b8f9c1a7-28d5-4f24-be62-6d09b6d9b49a.png) <br>
+
+
 
 

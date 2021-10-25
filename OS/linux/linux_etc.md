@@ -252,6 +252,21 @@ ex) kill -9 4159 -> 4159의 pid를 가진 프로세스가 강제 종료됨
 해당 디렉토리가 아래처럼 사라졌음 <br>
 ![image](https://user-images.githubusercontent.com/44331989/138678565-5623beae-5add-4acd-9589-33ef1f5a8110.png) <br>
 
+### uname, hostname, reboot, halt
+![image](https://user-images.githubusercontent.com/44331989/138679697-da3f2ad9-2089-419b-9fa6-f2770fef0e76.png) <br>
+시스템 정보를 간략히 확인하는 명령어
+
+![image](https://user-images.githubusercontent.com/44331989/138679845-e5821b64-badc-4809-b4b6-6867fc1ed5ab.png) <br>
+호스트네임은 이 서버의 별명을 출력(리눅스 최초 설치 시 설정한 변명) <br>
+
+![image](https://user-images.githubusercontent.com/44331989/138679932-321532b9-5149-4899-8d4d-2b06b5ce5763.png) <br>
+시스템 재부팅 명령어 reboot, 시스템 완전 종료(전원까지 내림) halt -p
+
+
+
+
+        
+
 
 
 

@@ -42,3 +42,11 @@ image source : https://m.blog.naver.com/anysecure3/221739040530 <br>
 ![image](https://user-images.githubusercontent.com/44331989/138622342-8aa020b5-dda6-4691-874d-7d692b1e7e9d.png) <br>
 image source : https://webdir.tistory.com/134 <br>
   
+### chmod(change mod) 폴더, 파일 권한 
+리눅스에서 폴더 또는 파일의 권한을 변경하기 위해선 chmod 명령어를 사용함 <br>
+![image](https://user-images.githubusercontent.com/44331989/138634760-10433bf8-e930-4254-b0f2-be0d32d4f874.png) <br>
+위처럼 테스트폴더의 내용이 있음 <br>
+
+
+
+

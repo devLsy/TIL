@@ -189,5 +189,9 @@ image source : https://recipes4dev.tistory.com/156 <br>
 ![image](https://user-images.githubusercontent.com/44331989/138671358-8b6acd5b-e5cb-405c-9201-87cc17f23270.png) <br>
 image source : https://webdir.tistory.com/158 <br>
 
+### top(자원 상태 확인)
+![image](https://user-images.githubusercontent.com/44331989/138672294-4cd59d9a-d5cd-4e6c-9cb9-533cabf7ac2c.png) <br>
+더 자세한 건 구글링 <br>
+
 
 

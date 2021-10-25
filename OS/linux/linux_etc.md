@@ -122,6 +122,7 @@ image source : https://galid1.tistory.com/211 <br>
 ### cat(파일 내용 출력, 파일 생성, 파일 병합)
 ![image](https://user-images.githubusercontent.com/44331989/138644005-c24e80eb-0e6c-439c-a5f4-78de4e70d727.png) <br>
 ![image](https://user-images.githubusercontent.com/44331989/138644273-bc70c16e-5afd-4f13-a34a-b1e558c35241.png) <br>
+![image](https://user-images.githubusercontent.com/44331989/138645664-19af1f90-8a51-4fa5-b382-ff05aa031397.png) <br>
 image source : https://withcoding.com/109 <br>
 
 

@@ -67,5 +67,5 @@ image source : https://victorydntmd.tistory.com/214 <br>
 chmod 755(소유주는 모든 권한 부여, 소유그룹과 기타는 읽고 실행만 가능)
 chmod 777(소유주, 소유그룹, 기타 모두 읽고 쓰고 실행 모두 가능)
 ~~~
-
+이런식으로 8진수로 표현할 수도 있고 직접 chmod +w 이런식으로 문자로도 표현 가능 <br>
 

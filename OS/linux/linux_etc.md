@@ -262,7 +262,8 @@ ex) kill -9 4159 -> 4159의 pid를 가진 프로세스가 강제 종료됨
 ![image](https://user-images.githubusercontent.com/44331989/138679932-321532b9-5149-4899-8d4d-2b06b5ce5763.png) <br>
 시스템 재부팅 명령어 reboot <br>
 시스템 완전 종료(전원까지 내림) halt -p
-
+![image](https://user-images.githubusercontent.com/44331989/138680415-88ca1505-323a-4d00-b584-4a6a06611728.png) <br>
+image source : https://www.tuwlab.com/ece/6389 <br>
 
 
 

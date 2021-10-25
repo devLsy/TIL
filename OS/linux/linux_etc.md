@@ -182,6 +182,7 @@ ex) find . -name system.log -> 현재 경로(.)에서 파일명이 system.log인
 권한 없는 디렉토리 검색 시 sudo 입력 필요 <br>
 ![image](https://user-images.githubusercontent.com/44331989/138670253-7a7dc426-9503-4a3f-8d9a-ff6bbeb7005d.png) <br>
 ![image](https://user-images.githubusercontent.com/44331989/138670680-134a93db-ae87-4c6a-b680-76492d42ce20.png) <br>
+![image](https://user-images.githubusercontent.com/44331989/138671008-e6d9f243-ce12-45bc-a498-0cc0f5e4b8a8.png) <br>
 image source : https://recipes4dev.tistory.com/156 <br>
 
 

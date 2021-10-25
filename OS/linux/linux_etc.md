@@ -185,4 +185,9 @@ ex) find . -name system.log -> 현재 경로(.)에서 파일명이 system.log인
 ![image](https://user-images.githubusercontent.com/44331989/138671008-e6d9f243-ce12-45bc-a498-0cc0f5e4b8a8.png) <br>
 image source : https://recipes4dev.tistory.com/156 <br>
 
+### which(명령어 경로 확인)
+![image](https://user-images.githubusercontent.com/44331989/138671358-8b6acd5b-e5cb-405c-9201-87cc17f23270.png) <br>
+image source : https://webdir.tistory.com/158 <br>
+
+
 

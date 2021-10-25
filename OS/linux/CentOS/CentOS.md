@@ -163,6 +163,11 @@ systemctl list-unit-files --type service | grep enabled
 ![image](https://user-images.githubusercontent.com/44331989/138196255-afb5eb22-830f-4227-a829-34b3300e9cea.png) <br>
 image source : https://m.blog.naver.com/colt357/220908573277 <br>
 
+### 그룹
+#### 그룹관리
+##### 그룹에 사용자 추가
+![image](https://user-images.githubusercontent.com/44331989/138622342-8aa020b5-dda6-4691-874d-7d692b1e7e9d.png) <br>
+image source : https://webdir.tistory.com/134 <br>
 
 
 

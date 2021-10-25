@@ -115,6 +115,9 @@ image source : https://coding-factory.tistory.com/751 <br>
 ![image](https://user-images.githubusercontent.com/44331989/138642106-c327325c-a4b0-4269-a263-c2700f1128ce.png) <br>
 image source : https://withcoding.com/93 <br>
 
+### 환경변수
+![image](https://user-images.githubusercontent.com/44331989/138643498-c122f807-8986-4f82-ac75-d8623a6b6023.png) <br>
+image source : https://galid1.tistory.com/211 <br>
 
 
 

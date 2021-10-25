@@ -226,5 +226,5 @@ $ ps -ef | grep apache(apache 웹서버가 실행중인지 조회)
 kill -9 "pid"
 ex) kill -9 4159 -> 4159의 pid를 가진 프로세스가 강제 종료됨
 ~~~
-
+당연히 root권한이 있거나 sudo 권한이 있거나 본인 소유의 프로세스만 종료 가능 <br>
 

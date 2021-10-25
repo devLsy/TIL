@@ -69,3 +69,23 @@ chmod 777(소유주, 소유그룹, 기타 모두 읽고 쓰고 실행 모두 가
 ~~~
 이런식으로 8진수로 표현할 수도 있고 직접 chmod +w 이런식으로 문자로도 표현 가능 <br>
 
+### 디렉토리 목록 출력
+아마 리눅스를 배우면서 제일 먼저 배우는 명령어중 하나일 듯 싶음 <br>
+list의 약자로 ls 명령어를 입력 시 현재 위치한 경로의 디렉토리, 파일 목록들이 표시되는데 보통 -옵션을 넣어서 많이 사용함 <br>
+![image](https://user-images.githubusercontent.com/44331989/138637613-33e0555e-daea-4796-8318-e38c7957e2a3.png) <br>
+위처럼 기본 ls 명령어는 디렉토리, 파일 목록만 표시됨 <br>
+![image](https://user-images.githubusercontent.com/44331989/138637658-b5b6ac5d-1f72-4a42-bea7-e107ba3d8cc2.png) <br>
+-a 옵션 사용 시 숨긴 항목 포함 모든 목록이 표시됨 <br>
+![image](https://user-images.githubusercontent.com/44331989/138637722-f082b49e-e868-47f2-85e2-9f5032468d24.png) <br>
+-l 옵션 사용 시 폴더 및 파일의 소유권 목록이 표시됨 <br>
+![image](https://user-images.githubusercontent.com/44331989/138637789-9ecba699-664a-4fa9-ad47-502e2d663e14.png) <br>
+ls -al(소유권 및 숨긴 항목까지 표시)를 주로 많이 쓰고 상황에 따라서 다른 옵션도 섞어서 사용 <br>
+
+
+
+
+
+
+
+
+

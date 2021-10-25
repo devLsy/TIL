@@ -154,5 +154,7 @@ image source : https://jybaek.tistory.com/704 <br>
 ![image](https://user-images.githubusercontent.com/44331989/138657484-114a8e21-5b6b-4dcf-b30a-d3cc95797727.png) <br>
 image souece : https://tychejin.tistory.com/94 <br>
 
+### tar(파일, 디렉토리 압축)
+
 
 

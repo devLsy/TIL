@@ -127,7 +127,11 @@ image source : https://galid1.tistory.com/211 <br>
 ![image](https://user-images.githubusercontent.com/44331989/138645664-19af1f90-8a51-4fa5-b382-ff05aa031397.png) <br>
 image source : https://withcoding.com/109 <br>
 
-### tail()
+### head(파일의 제일 윗부분부터 출력)
+![image](https://user-images.githubusercontent.com/44331989/138648360-7be2684b-f8c8-4076-a3b6-0145f739c022.png) <br>
+image source : https://arer.tistory.com/148 <br>
+
+### tail(파일의 마지막부터 출력)
 ![image](https://user-images.githubusercontent.com/44331989/138645934-984acbb4-5108-4b78-b668-c515855a3cd8.png) <br>
 ![image](https://user-images.githubusercontent.com/44331989/138645975-a33163aa-dfa1-4f64-8834-e90f8731d01e.png) <br>
 ![image](https://user-images.githubusercontent.com/44331989/138646029-b54b26a0-b916-4b8d-a4b8-ff54dd2aabaf.png) <br>

@@ -144,5 +144,10 @@ image source : https://sisiblog.tistory.com/218 <br>
 ![image](https://user-images.githubusercontent.com/44331989/138648717-fa208715-dbf5-427f-b72e-83b08017219f.png) <br>
 image source : https://jybaek.tistory.com/704 <br>
 
+### less(파일 뷰어 용도)
+![image](https://user-images.githubusercontent.com/44331989/138656557-92b129a2-9187-45be-957d-26c9d5b51a0a.png) <br>
+서버에 로그를 확인 해야 하는데 로그의 크기가 매우 클 때, 현재 잔여 메모리가 얼마 남지 않은 상태에 vi가 아닌 lee로 열면 효율적 <br>
+
+
 
 

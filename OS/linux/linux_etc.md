@@ -162,6 +162,8 @@ tar cvfz(옵션) backup.tar.gz(압축파일명) ./dir3 ./file3 ./system.log
 ~~~
 ![image](https://user-images.githubusercontent.com/44331989/138658202-30fb5c2c-bf6f-4c4f-b760-c308adfe4d27.png) <br>
 image source : https://clansim.tistory.com/50 <br>
+![image](https://user-images.githubusercontent.com/44331989/138658435-0f0790f1-2934-4ea8-994d-ccc9a5cba364.png) <br>
+image source : https://recipes4dev.tistory.com/146 <br>
 
 
 

@@ -218,6 +218,7 @@ ping 아이피 또는 도메인
 $ ps -ef | grep apache(apache 웹서버가 실행중인지 조회)
 ~~~
 ![image](https://user-images.githubusercontent.com/44331989/138675205-aaf7e83f-f7c6-45bd-b980-cb4907345b96.png) <br>
-
+□ 표시된 부분은 pid를 나타내는데 각 프로세스에게 할당된 유니크한 값을 의미하고 pid로 해당 프로세스만 죽일 수 있음 <br>
+□ 표시된 부분은 해당 프로세스의 pid이고 그 우측 옆의 pid는 부모 프로세스의 pid를 나타냄 <br>
 
 

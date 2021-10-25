@@ -90,6 +90,9 @@ ls -al(소유권 및 숨긴 항목까지 표시)를 주로 많이 쓰고 상황�
 ![image](https://user-images.githubusercontent.com/44331989/138638814-5c7eb176-5f79-476f-85d4-c839a40ee501.png) <br>
 image source : https://withcoding.com/92 <br>
 
+### touch(새파일 생성)
+리눅스에서 파일을 생성하거나 갱신하는 명령어임, 새로운 파일 만들 때 존재하는 파일명 지정하면 파일명으로 신규 파일이 생성되고 <br>
+존재하는 파일명을 지정하면 파일의 수정시간이 현재시간으로 업데이트 됨 <br>
 
 
 

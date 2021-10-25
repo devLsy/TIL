@@ -174,4 +174,10 @@ tar zvfz "압축파일명"
 
 ### find
 ※ find와 grep을 햇갈리지 말자, find는 파일명 또는 디렉토리를 검색, grep은 문자열로 파일명을 검색 <br> 
+![image](https://user-images.githubusercontent.com/44331989/138669915-7b00d87e-66f6-49cb-92be-845fb44e4413.png) <br>
+~~~
+find 경로 조건 target
+ex) find . -name system.log -> 현재 경로(.)에서 파일명이 system.log인 것을 찾아라
+~~~
+
 

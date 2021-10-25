@@ -151,5 +151,8 @@ image source : https://jybaek.tistory.com/704 <br>
 1gb의 파일을 vi로 열게 되면 메모리에 1gb만큼의 공간이 할당됨, 만일 메모리 여유공간이 부족하면 생각만 해도 끔찍 <br>
 하지만 less로 열게 되면 less로 연 부분만큼만 메모리에 할당됨 <br>
 읽기 전용 에디터임 <br>
+![image](https://user-images.githubusercontent.com/44331989/138657484-114a8e21-5b6b-4dcf-b30a-d3cc95797727.png) <br>
+image souece : https://tychejin.tistory.com/94 <br>
+
 
 

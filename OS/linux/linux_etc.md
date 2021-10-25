@@ -209,4 +209,15 @@ ping 아이피 또는 도메인
 위는 구글 서버로 ping을 날린 상태 <br>
 제일 우측의 time은 ping을 날린 서버에서 타켓 서버까지의 응답속도를 나타내는데 당연히 time값이 적을 수록 인터넷이 빠르다는 의미임 <br>
 
+### ps(프로세스 상태 확인)
+프로세스 상태를 확인할 때 주로 쓰고 많이 사용 됨 <br>
+![image](https://user-images.githubusercontent.com/44331989/138674851-e3792ef4-2e84-421a-affb-6cfc0510287e.png) <br>
+위처럼 명령어 입력 시 현재 리눅스상에서 기동중인 모든 프로세스 목록 표시됨 <br>
+일반적으로 내가 찾고 싶은 프로세스만 보기 위해서 아래처럼 "|"과 grep을 이용해서 많이 사용 <br>
+~~~
+$ ps -ef | grep apache(apache 웹서버가 실행중인지 조회)
+~~~
+![image](https://user-images.githubusercontent.com/44331989/138675205-aaf7e83f-f7c6-45bd-b980-cb4907345b96.png) <br>
+
+
 

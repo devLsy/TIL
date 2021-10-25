@@ -61,5 +61,7 @@ chmod
 ~~~
 ![image](https://user-images.githubusercontent.com/44331989/138635495-a564211d-5d9a-4489-b9ed-f7ebcf9aa6bf.png) <br>
 image source : https://victorydntmd.tistory.com/214 <br>
+![image](https://user-images.githubusercontent.com/44331989/138636122-871619ce-5d0c-42df-9de5-63a97c9d2a69.png) <br>
+
 
 

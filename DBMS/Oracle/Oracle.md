@@ -806,6 +806,14 @@ TO "사용자명";
 ### 오라클 삭제
 https://corock.tistory.com/135 <br>	
 	
-
+### TRUNC(시간이나 숫자 절사) <br>
+![image](https://user-images.githubusercontent.com/44331989/138977371-bda96c84-d8f8-4ff3-afc4-8338b0283175.png) <br>
+![image](https://user-images.githubusercontent.com/44331989/138977389-1c0922fa-32f4-4fa3-b384-633ab3748552.png) <br>
+![image](https://user-images.githubusercontent.com/44331989/138977410-f92e80cb-63f2-48cc-a6be-f73ad79c2c58.png) <br>
+image source : https://kkkapuq.tistory.com/106 <br>	
+	
+	
+	
+	
 	
 	

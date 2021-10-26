@@ -9,3 +9,7 @@ source /opt/cubrid/.cubrid.sh cubrid.sh이 있는 경로를 source 명령어로 
 ~~~
 cubrid service status <br>
 cubrid service start <br>
+
+## INSTR(문자열 위치 반환)
+![image](https://user-images.githubusercontent.com/44331989/138824498-fbeb4e3d-dd12-4f81-8209-e08f1ed11e4e.png) <br>
+image source : https://www.cubrid.com/faq/3794774 <br>

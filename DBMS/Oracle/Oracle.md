@@ -334,6 +334,8 @@ WHERE col = (SELECT ...)    -- 일반 서브쿼리: 하나의 변수(상수)처�
 
 스칼라 서브쿼리 <br>
 ![image](https://user-images.githubusercontent.com/44331989/138833653-bd1491e6-dc5b-46dc-8159-d8a2e44e1830.png) <br>
+스칼라 서브쿼리 예시 <br>
+![image](https://user-images.githubusercontent.com/44331989/138975159-233d63f4-68a0-4082-946f-07187f2ac64d.png) <br>
 
 인라인뷰 서브쿼리 <br>
 ![image](https://user-images.githubusercontent.com/44331989/138833687-45c29fd4-5b38-4aae-b93f-8662c0a28576.png) <br>
@@ -344,6 +346,8 @@ WHERE col = (SELECT ...)    -- 일반 서브쿼리: 하나의 변수(상수)처�
 
 일반 서브쿼리
 ![image](https://user-images.githubusercontent.com/44331989/138833720-36db0915-436f-4de7-93a2-1f8061670d5f.png) <br>
+일반 서브쿼리 예시
+![image](https://user-images.githubusercontent.com/44331989/138975195-f2dcb2dc-0c5c-40cf-94b1-7b336ba023a2.png) <br>
 
 단일행 서브쿼리
 ![image](https://user-images.githubusercontent.com/44331989/138833747-faa11784-0eb2-4ea4-8d78-2b015d3e8bb8.png) <br>

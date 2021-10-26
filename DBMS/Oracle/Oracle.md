@@ -342,8 +342,13 @@ WHERE col = (SELECT ...)    -- 일반 서브쿼리: 하나의 변수(상수)처�
 ![image](https://user-images.githubusercontent.com/44331989/138861855-752f571b-b04f-4d57-9c76-a7efcece8979.png) <br>
 ![image](https://user-images.githubusercontent.com/44331989/138861882-3c65ae7d-a654-447c-a4b1-528650f99404.png) <br>
 
+일반 서브쿼리
 ![image](https://user-images.githubusercontent.com/44331989/138833720-36db0915-436f-4de7-93a2-1f8061670d5f.png) <br>
+
+단일행 서브쿼리
 ![image](https://user-images.githubusercontent.com/44331989/138833747-faa11784-0eb2-4ea4-8d78-2b015d3e8bb8.png) <br>
+
+다중행 서브쿼리
 ![image](https://user-images.githubusercontent.com/44331989/138833780-801a1012-2a03-4010-a950-263d6c80e663.png) <br>
 ![image](https://user-images.githubusercontent.com/44331989/138833801-887afe43-7765-44d1-8430-3e022b4f8d11.png) <br>
 

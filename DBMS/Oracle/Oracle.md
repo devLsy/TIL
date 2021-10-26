@@ -6,7 +6,8 @@
 위의 경우는 tbl_board 테이블의 데이터 수만큼 insert를 진행하는 예제 쿼리문임<br>
 반복할 경우 2배씩 증가함<br>
 
-## Hint
+## Hint![image](https://user-images.githubusercontent.com/44331989/138861539-681f6a84-5eb9-4b12-b542-175e60aa115f.png)
+
 오라클은 Slect문을 전달할 때 "힌트(hint)"라는 것을 사용할 수 있는데 힌트는 말 그대로 데이터베이스에 "지금 내가 전달한 Select문을 이렇게 실행해 주면 고맙겠습니다."라는 힌트이며 특이하게도 힌트구문에서 에러가 나도 SQL 실행에는 전혀 지장을 주지 않음<br>
 따라서 Hint를 이용한 Select문을 작성한 후에는 실행 계획을 통해서 개발자가 원하는 대로 SQL이 실행되는지를 확인하는 습관을 가져야 함<br>
 힌트 사용 문법은 아래와 같음<br>
@@ -329,6 +330,7 @@ AS
 ![image](https://user-images.githubusercontent.com/44331989/138833747-faa11784-0eb2-4ea4-8d78-2b015d3e8bb8.png) <br>
 ![image](https://user-images.githubusercontent.com/44331989/138833780-801a1012-2a03-4010-a950-263d6c80e663.png) <br>
 ![image](https://user-images.githubusercontent.com/44331989/138833801-887afe43-7765-44d1-8430-3e022b4f8d11.png) <br>
+
 image source : https://mjn5027.tistory.com/51 <br>
 
 문법 

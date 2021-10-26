@@ -329,10 +329,19 @@ FROM (SELECT ...)             -- 인라인 뷰(Inline View): 하나의 테이블
 WHERE col = (SELECT ...)    -- 일반 서브쿼리: 하나의 변수(상수)처럼 사용 (서브쿼리의 결과에 따라 달라지는 조건절)
 출처: https://data-make.tistory.com/25 [Data Makes Our Future]
 ~~~
+
 ![image](https://user-images.githubusercontent.com/44331989/138833629-12dce6c6-d307-4935-8d26-97a90bcbc283.png) <br>
+
+스칼라 서브쿼리 <br>
 ![image](https://user-images.githubusercontent.com/44331989/138833653-bd1491e6-dc5b-46dc-8159-d8a2e44e1830.png) <br>
+
+인라인뷰 서브쿼리 <br>
 ![image](https://user-images.githubusercontent.com/44331989/138833687-45c29fd4-5b38-4aae-b93f-8662c0a28576.png) <br>
+
+일반 서브쿼리 <br>
 ![image](https://user-images.githubusercontent.com/44331989/138861855-752f571b-b04f-4d57-9c76-a7efcece8979.png) <br>
+
+단일행 서브쿼리
 ![image](https://user-images.githubusercontent.com/44331989/138861882-3c65ae7d-a654-447c-a4b1-528650f99404.png) <br>
 
 ![image](https://user-images.githubusercontent.com/44331989/138833720-36db0915-436f-4de7-93a2-1f8061670d5f.png) <br>

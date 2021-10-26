@@ -322,6 +322,15 @@ AS
 
 ### 서브 쿼리
 서브쿼리는 하나의 메인 쿼리안에 또 하나의 쿼리가 담겨 있는 것을 의미 <br>
+![image](https://user-images.githubusercontent.com/44331989/138833629-12dce6c6-d307-4935-8d26-97a90bcbc283.png) <br>
+![image](https://user-images.githubusercontent.com/44331989/138833653-bd1491e6-dc5b-46dc-8159-d8a2e44e1830.png) <br>
+![image](https://user-images.githubusercontent.com/44331989/138833687-45c29fd4-5b38-4aae-b93f-8662c0a28576.png) <br>
+![image](https://user-images.githubusercontent.com/44331989/138833720-36db0915-436f-4de7-93a2-1f8061670d5f.png) <br>
+![image](https://user-images.githubusercontent.com/44331989/138833747-faa11784-0eb2-4ea4-8d78-2b015d3e8bb8.png) <br>
+![image](https://user-images.githubusercontent.com/44331989/138833780-801a1012-2a03-4010-a950-263d6c80e663.png) <br>
+![image](https://user-images.githubusercontent.com/44331989/138833801-887afe43-7765-44d1-8430-3e022b4f8d11.png) <br>
+image source : https://mjn5027.tistory.com/51 <br>
+
 문법 
 ~~~
 SELECT select_list

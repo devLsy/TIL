@@ -338,10 +338,8 @@ WHERE col = (SELECT ...)    -- 일반 서브쿼리: 하나의 변수(상수)처�
 인라인뷰 서브쿼리 <br>
 ![image](https://user-images.githubusercontent.com/44331989/138833687-45c29fd4-5b38-4aae-b93f-8662c0a28576.png) <br>
 
-일반 서브쿼리 <br>
+인라인뷰 서브쿼리 예시
 ![image](https://user-images.githubusercontent.com/44331989/138861855-752f571b-b04f-4d57-9c76-a7efcece8979.png) <br>
-
-단일행 서브쿼리
 ![image](https://user-images.githubusercontent.com/44331989/138861882-3c65ae7d-a654-447c-a4b1-528650f99404.png) <br>
 
 ![image](https://user-images.githubusercontent.com/44331989/138833720-36db0915-436f-4de7-93a2-1f8061670d5f.png) <br>

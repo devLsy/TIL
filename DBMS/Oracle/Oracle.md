@@ -114,6 +114,10 @@ ORDER BY deptno;
 ~~~
 위와 같은 쿼리는 "ORA-00979 : GROUP BY 표현식이 아닙니다." 에러 발생 -> GROUP BY절에 없는 job이라는 컬럼을 SELECT절에 사용 했기 때문임<br>
 
+### having
+![image](https://user-images.githubusercontent.com/44331989/138797041-229151cb-c055-46bb-91b9-2b542c73ecf6.png) <br>
+image source : http://www.gurubee.net/lecture/1032 <br>
+
 ## ROLL UP을 이용한 소계 구하기
 ~~~
 SELECT 

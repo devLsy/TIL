@@ -335,6 +335,7 @@ WHERE col = (SELECT ...)    -- 일반 서브쿼리: 하나의 변수(상수)처�
 스칼라 서브쿼리 <br>
 ![image](https://user-images.githubusercontent.com/44331989/138833653-bd1491e6-dc5b-46dc-8159-d8a2e44e1830.png) <br>
 스칼라 서브쿼리 예시 <br>
+![image](https://user-images.githubusercontent.com/44331989/138982600-96a70b69-9fbe-45e3-8dd9-22ac21308093.png) <br>
 ![image](https://user-images.githubusercontent.com/44331989/138981120-117f0d95-764f-4e06-ab9b-a00c8d1dd358.png) <br>
 ![image](https://user-images.githubusercontent.com/44331989/138975159-233d63f4-68a0-4082-946f-07187f2ac64d.png) <br>
 

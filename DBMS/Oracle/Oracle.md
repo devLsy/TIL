@@ -119,6 +119,9 @@ ORDER BY deptno;
 ![image](https://user-images.githubusercontent.com/44331989/138797041-229151cb-c055-46bb-91b9-2b542c73ecf6.png) <br>
 image source : http://www.gurubee.net/lecture/1032 <br>
 
+![image](https://user-images.githubusercontent.com/44331989/139014099-f59f2356-8d44-4d17-95e7-a22dd06e6e21.png) <br>
+일단 부서별 평균급여를 구한 다음 이 구한 평균값을 다시 조건을 걸 때 having을 사용 <br>
+
 ## ROLL UP을 이용한 소계 구하기
 ~~~
 SELECT 

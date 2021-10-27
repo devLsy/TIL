@@ -814,6 +814,12 @@ https://corock.tistory.com/135 <br>
 ![image](https://user-images.githubusercontent.com/44331989/138977389-1c0922fa-32f4-4fa3-b384-633ab3748552.png) <br>
 ![image](https://user-images.githubusercontent.com/44331989/138977410-f92e80cb-63f2-48cc-a6be-f73ad79c2c58.png) <br>
 image source : https://kkkapuq.tistory.com/106 <br>	
+
+### 조인 시 On절, WHERE절 차이
+![image](https://user-images.githubusercontent.com/44331989/139012802-3405c4a9-8414-4d56-aec2-5fc8fe3b081f.png) <br>
+![image](https://user-images.githubusercontent.com/44331989/139012870-29b35ad5-e1b2-48bb-baae-a33f94feae14.png) <br>
+![image](https://user-images.githubusercontent.com/44331989/139012908-88f077ec-e1f2-4b99-bb2c-babb9f414609.png) <br>
+	
 	
 	
 	

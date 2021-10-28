@@ -414,6 +414,8 @@ EXISTS 연산자는 서브 쿼리의 결과가 있으면 그 결과와 관계없
 ![image](https://user-images.githubusercontent.com/44331989/139253911-ef04322c-ca6e-4bd1-adbc-5db7760a7a7a.png) <br>
 
 ![image](https://user-images.githubusercontent.com/44331989/139254326-be00614e-1e59-4155-98ef-6dbf49832eee.png) <br>
+![image](https://user-images.githubusercontent.com/44331989/139254654-7818d22c-b10f-4d94-9bc8-33c0f8878bea.png) <br>
+
 
 image source : https://gent.tistory.com/278
 

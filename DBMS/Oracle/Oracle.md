@@ -411,6 +411,9 @@ EXISTS 연산자는 서브 쿼리의 결과가 있으면 그 결과와 관계없
 <img src="https://user-images.githubusercontent.com/44331989/114650572-722b8800-9d1d-11eb-9d95-f3368befc29c.png"> <br>
 <img src="https://user-images.githubusercontent.com/44331989/114650667-9ab38200-9d1d-11eb-9641-abdd933b0cba.png"> <br>
 
+![image](https://user-images.githubusercontent.com/44331989/139253911-ef04322c-ca6e-4bd1-adbc-5db7760a7a7a.png) <br>
+image source : https://gent.tistory.com/278
+
 #### 다중 컬럼 서브쿼리
 다중 컬럼 서브 쿼리는 서브 쿼리의 결과가 여러 컬럼인 경우를 말함 <br>
 주로 pk를 여러 컬럼으로 합쳐서 만들었을 경우() 한꺼번에 비교하기 위해서 자주 사용<br>

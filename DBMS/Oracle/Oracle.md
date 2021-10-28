@@ -818,6 +818,7 @@ https://corock.tistory.com/135 <br>
 ![image](https://user-images.githubusercontent.com/44331989/138977410-f92e80cb-63f2-48cc-a6be-f73ad79c2c58.png) <br>
 image source : https://kkkapuq.tistory.com/106 <br>	
 
+## 조인
 ### 조인 시 On절, WHERE절 차이
 ![image](https://user-images.githubusercontent.com/44331989/139012802-3405c4a9-8414-4d56-aec2-5fc8fe3b081f.png) <br>
 ![image](https://user-images.githubusercontent.com/44331989/139012870-29b35ad5-e1b2-48bb-baae-a33f94feae14.png) <br>
@@ -825,6 +826,10 @@ image source : https://kkkapuq.tistory.com/106 <br>
 ![image](https://user-images.githubusercontent.com/44331989/139013151-c730b374-2abe-46c5-b630-dcef2a1be8f0.png) <br>
 ![image](https://user-images.githubusercontent.com/44331989/139013185-ee91c3ad-de8f-40f9-9b12-5948cf10520f.png) <br>
 image source : https://myjamong.tistory.com/229 <br>	
+
+### OUTER JOIN
+![image](https://user-images.githubusercontent.com/44331989/139248344-e600ee73-8a55-41d0-a1f0-1d6a65c3c52b.png) <br>
+image source : https://goddaehee.tistory.com/62 <br>	
 	
 	
 	

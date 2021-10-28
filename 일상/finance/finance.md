@@ -1,19 +1,6 @@
 # 금융관련
 ## 노후대비
-### 개인연금
-### 개인형퇴직연금제도(IRP : Individual Retirement Pension)
-![image](https://user-images.githubusercontent.com/44331989/137589466-df8f17e8-798c-4201-81a5-42b83f0edcb4.png) <br>
-![image](https://user-images.githubusercontent.com/44331989/137589476-dc332ea7-9e2f-41bf-a896-a3cb4deeda15.png) <br>
-image source: https://www.moel.go.kr/pension/intro/type3.do <br>
-
-![image](https://user-images.githubusercontent.com/44331989/137589589-d0599673-b113-427a-85f6-fb638c5451b4.png) <br>
-![image](https://user-images.githubusercontent.com/44331989/137589592-26dd8463-c76e-42a6-9fbd-de960aaf027f.png) <br>
-![image](https://user-images.githubusercontent.com/44331989/137589596-d4cd38d9-3823-400c-8c03-bef903e1220f.png) <br>
-![image](https://user-images.githubusercontent.com/44331989/137589599-a04a5f71-2fde-4365-adec-ef1ea36c4fd7.png) <br>
-![image](https://user-images.githubusercontent.com/44331989/137589606-bba95a60-4bb0-4d8e-89da-0009c9631768.png) <br>
-image source : https://blog.naver.com/boolio/222400309234 <br>
-
-#### IRP와 연금저축펀드
+### IRP와 연금저축펀드
 ![image](https://user-images.githubusercontent.com/44331989/139199287-e7c89d46-0f4d-4337-9171-24d8ffd395d0.png)
 ![image](https://user-images.githubusercontent.com/44331989/139199323-45a57a69-ebd1-4092-b22a-fd0250ec601d.png)
 
@@ -27,7 +14,7 @@ irp에 월25만
 이렇게 넣으면 1년에 700만원이 딱 떨어짐
 irp만 하나로 가지고 있으면 월 59만원 넣으면 700
 
-##### 세액공제
+#### 세액공제
 ![image](https://user-images.githubusercontent.com/44331989/139200708-d288e341-1599-4593-a12e-fce3bb458c6e.png)
 세액공제 차이점
 ![image](https://user-images.githubusercontent.com/44331989/139200654-ed4fa5fe-a0f2-47be-bd94-cdccf57907c6.png)
@@ -41,7 +28,7 @@ irp만 하나로 가지고 있으면 월 59만원 넣으면 700
 그 속에서 연금저축이 가지는 세액공제는 400만원임, IRP의 700만원안에 연금저축 400만원이 포함되어 있음 <br>
 그래서 둘 다 가지고 있을 경우 IRP 300만원, 연금저축펀드 400만원 이렇게 나누거나 IRP에만 700만원까지 저축하고 세액공제를 받음 <br>
 
-##### 상품
+#### 상품
 연금저축 : 현금/ETF/연금펀드만 계좌에 가지고 있을 수 있음, 주식형자산을 100%까지 가지고 있을 수 있음 <br>
 
 IRP : 예금(은행의 예금 매수 가능(예금자 보호도 적용됨))/RP/ELB/국고채/회사채/퇴직연금펀드/ETF/ELS/리츠를 가지고 있을 수 있음, 단 현금은 가지고 있을 수 없음(무조건 상품을 매수해야 함) <br>
@@ -49,10 +36,10 @@ IRP : 예금(은행의 예금 매수 가능(예금자 보호도 적용됨))/RP/E
       주식형 자산을 70%까지만 가지고 있을 수 있음(강제로 자산 배분) <br>
 ![image](https://user-images.githubusercontent.com/44331989/139202503-ac61325e-f602-41a0-b405-7fdab616a4e1.png) <br>
 
-##### 수익
+#### 수익
 IRP와 연금저축 모두 수익 발생 시 세금을 나중으로 미뤄주는 과세이연 혜택을 가지고 있음(나중에 연금 수령 시 연금소득세로 대신 내도록 미뤄줌), 안내는게 아니라 미루는 거라 비과세가 아님 <br>
 
-##### 기타
+#### 기타
 IRP : 상시 출금 불가, 담보대출 불가 <br>
 출금 가능한 사유는 법으로 명시, 이외에는 불가능, 계좌 해지시에만 가능 -> 계좌 해지 시 16.5%의 기타 소득세 부과(고액일 경우 크리티컬) <br>
 

@@ -65,7 +65,7 @@ update table set field = replace(field, 'char(10)', '');
 -- 캐리지리턴 치환
 update table set field = replace(field, 'char(13)', '');
 ~~~
-출처 : https://curryyou.tistory.com/68
+출처 : https://curryyou.tistory.com/68 <br>
 캐리지리턴 참조 블로그 : https://jink1982.tistory.com/122
 
 ### 문자열 붙이기(concat, concat_ws)

@@ -158,7 +158,7 @@ delete는 데이터만 지워지고 사용중인 디스크상의 공간은 유�
 ### oracle INSERT ALL로 다른 테이블에 동시에 같은 데이터 입력하기
 INSERT ALL로 다른 테이블에 동시에 같은 데이터를 넣을 수 있음 <br>
 ~~~
--- 아래는 professor테이블에서 교수번호가 3000번에서 3999인 교수들의 교수번호와 이름을 prof_3, prof_3테이블에 동시에 입력하는 쿼리
+-- 아래는 professor테이블에서 교수번호가 3000번에서 3999인 교수들의 교수번호와 이름을 prof_3, prof_4테이블에 동시에 입력하는 쿼리
 INSERT ALL 
 	INTO prof_3 values(profno, name)
 	INTO prof_4 values(profno, name)

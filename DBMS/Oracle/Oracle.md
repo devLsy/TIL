@@ -839,6 +839,65 @@ image source : https://myjamong.tistory.com/229 <br>
 ![image](https://user-images.githubusercontent.com/44331989/139248344-e600ee73-8a55-41d0-a1f0-1d6a65c3c52b.png) <br>
 image source : https://goddaehee.tistory.com/62 <br>	
 	
+### 계청형 쿼리
+테이블에 계층형 데이터가 존재할 경우 사용 <br>
+조직, 사원, 메뉴등의 순환관계 등에 사용됨 <br>	
+~~~
+SELECT ... 
+       [ CONNECT_BY_ISLEAF ISLEAF 
+  FROM 테이블명 
+ START WITH condition
+CONNECT BY PRIOR condition AND condition;
+-- START WITH절  |  계층구조 전개의 시작 위치를 지정하는 구문
+-- CONNECT BY 절  |  다음에 전개될 자식 데이터를 지정하는 구문	
+~~~	
+
+~~~
+-----------------------------------------------------------------
+-- 계층형쿼리
+------------------------------------------------------------------
+--PRIOR 자식 = 부모 _ 부모 -> 자식 방향으로 전개
+--PRIOR 부모 = 자식 _ 자식 -> 부모 방향으로 전개
+
+--1. 순방향 전개
+SELECT LEVEL, ENAME,
+       LPAD(' ', 4 * (LEVEL-1)) || EMPNO 사원, 
+       MGR, 
+       CONNECT_BY_ISLEAF ISLEAF 
+  FROM EMP 
+  START WITH MGR IS NULL 
+  CONNECT BY PRIOR EMPNO = MGR;	
+~~~	
+![image](https://user-images.githubusercontent.com/44331989/140033921-fb043efa-a204-4c70-87f1-7d23ad0f2546.png) <br>
+~~~
+--2. 역방향 전개
+SELECT LEVEL, ENAME,
+       LPAD(' ', 4 * (LEVEL-1)) || EMPNO 사원, 
+       MGR, 
+       CONNECT_BY_ISLEAF ISLEAF 
+  FROM EMP 
+ START WITH EMPNO = 7876 
+ CONNECT BY PRIOR MGR = EMPNO;	
+~~~	
+![image](https://user-images.githubusercontent.com/44331989/140034011-edb68fb6-d69a-4fec-ad84-bd2e2441bb21.png) <br>
+
+~~~
+--3. 루트와 순차적 계층경로
+SELECT CONNECT_BY_ROOT EMPNO 루트사원, 
+       SYS_CONNECT_BY_PATH(EMPNO, '/') 경로, 
+       EMPNO, 
+       MGR 
+  FROM EMP 
+ START WITH MGR IS NULL 
+ CONNECT BY PRIOR EMPNO = MGR; 	
+~~~	
+![image](https://user-images.githubusercontent.com/44331989/140034097-0050c058-7d0a-47e8-be50-25b713c8f254.png) <br>
+
+![image](https://user-images.githubusercontent.com/44331989/140034128-89c267fe-4c7a-4d69-b321-257f1af9ee22.png) <br>
+![image](https://user-images.githubusercontent.com/44331989/140034166-43736b20-5325-452b-b443-e4048b339c9b.png) <br>
+image source : https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=dlscjf1505&logNo=220868957220 <br>	
+	
+	
 	
 	
 	

@@ -352,7 +352,7 @@ WHERE col = (SELECT ...)    -- 일반 서브쿼리: 하나의 변수(상수)처�
 일반 서브쿼리
 ![image](https://user-images.githubusercontent.com/44331989/138833720-36db0915-436f-4de7-93a2-1f8061670d5f.png) <br>
 일반 서브쿼리 예시 -> 'ALLEN'의 급여를 emp테이블에서 조회한 다음 급여가 'ALLEN'보다 높은 사람정보 출력 <br>
-![image](https://user-images.githubusercontent.com/44331989/138982349-d0b6f9fe-24c3-4553-90f6-46d18320587b.png) br>
+![image](https://user-images.githubusercontent.com/44331989/138982349-d0b6f9fe-24c3-4553-90f6-46d18320587b.png) <br>
 ![image](https://user-images.githubusercontent.com/44331989/138982302-e9ebca70-79e0-4566-b771-30c085e5fc2d.png) <br>
 ![image](https://user-images.githubusercontent.com/44331989/138975195-f2dcb2dc-0c5c-40cf-94b1-7b336ba023a2.png) <br>
 

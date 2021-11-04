@@ -839,7 +839,7 @@ image source : https://myjamong.tistory.com/229 <br>
 ![image](https://user-images.githubusercontent.com/44331989/139248344-e600ee73-8a55-41d0-a1f0-1d6a65c3c52b.png) <br>
 image source : https://goddaehee.tistory.com/62 <br>	
 	
-### 계청형 쿼리
+### 계층형 쿼리
 테이블에 계층형 데이터가 존재할 경우 사용 <br>
 조직, 사원, 메뉴등의 순환관계 등에 사용됨 <br>	
 ~~~

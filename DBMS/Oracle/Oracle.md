@@ -897,7 +897,43 @@ SELECT CONNECT_BY_ROOT EMPNO 루트사원,
 ![image](https://user-images.githubusercontent.com/44331989/140034166-43736b20-5325-452b-b443-e4048b339c9b.png) <br>
 image source : https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=dlscjf1505&logNo=220868957220 <br>	
 	
+### oracle expdp 이용한 백업 정책
+#### 셸 스크립트 생성	
+~~~
+# (ex)expd_script.sh
+# oracle home direcoty 설정
+ORACLE_BASE=/oracle/app; export ORACLE_BASE
+ORACLE_HOME=/oracle/app/product/12.2.0.1; export ORACLE_HOME
+# oracle SID 설정
+ORACLE_SID=TEST; export ORACLE_SID
+PATH=/usr/sbin:$PATH; export PATH
+PATH=$ORACLE_HOME/bin:$PATH; export PATH
+# oracle 소유자 설정
+export ORACLE_OWNER=oracle
+# 백업파일뒤에 붙일 날짜 세팅
+export DATE=`date +%Y%m%d`
+export DATE1=`date -d "-2 day" +%Y%m%d`
+# expdp 이용한 백업 실행
+expdp TEST/TEST1234 schemas=TEST directory=DATA_PUMP_DIR dumpfile=test_backup_$DATE.dmp logfile=test.log
+exit;	
+~~~	
+
+#### 크론탭으로 스케줄 등록
+~~~
+# (ex)매일 오후 23시59분에 아래 스크립트 실행
+59 23 * * * /home/test/backup/expd_script.sh	
+~~~	
+
+![image](https://user-images.githubusercontent.com/44331989/142134326-52bf9579-92f0-4946-b78f-614c86b8713b.png) <br>
+결과물 <br>
 	
+#### oracle expdp
+![image](https://user-images.githubusercontent.com/44331989/142134374-f3fd08b3-f822-4b67-843c-214c3058dcaf.png) <br>
+image source: https://deftkang.tistory.com/144 <br>	
+	
+	
+	
+
 	
 	
 	

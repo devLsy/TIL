@@ -26,10 +26,9 @@ dbeaver같은 툴로 큐브리드 접속해서 쿼리 에디터에서 SQL을 작
 vi /opt/cubrid/conf/cubrid_broker.conf
 ```
 
-[##_Image|kage@K7wHZ/btrloeyhu57/BP4dYRDwIrXVZN9tW9VTI1/img.png|CDM|1.3|{"originWidth":865,"originHeight":652,"style":"alignCenter","caption":"cubrid_broker.conf파일"}_##]
+![image](https://user-images.githubusercontent.com/44331989/142589825-78d2c585-015c-42a8-8c3b-8c2459e2c4c1.png) <br>
 이렇게 하고 다시 테스트 해 볼 것
-[##_Image|kage@bgzIxW/btrlpb9iRup/XkP4BvqsbYR9ImtvWu2E3K/img.png|CDM|1.3|{"originWidth":1002,"originHeight":308,"style":"alignCenter","caption":"Cannot communicate with the broker or received invalid packet"}_##]
-
+![image](https://user-images.githubusercontent.com/44331989/142589845-7bda4403-6b63-4091-9fab-6e843c45bf28.png) <br>
 여전히 dbeaver에서는 에러가 발생한다, 다시 확인 해 봐야 겠다.
 아직 큐브리드를 내렸다 올리지 않았는데 한번 내렸다 올린 후 테스트 해볼 예정
 

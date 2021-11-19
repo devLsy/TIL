@@ -33,7 +33,6 @@ vi /opt/cubrid/conf/cubrid_broker.conf
 아직 큐브리드를 내렸다 올리지 않았는데 한번 내렸다 올린 후 테스트 해볼 예정
 
 **21.11.19 큐브리드를 내렸다 올려봤는데도 여전히 같은 에러 발생**
-
 **큐브리드 매니저에서는 잘되네, dbeaver에서만 저러네..**
 
 출처 : [https://www.cubrid.com/qna/3801470](https://www.cubrid.com/qna/3801470) <br>
@@ -42,3 +41,18 @@ vi /opt/cubrid/conf/cubrid_broker.conf
 
 
 
+## cubrid manager에서 테이블 코멘트 작성
+
+cubrid manager 최초 설치 시에는 코멘트를 작성할 수 없음, 비활성화 상태임
+추가 기능을 설치해줘야 하는데 **테이블 설명 기능 설치**임
+**아래처럼 cubrid manager 실행  - 해당 db 로그인 후 우클릭 - 테이블 설명 기능 설치 선택**
+![image](https://user-images.githubusercontent.com/44331989/142589981-8d6a074c-2bc8-4826-a0cd-0efbb328cf64.png) <br>
+
+그러면 아래처럼 알림이 표시됨
+![image](https://user-images.githubusercontent.com/44331989/142589996-d6fc9d36-6e25-49a5-90d8-937bdab916a6.png) <br>
+
+**dba권한이라고 가정하고 예를 누르면 됨**
+해당 기능 설치 후 다시 테이블 편집하면 컬럼 설명을 작성할 수 있음
+![image](https://user-images.githubusercontent.com/44331989/142590017-79075145-0ed6-48f6-bcba-14049ead8d6f.png) <br>
+
+출처 : [https://www.cubrid.com/qna/3823031](https://www.cubrid.com/qna/3823031) <br>

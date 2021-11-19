@@ -973,7 +973,7 @@ sudo chmod 6751 oracle
 	
 #### **벤더사 제품의 파일 소유권은 절대로 함부로 건드리지 말자**
 
-![](https://t1.daumcdn.net/keditor/emoticon/friends1/large/021.gif)
+![](https://t1.daumcdn.net/keditor/emoticon/friends1/large/021.gif) <br>
 image source : [http://www.dadbm.com/how-to-fix-ora-12547-tns-lost-contact-when-try-to-connect-to-oracle/](http://www.dadbm.com/how-to-fix-ora-12547-tns-lost-contact-when-try-to-connect-to-oracle/) <br>
 
  

@@ -954,9 +954,6 @@ sudo chmod -R 757 /oracle
 위처럼 표시가 되었었다.
 실수로 잘 돌아가는 덤프를 잘못 건드리는 바람에..(**다시는 이런 실수 하지 않으리**)
 
- ![image](https://user-images.githubusercontent.com/44331989/142616650-74cfbdab-a402-4c11-a33a-be3c4d22e191.png) <br>
-
-
 당연히 오라클 폴더의 권한 문제라는 강한 확신을 가지고 구글링을 했음
 아래 블로그에서 도움을 얻었다.
 $ORACLE\_HOME(/oracle/app/product/12.2.0.1)/bin 아래에 oracle 폴더의 권한을 6751로 변경 했음
@@ -967,6 +964,7 @@ sudo chmod 6751 oracle
 	
 그 후 dump 스크립트 실행 결과 아래처럼 잘 되는 걸 확인 할 수 있었음
 ![image](https://user-images.githubusercontent.com/44331989/142616782-408e3a46-7a5e-46a7-8b3f-db1d288e3016.png) <br>
+![image](https://user-images.githubusercontent.com/44331989/142616650-74cfbdab-a402-4c11-a33a-be3c4d22e191.png) <br>
 
 **잘 돌아가는 걸 굳이 건드리면 이렇게 고생한다는 걸 또한 번 깨달았음**
 블로그에 아래와 같은 글을 적으셨던데.. 누군가가 소유권을 바꿨을 수 있다.(내가 바꿨다)

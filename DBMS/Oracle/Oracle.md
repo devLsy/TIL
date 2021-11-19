@@ -969,12 +969,11 @@ sudo chmod 6751 oracle
 **잘 돌아가는 걸 굳이 건드리면 이렇게 고생한다는 걸 또한 번 깨달았음**
 블로그에 아래와 같은 글을 적으셨던데.. 누군가가 소유권을 바꿨을 수 있다.(내가 바꿨다)
 다행히 저걸로 해결이 되었다.
-
+![image](https://user-images.githubusercontent.com/44331989/142616836-7de1096e-8fc2-48f9-a69a-d27c8ba3d86b.png) <br>
+	
 #### **벤더사 제품의 파일 소유권은 절대로 함부로 건드리지 말자**
 
-![image](https://user-images.githubusercontent.com/44331989/142616836-7de1096e-8fc2-48f9-a69a-d27c8ba3d86b.png) <br>
 ![](https://t1.daumcdn.net/keditor/emoticon/friends1/large/021.gif)
-
-출처 : [http://www.dadbm.com/how-to-fix-ora-12547-tns-lost-contact-when-try-to-connect-to-oracle/](http://www.dadbm.com/how-to-fix-ora-12547-tns-lost-contact-when-try-to-connect-to-oracle/) <br>
+image source : [http://www.dadbm.com/how-to-fix-ora-12547-tns-lost-contact-when-try-to-connect-to-oracle/](http://www.dadbm.com/how-to-fix-ora-12547-tns-lost-contact-when-try-to-connect-to-oracle/) <br>
 
  

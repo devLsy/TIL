@@ -939,3 +939,47 @@ image source: https://deftkang.tistory.com/144 <br>
 	
 	
 	
+
+	
+	
+## ORA-12547 TNS lost contact
+상황 : oracle 계정이 아닌 다른 계정으로 oracle에 접속해서 expdp를 이용해서 dump를 실행 중임
+어쩌다가 실수로 아래처럼 오라클 하위 폴더의 계정을 other의 권한을 rwx 가능하게 변경 했더니
+```
+sudo chmod -R 757 /oracle
+```
+
+![image](https://user-images.githubusercontent.com/44331989/142616589-64056f84-d114-4ffe-8e78-0c0bf4070cd3.png) <br>
+
+위처럼 표시가 되었었다.
+실수로 잘 돌아가는 덤프를 잘못 건드리는 바람에..(**다시는 이런 실수 하지 않으리**)
+
+ ![image](https://user-images.githubusercontent.com/44331989/142616650-74cfbdab-a402-4c11-a33a-be3c4d22e191.png) <br>
+
+
+당연히 오라클 폴더의 권한 문제라는 강한 확신을 가지고 구글링을 했음
+아래 블로그에서 도움을 얻었다.
+$ORACLE\_HOME(/oracle/app/product/12.2.0.1)/bin 아래에 oracle 폴더의 권한을 6751로 변경 했음
+
+```
+sudo chmod 6751 oracle
+```
+
+![image](https://user-images.githubusercontent.com/44331989/142616679-370a7f84-4f5b-45db-b341-a6e13b57457d.png) <br>
+  
+그 후 dump 스크립트 실행 결과 아래처럼 잘 되는 걸 확인 할 수 있었음
+![image](https://user-images.githubusercontent.com/44331989/142616782-408e3a46-7a5e-46a7-8b3f-db1d288e3016.png) <br>
+
+
+**잘 돌아가는 걸 굳이 건드리면 이렇게 고생한다는 걸 또한 번 깨달았음**
+블로그에 아래와 같은 글을 적으셨던데.. 누군가가 소유권을 바꿨을 수 있다.(내가 바꿨다)
+다행히 저걸로 해결이 되었다.
+
+#### **벤더사 제품의 파일 소유권은 절대로 함부로 건드리지 말자**
+
+![image](https://user-images.githubusercontent.com/44331989/142616836-7de1096e-8fc2-48f9-a69a-d27c8ba3d86b.png) <br>
+![](https://t1.daumcdn.net/keditor/emoticon/friends1/large/021.gif)
+
+출처 : [http://www.dadbm.com/how-to-fix-ora-12547-tns-lost-contact-when-try-to-connect-to-oracle/](http://www.dadbm.com/how-to-fix-ora-12547-tns-lost-contact-when-try-to-connect-to-oracle/) <br>
+
+ 

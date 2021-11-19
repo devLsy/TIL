@@ -18,3 +18,26 @@ image source : https://jeongyoon.tistory.com/36 <br>
 ![image](https://user-images.githubusercontent.com/44331989/138217529-46caa2f7-a5ac-4a0e-9165-21ac8415fb61.png) <br>
 image source : https://forgiveall.tistory.com/162 <br>
  
+
+
+
+### 구글 지도 일본해를 동해로 변경
+회사로 국토지리정보원에서 등기가 와서 확인 해 보니
+사이트의 구글맵상 지명표기가 잘못된게 있었음
+
+![image](https://user-images.githubusercontent.com/44331989/142617842-2d69a634-593b-48ab-8131-aa7c478cafd0.png) <br>
+
+특별히 구글맵 API를 사용하진 않았고 구글 맵에서 iframe으로 퍼와서 사용 했던건데
+검색을 좀 해보니 구글맵 한국판에서만 동해와 독도로 표기한다는 글을 확인 했습니다.
+그래서 구글맵 한글판(maps.google.co.kr)으로 접속 후 지도 퍼가기 후 수정
+
+![image](https://user-images.githubusercontent.com/44331989/142617869-814b7183-a820-4a2c-b812-3ba1d585f897.png) <br>
+
+출처 : [https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=ealbakim&logNo=221043617782](https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=ealbakim&logNo=221043617782) <br>
+
+
+근데 지금 일반 구글맵 들어가보니 동해와 독도로 변경되어 있다. 
+구글에서 바꾼걸로 추정됨,
+
+**만일 사이트에서 동해가 일본해로 독도가 리앙쿠르 암초로 나오는 경우는 구글에서 바꾼 맵이 아닌 예전버전에서 퍼온거라**
+**구글맵 한글판에서 다시 퍼오면 될 듯 합니다.**

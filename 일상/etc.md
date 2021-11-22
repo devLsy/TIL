@@ -17,9 +17,6 @@ image source : https://dhan-description.tistory.com/187 <br>
 image source : https://jeongyoon.tistory.com/36 <br>
 ![image](https://user-images.githubusercontent.com/44331989/138217529-46caa2f7-a5ac-4a0e-9165-21ac8415fb61.png) <br>
 image source : https://forgiveall.tistory.com/162 <br>
- 
-
-
 
 ### 구글 지도 일본해를 동해로 변경
 회사로 국토지리정보원에서 등기가 와서 확인 해 보니
@@ -54,3 +51,26 @@ image source : https://forgiveall.tistory.com/162 <br>
 
 나의 무지로 인해 누군가가 피해를 입으면 안되기에 주말에 주민센터의 건전지 분리수거함에 놓고 올 생각이다.<br>
 **그리고 지자체 별로 폐건전지와 새 건전지 혹은 생필품으로 교환해주는 제도도 있으니 거주지 주민센터나 구청에 문의 후** **활용해도 좋을 듯 싶다.(환경도 살리고 생필품도 얻고)**<br>
+
+
+
+## 샤워기 수전(수도꼭지) 수압 조절
+**너무 오래되지 않은 아파트, 오피스텔에는 수도꼭지에 아래처럼 나사가 있음**
+이것의 역할은 수압을 낮추고 올리는 역할이다.(나도 최근에 알게 되었음)
+![image](https://user-images.githubusercontent.com/44331989/142788244-1363a77a-a665-42b9-bc4f-45e821cd2463.png) <br>
+
+
+**좌측은 온수, 우측은 냉수**
+네모표시된 나사를 우측으로 돌리면 수압을 낮추고 좌측으로 돌리면 수압을 높힌다.
+※ 이 방식이 국제표준이라고 함
+
+**완전히 우측으로 돌릴 경우 물이 안나오게 됨**
+날씨가 추워져서 온수를 많이 틀었는데 수압이 너무 약하게 나와서 유튜브 검색해서 알게된 상식이다.
+온수를 왼쪽으로 돌려서 수압을 높혔더니 온수가 이전보다 아주 잘 나온다.
+![](https://t1.daumcdn.net/keditor/emoticon/friends1/large/006.gif)
+드라이버를 이용해도 되고 동전을 이용해도 된다.(나는 동전으로 했다.)
+
+**수압을 올리고 싶은 욕심에 왼쪽으로 너무 돌릴 경우 안쪽의 나사가 빠지게 될 수도 있으니 주의할 것**
+
+출처 : [https://www.youtube.com/watch?v=bYFTMixB1bs](https://www.youtube.com/watch?v=bYFTMixB1bs) 
+<iframe src="https://www.youtube.com/embed/bYFTMixB1bs" width="860" height="484" frameborder="0" allowfullscreen="true"></iframe>

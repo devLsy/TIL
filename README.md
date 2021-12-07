@@ -1,6 +1,6 @@
 # TIL(20181218 시작 ~)
 >Today I Learned 오늘 학습한 내용 간단하게 정리 <br>
->티스토리 : https://devlsy.tistory.com/
+>11월3일부로 티스토리로 옮김 : https://devlsy.tistory.com/
 ## There are not stupid questions, just stupid people.
 ![image](https://user-images.githubusercontent.com/44331989/123603131-8703bc00-d834-11eb-84da-dff6f97cb731.png)
 image source : https://brunch.co.kr/@dudqjatn1/6
